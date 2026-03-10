@@ -139,10 +139,10 @@ body>*{position:relative;z-index:1}
 .ki-btn img{width:24px;height:24px;border-radius:6px;position:relative;z-index:1}
 .ki-btn span{position:relative;z-index:1}
 
-.ki-btn.chatgpt{background:linear-gradient(135deg,#10a37f,#1a7f64);color:#fff}
-.ki-btn.chatgpt::before{background:linear-gradient(135deg,#0d8c6c,#15694f)}
-.ki-btn.gemini{background:linear-gradient(135deg,#4285f4,#7b5af0);color:#fff}
-.ki-btn.gemini::before{background:linear-gradient(135deg,#3670d6,#6545d0)}
+.ki-btn.chatgpt{background:var(--card);border:2px solid #10a37f;color:#10a37f}
+.ki-btn.chatgpt::before{background:rgba(16,163,127,.06)}
+.ki-btn.gemini{background:var(--card);border:2px solid #4285f4;color:#4285f4}
+.ki-btn.gemini::before{background:rgba(66,133,244,.06)}
 
 /* ── Main Layout ───────────────────────────────── */
 .main{
@@ -623,6 +623,7 @@ document.getElementById('grid-research').innerHTML = [
   linkHTML('https://gedaba.agrarforschung.at/zeitreihen;action=uebersicht;id=1027;ansicht=1','Gemeinde DB','svg','ico-community'),
   linkHTML('https://map.centropemap.org/?cstat=true','CentropeMAP','svg','ico-region'),
   linkHTML('https://www.raumordnung.noe.gv.at','ROG NÖ','svg','ico-file'),
+  linkHTML('https://www.resy-dashboard.at','RESY Dashboard','svg','ico-chart'),
 ].join('');
 
 /* ── Clock ─────────────────────────────────────── */
