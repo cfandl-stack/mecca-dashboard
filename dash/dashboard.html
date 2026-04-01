@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ausschreibungen KW 14</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #222; }
+
+    header {
+      background: #1e3a5f;
+      color: #fff;
+      padding: 18px 28px;
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+    }
+    header h1 { font-size: 1.4rem; font-weight: 700; }
+    header span { font-size: 0.9rem; opacity: 0.7; }
+
+    .main { padding: 22px 28px; max-width: 1400px; margin: 0 auto; }
+
+    /* KPI cards */
+    .kpi-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
+    .kpi {
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px 22px;
+      flex: 1 1 160px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    }
+    .kpi .label { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: .04em; }
+    .kpi .value { font-size: 2rem; font-weight: 700; color: #1e3a5f; margin-top: 4px; }
+    .kpi .sub { font-size: 0.78rem; color: #888; margin-top: 2px; }
+
+    /* Charts row */
+    .charts-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 22px; }
+    .chart-box {
+      background: #fff;
+      border-radius: 8px;
+      padding: 18px 20px;
+      flex: 1 1 300px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    }
+    .chart-box h2 { font-size: 0.9rem; color: #444; margin-bottom: 14px; font-weight: 600; }
+    .chart-box canvas { max-height: 220px; }
+
+    /* Filter bar */
+    .filter-bar {
+      background: #fff;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter-bar label { font-size: 0.82rem; color: #555; font-weight: 600; }
+    .filter-bar select, .filter-bar input {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 6px 10px;
+      font-size: 0.85rem;
+      outline: none;
+    }
+    .filter-bar select:focus, .filter-bar input:focus { border-color: #1e3a5f; }
+    #result-count { margin-left: auto; font-size: 0.82rem; color: #666; }
+
+    /* Table */
+    .table-wrap {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+      overflow: auto;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+    thead th {
+      background: #1e3a5f;
+      color: #fff;
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+    thead th:hover { background: #2a4f7e; }
+    thead th .sort-icon { margin-left: 4px; opacity: 0.6; font-size: 0.7rem; }
+    tbody tr { border-bottom: 1px solid #eee; }
+    tbody tr:hover { background: #f5f8ff; }
+    tbody td { padding: 9px 12px; vertical-align: top; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 0.73rem;
+      font-weight: 600;
+    }
+    .badge-burgenland { background: #e8f0fe; color: #1e3a5f; }
+    .badge-usp { background: #fce8e6; color: #c62828; }
+    .badge-raumplanung { background: #e8f5e9; color: #2e7d32; }
+    .badge-regional { background: #fff8e1; color: #f57f17; }
+    .badge-projekt { background: #f3e5f5; color: #6a1b9a; }
+    .frist-soon { color: #c62828; font-weight: 600; }
+    .frist-ok { color: #2e7d32; }
+    .no-frist { color: #aaa; font-style: italic; }
+    a.link-btn {
+      display: inline-block;
+      padding: 3px 10px;
+      background: #1e3a5f;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.75rem;
+    }
+    a.link-btn:hover { background: #2a4f7e; }
+    .titel-cell { max-width: 340px; }
+    .ag-cell { max-width: 240px; color: #555; }
+    .no-data { text-align: center; padding: 32px; color: #aaa; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Ausschreibungen KW 14</h1>
+  <span>Vergabe-Dashboard</span>
+</header>
+
+<div class="main">
+  <!-- KPIs -->
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="chart-box">
+      <h2>Nach Portal</h2>
+      <canvas id="chartPortal"></canvas>
+    </div>
+    <div class="chart-box">
+      <h2>Nach Suchbegriff</h2>
+      <canvas id="chartSuch"></canvas>
+    </div>
+    <div class="chart-box">
+      <h2>Frist-Status</h2>
+      <canvas id="chartFrist"></canvas>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <label>Portal</label>
+    <select id="f-portal">
+      <option value="">Alle</option>
+    </select>
+    <label>Suchbegriff</label>
+    <select id="f-such">
+      <option value="">Alle</option>
+    </select>
+    <label>Frist</label>
+    <select id="f-frist">
+      <option value="">Alle</option>
+      <option value="yes">Mit Frist</option>
+      <option value="soon">Frist &lt; 14 Tage</option>
+      <option value="no">Ohne Frist</option>
+    </select>
+    <label>Suche</label>
+    <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
+    <span id="result-count"></span>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <table id="main-table">
+      <thead>
+        <tr>
+          <th data-col="portal">Portal <span class="sort-icon">↕</span></th>
+          <th data-col="suchbegriff">Suchbegriff <span class="sort-icon">↕</span></th>
+          <th data-col="titel">Titel <span class="sort-icon">↕</span></th>
+          <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">↕</span></th>
+          <th data-col="frist">Frist <span class="sort-icon">↕</span></th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="data_embed.js"></script>
+<script>
+// ---- helpers ----
+const today = new Date();
+today.setHours(0,0,0,0);
+
+function parseFrist(s) {
+  if (!s || !s.trim()) return null;
+  // "21 Apr. 2026 10:00" or "2026-03-31"
+  if (s.includes('-')) return new Date(s);
+  const months = {Jan:0,Feb:1,Mär:2,Mar:2,Apr:3,Mai:4,Jun:5,Jul:6,Aug:7,Sep:8,Okt:9,Nov:10,Dez:11};
+  const m = s.match(/(\d+)\s+(\w+)\.?\s+(\d{4})/);
+  if (!m) return null;
+  const mon = months[m[2]] ?? null;
+  if (mon === null) return null;
+  return new Date(+m[3], mon, +m[1]);
+}
+
+function fristDays(s) {
+  const d = parseFrist(s);
+  if (!d) return null;
+  return Math.round((d - today) / 86400000);
+}
+
+function fristLabel(s) {
+  const days = fristDays(s);
+  if (days === null) return '<span class="no-frist">—</span>';
+  if (days < 0) return `<span class="no-frist">abgelaufen</span>`;
+  if (days <= 14) return `<span class="frist-soon">${s} (${days}d)</span>`;
+  return `<span class="frist-ok">${s}</span>`;
+}
+
+function portalBadge(p) {
+  if (p === 'Burgenland') return `<span class="badge badge-burgenland">Burgenland</span>`;
+  return `<span class="badge badge-usp">USP Bund</span>`;
+}
+
+function suchBadge(s) {
+  if (s === 'Raumplanung') return `<span class="badge badge-raumplanung">Raumplanung</span>`;
+  if (s === 'Regionalentwicklung') return `<span class="badge badge-regional">Regionalentwicklung</span>`;
+  return `<span class="badge badge-projekt">Projektmanagement</span>`;
+}
+
+function buildLink(row) {
+  let url = row.link;
+  if (!url) return '—';
+  if (!url.startsWith('http')) {
+    if (row.portal === 'Burgenland') url = 'https://burgenland.vergabeportal.at/' + url;
+    else url = 'https://at.gv.bmdw.eproc-p/public/' + url;
+  }
+  return `<a class="link-btn" href="${url}" target="_blank" rel="noopener">Öffnen</a>`;
+}
+
+// ---- KPIs ----
+function buildKPIs(data) {
+  const soon = data.filter(r => { const d = fristDays(r.frist); return d !== null && d >= 0 && d <= 14; });
+  const withFrist = data.filter(r => r.frist && r.frist.trim());
+  const portals = [...new Set(data.map(r => r.portal))];
+  document.getElementById('kpi-row').innerHTML = `
+    <div class="kpi"><div class="label">Gesamt</div><div class="value">${data.length}</div><div class="sub">Ausschreibungen</div></div>
+    <div class="kpi"><div class="label">Portale</div><div class="value">${portals.length}</div><div class="sub">${portals.join(', ')}</div></div>
+    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${data.length} Einträgen</div></div>
+    <div class="kpi"><div class="label">Frist &lt; 14 Tage</div><div class="value" style="color:#c62828">${soon.length}</div><div class="sub">dringend</div></div>
+  `;
+}
+
+// ---- Charts ----
+function buildCharts(data) {
+  // Portal
+  const portalCounts = {};
+  data.forEach(r => portalCounts[r.portal] = (portalCounts[r.portal]||0)+1);
+  new Chart(document.getElementById('chartPortal'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(portalCounts),
+      datasets: [{ data: Object.values(portalCounts), backgroundColor: ['#1e3a5f','#c62828'], borderWidth: 2 }]
+    },
+    options: { plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } } }
+  });
+
+  // Suchbegriff
+  const suchCounts = {};
+  data.forEach(r => suchCounts[r.suchbegriff] = (suchCounts[r.suchbegriff]||0)+1);
+  new Chart(document.getElementById('chartSuch'), {
+    type: 'bar',
+    data: {
+      labels: Object.keys(suchCounts),
+      datasets: [{ data: Object.values(suchCounts), backgroundColor: ['#2e7d32','#f57f17','#6a1b9a'], borderRadius: 4 }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { stepSize: 10 } } }
+    }
+  });
+
+  // Frist status
+  let hasFrist=0, soon=0, none=0, expired=0;
+  data.forEach(r => {
+    const d = fristDays(r.frist);
+    if (d === null) none++;
+    else if (d < 0) expired++;
+    else if (d <= 14) soon++;
+    else hasFrist++;
+  });
+  new Chart(document.getElementById('chartFrist'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Frist > 14d', 'Frist ≤ 14d', 'Keine Frist', 'Abgelaufen'],
+      datasets: [{ data: [hasFrist, soon, none, expired], backgroundColor: ['#2e7d32','#c62828','#bbb','#888'], borderWidth: 2 }]
+    },
+    options: { plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } } }
+  });
+}
+
+// ---- Table ----
+let sortCol = 'frist', sortDir = 1;
+
+function renderTable(data) {
+  const tbody = document.getElementById('table-body');
+  if (!data.length) {
+    tbody.innerHTML = '<tr><td colspan="6" class="no-data">Keine Einträge gefunden.</td></tr>';
+    document.getElementById('result-count').textContent = '0 Einträge';
+    return;
+  }
+  tbody.innerHTML = data.map(r => `
+    <tr>
+      <td>${portalBadge(r.portal)}</td>
+      <td>${suchBadge(r.suchbegriff)}</td>
+      <td class="titel-cell">${r.titel}</td>
+      <td class="ag-cell">${r.auftraggeber}</td>
+      <td style="white-space:nowrap">${fristLabel(r.frist)}</td>
+      <td>${buildLink(r)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('result-count').textContent = `${data.length} Einträge`;
+}
+
+function getFiltered() {
+  const fp = document.getElementById('f-portal').value;
+  const fs = document.getElementById('f-such').value;
+  const ff = document.getElementById('f-frist').value;
+  const fq = document.getElementById('f-search').value.toLowerCase();
+
+  return DATA.filter(r => {
+    if (fp && r.portal !== fp) return false;
+    if (fs && r.suchbegriff !== fs) return false;
+    if (ff === 'yes' && !r.frist.trim()) return false;
+    if (ff === 'no' && r.frist.trim()) return false;
+    if (ff === 'soon') {
+      const d = fristDays(r.frist);
+      if (d === null || d < 0 || d > 14) return false;
+    }
+    if (fq && !r.titel.toLowerCase().includes(fq) && !r.auftraggeber.toLowerCase().includes(fq)) return false;
+    return true;
+  });
+}
+
+function getSorted(data) {
+  return [...data].sort((a, b) => {
+    let va = a[sortCol] || '', vb = b[sortCol] || '';
+    if (sortCol === 'frist') {
+      const da = parseFrist(va), db = parseFrist(vb);
+      if (!da && !db) return 0;
+      if (!da) return 1;
+      if (!db) return -1;
+      return (da - db) * sortDir;
+    }
+    return va.localeCompare(vb) * sortDir;
+  });
+}
+
+function update() {
+  const filtered = getFiltered();
+  renderTable(getSorted(filtered));
+}
+
+// ---- Init filters ----
+function populateFilters() {
+  const portals = [...new Set(DATA.map(r => r.portal))].sort();
+  const such = [...new Set(DATA.map(r => r.suchbegriff))].sort();
+  const ps = document.getElementById('f-portal');
+  portals.forEach(p => { const o = document.createElement('option'); o.value = p; o.text = p; ps.appendChild(o); });
+  const ss = document.getElementById('f-such');
+  such.forEach(s => { const o = document.createElement('option'); o.value = s; o.text = s; ss.appendChild(o); });
+}
+
+// ---- Sort headers ----
+document.querySelectorAll('thead th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (sortCol === col) sortDir *= -1; else { sortCol = col; sortDir = 1; }
+    document.querySelectorAll('thead th .sort-icon').forEach(i => i.textContent = '↕');
+    th.querySelector('.sort-icon').textContent = sortDir === 1 ? '↑' : '↓';
+    update();
+  });
+});
+
+['f-portal','f-such','f-frist'].forEach(id => document.getElementById(id).addEventListener('change', update));
+document.getElementById('f-search').addEventListener('input', update);
+
+populateFilters();
+buildKPIs(DATA);
+buildCharts(DATA);
+update();
+</script>
+</body>
+</html>
