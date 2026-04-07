@@ -1,0 +1,15 @@
+{
+  "name": "mecca-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statisches mecca Dashboard mit automatisiertem Ausschreibungsfeed fuer TED und USP Bund.",
+  "scripts": {
+    "weekly-feed": "node src/weeklyTenderFeed.js",
+    "weekly-feed:sample": "node src/weeklyTenderFeed.js --sample",
+    "test": "node tests/run.js",
+    "prepare-browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.59.0"
+  }
+}

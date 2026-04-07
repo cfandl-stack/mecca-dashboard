@@ -1,0 +1,52 @@
+{
+  "searchTerms": [
+    "Raumplanung",
+    "Regionalentwicklung",
+    "Projektmanagement",
+    "INTERREG",
+    "Smart Village",
+    "Strategie"
+  ],
+  "includeCpvSearches": true,
+  "maxAgeDays": 31,
+  "runtime": {
+    "headless": true,
+    "navigationTimeoutMs": 45000,
+    "requestTimeoutMs": 45000,
+    "maxPagesPerSearch": 2,
+    "maxRecordsPerPortal": 150,
+    "maxDetailsPerPortal": 50,
+    "pageSize": 50,
+    "tedDelayMs": 750,
+    "tedMaxRetries": 3,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "output": {
+    "csvPath": "dash/ausschreibungen.csv",
+    "jsonPath": "dash/data.json",
+    "dataJsPath": "dash/data_embed.js"
+  },
+  "ted": {
+    "baseUrl": "https://api.ted.europa.eu/v3/notices/search",
+    "scope": "ACTIVE",
+    "fields": [
+      "publication-number",
+      "publication-date",
+      "notice-title",
+      "description-proc",
+      "description-lot",
+      "buyer-name",
+      "buyer-country",
+      "organisation-country-buyer",
+      "classification-cpv",
+      "deadline",
+      "deadline-date-lot",
+      "deadline-time-lot",
+      "links"
+    ]
+  },
+  "usp": {
+    "url": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
+    "detailBaseUrl": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/"
+  }
+}

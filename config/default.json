@@ -1,0 +1,80 @@
+{
+  "cpvCodes": [
+    "79421000-1",
+    "73220000-0",
+    "71410000-5",
+    "79314000-8",
+    "79419000-4",
+    "71420000-8",
+    "71241000-9",
+    "79400000-8",
+    "90712100-2",
+    "90713000-8",
+    "72224000-1",
+    "73210000-7",
+    "75112100-5",
+    "85312320-8",
+    "79421100-2",
+    "79411000-8"
+  ],
+  "keywords": [
+    "INTERREG",
+    "Regionalentwicklung",
+    "Raumplanung",
+    "Smart Village",
+    "Strategie"
+  ],
+  "portals": {
+    "ted": true,
+    "ankoe": false,
+    "vergabeBayern": false
+  },
+  "runtime": {
+    "headless": true,
+    "minDelayMs": 1200,
+    "maxDelayMs": 3200,
+    "navigationTimeoutMs": 45000,
+    "requestTimeoutMs": 45000,
+    "maxPagesPerSearch": 200,
+    "maxRecordsPerPortal": 50000,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "output": {
+    "jsonPath": "results.json",
+    "csvPath": "results.csv"
+  },
+  "ted": {
+    "baseUrl": "https://api.ted.europa.eu/v3/notices/search",
+    "scope": "ACTIVE",
+    "pageSize": 50,
+    "fields": [
+      "publication-number",
+      "notice-title",
+      "description-proc",
+      "description-lot",
+      "buyer-name",
+      "classification-cpv",
+      "deadline",
+      "deadline-date-lot",
+      "deadline-time-lot",
+      "links"
+    ]
+  },
+  "ankoe": {
+    "publicListingUrls": [
+      "https://www.ankoe.at/ausschreibungen-oesterreich/",
+      "https://www.ankoe.at/ausschreibungen-bund/",
+      "https://www.ankoe.at/ausschreibungen-wien/",
+      "https://www.ankoe.at/ausschreibungen-land-steiermark/",
+      "https://www.ankoe.at/it-ausschreibungen/",
+      "https://www.ankoe.at/ausschreibungen-bau/"
+    ]
+  },
+  "vergabeBayern": {
+    "entryUrl": "https://www.vergabe.bayern.de/veroeffentlichungen/auftragsbekanntmachungen/index.html",
+    "frameUrl": "https://www.meinauftrag.rib.de/public/publicationsFrame?filter=604283&config=exante/false",
+    "detailBaseUrl": "https://www.meinauftrag.rib.de",
+    "maxDetailsPerQuery": 20,
+    "searchAllTermsMandatory": false
+  }
+}

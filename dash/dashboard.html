@@ -202,9 +202,11 @@
     }
     .badge-burgenland { background: var(--sepia-light); color: var(--sepia-dark); }
     .badge-usp { background: rgba(91,168,114,.15); color: var(--green-hover); }
+    .badge-ted { background: rgba(74,120,190,.15); color: #355d9b; }
     .badge-raumplanung { background: rgba(91,168,114,.2); color: var(--green-hover); }
     .badge-regional { background: rgba(201,178,39,.15); color: #8a6e00; }
     .badge-projekt { background: rgba(180,150,200,.2); color: #5a3a7a; }
+    .badge-cpv { background: rgba(74,120,190,.12); color: #355d9b; }
 
     /* ── Frist colours ──────────────────────────── */
     .frist-soon { color: var(--urgent); font-weight: 600; }
@@ -228,7 +230,119 @@
 
     .titel-cell { max-width: 340px; }
     .ag-cell { max-width: 240px; color: var(--text-light); }
+    .description-snippet { margin-top: 4px; font-size: .74rem; color: var(--text-light); line-height: 1.35; }
+    .small-meta { margin-top: 3px; font-size: .72rem; color: var(--text-light); }
+    .cpv-list { max-width: 170px; font-size: .72rem; color: var(--text-light); word-break: break-word; }
+    .date-cell { white-space: nowrap; color: var(--text-light); }
     .no-data { text-align: center; padding: 36px; color: var(--text-light); font-size: .9rem; }
+
+    /* ── Advisor ────────────────────────────────── */
+    .advisor-wrap {
+      display: flex; gap: 20px; align-items: flex-start;
+      margin-bottom: 22px;
+    }
+    .advisor-left {
+      flex-shrink: 0;
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+    }
+    .advisor-avatar {
+      width: 82px; height: 82px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid var(--green);
+      box-shadow: 0 3px 14px rgba(91,168,114,.35);
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+      position: relative;
+    }
+    .advisor-avatar:hover { transform: scale(1.06); box-shadow: 0 5px 20px rgba(91,168,114,.45); }
+    .advisor-avatar svg { width: 100%; height: 100%; display: block; }
+    .advisor-avatar::after {
+      content: '';
+      position: absolute; bottom: 4px; right: 4px;
+      width: 13px; height: 13px;
+      border-radius: 50%;
+      background: #4caf50;
+      border: 2px solid var(--bg);
+    }
+    .advisor-label {
+      font-size: .78rem; font-weight: 700; color: var(--green);
+      text-align: center; letter-spacing: .03em;
+    }
+    .advisor-hint {
+      font-size: .68rem; color: var(--text-light);
+      text-align: center; cursor: pointer;
+      transition: color .2s;
+    }
+    .advisor-hint:hover { color: var(--green); }
+    .advisor-bubble {
+      flex: 1;
+      background: var(--card);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      border-top-left-radius: 4px;
+      padding: 16px 20px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+      max-height: 0; padding-top: 0; padding-bottom: 0;
+      opacity: 0;
+      transition: max-height .4s ease, opacity .3s ease, padding .3s ease;
+    }
+    .advisor-bubble.open {
+      max-height: 2000px; padding: 16px 20px;
+      opacity: 1;
+    }
+    .advisor-bubble::before {
+      content: '';
+      position: absolute; top: 20px; left: -8px;
+      width: 0; height: 0;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 8px solid var(--border);
+    }
+    .advisor-bubble::after {
+      content: '';
+      position: absolute; top: 21px; left: -6px;
+      width: 0; height: 0;
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-right: 7px solid var(--card-solid);
+    }
+    .advisor-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .advisor-name { font-weight: 700; font-size: .85rem; color: var(--green); }
+    .advisor-role { font-size: .75rem; color: var(--text-light); }
+    .advisor-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--text-light); font-size: 1.1rem; line-height: 1;
+      padding: 2px 6px; border-radius: 6px; transition: background .15s;
+    }
+    .advisor-close:hover { background: var(--sepia-light); color: var(--text); }
+    .advisor-text {
+      font-size: .84rem; color: var(--text); line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .advisor-picks { display: flex; flex-direction: column; gap: 10px; }
+    .advisor-pick {
+      background: linear-gradient(135deg, rgba(91,168,114,.07), rgba(201,184,150,.07));
+      border: 1px solid rgba(91,168,114,.2);
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex; align-items: flex-start; gap: 10px;
+    }
+    .advisor-pick.pick-warn { border-left-color: var(--urgent); background: linear-gradient(135deg, rgba(192,57,43,.06), rgba(201,184,150,.04)); border-color: rgba(192,57,43,.2); }
+    .pick-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+    .pick-body { flex: 1; min-width: 0; }
+    .pick-title { font-size: .82rem; font-weight: 600; color: var(--text); margin-bottom: 3px; line-height: 1.4; }
+    .pick-meta { font-size: .75rem; color: var(--text-light); display: flex; gap: 10px; flex-wrap: wrap; }
+    .pick-reason { font-size: .75rem; color: var(--green-hover); margin-top: 4px; font-style: italic; }
+    .pick-reason.warn-reason { color: var(--urgent); }
+    .pick-link { font-size: .73rem; }
 
     /* ── Footer ─────────────────────────────────── */
     .footer { text-align: center; padding: 16px; font-size: .7rem; color: var(--text-light); letter-spacing: .05em; }
@@ -245,7 +359,7 @@
 <header class="header">
   <div class="header-left">
     <a class="brand" href="../index.html">mecca</a>
-    <div class="page-title">&#128196; <strong>Ausschreibungen</strong> &nbsp;·&nbsp; KW 15</div>
+    <div class="page-title">&#128196; <strong>Ausschreibungen</strong> &nbsp;·&nbsp; automatisch aktualisiert</div>
   </div>
   <a class="back-btn" href="../index.html">&#8592; Dashboard</a>
 </header>
@@ -267,6 +381,87 @@
     <div class="chart-box">
       <h2>&#128197; Frist-Status</h2>
       <canvas id="chartFrist"></canvas>
+    </div>
+  </div>
+
+  <!-- Advisor -->
+  <div class="advisor-wrap">
+    <div class="advisor-left">
+      <div class="advisor-avatar" id="stefan-avatar" onclick="toggleAdvisor()" title="Stefan – Planungsassistent">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <!-- Hintergrund -->
+          <circle cx="50" cy="50" r="50" fill="#d8c9b0"/>
+          <!-- Hemd / Schultern – breitere Statur -->
+          <path d="M4 100 Q8 76 28 70 L42 77 L50 81 L58 77 L72 70 Q92 76 96 100Z" fill="#4a7e5e"/>
+          <!-- Kragen -->
+          <path d="M42 77 L50 73 L58 77 L50 81Z" fill="#f0ece0"/>
+          <!-- Hals – kräftiger -->
+          <rect x="42" y="63" width="16" height="16" rx="5" fill="#c08858"/>
+          <!-- Kopf – fülliger, runder -->
+          <ellipse cx="50" cy="44" rx="29" ry="31" fill="#c08858"/>
+          <!-- Haar – dunkelgrau meliert -->
+          <path d="M21 42 Q21 12 50 10 Q79 12 79 42 Q75 20 50 18 Q25 20 21 42Z" fill="#706860"/>
+          <!-- Seiten -->
+          <path d="M21 42 Q18 53 21 62 Q25 52 29 42Z" fill="#807870"/>
+          <path d="M79 42 Q82 53 79 62 Q75 52 71 42Z" fill="#807870"/>
+          <!-- Graue Schläfen -->
+          <path d="M21 42 Q19 34 23 24 L27 42Z" fill="#b4b0a8"/>
+          <path d="M79 42 Q81 34 77 24 L73 42Z" fill="#b4b0a8"/>
+          <!-- Graue Strähnen oben -->
+          <path d="M36 16 Q44 14 52 14" stroke="#c4c0b8" stroke-width="2.5" fill="none" opacity="0.75"/>
+          <path d="M54 13 Q62 15 68 19" stroke="#bab8b0" stroke-width="2" fill="none" opacity="0.65"/>
+          <!-- Ohren -->
+          <ellipse cx="21" cy="47" rx="4.5" ry="5.5" fill="#b07848"/>
+          <ellipse cx="79" cy="47" rx="4.5" ry="5.5" fill="#b07848"/>
+          <!-- Augenbrauen – leicht graumeliert, etwas kräftiger -->
+          <path d="M32 36 Q38 33 45 35" stroke="#605848" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+          <path d="M55 35 Q62 33 68 36" stroke="#605848" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+          <path d="M41 34.5 Q44 33.5 45 34.5" stroke="#a8a49c" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <path d="M56 34.5 Q59 33.5 62 34.5" stroke="#a8a49c" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <!-- Augen – warm, freundlich -->
+          <ellipse cx="39" cy="45" rx="6" ry="4.8" fill="white"/>
+          <ellipse cx="61" cy="45" rx="6" ry="4.8" fill="white"/>
+          <circle cx="40" cy="45" r="3.2" fill="#3a2818"/>
+          <circle cx="62" cy="45" r="3.2" fill="#3a2818"/>
+          <circle cx="41.3" cy="43.8" r="1.1" fill="white"/>
+          <circle cx="63.3" cy="43.8" r="1.1" fill="white"/>
+          <!-- Oberlid -->
+          <path d="M33 43 Q39 40 45 43" stroke="#4a3020" stroke-width="1.3" fill="none"/>
+          <path d="M55 43 Q61 40 67 43" stroke="#4a3020" stroke-width="1.3" fill="none"/>
+          <!-- Lachfältchen -->
+          <path d="M45 48 Q47 52 46 56" stroke="#a07040" stroke-width="0.9" fill="none" opacity="0.4"/>
+          <path d="M55 48 Q53 52 54 56" stroke="#a07040" stroke-width="0.9" fill="none" opacity="0.4"/>
+          <!-- Nase -->
+          <path d="M47 51 Q45 57 43 62 Q50 65 57 62 Q55 57 53 51" fill="none" stroke="#986030" stroke-width="1.3" opacity="0.55"/>
+          <ellipse cx="44" cy="62" rx="3.2" ry="2.2" fill="#986030" opacity="0.22"/>
+          <ellipse cx="56" cy="62" rx="3.2" ry="2.2" fill="#986030" opacity="0.22"/>
+          <!-- Breites freundliches Lächeln -->
+          <path d="M36 68 Q50 82 64 68" stroke="#804030" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+          <!-- Zähne -->
+          <path d="M38 68.5 Q50 79 62 68.5 Q50 75 38 68.5Z" fill="white" opacity="0.88"/>
+          <!-- Mundwinkel -->
+          <circle cx="36" cy="68" r="1.8" fill="#b06848" opacity="0.45"/>
+          <circle cx="64" cy="68" r="1.8" fill="#b06848" opacity="0.45"/>
+          <!-- Nasolabialfalten (leicht) -->
+          <path d="M35 62 Q33 67 36 72" stroke="#986030" stroke-width="1.1" fill="none" opacity="0.3"/>
+          <path d="M65 62 Q67 67 64 72" stroke="#986030" stroke-width="1.1" fill="none" opacity="0.3"/>
+          <!-- Bart-Schatten (leichter 3-Tage-Bart) -->
+          <ellipse cx="50" cy="70" rx="17" ry="7" fill="#705030" opacity="0.13"/>
+        </svg>
+      </div>
+      <div class="advisor-label">Stefan</div>
+      <div class="advisor-hint" id="stefan-hint" onclick="toggleAdvisor()">Tipps anzeigen</div>
+    </div>
+    <div class="advisor-bubble" id="advisor-bubble">
+      <div class="advisor-header">
+        <div>
+          <div class="advisor-name">Stefan · Planungsassistent</div>
+          <div class="advisor-role">Ausschreibungsanalyse · TED und USP Bund</div>
+        </div>
+        <button class="advisor-close" onclick="toggleAdvisor()" title="Schließen">✕</button>
+      </div>
+      <div class="advisor-text" id="advisor-text"></div>
+      <div class="advisor-picks" id="advisor-picks"></div>
     </div>
   </div>
 
@@ -299,9 +494,11 @@
         <tr>
           <th data-col="portal">Portal <span class="sort-icon">↕</span></th>
           <th data-col="suchbegriff">Suchbegriff <span class="sort-icon">↕</span></th>
-          <th data-col="titel">Titel <span class="sort-icon">↕</span></th>
+          <th data-col="titel">Titel / Beschreibung <span class="sort-icon">↕</span></th>
           <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">↕</span></th>
+          <th data-col="veroeffentlichungsdatum">Veröffentlicht <span class="sort-icon">↕</span></th>
           <th data-col="frist">Frist <span class="sort-icon">↕</span></th>
+          <th data-col="cpvCodes">CPV <span class="sort-icon">↕</span></th>
           <th>Link</th>
         </tr>
       </thead>
@@ -310,7 +507,7 @@
   </div>
 </div>
 
-<div class="footer">mecca &middot; Raumplanung &middot; Ausschreibungen KW 15</div>
+<div class="footer">mecca &middot; Raumplanung &middot; Ausschreibungen &middot; automatisch aktualisiert</div>
 
 <script src="data_embed.js"></script>
 <script>
@@ -344,14 +541,26 @@ function fristLabel(s) {
   return `<span class="frist-ok">${s}</span>`;
 }
 
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function portalBadge(p) {
+  if (p === 'TED') return `<span class="badge badge-ted">TED</span>`;
+  if (p === 'USP Bund') return `<span class="badge badge-usp">USP Bund</span>`;
   if (p === 'Burgenland') return `<span class="badge badge-burgenland">Burgenland</span>`;
-  return `<span class="badge badge-usp">USP Bund</span>`;
+  return `<span class="badge">${escapeHtml(p || 'Unbekannt')}</span>`;
 }
 
 function suchBadge(s) {
   if (s === 'Raumplanung') return `<span class="badge badge-raumplanung">Raumplanung</span>`;
   if (s === 'Regionalentwicklung') return `<span class="badge badge-regional">Regionalentwicklung</span>`;
+  if (/^\d{8}(-\d)?$/.test(String(s || ''))) return `<span class="badge badge-cpv">CPV ${escapeHtml(s)}</span>`;
   return `<span class="badge badge-projekt">Projektmanagement</span>`;
 }
 
@@ -360,9 +569,32 @@ function buildLink(row) {
   if (!url) return '—';
   if (!url.startsWith('http')) {
     if (row.portal === 'Burgenland') url = 'https://burgenland.vergabeportal.at/' + url;
-    else url = 'https://at.gv.bmdw.eproc-p/public/' + url;
+    else url = 'https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/' + url;
   }
-  return `<a class="link-btn" href="${url}" target="_blank" rel="noopener">Öffnen</a>`;
+  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Öffnen</a>`;
+}
+
+function cpvLabel(row) {
+  const values = Array.isArray(row.cpvCodes) ? row.cpvCodes : String(row.cpvCodes || '').split(';');
+  const cleaned = values.map(v => String(v || '').trim()).filter(Boolean);
+  return cleaned.length ? escapeHtml(cleaned.join('; ')) : '<span class="no-frist">—</span>';
+}
+
+function descriptionLabel(row) {
+  const text = String(row.beschreibung || '').trim();
+  if (!text) return '';
+  const shortened = text.length > 190 ? `${text.slice(0, 190)}...` : text;
+  return `<div class="description-snippet">${escapeHtml(shortened)}</div>`;
+}
+
+function organizationLabel(row) {
+  const land = String(row.organisationLand || '').trim();
+  const country = land ? `<div class="small-meta">${escapeHtml(land)}</div>` : '';
+  return `${escapeHtml(row.auftraggeber || '')}${country}`;
+}
+
+function publicationLabel(row) {
+  return row.veroeffentlichungsdatum ? escapeHtml(row.veroeffentlichungsdatum) : '<span class="no-frist">—</span>';
 }
 
 // ---- KPIs ----
@@ -370,16 +602,19 @@ function buildKPIs(data) {
   const soon = data.filter(r => { const d = fristDays(r.frist); return d !== null && d >= 0 && d <= 14; });
   const withFrist = data.filter(r => r.frist && r.frist.trim());
   const portals = [...new Set(data.map(r => r.portal))];
+  const latestDate = data.map(r => r.veroeffentlichungsdatum).filter(Boolean).sort().pop() || '—';
   document.getElementById('kpi-row').innerHTML = `
     <div class="kpi"><div class="label">Gesamt</div><div class="value">${data.length}</div><div class="sub">Ausschreibungen</div></div>
     <div class="kpi"><div class="label">Portale</div><div class="value">${portals.length}</div><div class="sub">${portals.join(', ')}</div></div>
     <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${data.length} Einträgen</div></div>
     <div class="kpi"><div class="label">Frist &lt; 14 Tage</div><div class="value urgent">${soon.length}</div><div class="sub">dringend</div></div>
+    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${latestDate}</div><div class="sub">Veröffentlichung</div></div>
   `;
 }
 
 // ---- Charts ----
 function buildCharts(data) {
+  const palette = ['#5ba872','#c9b896','#a89370','#4a78be','#8f6fb8','#c0392b','#e8dcc8'];
   // Portal
   const portalCounts = {};
   data.forEach(r => portalCounts[r.portal] = (portalCounts[r.portal]||0)+1);
@@ -387,7 +622,7 @@ function buildCharts(data) {
     type: 'doughnut',
     data: {
       labels: Object.keys(portalCounts),
-      datasets: [{ data: Object.values(portalCounts), backgroundColor: ['#5ba872','#c9b896'], borderWidth: 0 }]
+      datasets: [{ data: Object.values(portalCounts), backgroundColor: Object.keys(portalCounts).map((_, i) => palette[i % palette.length]), borderWidth: 0 }]
     },
     options: { plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } } }
   });
@@ -399,7 +634,7 @@ function buildCharts(data) {
     type: 'bar',
     data: {
       labels: Object.keys(suchCounts),
-      datasets: [{ data: Object.values(suchCounts), backgroundColor: ['#5ba872','#c9b896','#a89370'], borderRadius: 6 }]
+      datasets: [{ data: Object.values(suchCounts), backgroundColor: Object.keys(suchCounts).map((_, i) => palette[i % palette.length]), borderRadius: 6 }]
     },
     options: {
       plugins: { legend: { display: false } },
@@ -432,7 +667,7 @@ let sortCol = 'frist', sortDir = 1;
 function renderTable(data) {
   const tbody = document.getElementById('table-body');
   if (!data.length) {
-    tbody.innerHTML = '<tr><td colspan="6" class="no-data">Keine Einträge gefunden.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="8" class="no-data">Keine Einträge gefunden.</td></tr>';
     document.getElementById('result-count').textContent = '0 Einträge';
     return;
   }
@@ -440,9 +675,11 @@ function renderTable(data) {
     <tr>
       <td>${portalBadge(r.portal)}</td>
       <td>${suchBadge(r.suchbegriff)}</td>
-      <td class="titel-cell">${r.titel}</td>
-      <td class="ag-cell">${r.auftraggeber}</td>
+      <td class="titel-cell"><strong>${escapeHtml(r.titel)}</strong>${descriptionLabel(r)}</td>
+      <td class="ag-cell">${organizationLabel(r)}</td>
+      <td class="date-cell">${publicationLabel(r)}</td>
       <td style="white-space:nowrap">${fristLabel(r.frist)}</td>
+      <td class="cpv-list">${cpvLabel(r)}</td>
       <td>${buildLink(r)}</td>
     </tr>
   `).join('');
@@ -458,13 +695,21 @@ function getFiltered() {
   return DATA.filter(r => {
     if (fp && r.portal !== fp) return false;
     if (fs && r.suchbegriff !== fs) return false;
-    if (ff === 'yes' && !r.frist.trim()) return false;
-    if (ff === 'no' && r.frist.trim()) return false;
+    if (ff === 'yes' && !(r.frist || '').trim()) return false;
+    if (ff === 'no' && (r.frist || '').trim()) return false;
     if (ff === 'soon') {
       const d = fristDays(r.frist);
       if (d === null || d < 0 || d > 14) return false;
     }
-    if (fq && !r.titel.toLowerCase().includes(fq) && !r.auftraggeber.toLowerCase().includes(fq)) return false;
+    const haystack = [
+      r.titel,
+      r.auftraggeber,
+      r.beschreibung,
+      r.organisationLand,
+      r.veroeffentlichungsdatum,
+      Array.isArray(r.cpvCodes) ? r.cpvCodes.join(' ') : r.cpvCodes
+    ].join(' ').toLowerCase();
+    if (fq && !haystack.includes(fq)) return false;
     return true;
   });
 }
@@ -472,6 +717,8 @@ function getFiltered() {
 function getSorted(data) {
   return [...data].sort((a, b) => {
     let va = a[sortCol] || '', vb = b[sortCol] || '';
+    if (Array.isArray(va)) va = va.join('; ');
+    if (Array.isArray(vb)) vb = vb.join('; ');
     if (sortCol === 'frist') {
       const da = parseFrist(va), db = parseFrist(vb);
       if (!da && !db) return 0;
@@ -512,9 +759,127 @@ document.querySelectorAll('thead th[data-col]').forEach(th => {
 ['f-portal','f-such','f-frist'].forEach(id => document.getElementById(id).addEventListener('change', update));
 document.getElementById('f-search').addEventListener('input', update);
 
+// ---- Advisor toggle ----
+function toggleAdvisor() {
+  const bubble = document.getElementById('advisor-bubble');
+  const hint   = document.getElementById('stefan-hint');
+  const isOpen = bubble.classList.contains('open');
+  if (isOpen) {
+    bubble.classList.remove('open');
+    hint.textContent = 'Tipps anzeigen';
+  } else {
+    bubble.classList.add('open');
+    hint.textContent = 'Ausblenden';
+  }
+}
+
+// ---- Advisor / Highlights ----
+function scoreEntry(r) {
+  let score = 0;
+  const t = (r.titel + ' ' + (r.beschreibung || '')).toLowerCase();
+  const s = r.suchbegriff.toLowerCase();
+
+  // Starke positive Signale
+  if (s === 'regionalentwicklung') score += 4;
+  if (t.includes('interreg')) score += 3;
+  if (t.includes('studie') || t.includes('szenario')) score += 3;
+  if (t.includes('leitbild') || t.includes('strategie')) score += 3;
+  if (t.includes('konzept') || t.includes('konzeption')) score += 2;
+  if (t.includes('standortentwicklung')) score += 3;
+  if (t.includes('projektleitung') || t.includes('projektleit')) score += 2;
+  if (t.includes('projektsteuerung')) score += 2;
+  if (t.includes('beratung') || t.includes('consulting') || t.includes('consultant')) score += 1;
+  if (t.includes('gutachten') || t.includes('sachverständig')) score += 2;
+  if (t.includes('denkmal') || t.includes('gedenkstätte') || t.includes('kulturg')) score += 1;
+  if (t.includes('raumplanung') || t.includes('flächenwidmung') || t.includes('örtlich')) score += 3;
+  if (t.includes('regional')) score += 2;
+
+  // Negative Signale – Infrastruktur / Bau / IT
+  if (t.includes('autobahn') || t.includes('schnellstraße') || t.includes('asfinag') || t.includes('asfinag')) score -= 4;
+  if (t.includes('tunnel') || t.includes('öba') || t.includes('baubegleitung')) score -= 3;
+  if (t.includes('bau- und hydro') || t.includes('hydrogeolog')) score -= 3;
+  if (t.includes('itpmpe') || t.includes('sapdl') || t.includes('it-expert')) score -= 5;
+  if (t.includes('möblierung') || t.includes('montage')) score -= 4;
+  if (t.includes('werbeagentur') || t.includes('marketingleist')) score -= 4;
+  if (t.includes('generalunternehmer')) score -= 3;
+  if (t.includes('raumkühlung') || t.includes('lüftung') || t.includes('haustechnik')) score -= 3;
+  if (t.includes('investinaustria')) score -= 2;
+  if (t.includes('divi_change')) score -= 2;
+  // Wiener Wohnen Hausverwaltung (reine Adressen ohne Planungsinhalt)
+  if (/^\d+\.,\s/.test(r.titel) && r.auftraggeber.includes('Wiener Wohnen')) score -= 3;
+
+  return score;
+}
+
+function buildAdvisor(data) {
+  const scored = data.map(r => ({ ...r, _score: scoreEntry(r) }))
+    .sort((a, b) => b._score - a._score);
+
+  const top = scored.filter(r => r._score > 0);
+  const urgent = top.filter(r => {
+    const d = fristDays(r.frist);
+    return d !== null && d >= 0 && d <= 14;
+  });
+
+  const total = data.length;
+  const hasUrgent = urgent.length > 0;
+
+  let intro = `Ich habe alle <strong>${total} Ausschreibungen</strong> der letzten 31 Tage für euch durchgesehen. `;
+  if (top.length === 0) {
+    intro += `Diese Woche ist leider nichts dabei, das wirklich zu mecca passt – überwiegend Infrastruktur-, Bau- und IT-Rahmenverträge.`;
+  } else {
+    intro += `Hier sind die <strong>${top.length} Ausschreibungen</strong>, die ich für uns interessant halte – sortiert nach Relevanz. Der Rest sind Bau-, Autobahn- oder IT-Verträge, die nicht in unser Profil passen.`;
+    if (hasUrgent) intro += ` <span style="color:var(--urgent);font-weight:600">⚠️ ${urgent.length} davon ${urgent.length > 1 ? 'haben' : 'hat'} eine Frist in unter 14 Tagen!</span>`;
+  }
+  document.getElementById('advisor-text').innerHTML = intro;
+
+  const picksEl = document.getElementById('advisor-picks');
+  if (top.length === 0) { picksEl.innerHTML = ''; return; }
+
+  const icons = ['⭐', '📌', '🔖', '📎', '📎', '📎', '📎', '📎', '📎', '📎'];
+  picksEl.innerHTML = top.map((r, i) => {
+    const days = fristDays(r.frist);
+    const isUrgent = days !== null && days >= 0 && days <= 14;
+    const fristInfo = days === null ? 'Keine Frist angegeben'
+      : days < 0 ? 'Frist abgelaufen'
+      : isUrgent ? `⚠️ Frist in ${days} Tagen!`
+      : `Frist: ${r.frist}`;
+
+    let reason = '';
+    const t = r.titel.toLowerCase();
+    if (t.includes('interreg') || t.includes('studie') || t.includes('szenario'))
+      reason = 'Planungsstudie / Regionalentwicklung – klassisches mecca-Profil.';
+    else if (t.includes('standortentwicklung'))
+      reason = 'Standortentwicklung mit Projektleitungsleistungen – strategisch relevant.';
+    else if (t.includes('projektsteuerung') || t.includes('projektleitung'))
+      reason = 'Projektsteuerung / -leitung ohne reinen Baufokus – passt zu unserem PM-Angebot.';
+    else if (r.suchbegriff === 'Regionalentwicklung')
+      reason = 'Regionalentwicklung – Kernkompetenz von mecca.';
+    else if (t.includes('beratung') || t.includes('consulting'))
+      reason = 'Beratungsleistung – gut geeignet für kleinere Büros.';
+    else
+      reason = 'Relevanter Planungs- oder Beratungsauftrag.';
+
+    return `
+      <div class="advisor-pick${isUrgent ? ' pick-warn' : ''}">
+        <div class="pick-icon">${icons[i] || '📎'}</div>
+        <div class="pick-body">
+          <div class="pick-title">${r.titel}</div>
+          <div class="pick-meta">
+            <span>🏛️ ${r.auftraggeber}</span>
+            <span>${isUrgent ? `<span style="color:var(--urgent);font-weight:700">${fristInfo}</span>` : fristInfo}</span>
+            <span class="pick-link"><a class="link-btn" href="${r.link}" target="_blank" rel="noopener">Öffnen</a></span>
+          </div>
+          <div class="pick-reason${isUrgent ? ' warn-reason' : ''}">${reason}</div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
 populateFilters();
 buildKPIs(DATA);
 buildCharts(DATA);
+buildAdvisor(DATA);
 update();
 </script>
 </body>
