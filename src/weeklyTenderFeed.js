@@ -222,6 +222,24 @@ function normalizeFeedRecord(record) {
   return normalized;
 }
 
+function normalizeCpvCode(value) {
+  const cleaned = normalizeWhitespace(value);
+  const digits = cleaned.replace(/\D/g, "");
+
+  if (digits.length === 9) {
+    return `${digits.slice(0, 8)}-${digits.slice(8)}`;
+  }
+
+  return cleaned;
+}
+
+function formatCpvSearchTerm(code, labels = {}) {
+  const normalizedCode = normalizeCpvCode(code);
+  const label = labels[normalizedCode] || labels[normalizedCode.replace(/-\d$/, "")];
+
+  return label ? `CPV ${normalizedCode} - ${label}` : `CPV ${normalizedCode}`;
+}
+
 function buildTedSearchTerms(config) {
   const keywordTerms = config.searchTerms.map((value) => ({ type: "keyword", value }));
 
@@ -230,7 +248,11 @@ function buildTedSearchTerms(config) {
   }
 
   return [
-    ...config.cpvCodes.map((value) => ({ type: "cpv", value })),
+    ...config.cpvCodes.map((value) => ({
+      type: "cpv",
+      value,
+      displayValue: formatCpvSearchTerm(value, config.cpvLabels)
+    })),
     ...keywordTerms
   ];
 }
@@ -312,7 +334,7 @@ async function scrapeTed(config, logger, cutoffDate) {
 
         const record = normalizeFeedRecord({
           portal: "TED",
-          suchbegriff: searchTerm.value,
+          suchbegriff: searchTerm.displayValue || searchTerm.value,
           titel: pickLocalizedText(notice["notice-title"]),
           auftraggeber: pickLocalizedText(notice["buyer-name"]),
           frist: extractTedDeadline(notice),
@@ -582,6 +604,7 @@ async function loadWeeklyConfig(argv) {
   const config = mergeConfig(weeklyConfig, {});
 
   config.cpvCodes = defaultConfig.cpvCodes || [];
+  config.cpvLabels = defaultConfig.cpvLabels || {};
   config.searchTerms = unique([
     ...(config.searchTerms || []),
     ...(defaultConfig.keywords || [])
@@ -650,7 +673,9 @@ if (require.main === module) {
 module.exports = {
   calculateCutoffDate,
   countryLabel,
+  formatCpvSearchTerm,
   normalizeFeedRecord,
+  normalizeCpvCode,
   parseDate,
   toIsoDate
 };

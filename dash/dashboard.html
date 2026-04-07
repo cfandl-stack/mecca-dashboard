@@ -560,7 +560,7 @@ function portalBadge(p) {
 function suchBadge(s) {
   if (s === 'Raumplanung') return `<span class="badge badge-raumplanung">Raumplanung</span>`;
   if (s === 'Regionalentwicklung') return `<span class="badge badge-regional">Regionalentwicklung</span>`;
-  if (/^\d{8}(-\d)?$/.test(String(s || ''))) return `<span class="badge badge-cpv">CPV ${escapeHtml(s)}</span>`;
+  if (/^(CPV\s+)?\d{8}(-\d)?/.test(String(s || '')) || String(s || '').startsWith('CPV ')) return `<span class="badge badge-cpv">${escapeHtml(s)}</span>`;
   return `<span class="badge badge-projekt">Projektmanagement</span>`;
 }
 

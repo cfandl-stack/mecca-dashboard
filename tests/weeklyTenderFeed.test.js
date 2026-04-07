@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 
 const {
   countryLabel,
+  formatCpvSearchTerm,
   normalizeFeedRecord,
   parseDate,
   toIsoDate
@@ -19,6 +20,13 @@ test("parseDate gibt null für leere Werte zurück", () => {
 
 test("countryLabel übersetzt wichtige TED-Ländercodes", () => {
   assert.equal(countryLabel(["AUT", "DEU"]), "Österreich; Deutschland");
+});
+
+test("formatCpvSearchTerm ergänzt lesbare CPV-Kurzlabels", () => {
+  assert.equal(
+    formatCpvSearchTerm("714100005", { "71410000-5": "Raumplanung" }),
+    "CPV 71410000-5 - Raumplanung"
+  );
 });
 
 test("normalizeFeedRecord setzt Dashboard-Spalten", () => {
