@@ -26,6 +26,7 @@ const COUNTRY_NAMES = {
   AUT: "Österreich",
   DEU: "Deutschland",
   CHE: "Schweiz",
+  LIE: "Liechtenstein",
   FRA: "Frankreich",
   ITA: "Italien",
   NLD: "Niederlande",
@@ -259,7 +260,36 @@ function buildTedSearchTerms(config) {
 
 function buildTedWeeklyQuery(searchTerm, cutoffDate) {
   const dateFilter = `publication-date = (${formatTedDate(cutoffDate)} <> ${formatTedDate(new Date())})`;
-  return `${dateFilter} AND ${buildTedQuery(searchTerm)}`;
+  const countryFilter = buildTedCountryFilter(searchTerm.allowedBuyerCountries);
+  return [dateFilter, countryFilter, buildTedQuery(searchTerm)].filter(Boolean).join(" AND ");
+}
+
+function normalizeCountryCodes(value) {
+  return unique(toArray(value).flat().map((code) => normalizeWhitespace(code).toUpperCase()));
+}
+
+function buildTedCountryFilter(countryCodes = []) {
+  const codes = normalizeCountryCodes(countryCodes);
+
+  if (!codes.length) {
+    return "";
+  }
+
+  return `buyer-country IN (${codes.join(" ")})`;
+}
+
+function tedNoticeMatchesAllowedCountries(notice, allowedBuyerCountries = []) {
+  const allowed = new Set(normalizeCountryCodes(allowedBuyerCountries));
+
+  if (!allowed.size) {
+    return true;
+  }
+
+  const noticeCountries = normalizeCountryCodes(
+    notice["buyer-country"] || notice["organisation-country-buyer"]
+  );
+
+  return noticeCountries.some((country) => allowed.has(country));
 }
 
 async function fetchTedPage(config, searchTerm, page, cutoffDate) {
@@ -277,7 +307,10 @@ async function fetchTedPage(config, searchTerm, page, cutoffDate) {
           accept: "application/json"
         },
         body: JSON.stringify({
-          query: buildTedWeeklyQuery(searchTerm, cutoffDate),
+          query: buildTedWeeklyQuery(
+            { ...searchTerm, allowedBuyerCountries: config.ted.allowedBuyerCountries },
+            cutoffDate
+          ),
           fields: config.ted.fields,
           page,
           limit: config.runtime.pageSize,
@@ -329,6 +362,10 @@ async function scrapeTed(config, logger, cutoffDate) {
 
       for (const notice of notices) {
         if (!isOnOrAfter(notice["publication-date"], cutoffDate)) {
+          continue;
+        }
+
+        if (!tedNoticeMatchesAllowedCountries(notice, config.ted.allowedBuyerCountries)) {
           continue;
         }
 
@@ -672,10 +709,13 @@ if (require.main === module) {
 
 module.exports = {
   calculateCutoffDate,
+  buildTedCountryFilter,
+  buildTedWeeklyQuery,
   countryLabel,
   formatCpvSearchTerm,
   normalizeFeedRecord,
   normalizeCpvCode,
+  tedNoticeMatchesAllowedCountries,
   parseDate,
   toIsoDate
 };

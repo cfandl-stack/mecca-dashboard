@@ -119,17 +119,19 @@
     .kpi .sub { font-size: .75rem; color: var(--text-light); margin-top: 2px; }
 
     /* ── Charts row ─────────────────────────────── */
-    .charts-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
+    .charts-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 18px; }
     .chart-box {
       background: var(--card);
       backdrop-filter: blur(8px);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 18px 20px;
+      padding: 14px 16px;
       flex: 1 1 280px;
       box-shadow: var(--shadow);
       transition: box-shadow .2s;
     }
+    .chart-box.chart-compact { flex: 0 1 240px; }
+    .chart-box.chart-terms { flex: 1 1 360px; min-width: 320px; }
     .chart-box:hover { box-shadow: 0 4px 20px rgba(60,50,30,.1); }
     .chart-box h2 {
       font-size: .88rem;
@@ -138,7 +140,13 @@
       font-weight: 600;
       display: flex; align-items: center; gap: 7px;
     }
-    .chart-box canvas { max-height: 200px; }
+    .chart-box canvas { height: 132px !important; max-height: 132px; }
+    .term-summary { display: flex; flex-direction: column; gap: 6px; }
+    .term-row { display: grid; grid-template-columns: minmax(0, 1fr) 42px; gap: 10px; align-items: center; font-size: .76rem; }
+    .term-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
+    .term-count { text-align: right; color: var(--text-light); font-variant-numeric: tabular-nums; }
+    .term-bar { grid-column: 1 / -1; height: 3px; border-radius: 3px; background: var(--sepia-light); overflow: hidden; margin-top: -4px; }
+    .term-bar span { display: block; height: 100%; background: var(--green); border-radius: 3px; }
 
     /* ── Filter bar ─────────────────────────────── */
     .filter-bar {
@@ -237,113 +245,34 @@
     .no-data { text-align: center; padding: 36px; color: var(--text-light); font-size: .9rem; }
 
     /* ── Advisor ────────────────────────────────── */
-    .advisor-wrap {
-      display: flex; gap: 20px; align-items: flex-start;
-      margin-bottom: 22px;
-    }
-    .advisor-left {
-      flex-shrink: 0;
-      display: flex; flex-direction: column; align-items: center; gap: 6px;
-    }
-    .advisor-avatar {
-      width: 82px; height: 82px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 3px solid var(--green);
-      box-shadow: 0 3px 14px rgba(91,168,114,.35);
-      cursor: pointer;
-      transition: transform .2s, box-shadow .2s;
-      position: relative;
-    }
-    .advisor-avatar:hover { transform: scale(1.06); box-shadow: 0 5px 20px rgba(91,168,114,.45); }
-    .advisor-avatar svg { width: 100%; height: 100%; display: block; }
-    .advisor-avatar::after {
-      content: '';
-      position: absolute; bottom: 4px; right: 4px;
-      width: 13px; height: 13px;
-      border-radius: 50%;
-      background: #4caf50;
-      border: 2px solid var(--bg);
-    }
-    .advisor-label {
-      font-size: .78rem; font-weight: 700; color: var(--green);
-      text-align: center; letter-spacing: .03em;
-    }
-    .advisor-hint {
-      font-size: .68rem; color: var(--text-light);
-      text-align: center; cursor: pointer;
-      transition: color .2s;
-    }
-    .advisor-hint:hover { color: var(--green); }
-    .advisor-bubble {
-      flex: 1;
-      background: var(--card);
-      backdrop-filter: blur(8px);
-      border: 1px solid var(--border);
+    .advisor-card {
+      display: flex; gap: 14px; align-items: flex-start;
+      background: linear-gradient(135deg, rgba(91,168,114,.1), rgba(201,184,150,.08));
+      border: 1px solid rgba(91,168,114,.22);
       border-radius: var(--radius);
-      border-top-left-radius: 4px;
-      padding: 16px 20px;
+      padding: 12px 15px;
+      margin-bottom: 16px;
       box-shadow: var(--shadow);
-      position: relative;
-      overflow: hidden;
-      max-height: 0; padding-top: 0; padding-bottom: 0;
-      opacity: 0;
-      transition: max-height .4s ease, opacity .3s ease, padding .3s ease;
     }
-    .advisor-bubble.open {
-      max-height: 2000px; padding: 16px 20px;
-      opacity: 1;
+    .advisor-mini-avatar {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: var(--green); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; flex-shrink: 0;
+      box-shadow: 0 3px 10px rgba(91,168,114,.24);
     }
-    .advisor-bubble::before {
-      content: '';
-      position: absolute; top: 20px; left: -8px;
-      width: 0; height: 0;
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-right: 8px solid var(--border);
+    .advisor-content { flex: 1; min-width: 0; }
+    .advisor-line { font-size: .83rem; color: var(--text); margin-bottom: 8px; }
+    .advisor-line strong { color: var(--green); }
+    .advisor-inline-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+    .advisor-inline-pick {
+      background: var(--card-solid); border: 1px solid var(--border);
+      border-radius: 10px; padding: 8px 10px; min-width: 0;
     }
-    .advisor-bubble::after {
-      content: '';
-      position: absolute; top: 21px; left: -6px;
-      width: 0; height: 0;
-      border-top: 7px solid transparent;
-      border-bottom: 7px solid transparent;
-      border-right: 7px solid var(--card-solid);
-    }
-    .advisor-header {
-      display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 10px;
-    }
-    .advisor-name { font-weight: 700; font-size: .85rem; color: var(--green); }
-    .advisor-role { font-size: .75rem; color: var(--text-light); }
-    .advisor-close {
-      background: none; border: none; cursor: pointer;
-      color: var(--text-light); font-size: 1.1rem; line-height: 1;
-      padding: 2px 6px; border-radius: 6px; transition: background .15s;
-    }
-    .advisor-close:hover { background: var(--sepia-light); color: var(--text); }
-    .advisor-text {
-      font-size: .84rem; color: var(--text); line-height: 1.6;
-      margin-bottom: 14px;
-    }
-    .advisor-picks { display: flex; flex-direction: column; gap: 10px; }
-    .advisor-pick {
-      background: linear-gradient(135deg, rgba(91,168,114,.07), rgba(201,184,150,.07));
-      border: 1px solid rgba(91,168,114,.2);
-      border-left: 3px solid var(--green);
-      border-radius: 8px;
-      padding: 10px 14px;
-      display: flex; align-items: flex-start; gap: 10px;
-    }
-    .advisor-pick.pick-warn { border-left-color: var(--urgent); background: linear-gradient(135deg, rgba(192,57,43,.06), rgba(201,184,150,.04)); border-color: rgba(192,57,43,.2); }
-    .pick-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
-    .pick-body { flex: 1; min-width: 0; }
-    .pick-title { font-size: .82rem; font-weight: 600; color: var(--text); margin-bottom: 3px; line-height: 1.4; }
-    .pick-meta { font-size: .75rem; color: var(--text-light); display: flex; gap: 10px; flex-wrap: wrap; }
-    .pick-reason { font-size: .75rem; color: var(--green-hover); margin-top: 4px; font-style: italic; }
-    .pick-reason.warn-reason { color: var(--urgent); }
-    .pick-link { font-size: .73rem; }
-
+    .advisor-inline-pick.warn { border-color: rgba(192,57,43,.35); }
+    .advisor-inline-title { font-size: .76rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .advisor-inline-meta { margin-top: 3px; font-size: .7rem; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    @media(max-width:900px) { .advisor-inline-picks { grid-template-columns: 1fr; } }
     /* ── Footer ─────────────────────────────────── */
     .footer { text-align: center; padding: 16px; font-size: .7rem; color: var(--text-light); letter-spacing: .05em; }
 
@@ -370,98 +299,26 @@
 
   <!-- Charts -->
   <div class="charts-row">
-    <div class="chart-box">
+    <div class="chart-box chart-compact">
       <h2>&#127760; Nach Portal</h2>
       <canvas id="chartPortal"></canvas>
     </div>
-    <div class="chart-box">
+    <div class="chart-box chart-terms">
       <h2>&#128270; Nach Suchbegriff</h2>
-      <canvas id="chartSuch"></canvas>
+      <div id="termSummary" class="term-summary"></div>
     </div>
-    <div class="chart-box">
+    <div class="chart-box chart-compact">
       <h2>&#128197; Frist-Status</h2>
       <canvas id="chartFrist"></canvas>
     </div>
   </div>
 
   <!-- Advisor -->
-  <div class="advisor-wrap">
-    <div class="advisor-left">
-      <div class="advisor-avatar" id="stefan-avatar" onclick="toggleAdvisor()" title="Stefan – Planungsassistent">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <!-- Hintergrund -->
-          <circle cx="50" cy="50" r="50" fill="#d8c9b0"/>
-          <!-- Hemd / Schultern – breitere Statur -->
-          <path d="M4 100 Q8 76 28 70 L42 77 L50 81 L58 77 L72 70 Q92 76 96 100Z" fill="#4a7e5e"/>
-          <!-- Kragen -->
-          <path d="M42 77 L50 73 L58 77 L50 81Z" fill="#f0ece0"/>
-          <!-- Hals – kräftiger -->
-          <rect x="42" y="63" width="16" height="16" rx="5" fill="#c08858"/>
-          <!-- Kopf – fülliger, runder -->
-          <ellipse cx="50" cy="44" rx="29" ry="31" fill="#c08858"/>
-          <!-- Haar – dunkelgrau meliert -->
-          <path d="M21 42 Q21 12 50 10 Q79 12 79 42 Q75 20 50 18 Q25 20 21 42Z" fill="#706860"/>
-          <!-- Seiten -->
-          <path d="M21 42 Q18 53 21 62 Q25 52 29 42Z" fill="#807870"/>
-          <path d="M79 42 Q82 53 79 62 Q75 52 71 42Z" fill="#807870"/>
-          <!-- Graue Schläfen -->
-          <path d="M21 42 Q19 34 23 24 L27 42Z" fill="#b4b0a8"/>
-          <path d="M79 42 Q81 34 77 24 L73 42Z" fill="#b4b0a8"/>
-          <!-- Graue Strähnen oben -->
-          <path d="M36 16 Q44 14 52 14" stroke="#c4c0b8" stroke-width="2.5" fill="none" opacity="0.75"/>
-          <path d="M54 13 Q62 15 68 19" stroke="#bab8b0" stroke-width="2" fill="none" opacity="0.65"/>
-          <!-- Ohren -->
-          <ellipse cx="21" cy="47" rx="4.5" ry="5.5" fill="#b07848"/>
-          <ellipse cx="79" cy="47" rx="4.5" ry="5.5" fill="#b07848"/>
-          <!-- Augenbrauen – leicht graumeliert, etwas kräftiger -->
-          <path d="M32 36 Q38 33 45 35" stroke="#605848" stroke-width="3.2" fill="none" stroke-linecap="round"/>
-          <path d="M55 35 Q62 33 68 36" stroke="#605848" stroke-width="3.2" fill="none" stroke-linecap="round"/>
-          <path d="M41 34.5 Q44 33.5 45 34.5" stroke="#a8a49c" stroke-width="1.5" fill="none" opacity="0.7"/>
-          <path d="M56 34.5 Q59 33.5 62 34.5" stroke="#a8a49c" stroke-width="1.5" fill="none" opacity="0.7"/>
-          <!-- Augen – warm, freundlich -->
-          <ellipse cx="39" cy="45" rx="6" ry="4.8" fill="white"/>
-          <ellipse cx="61" cy="45" rx="6" ry="4.8" fill="white"/>
-          <circle cx="40" cy="45" r="3.2" fill="#3a2818"/>
-          <circle cx="62" cy="45" r="3.2" fill="#3a2818"/>
-          <circle cx="41.3" cy="43.8" r="1.1" fill="white"/>
-          <circle cx="63.3" cy="43.8" r="1.1" fill="white"/>
-          <!-- Oberlid -->
-          <path d="M33 43 Q39 40 45 43" stroke="#4a3020" stroke-width="1.3" fill="none"/>
-          <path d="M55 43 Q61 40 67 43" stroke="#4a3020" stroke-width="1.3" fill="none"/>
-          <!-- Lachfältchen -->
-          <path d="M45 48 Q47 52 46 56" stroke="#a07040" stroke-width="0.9" fill="none" opacity="0.4"/>
-          <path d="M55 48 Q53 52 54 56" stroke="#a07040" stroke-width="0.9" fill="none" opacity="0.4"/>
-          <!-- Nase -->
-          <path d="M47 51 Q45 57 43 62 Q50 65 57 62 Q55 57 53 51" fill="none" stroke="#986030" stroke-width="1.3" opacity="0.55"/>
-          <ellipse cx="44" cy="62" rx="3.2" ry="2.2" fill="#986030" opacity="0.22"/>
-          <ellipse cx="56" cy="62" rx="3.2" ry="2.2" fill="#986030" opacity="0.22"/>
-          <!-- Breites freundliches Lächeln -->
-          <path d="M36 68 Q50 82 64 68" stroke="#804030" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-          <!-- Zähne -->
-          <path d="M38 68.5 Q50 79 62 68.5 Q50 75 38 68.5Z" fill="white" opacity="0.88"/>
-          <!-- Mundwinkel -->
-          <circle cx="36" cy="68" r="1.8" fill="#b06848" opacity="0.45"/>
-          <circle cx="64" cy="68" r="1.8" fill="#b06848" opacity="0.45"/>
-          <!-- Nasolabialfalten (leicht) -->
-          <path d="M35 62 Q33 67 36 72" stroke="#986030" stroke-width="1.1" fill="none" opacity="0.3"/>
-          <path d="M65 62 Q67 67 64 72" stroke="#986030" stroke-width="1.1" fill="none" opacity="0.3"/>
-          <!-- Bart-Schatten (leichter 3-Tage-Bart) -->
-          <ellipse cx="50" cy="70" rx="17" ry="7" fill="#705030" opacity="0.13"/>
-        </svg>
-      </div>
-      <div class="advisor-label">Stefan</div>
-      <div class="advisor-hint" id="stefan-hint" onclick="toggleAdvisor()">Tipps anzeigen</div>
-    </div>
-    <div class="advisor-bubble" id="advisor-bubble">
-      <div class="advisor-header">
-        <div>
-          <div class="advisor-name">Stefan · Planungsassistent</div>
-          <div class="advisor-role">Ausschreibungsanalyse · TED und USP Bund</div>
-        </div>
-        <button class="advisor-close" onclick="toggleAdvisor()" title="Schließen">✕</button>
-      </div>
-      <div class="advisor-text" id="advisor-text"></div>
-      <div class="advisor-picks" id="advisor-picks"></div>
+  <div class="advisor-card">
+    <div class="advisor-mini-avatar">S</div>
+    <div class="advisor-content">
+      <div class="advisor-line" id="advisor-summary"></div>
+      <div class="advisor-inline-picks" id="advisor-inline-picks"></div>
     </div>
   </div>
 
@@ -624,23 +481,14 @@ function buildCharts(data) {
       labels: Object.keys(portalCounts),
       datasets: [{ data: Object.values(portalCounts), backgroundColor: Object.keys(portalCounts).map((_, i) => palette[i % palette.length]), borderWidth: 0 }]
     },
-    options: { plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } } }
-  });
-
-  // Suchbegriff
-  const suchCounts = {};
-  data.forEach(r => suchCounts[r.suchbegriff] = (suchCounts[r.suchbegriff]||0)+1);
-  new Chart(document.getElementById('chartSuch'), {
-    type: 'bar',
-    data: {
-      labels: Object.keys(suchCounts),
-      datasets: [{ data: Object.values(suchCounts), backgroundColor: Object.keys(suchCounts).map((_, i) => palette[i % palette.length]), borderRadius: 6 }]
-    },
     options: {
-      plugins: { legend: { display: false } },
-      scales: { y: { beginAtZero: true, ticks: { stepSize: 10 } } }
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
     }
   });
+
+  // Suchbegriff kompakt, damit lange CPV-Labels das Layout nicht sprengen.
+  renderTermSummary(data);
 
   // Frist status
   let hasFrist=0, soon=0, none=0, expired=0;
@@ -657,8 +505,27 @@ function buildCharts(data) {
       labels: ['Frist > 14d', 'Frist ≤ 14d', 'Keine Frist', 'Abgelaufen'],
       datasets: [{ data: [hasFrist, soon, none, expired], backgroundColor: ['#5ba872','#c0392b','#e8dcc8','#a89370'], borderWidth: 0 }]
     },
-    options: { plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } } }
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
+    }
   });
+}
+
+function renderTermSummary(data) {
+  const termSummary = document.getElementById('termSummary');
+  const suchCounts = {};
+  data.forEach(r => suchCounts[r.suchbegriff] = (suchCounts[r.suchbegriff]||0)+1);
+  const entries = Object.entries(suchCounts).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(...entries.map(([, count]) => count), 1);
+
+  termSummary.innerHTML = entries.slice(0, 5).map(([label, count]) => `
+    <div class="term-row" title="${escapeHtml(label)}">
+      <div class="term-label">${escapeHtml(label)}</div>
+      <div class="term-count">${count}</div>
+      <div class="term-bar"><span style="width:${Math.max(8, Math.round(count / max * 100))}%"></span></div>
+    </div>
+  `).join('');
 }
 
 // ---- Table ----
@@ -759,20 +626,6 @@ document.querySelectorAll('thead th[data-col]').forEach(th => {
 ['f-portal','f-such','f-frist'].forEach(id => document.getElementById(id).addEventListener('change', update));
 document.getElementById('f-search').addEventListener('input', update);
 
-// ---- Advisor toggle ----
-function toggleAdvisor() {
-  const bubble = document.getElementById('advisor-bubble');
-  const hint   = document.getElementById('stefan-hint');
-  const isOpen = bubble.classList.contains('open');
-  if (isOpen) {
-    bubble.classList.remove('open');
-    hint.textContent = 'Tipps anzeigen';
-  } else {
-    bubble.classList.add('open');
-    hint.textContent = 'Ausblenden';
-  }
-}
-
 // ---- Advisor / Highlights ----
 function scoreEntry(r) {
   let score = 0;
@@ -824,25 +677,24 @@ function buildAdvisor(data) {
   const total = data.length;
   const hasUrgent = urgent.length > 0;
 
-  let intro = `Ich habe alle <strong>${total} Ausschreibungen</strong> der letzten 31 Tage für euch durchgesehen. `;
+  let intro = `<strong>Stefan:</strong> ${total} Ausschreibungen geprüft. `;
   if (top.length === 0) {
-    intro += `Diese Woche ist leider nichts dabei, das wirklich zu mecca passt – überwiegend Infrastruktur-, Bau- und IT-Rahmenverträge.`;
+    intro += `Aktuell ist kein klarer mecca-Favorit dabei.`;
   } else {
-    intro += `Hier sind die <strong>${top.length} Ausschreibungen</strong>, die ich für uns interessant halte – sortiert nach Relevanz. Der Rest sind Bau-, Autobahn- oder IT-Verträge, die nicht in unser Profil passen.`;
-    if (hasUrgent) intro += ` <span style="color:var(--urgent);font-weight:600">⚠️ ${urgent.length} davon ${urgent.length > 1 ? 'haben' : 'hat'} eine Frist in unter 14 Tagen!</span>`;
+    intro += `<strong>${Math.min(top.length, 3)} Empfehlungen</strong> oben angepinnt.`;
+    if (hasUrgent) intro += ` <span style="color:var(--urgent);font-weight:600">${urgent.length} dringend.</span>`;
   }
-  document.getElementById('advisor-text').innerHTML = intro;
+  document.getElementById('advisor-summary').innerHTML = intro;
 
-  const picksEl = document.getElementById('advisor-picks');
+  const picksEl = document.getElementById('advisor-inline-picks');
   if (top.length === 0) { picksEl.innerHTML = ''; return; }
 
-  const icons = ['⭐', '📌', '🔖', '📎', '📎', '📎', '📎', '📎', '📎', '📎'];
-  picksEl.innerHTML = top.map((r, i) => {
+  picksEl.innerHTML = top.slice(0, 3).map((r) => {
     const days = fristDays(r.frist);
     const isUrgent = days !== null && days >= 0 && days <= 14;
     const fristInfo = days === null ? 'Keine Frist angegeben'
       : days < 0 ? 'Frist abgelaufen'
-      : isUrgent ? `⚠️ Frist in ${days} Tagen!`
+      : isUrgent ? `Frist in ${days} Tagen`
       : `Frist: ${r.frist}`;
 
     let reason = '';
@@ -861,17 +713,10 @@ function buildAdvisor(data) {
       reason = 'Relevanter Planungs- oder Beratungsauftrag.';
 
     return `
-      <div class="advisor-pick${isUrgent ? ' pick-warn' : ''}">
-        <div class="pick-icon">${icons[i] || '📎'}</div>
-        <div class="pick-body">
-          <div class="pick-title">${r.titel}</div>
-          <div class="pick-meta">
-            <span>🏛️ ${r.auftraggeber}</span>
-            <span>${isUrgent ? `<span style="color:var(--urgent);font-weight:700">${fristInfo}</span>` : fristInfo}</span>
-            <span class="pick-link"><a class="link-btn" href="${r.link}" target="_blank" rel="noopener">Öffnen</a></span>
-          </div>
-          <div class="pick-reason${isUrgent ? ' warn-reason' : ''}">${reason}</div>
-        </div>
+      <div class="advisor-inline-pick${isUrgent ? ' warn' : ''}" title="${escapeHtml(reason)}">
+        <div class="advisor-inline-title">${escapeHtml(r.titel)}</div>
+        <div class="advisor-inline-meta">${escapeHtml(r.auftraggeber)} · ${escapeHtml(fristInfo)}</div>
+        <div class="advisor-inline-meta"><a class="link-btn" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">Öffnen</a></div>
       </div>`;
   }).join('');
 }

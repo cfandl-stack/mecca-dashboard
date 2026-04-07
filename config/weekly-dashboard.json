@@ -29,6 +29,17 @@
   "ted": {
     "baseUrl": "https://api.ted.europa.eu/v3/notices/search",
     "scope": "ACTIVE",
+    "allowedBuyerCountries": [
+      "AUT",
+      "DEU",
+      "CHE",
+      "LIE",
+      "ITA",
+      "CZE",
+      "SVK",
+      "SVN",
+      "HUN"
+    ],
     "fields": [
       "publication-number",
       "publication-date",

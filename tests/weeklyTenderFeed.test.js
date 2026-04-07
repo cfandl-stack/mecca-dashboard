@@ -2,9 +2,12 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
+  buildTedCountryFilter,
+  buildTedWeeklyQuery,
   countryLabel,
   formatCpvSearchTerm,
   normalizeFeedRecord,
+  tedNoticeMatchesAllowedCountries,
   parseDate,
   toIsoDate
 } = require("../src/weeklyTenderFeed");
@@ -19,13 +22,37 @@ test("parseDate gibt null für leere Werte zurück", () => {
 });
 
 test("countryLabel übersetzt wichtige TED-Ländercodes", () => {
-  assert.equal(countryLabel(["AUT", "DEU"]), "Österreich; Deutschland");
+  assert.equal(countryLabel(["AUT", "DEU", "LIE"]), "Österreich; Deutschland; Liechtenstein");
 });
 
 test("formatCpvSearchTerm ergänzt lesbare CPV-Kurzlabels", () => {
   assert.equal(
     formatCpvSearchTerm("714100005", { "71410000-5": "Raumplanung" }),
     "CPV 71410000-5 - Raumplanung"
+  );
+});
+
+test("TED-Länderfilter beschränkt die Suche auf erlaubte Käuferländer", () => {
+  assert.equal(
+    buildTedCountryFilter(["AUT", "DEU", "HUN"]),
+    "buyer-country IN (AUT DEU HUN)"
+  );
+
+  assert.equal(
+    buildTedWeeklyQuery(
+      { type: "keyword", value: "Raumplanung", allowedBuyerCountries: ["AUT"] },
+      new Date("2026-04-01")
+    ).includes("buyer-country IN (AUT)"),
+    true
+  );
+
+  assert.equal(
+    tedNoticeMatchesAllowedCountries({ "buyer-country": ["HUN"] }, ["AUT", "HUN"]),
+    true
+  );
+  assert.equal(
+    tedNoticeMatchesAllowedCountries({ "buyer-country": ["FRA"] }, ["AUT", "HUN"]),
+    false
   );
 });
 
