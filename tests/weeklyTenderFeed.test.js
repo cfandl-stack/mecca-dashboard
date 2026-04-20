@@ -183,3 +183,31 @@ test("Review Parser kann Freitext-Fallback auf Label pruefen abbilden", () => {
   assert.equal(parsed.score, null);
   assert.match(parsed.reason, /Let me analyze this/i);
 });
+
+test("Review Parser kann Bau-Freitext heuristisch als eher unpassend werten", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this tender. The tender is about road infrastructure maintenance on a tunnel section.",
+    {
+      titel: "Road infrastructure maintenance",
+      beschreibung: "Tunnel section and asphalt works",
+      suchbegriff: "Projektmanagement"
+    }
+  );
+
+  assert.equal(parsed.label, "eher unpassend");
+  assert.match(parsed.reason, /Bau|fachfremd/i);
+});
+
+test("Review Parser kann Planungs-Freitext heuristisch als passend werten", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this tender. The tender concerns a feasibility study for regional development and strategy.",
+    {
+      titel: "Feasibility study for regional development",
+      beschreibung: "Strategy and evaluation support",
+      suchbegriff: "Strategie"
+    }
+  );
+
+  assert.equal(parsed.label, "passt gut");
+  assert.match(parsed.reason, /passend/i);
+});
