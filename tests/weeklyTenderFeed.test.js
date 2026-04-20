@@ -1,7 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
-const { extractJsonObject } = require("../src/review");
+const { buildPrompt, extractJsonObject } = require("../src/review");
 
 const {
   buildTedCountryFilter,
@@ -180,8 +180,29 @@ test("Review Parser kann Freitext-Fallback auf Label pruefen abbilden", () => {
   const parsed = extractJsonObject("Let me analyze this. The tender has mixed signals and needs review because planning and construction aspects overlap.");
 
   assert.equal(parsed.label, "pruefen");
-  assert.equal(parsed.score, null);
+  assert.equal(parsed.score, 55);
   assert.match(parsed.reason, /Let me analyze this/i);
+});
+
+test("Review Parser kann PASS Token direkt zuordnen", () => {
+  const parsed = extractJsonObject("PASS");
+
+  assert.equal(parsed.label, "passt gut");
+  assert.equal(parsed.score, 85);
+});
+
+test("Review Parser kann CHECK Token in erster Zeile zuordnen", () => {
+  const parsed = extractJsonObject("CHECK\nThis looks borderline.");
+
+  assert.equal(parsed.label, "pruefen");
+  assert.equal(parsed.score, 55);
+});
+
+test("Review Parser kann NO Token mit Satzzeichen zuordnen", () => {
+  const parsed = extractJsonObject("NO.");
+
+  assert.equal(parsed.label, "eher unpassend");
+  assert.equal(parsed.score, 20);
 });
 
 test("Review Parser kann Bau-Freitext heuristisch als eher unpassend werten", () => {
@@ -210,4 +231,22 @@ test("Review Parser kann Planungs-Freitext heuristisch als passend werten", () =
 
   assert.equal(parsed.label, "passt gut");
   assert.match(parsed.reason, /passend/i);
+});
+
+test("Review Prompt fordert nur PASS CHECK NO an", () => {
+  const prompt = buildPrompt({
+    portal: "TED",
+    suchbegriff: "Strategie",
+    titel: "Machbarkeitsstudie",
+    auftraggeber: "Stadt Test",
+    beschreibung: "Regionalentwicklung",
+    cpvCodes: ["71410000-5"],
+    organisationLand: "AUT",
+    frist: "2026-04-30",
+    veroeffentlichungsdatum: "2026-04-20"
+  });
+
+  assert.match(prompt, /PASS oder CHECK oder NO/);
+  assert.match(prompt, /Kein JSON/);
+  assert.doesNotMatch(prompt, /"label":"passt gut\|pruefen\|eher unpassend"/);
 });

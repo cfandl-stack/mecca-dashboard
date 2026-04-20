@@ -2,6 +2,11 @@ const { normalizeWhitespace } = require("../core/utils");
 const { createMinimaxReview, isMinimaxConfigured } = require("./providers/minimax");
 
 const REVIEW_LABELS = new Set(["passt gut", "pruefen", "eher unpassend", "ungeprueft"]);
+const TOKEN_TO_LABEL = {
+  PASS: "passt gut",
+  CHECK: "pruefen",
+  NO: "eher unpassend"
+};
 
 const POSITIVE_HINTS = [
   "raumplanung",
@@ -103,15 +108,13 @@ function buildPrompt(record) {
 
   return [
     "Bewerte die Ausschreibung fuer ein oesterreichisches Raumplanungsbuero.",
-    "Das Buero arbeitet in Raumplanung, Orts- und Stadtentwicklung, Regionalentwicklung, Strategie, Machbarkeitsstudien, Evaluation, Moderation, Interreg-Programmen und Projektmanagement ausserhalb von Hoch- und Tiefbau.",
-    "Typisch passend sind Planungs-, Strategie-, Beteiligungs-, Studien-, Forschungs-, Standortentwicklungs- und Beratungsleistungen im oeffentlichen oder regionalen Kontext.",
-    "Typisch eher unpassend sind Hochbau, Tiefbau, Strassen- oder Schienenbau, Bauausfuehrung, TGA/Haustechnik, OeBA, reine Lieferleistungen, IT-only-Projekte, Werbeagenturleistungen, Reinigung oder medizintechnische Beschaffung.",
-    "Waehle genau ein Label: passt gut | pruefen | eher unpassend.",
-    "Verwende pruefen nur bei gemischten Signalen oder unklarer Relevanz.",
-    "WICHTIG: Gib ausschliesslich ein JSON-Objekt zurueck. Kein Markdown. Keine Erklaerung. Kein Vorspann. Kein Nachspann.",
-    'Antwortformat exakt: {"label":"passt gut|pruefen|eher unpassend","score":0-100,"reason":"kurzer deutscher Satz, maximal 160 Zeichen"}',
-    'Beispiel: {"label":"pruefen","score":54,"reason":"Projektmanagement ist enthalten, aber der Bau- und Infrastrukturanteil wirkt fuer das Buero zu stark."}',
-    `Datensatz: ${JSON.stringify(summarized)}`
+    "PASS = passt gut fuer Raumplanung, Regionalentwicklung, Strategie, Studien, Evaluation, Moderation, Interreg oder projektnahe Beratungsleistungen.",
+    "CHECK = gemischte Signale oder unklare Passung.",
+    "NO = eher unpassend, vor allem Hochbau, Tiefbau, Strassenbau, Schienenbau, Bauausfuehrung, TGA, OeBA, Lieferleistungen, Reinigung, Medizintechnik oder fachfremde Leistungen.",
+    "Antworte nur mit genau einem Token: PASS oder CHECK oder NO.",
+    "Kein JSON. Kein Markdown. Kein Satz. Kein Vorspann. Kein Nachspann. Keine Begruendung.",
+    `Datensatz: ${JSON.stringify(summarized)}`,
+    "Antwort:"
   ].join("\n");
 }
 
@@ -119,7 +122,7 @@ function asciiFold(value) {
   return String(value || "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/ß/g, "ss")
+    .replace(/\u00df/g, "ss")
     .toLowerCase();
 }
 
@@ -173,6 +176,53 @@ function extractFirstJsonObject(text) {
   }
 
   return "";
+}
+
+function scoreForLabel(label) {
+  return label === "passt gut" ? 85 : label === "pruefen" ? 55 : label === "eher unpassend" ? 20 : null;
+}
+
+function defaultReasonForLabel(label) {
+  return label === "passt gut"
+    ? "MiniMax stuft den Datensatz als passend ein."
+    : label === "pruefen"
+      ? "MiniMax stuft den Datensatz als Grenzfall ein."
+      : label === "eher unpassend"
+        ? "MiniMax stuft den Datensatz als eher unpassend ein."
+        : "";
+}
+
+function normalizeToken(value) {
+  const text = stripThinkingArtifacts(value);
+  if (!text) {
+    return "";
+  }
+
+  const compact = normalizeWhitespace(text)
+    .replace(/^[`"'([{<\s]+/, "")
+    .replace(/[`"')\]}>.\s]+$/, "");
+
+  if (/^(PASS|CHECK|NO)$/i.test(compact)) {
+    return compact.toUpperCase();
+  }
+
+  const firstLine = compact.split(/\r?\n/)[0].trim();
+  const firstLineMatch = firstLine.match(/^(PASS|CHECK|NO)\b/i);
+  if (firstLineMatch) {
+    return firstLineMatch[1].toUpperCase();
+  }
+
+  return "";
+}
+
+function tokenPayload(token) {
+  const label = TOKEN_TO_LABEL[token] || "ungeprueft";
+
+  return {
+    label,
+    score: scoreForLabel(label),
+    reason: defaultReasonForLabel(label)
+  };
 }
 
 function inferLabelFromNarrative(text) {
@@ -274,7 +324,7 @@ function parseNarrativeFallback(value, record) {
 
   if (label) {
     const scoreMatch = text.match(/\bscore\b[:\s-]*(\d{1,3})/i) || text.match(/\b(\d{1,3})\s*\/\s*100\b/);
-    const score = scoreMatch ? Number(scoreMatch[1]) : null;
+    const score = scoreMatch ? Number(scoreMatch[1]) : scoreForLabel(label);
     const firstSentence = text.split(/(?<=[.!?])\s+/)[0] || text;
 
     return {
@@ -288,12 +338,12 @@ function parseNarrativeFallback(value, record) {
   if (heuristic) {
     return {
       label: heuristic.label,
-      score: heuristic.label === "passt gut" ? 80 : heuristic.label === "pruefen" ? 55 : 20,
+      score: scoreForLabel(heuristic.label),
       reason: heuristic.reason
     };
   }
 
-  throw new Error(text ? `Leere JSON-Antwort, Freitext beginnt mit: ${text.slice(0, 140)}` : "Leere LLM-Antwort");
+  throw new Error(text ? `Leere Token-Antwort, Freitext beginnt mit: ${text.slice(0, 140)}` : "Leere LLM-Antwort");
 }
 
 function extractJsonObject(value, record) {
@@ -301,6 +351,11 @@ function extractJsonObject(value, record) {
 
   if (!text) {
     throw new Error("Leere LLM-Antwort");
+  }
+
+  const token = normalizeToken(text);
+  if (token) {
+    return tokenPayload(token);
   }
 
   const fencedMatch = text.match(/```+\s*([\s\S]*?)```+/i);
@@ -326,18 +381,12 @@ function normalizeReviewPayload(payload, provider, model) {
   const score = Number(payload?.score);
   const normalizedScore = Number.isFinite(score)
     ? Math.max(0, Math.min(100, Math.round(score)))
-    : normalizedLabel === "passt gut"
-      ? 85
-      : normalizedLabel === "pruefen"
-        ? 55
-        : normalizedLabel === "eher unpassend"
-          ? 20
-          : null;
+    : scoreForLabel(normalizedLabel);
 
   return {
     reviewLabel: normalizedLabel,
     reviewScore: normalizedScore,
-    reviewReason: normalizeWhitespace(payload?.reason).slice(0, 160),
+    reviewReason: normalizeWhitespace(payload?.reason || defaultReasonForLabel(normalizedLabel)).slice(0, 160),
     reviewProvider: provider,
     reviewModel: model || "",
     reviewedAt: new Date().toISOString()
@@ -466,6 +515,7 @@ async function enrichRecordsWithReview(records, logger) {
 }
 
 module.exports = {
+  buildPrompt,
   enrichRecordsWithReview,
   extractJsonObject,
   getReviewRuntimeConfig,

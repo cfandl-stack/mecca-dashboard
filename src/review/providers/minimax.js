@@ -104,14 +104,14 @@ async function createMinimaxReview(prompt, options = {}) {
     signal: options.signal,
     body: JSON.stringify({
       model: config.model,
-      temperature: 0.1,
-      max_tokens: 220,
+      temperature: 0,
+      max_tokens: 12,
       messages: [
         {
           role: "system",
           name: "MiniMax AI",
           content:
-            "Du klassifizierst Ausschreibungen fuer ein Raumplanungsbuero. Antworte ausschliesslich mit JSON."
+            "Du klassifizierst Ausschreibungen fuer ein Raumplanungsbuero. Antworte nur mit genau einem Token: PASS oder CHECK oder NO. Kein JSON. Kein weiterer Text."
         },
         {
           role: "user",
