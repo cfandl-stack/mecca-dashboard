@@ -20,6 +20,74 @@ function isMinimaxConfigured() {
   return Boolean(config.apiKey && config.baseUrl && config.model);
 }
 
+function flattenContentParts(value) {
+  if (!value) {
+    return "";
+  }
+
+  if (typeof value === "string") {
+    return value.trim();
+  }
+
+  if (Array.isArray(value)) {
+    return value
+      .map((part) => {
+        if (typeof part === "string") {
+          return part;
+        }
+
+        if (part && typeof part === "object") {
+          return String(part.text || part.content || "").trim();
+        }
+
+        return "";
+      })
+      .filter(Boolean)
+      .join("\n")
+      .trim();
+  }
+
+  if (typeof value === "object") {
+    return String(value.text || value.content || "").trim();
+  }
+
+  return String(value).trim();
+}
+
+function summarizePayload(payload) {
+  return {
+    model: payload?.model,
+    finishReason: payload?.choices?.[0]?.finish_reason || "",
+    baseStatusCode: payload?.base_resp?.status_code,
+    baseStatusMessage: payload?.base_resp?.status_msg || "",
+    inputSensitive: payload?.input_sensitive,
+    inputSensitiveType: payload?.input_sensitive_type,
+    outputSensitive: payload?.output_sensitive,
+    outputSensitiveType: payload?.output_sensitive_type
+  };
+}
+
+function extractResponseContent(payload) {
+  const message = payload?.choices?.[0]?.message;
+
+  const content = flattenContentParts(message?.content);
+  if (content) {
+    return content;
+  }
+
+  const reasoningContent = flattenContentParts(message?.reasoning_content);
+  if (reasoningContent) {
+    return reasoningContent;
+  }
+
+  const deltaContent = flattenContentParts(payload?.choices?.[0]?.delta?.content);
+  if (deltaContent) {
+    return deltaContent;
+  }
+
+  return "";
+}
+
 async function createMinimaxReview(prompt, options = {}) {
   const config = getMinimaxConfig();
 
@@ -59,22 +127,28 @@ async function createMinimaxReview(prompt, options = {}) {
   }
 
   const payload = await response.json();
-  const content = payload?.choices?.[0]?.message?.content;
+  const content = extractResponseContent(payload);
 
   if (!content) {
-    throw new Error("MiniMax response enthaelt keinen Inhalt");
+    const summary = summarizePayload(payload);
+    throw new Error(
+      `MiniMax response enthaelt keinen Inhalt (${JSON.stringify(summary)})`
+    );
   }
 
   return {
     provider: "minimax",
     model: config.model,
     rawContent: content,
-    usage: payload?.usage || null
+    usage: payload?.usage || null,
+    summary: summarizePayload(payload)
   };
 }
 
 module.exports = {
   createMinimaxReview,
+  extractResponseContent,
   getMinimaxConfig,
-  isMinimaxConfigured
+  isMinimaxConfigured,
+  summarizePayload
 };

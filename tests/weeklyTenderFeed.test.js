@@ -1,5 +1,6 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
+const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
 
 const {
   buildTedCountryFilter,
@@ -115,4 +116,51 @@ test("Feed kann abgelaufene und manuell ausgeblendete Datensaetze herausfiltern"
 
   const hidden = filterHiddenRecords(visible, new Set(["https://example.test/a"]));
   assert.equal(hidden.length, 0);
+});
+
+test("MiniMax Adapter kann String- und Array-Content lesen", () => {
+  assert.equal(
+    extractResponseContent({
+      choices: [{ message: { content: "Hallo" } }]
+    }),
+    "Hallo"
+  );
+
+  assert.equal(
+    extractResponseContent({
+      choices: [
+        {
+          message: {
+            content: [
+              { text: "Teil 1" },
+              { content: "Teil 2" }
+            ]
+          }
+        }
+      ]
+    }),
+    "Teil 1\nTeil 2"
+  );
+});
+
+test("MiniMax Payload Summary extrahiert relevante Debug-Felder", () => {
+  const summary = summarizePayload({
+    model: "MiniMax-M2.7",
+    choices: [{ finish_reason: "stop" }],
+    base_resp: { status_code: 1027, status_msg: "output new_sensitive" },
+    input_sensitive: false,
+    output_sensitive: true,
+    output_sensitive_type: 4
+  });
+
+  assert.deepEqual(summary, {
+    model: "MiniMax-M2.7",
+    finishReason: "stop",
+    baseStatusCode: 1027,
+    baseStatusMessage: "output new_sensitive",
+    inputSensitive: false,
+    inputSensitiveType: undefined,
+    outputSensitive: true,
+    outputSensitiveType: 4
+  });
 });
