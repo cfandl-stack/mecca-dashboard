@@ -6,9 +6,12 @@ const { chromium } = require("playwright");
 const { createLogger } = require("./core/logger");
 const { pickLocalizedText } = require("./core/normalize");
 const { absolutizeUrl, createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, toArray, unique } = require("./core/utils");
+const { fetchHiddenRecordKeys } = require("./integrations/supabase");
+const { enrichRecordsWithReview } = require("./review");
 const { buildTedQuery } = require("./sources/ted");
 
 const CSV_HEADERS = [
+  "recordKey",
   "portal",
   "suchbegriff",
   "titel",
@@ -19,7 +22,13 @@ const CSV_HEADERS = [
   "beschreibung",
   "veroeffentlichungsdatum",
   "organisationLand",
-  "scrapedAt"
+  "scrapedAt",
+  "reviewLabel",
+  "reviewScore",
+  "reviewReason",
+  "reviewProvider",
+  "reviewModel",
+  "reviewedAt"
 ];
 
 const COUNTRY_NAMES = {
@@ -195,6 +204,7 @@ function extractTedDeadline(notice) {
 
 function normalizeFeedRecord(record) {
   const normalized = {
+    recordKey: "",
     portal: normalizeWhitespace(record.portal),
     suchbegriff: normalizeWhitespace(record.suchbegriff),
     titel: normalizeWhitespace(record.titel),
@@ -205,7 +215,18 @@ function normalizeFeedRecord(record) {
     beschreibung: normalizeWhitespace(record.beschreibung),
     veroeffentlichungsdatum: toIsoDate(record.veroeffentlichungsdatum),
     organisationLand: normalizeWhitespace(record.organisationLand),
-    scrapedAt: record.scrapedAt || new Date().toISOString()
+    scrapedAt: record.scrapedAt || new Date().toISOString(),
+    reviewLabel: normalizeWhitespace(record.reviewLabel).toLowerCase() || "ungeprueft",
+    reviewScore:
+      record.reviewScore === null || record.reviewScore === undefined || record.reviewScore === ""
+        ? null
+        : Number.isFinite(Number(record.reviewScore))
+          ? Number(record.reviewScore)
+          : null,
+    reviewReason: normalizeWhitespace(record.reviewReason),
+    reviewProvider: normalizeWhitespace(record.reviewProvider),
+    reviewModel: normalizeWhitespace(record.reviewModel),
+    reviewedAt: normalizeWhitespace(record.reviewedAt)
   };
 
   normalized._recordKey =
@@ -219,8 +240,40 @@ function normalizeFeedRecord(record) {
         normalized.veroeffentlichungsdatum
       ].join("|")
     );
+  normalized.recordKey = normalized._recordKey;
 
   return normalized;
+}
+
+function startOfTodayUtc() {
+  const today = new Date();
+  today.setUTCHours(0, 0, 0, 0);
+  return today;
+}
+
+function isExpiredDeadline(value, referenceDate = startOfTodayUtc()) {
+  if (!normalizeWhitespace(value)) {
+    return false;
+  }
+
+  const parsed = parseDate(value);
+  if (!parsed) {
+    return false;
+  }
+
+  return parsed.getTime() < referenceDate.getTime();
+}
+
+function filterExpiredRecords(records, referenceDate = startOfTodayUtc()) {
+  return records.filter((record) => !isExpiredDeadline(record.frist, referenceDate));
+}
+
+function filterHiddenRecords(records, hiddenRecordKeys) {
+  if (!hiddenRecordKeys || hiddenRecordKeys.size === 0) {
+    return records;
+  }
+
+  return records.filter((record) => !hiddenRecordKeys.has(record._recordKey));
 }
 
 function normalizeCpvCode(value) {
@@ -685,15 +738,21 @@ async function main() {
 
   const tedRecords = await scrapeTed(config, logger, cutoffDate);
   const uspRecords = await scrapeUsp(config, logger, cutoffDate);
+  const hiddenRecordKeys = await fetchHiddenRecordKeys(logger);
   const records = [...tedRecords, ...uspRecords]
+    .map((record) => normalizeFeedRecord(record))
+    .filter((record, index, allRecords) => allRecords.findIndex((candidate) => candidate._recordKey === record._recordKey) === index);
+  const activeRecords = filterHiddenRecords(filterExpiredRecords(records), hiddenRecordKeys)
     .sort((a, b) => b.veroeffentlichungsdatum.localeCompare(a.veroeffentlichungsdatum));
+  const reviewedRecords = await enrichRecordsWithReview(activeRecords, logger);
 
-  await writeOutputs(records, config.output);
+  await writeOutputs(reviewedRecords, config.output);
 
   logger.info("Weekly Tender Feed abgeschlossen", {
-    records: records.length,
+    records: reviewedRecords.length,
     ted: tedRecords.length,
     usp: uspRecords.length,
+    hidden: hiddenRecordKeys.size,
     csvPath: config.output.csvPath,
     jsonPath: config.output.jsonPath,
     dataJsPath: config.output.dataJsPath
@@ -717,5 +776,8 @@ module.exports = {
   normalizeCpvCode,
   tedNoticeMatchesAllowedCountries,
   parseDate,
-  toIsoDate
+  toIsoDate,
+  isExpiredDeadline,
+  filterExpiredRecords,
+  filterHiddenRecords
 };

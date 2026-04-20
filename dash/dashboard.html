@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ausschreibungen – mecca</title>
+  <title>Ausschreibungen - mecca</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
-    /* ── Reset & mecca Design Tokens ───────────────── */
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --bg: #f4f0e8;
@@ -27,22 +26,19 @@
     }
     html { font-size: 15px; }
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
       color: var(--text);
       min-height: 100vh;
       line-height: 1.5;
       background: var(--bg);
       position: relative;
     }
-
-    /* ── Topographic Background ─────────────────── */
     body::before {
-      content: '';
+      content: "";
       position: fixed;
-      top: 0; left: 0;
-      width: 100vw; height: 100vh;
+      inset: 0;
       z-index: 0;
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Spezialkarte_4757_Wien.jpg/1280px-Spezialkarte_4757_Wien.jpg');
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Spezialkarte_4757_Wien.jpg/1280px-Spezialkarte_4757_Wien.jpg");
       background-size: 120% 120%;
       background-position: center;
       background-repeat: no-repeat;
@@ -52,13 +48,16 @@
     }
     body > * { position: relative; z-index: 1; }
 
-    /* ── Header ─────────────────────────────────── */
     .header {
-      display: flex; align-items: center; justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding: 14px 28px;
       background: rgba(255,255,252,.7);
       backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
+      gap: 14px;
+      flex-wrap: wrap;
     }
     .header-left { display: flex; align-items: center; gap: 18px; }
     .brand {
@@ -71,8 +70,11 @@
       text-decoration: none;
     }
     .brand::after {
-      content: '';
-      position: absolute; bottom: -2px; left: 0; right: .4em;
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: .4em;
       height: 2px;
       background: linear-gradient(90deg, var(--green), var(--sepia), transparent);
       border-radius: 1px;
@@ -80,11 +82,15 @@
     .page-title {
       font-size: .85rem;
       color: var(--text-light);
-      display: flex; align-items: center; gap: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
     .page-title strong { color: var(--text); font-weight: 600; }
     .back-btn {
-      display: flex; align-items: center; gap: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       padding: 7px 16px;
       background: var(--card);
       border: 1px solid var(--border);
@@ -97,48 +103,40 @@
     }
     .back-btn:hover { border-color: var(--green); color: var(--green); }
 
-    /* ── Main container ─────────────────────────── */
-    .main { padding: 24px 28px; max-width: 1400px; margin: 0 auto; }
-
-    /* ── KPI cards ──────────────────────────────── */
+    .main { padding: 24px 28px; max-width: 1440px; margin: 0 auto; }
     .kpi-row { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 22px; }
     .kpi {
       background: var(--card);
-      backdrop-filter: blur(8px);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 16px 22px;
-      flex: 1 1 160px;
+      flex: 1 1 170px;
       box-shadow: var(--shadow);
-      transition: box-shadow .2s;
     }
-    .kpi:hover { box-shadow: 0 4px 20px rgba(60,50,30,.1); }
     .kpi .label { font-size: .73rem; color: var(--text-light); text-transform: uppercase; letter-spacing: .06em; }
     .kpi .value { font-size: 2rem; font-weight: 700; color: var(--green); margin-top: 4px; }
     .kpi .value.urgent { color: var(--urgent); }
     .kpi .sub { font-size: .75rem; color: var(--text-light); margin-top: 2px; }
 
-    /* ── Charts row ─────────────────────────────── */
     .charts-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 18px; }
     .chart-box {
       background: var(--card);
-      backdrop-filter: blur(8px);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 14px 16px;
       flex: 1 1 280px;
       box-shadow: var(--shadow);
-      transition: box-shadow .2s;
     }
     .chart-box.chart-compact { flex: 0 1 240px; }
     .chart-box.chart-terms { flex: 1 1 360px; min-width: 320px; }
-    .chart-box:hover { box-shadow: 0 4px 20px rgba(60,50,30,.1); }
     .chart-box h2 {
       font-size: .88rem;
       color: var(--green);
       margin-bottom: 14px;
       font-weight: 600;
-      display: flex; align-items: center; gap: 7px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
     }
     .chart-box canvas { height: 132px !important; max-height: 132px; }
     .term-summary { display: flex; flex-direction: column; gap: 6px; }
@@ -148,40 +146,116 @@
     .term-bar { grid-column: 1 / -1; height: 3px; border-radius: 3px; background: var(--sepia-light); overflow: hidden; margin-top: -4px; }
     .term-bar span { display: block; height: 100%; background: var(--green); border-radius: 3px; }
 
-    /* ── Filter bar ─────────────────────────────── */
-    .filter-bar {
+    .advisor-card,
+    .admin-card,
+    .filter-bar,
+    .table-wrap {
       background: var(--card);
-      backdrop-filter: blur(8px);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 14px 18px;
-      margin-bottom: 16px;
       box-shadow: var(--shadow);
-      display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
     }
-    .filter-bar label { font-size: .8rem; color: var(--text-light); font-weight: 600; }
-    .filter-bar select, .filter-bar input {
+    .advisor-card {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      background: linear-gradient(135deg, rgba(91,168,114,.1), rgba(201,184,150,.08));
+      border-color: rgba(91,168,114,.22);
+      padding: 12px 15px;
+      margin-bottom: 16px;
+    }
+    .advisor-mini-avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: var(--green);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      flex-shrink: 0;
+      box-shadow: 0 3px 10px rgba(91,168,114,.24);
+    }
+    .advisor-content { flex: 1; min-width: 0; }
+    .advisor-line { font-size: .83rem; color: var(--text); margin-bottom: 8px; }
+    .advisor-line strong { color: var(--green); }
+    .advisor-inline-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+    .advisor-inline-pick {
+      background: var(--card-solid);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 10px;
+      min-width: 0;
+    }
+    .advisor-inline-pick.warn { border-color: rgba(192,57,43,.35); }
+    .advisor-inline-title { font-size: .76rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .advisor-inline-meta { margin-top: 3px; font-size: .7rem; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    .admin-card { padding: 14px 18px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .admin-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .admin-title { font-size: .9rem; color: var(--green); font-weight: 600; }
+    .admin-status { font-size: .78rem; color: var(--text-light); }
+    .admin-login, .admin-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .admin-login input,
+    .filter-bar select,
+    .filter-bar input {
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 6px 11px;
-      font-size: .83rem;
+      padding: 8px 10px;
+      font-size: .82rem;
       background: var(--card-solid);
       color: var(--text);
       outline: none;
-      transition: border-color .2s;
     }
-    .filter-bar select:focus, .filter-bar input:focus { border-color: var(--green); }
+    .admin-note { font-size: .76rem; color: var(--text-light); }
+    .admin-note[data-tone="success"] { color: var(--green-hover); }
+    .admin-note[data-tone="warning"] { color: var(--urgent); }
+    .admin-btn,
+    .table-action,
+    .link-btn {
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all .15s;
+    }
+    .admin-btn,
+    .table-action {
+      border: 1px solid var(--green);
+      background: transparent;
+      color: var(--green);
+      padding: 8px 12px;
+      font-size: .8rem;
+      cursor: pointer;
+    }
+    .admin-btn:hover,
+    .table-action:hover {
+      background: var(--green);
+      color: #fff;
+    }
+    .admin-btn.secondary,
+    .table-action.secondary {
+      border-color: var(--sepia-dark);
+      color: var(--sepia-dark);
+    }
+    .admin-btn.secondary:hover,
+    .table-action.secondary:hover {
+      background: var(--sepia-dark);
+      color: #fff;
+    }
+    .toggle-option { display: flex; gap: 8px; align-items: center; font-size: .8rem; color: var(--text); }
+
+    .filter-bar {
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter-bar label { font-size: .8rem; color: var(--text-light); font-weight: 600; }
     #result-count { margin-left: auto; font-size: .8rem; color: var(--text-light); }
 
-    /* ── Table ──────────────────────────────────── */
-    .table-wrap {
-      background: var(--card);
-      backdrop-filter: blur(8px);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: auto;
-    }
+    .table-wrap { overflow: auto; }
     table { width: 100%; border-collapse: collapse; font-size: .83rem; }
     thead th {
       background: rgba(91,168,114,.15);
@@ -195,12 +269,11 @@
       border-bottom: 2px solid rgba(91,168,114,.25);
     }
     thead th:hover { background: rgba(91,168,114,.25); }
-    thead th .sort-icon { margin-left: 4px; opacity: 0.5; font-size: .68rem; }
     tbody tr { border-bottom: 1px solid var(--border); }
     tbody tr:hover { background: var(--green-light); }
     tbody td { padding: 10px 13px; vertical-align: top; color: var(--text); }
+    .row-hidden { background: rgba(192,57,43,.05); }
 
-    /* ── Badges ─────────────────────────────────── */
     .badge {
       display: inline-block;
       padding: 2px 9px;
@@ -215,517 +288,158 @@
     .badge-regional { background: rgba(201,178,39,.15); color: #8a6e00; }
     .badge-projekt { background: rgba(180,150,200,.2); color: #5a3a7a; }
     .badge-cpv { background: rgba(74,120,190,.12); color: #355d9b; }
+    .badge-review-good { background: rgba(91,168,114,.18); color: var(--green-hover); }
+    .badge-review-check { background: rgba(201,178,39,.18); color: #8a6e00; }
+    .badge-review-bad { background: rgba(192,57,43,.12); color: var(--urgent); }
+    .badge-review-unknown { background: rgba(160,150,140,.15); color: var(--text-light); }
 
-    /* ── Frist colours ──────────────────────────── */
     .frist-soon { color: var(--urgent); font-weight: 600; }
     .frist-ok { color: var(--green-hover); }
     .no-frist { color: var(--text-light); font-style: italic; }
 
-    /* ── Link button ─────────────────────────────── */
-    a.link-btn {
+    .link-btn {
       display: inline-block;
       padding: 4px 12px;
       background: none;
       border: 1px solid var(--green);
       color: var(--green);
-      border-radius: 8px;
       text-decoration: none;
       font-size: .75rem;
-      font-weight: 600;
-      transition: all .15s;
     }
-    a.link-btn:hover { background: var(--green); color: #fff; }
-
+    .link-btn:hover { background: var(--green); color: #fff; }
     .titel-cell { max-width: 340px; }
     .ag-cell { max-width: 240px; color: var(--text-light); }
     .description-snippet { margin-top: 4px; font-size: .74rem; color: var(--text-light); line-height: 1.35; }
     .small-meta { margin-top: 3px; font-size: .72rem; color: var(--text-light); }
+    .review-meta { margin-top: 6px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .hidden-meta { color: var(--urgent); }
     .cpv-list { max-width: 170px; font-size: .72rem; color: var(--text-light); word-break: break-word; }
     .date-cell { white-space: nowrap; color: var(--text-light); }
     .no-data { text-align: center; padding: 36px; color: var(--text-light); font-size: .9rem; }
+    .action-cell { white-space: nowrap; }
+    .action-hint { font-size: .72rem; color: var(--text-light); }
 
-    /* ── Advisor ────────────────────────────────── */
-    .advisor-card {
-      display: flex; gap: 14px; align-items: flex-start;
-      background: linear-gradient(135deg, rgba(91,168,114,.1), rgba(201,184,150,.08));
-      border: 1px solid rgba(91,168,114,.22);
-      border-radius: var(--radius);
-      padding: 12px 15px;
-      margin-bottom: 16px;
-      box-shadow: var(--shadow);
-    }
-    .advisor-mini-avatar {
-      width: 38px; height: 38px; border-radius: 50%;
-      background: var(--green); color: #fff;
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 700; flex-shrink: 0;
-      box-shadow: 0 3px 10px rgba(91,168,114,.24);
-    }
-    .advisor-content { flex: 1; min-width: 0; }
-    .advisor-line { font-size: .83rem; color: var(--text); margin-bottom: 8px; }
-    .advisor-line strong { color: var(--green); }
-    .advisor-inline-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
-    .advisor-inline-pick {
-      background: var(--card-solid); border: 1px solid var(--border);
-      border-radius: 10px; padding: 8px 10px; min-width: 0;
-    }
-    .advisor-inline-pick.warn { border-color: rgba(192,57,43,.35); }
-    .advisor-inline-title { font-size: .76rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .advisor-inline-meta { margin-top: 3px; font-size: .7rem; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    @media(max-width:900px) { .advisor-inline-picks { grid-template-columns: 1fr; } }
-    /* ── Footer ─────────────────────────────────── */
     .footer { text-align: center; padding: 16px; font-size: .7rem; color: var(--text-light); letter-spacing: .05em; }
 
-    @media(max-width:700px) {
+    @media (max-width: 900px) {
+      .advisor-inline-picks { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 700px) {
       .main { padding: 14px 12px; }
       .header { padding: 12px 16px; }
+      .filter-bar { align-items: stretch; }
+      #result-count { margin-left: 0; }
     }
   </style>
 </head>
 <body>
-
-<!-- ── Header ──────────────────────────────────── -->
-<header class="header">
-  <div class="header-left">
-    <a class="brand" href="../index.html">mecca</a>
-    <div class="page-title">&#128196; <strong>Ausschreibungen</strong> &nbsp;·&nbsp; automatisch aktualisiert</div>
-  </div>
-  <a class="back-btn" href="../index.html">&#8592; Dashboard</a>
-</header>
-
-<div class="main">
-  <!-- KPIs -->
-  <div class="kpi-row" id="kpi-row"></div>
-
-  <!-- Charts -->
-  <div class="charts-row">
-    <div class="chart-box chart-compact">
-      <h2>&#127760; Nach Portal</h2>
-      <canvas id="chartPortal"></canvas>
+  <header class="header">
+    <div class="header-left">
+      <a class="brand" href="../index.html">mecca</a>
+      <div class="page-title">&#128196; <strong>Ausschreibungen</strong> &nbsp;&middot;&nbsp; automatisch aktualisiert</div>
     </div>
-    <div class="chart-box chart-terms">
-      <h2>&#128270; Nach Suchbegriff</h2>
-      <div id="termSummary" class="term-summary"></div>
+    <a class="back-btn" href="../index.html">&#8592; Dashboard</a>
+  </header>
+
+  <div class="main">
+    <div class="kpi-row" id="kpi-row"></div>
+
+    <div class="charts-row">
+      <div class="chart-box chart-compact">
+        <h2>&#127760; Nach Portal</h2>
+        <canvas id="chartPortal"></canvas>
+      </div>
+      <div class="chart-box chart-terms">
+        <h2>&#128270; Nach Suchbegriff</h2>
+        <div id="termSummary" class="term-summary"></div>
+      </div>
+      <div class="chart-box chart-compact">
+        <h2>&#128197; Frist-Status</h2>
+        <canvas id="chartFrist"></canvas>
+      </div>
     </div>
-    <div class="chart-box chart-compact">
-      <h2>&#128197; Frist-Status</h2>
-      <canvas id="chartFrist"></canvas>
+
+    <div class="advisor-card">
+      <div class="advisor-mini-avatar">S</div>
+      <div class="advisor-content">
+        <div class="advisor-line" id="advisor-summary"></div>
+        <div class="advisor-inline-picks" id="advisor-inline-picks"></div>
+      </div>
+    </div>
+
+    <div class="admin-card" id="admin-card" hidden>
+      <div class="admin-head">
+        <div class="admin-title">Ausschluesse verwalten</div>
+        <div class="admin-status" id="auth-status">Nicht angemeldet</div>
+      </div>
+      <div class="admin-login" id="admin-login">
+        <input type="email" id="auth-email" placeholder="E-Mail fuer Magic Link" />
+        <button class="admin-btn" id="auth-send-link">Anmeldelink senden</button>
+      </div>
+      <div class="admin-actions" id="admin-actions" hidden>
+        <label class="toggle-option">
+          <input type="checkbox" id="toggle-show-hidden" />
+          Ausgeblendete anzeigen
+        </label>
+        <button class="admin-btn secondary" id="auth-signout">Abmelden</button>
+      </div>
+      <div class="admin-note" id="admin-note"></div>
+    </div>
+
+    <div class="filter-bar">
+      <label>Portal</label>
+      <select id="f-portal">
+        <option value="">Alle</option>
+      </select>
+      <label>Suchbegriff</label>
+      <select id="f-such">
+        <option value="">Alle</option>
+      </select>
+      <label>Frist</label>
+      <select id="f-frist">
+        <option value="">Alle</option>
+        <option value="yes">Mit Frist</option>
+        <option value="soon">Frist &lt; 14 Tage</option>
+        <option value="no">Ohne Frist</option>
+      </select>
+      <label>KI</label>
+      <select id="f-review">
+        <option value="">Alle</option>
+        <option value="passt gut">Passt gut</option>
+        <option value="pruefen">Pruefen</option>
+        <option value="eher unpassend">Eher unpassend</option>
+        <option value="ungeprueft">Ungeprueft</option>
+      </select>
+      <label>Suche</label>
+      <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
+      <span id="result-count"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th data-col="portal">Portal <span class="sort-icon">&#8597;</span></th>
+            <th data-col="suchbegriff">Suchbegriff <span class="sort-icon">&#8597;</span></th>
+            <th data-col="titel">Titel / Beschreibung <span class="sort-icon">&#8597;</span></th>
+            <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">&#8597;</span></th>
+            <th data-col="veroeffentlichungsdatum">Veroeffentlicht <span class="sort-icon">&#8597;</span></th>
+            <th data-col="frist">Frist <span class="sort-icon">&#8597;</span></th>
+            <th data-col="cpvCodes">CPV <span class="sort-icon">&#8597;</span></th>
+            <th>Link</th>
+            <th>Aktion</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
     </div>
   </div>
 
-  <!-- Advisor -->
-  <div class="advisor-card">
-    <div class="advisor-mini-avatar">S</div>
-    <div class="advisor-content">
-      <div class="advisor-line" id="advisor-summary"></div>
-      <div class="advisor-inline-picks" id="advisor-inline-picks"></div>
-    </div>
-  </div>
+  <div class="footer">mecca &middot; Raumplanung &middot; Ausschreibungen &middot; automatisch aktualisiert</div>
 
-  <!-- Filters -->
-  <div class="filter-bar">
-    <label>Portal</label>
-    <select id="f-portal">
-      <option value="">Alle</option>
-    </select>
-    <label>Suchbegriff</label>
-    <select id="f-such">
-      <option value="">Alle</option>
-    </select>
-    <label>Frist</label>
-    <select id="f-frist">
-      <option value="">Alle</option>
-      <option value="yes">Mit Frist</option>
-      <option value="soon">Frist &lt; 14 Tage</option>
-      <option value="no">Ohne Frist</option>
-    </select>
-    <label>Suche</label>
-    <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
-    <span id="result-count"></span>
-  </div>
-
-  <!-- Table -->
-  <div class="table-wrap">
-    <table id="main-table">
-      <thead>
-        <tr>
-          <th data-col="portal">Portal <span class="sort-icon">↕</span></th>
-          <th data-col="suchbegriff">Suchbegriff <span class="sort-icon">↕</span></th>
-          <th data-col="titel">Titel / Beschreibung <span class="sort-icon">↕</span></th>
-          <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">↕</span></th>
-          <th data-col="veroeffentlichungsdatum">Veröffentlicht <span class="sort-icon">↕</span></th>
-          <th data-col="frist">Frist <span class="sort-icon">↕</span></th>
-          <th data-col="cpvCodes">CPV <span class="sort-icon">↕</span></th>
-          <th>Link</th>
-        </tr>
-      </thead>
-      <tbody id="table-body"></tbody>
-    </table>
-  </div>
-</div>
-
-<div class="footer">mecca &middot; Raumplanung &middot; Ausschreibungen &middot; automatisch aktualisiert</div>
-
-<script src="data_embed.js"></script>
-<script>
-// ---- helpers ----
-const today = new Date();
-today.setHours(0,0,0,0);
-
-function parseFrist(s) {
-  if (!s || !s.trim()) return null;
-  // "21 Apr. 2026 10:00" or "2026-03-31"
-  if (s.includes('-')) return new Date(s);
-  const months = {Jan:0,Feb:1,Mär:2,Mar:2,Apr:3,Mai:4,Jun:5,Jul:6,Aug:7,Sep:8,Okt:9,Nov:10,Dez:11};
-  const m = s.match(/(\d+)\s+(\w+)\.?\s+(\d{4})/);
-  if (!m) return null;
-  const mon = months[m[2]] ?? null;
-  if (mon === null) return null;
-  return new Date(+m[3], mon, +m[1]);
-}
-
-function fristDays(s) {
-  const d = parseFrist(s);
-  if (!d) return null;
-  return Math.round((d - today) / 86400000);
-}
-
-function fristLabel(s) {
-  const days = fristDays(s);
-  if (days === null) return '<span class="no-frist">—</span>';
-  if (days < 0) return `<span class="no-frist">abgelaufen</span>`;
-  if (days <= 14) return `<span class="frist-soon">${s} (${days}d)</span>`;
-  return `<span class="frist-ok">${s}</span>`;
-}
-
-function escapeHtml(value) {
-  return String(value || '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
-function portalBadge(p) {
-  if (p === 'TED') return `<span class="badge badge-ted">TED</span>`;
-  if (p === 'USP Bund') return `<span class="badge badge-usp">USP Bund</span>`;
-  if (p === 'Burgenland') return `<span class="badge badge-burgenland">Burgenland</span>`;
-  return `<span class="badge">${escapeHtml(p || 'Unbekannt')}</span>`;
-}
-
-function suchBadge(s) {
-  if (s === 'Raumplanung') return `<span class="badge badge-raumplanung">Raumplanung</span>`;
-  if (s === 'Regionalentwicklung') return `<span class="badge badge-regional">Regionalentwicklung</span>`;
-  if (/^(CPV\s+)?\d{8}(-\d)?/.test(String(s || '')) || String(s || '').startsWith('CPV ')) return `<span class="badge badge-cpv">${escapeHtml(s)}</span>`;
-  return `<span class="badge badge-projekt">Projektmanagement</span>`;
-}
-
-function buildLink(row) {
-  let url = row.link;
-  if (!url) return '—';
-  if (!url.startsWith('http')) {
-    if (row.portal === 'Burgenland') url = 'https://burgenland.vergabeportal.at/' + url;
-    else url = 'https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/' + url;
-  }
-  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Öffnen</a>`;
-}
-
-function cpvLabel(row) {
-  const values = Array.isArray(row.cpvCodes) ? row.cpvCodes : String(row.cpvCodes || '').split(';');
-  const cleaned = values.map(v => String(v || '').trim()).filter(Boolean);
-  return cleaned.length ? escapeHtml(cleaned.join('; ')) : '<span class="no-frist">—</span>';
-}
-
-function descriptionLabel(row) {
-  const text = String(row.beschreibung || '').trim();
-  if (!text) return '';
-  const shortened = text.length > 190 ? `${text.slice(0, 190)}...` : text;
-  return `<div class="description-snippet">${escapeHtml(shortened)}</div>`;
-}
-
-function organizationLabel(row) {
-  const land = String(row.organisationLand || '').trim();
-  const country = land ? `<div class="small-meta">${escapeHtml(land)}</div>` : '';
-  return `${escapeHtml(row.auftraggeber || '')}${country}`;
-}
-
-function publicationLabel(row) {
-  return row.veroeffentlichungsdatum ? escapeHtml(row.veroeffentlichungsdatum) : '<span class="no-frist">—</span>';
-}
-
-// ---- KPIs ----
-function buildKPIs(data) {
-  const soon = data.filter(r => { const d = fristDays(r.frist); return d !== null && d >= 0 && d <= 14; });
-  const withFrist = data.filter(r => r.frist && r.frist.trim());
-  const portals = [...new Set(data.map(r => r.portal))];
-  const latestDate = data.map(r => r.veroeffentlichungsdatum).filter(Boolean).sort().pop() || '—';
-  document.getElementById('kpi-row').innerHTML = `
-    <div class="kpi"><div class="label">Gesamt</div><div class="value">${data.length}</div><div class="sub">Ausschreibungen</div></div>
-    <div class="kpi"><div class="label">Portale</div><div class="value">${portals.length}</div><div class="sub">${portals.join(', ')}</div></div>
-    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${data.length} Einträgen</div></div>
-    <div class="kpi"><div class="label">Frist &lt; 14 Tage</div><div class="value urgent">${soon.length}</div><div class="sub">dringend</div></div>
-    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${latestDate}</div><div class="sub">Veröffentlichung</div></div>
-  `;
-}
-
-// ---- Charts ----
-function buildCharts(data) {
-  const palette = ['#5ba872','#c9b896','#a89370','#4a78be','#8f6fb8','#c0392b','#e8dcc8'];
-  // Portal
-  const portalCounts = {};
-  data.forEach(r => portalCounts[r.portal] = (portalCounts[r.portal]||0)+1);
-  new Chart(document.getElementById('chartPortal'), {
-    type: 'doughnut',
-    data: {
-      labels: Object.keys(portalCounts),
-      datasets: [{ data: Object.values(portalCounts), backgroundColor: Object.keys(portalCounts).map((_, i) => palette[i % palette.length]), borderWidth: 0 }]
-    },
-    options: {
-      maintainAspectRatio: false,
-      plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
-    }
-  });
-
-  // Suchbegriff kompakt, damit lange CPV-Labels das Layout nicht sprengen.
-  renderTermSummary(data);
-
-  // Frist status
-  let hasFrist=0, soon=0, none=0, expired=0;
-  data.forEach(r => {
-    const d = fristDays(r.frist);
-    if (d === null) none++;
-    else if (d < 0) expired++;
-    else if (d <= 14) soon++;
-    else hasFrist++;
-  });
-  new Chart(document.getElementById('chartFrist'), {
-    type: 'doughnut',
-    data: {
-      labels: ['Frist > 14d', 'Frist ≤ 14d', 'Keine Frist', 'Abgelaufen'],
-      datasets: [{ data: [hasFrist, soon, none, expired], backgroundColor: ['#5ba872','#c0392b','#e8dcc8','#a89370'], borderWidth: 0 }]
-    },
-    options: {
-      maintainAspectRatio: false,
-      plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
-    }
-  });
-}
-
-function renderTermSummary(data) {
-  const termSummary = document.getElementById('termSummary');
-  const suchCounts = {};
-  data.forEach(r => suchCounts[r.suchbegriff] = (suchCounts[r.suchbegriff]||0)+1);
-  const entries = Object.entries(suchCounts).sort((a, b) => b[1] - a[1]);
-  const max = Math.max(...entries.map(([, count]) => count), 1);
-
-  termSummary.innerHTML = entries.slice(0, 5).map(([label, count]) => `
-    <div class="term-row" title="${escapeHtml(label)}">
-      <div class="term-label">${escapeHtml(label)}</div>
-      <div class="term-count">${count}</div>
-      <div class="term-bar"><span style="width:${Math.max(8, Math.round(count / max * 100))}%"></span></div>
-    </div>
-  `).join('');
-}
-
-// ---- Table ----
-let sortCol = 'frist', sortDir = 1;
-
-function renderTable(data) {
-  const tbody = document.getElementById('table-body');
-  if (!data.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="no-data">Keine Einträge gefunden.</td></tr>';
-    document.getElementById('result-count').textContent = '0 Einträge';
-    return;
-  }
-  tbody.innerHTML = data.map(r => `
-    <tr>
-      <td>${portalBadge(r.portal)}</td>
-      <td>${suchBadge(r.suchbegriff)}</td>
-      <td class="titel-cell"><strong>${escapeHtml(r.titel)}</strong>${descriptionLabel(r)}</td>
-      <td class="ag-cell">${organizationLabel(r)}</td>
-      <td class="date-cell">${publicationLabel(r)}</td>
-      <td style="white-space:nowrap">${fristLabel(r.frist)}</td>
-      <td class="cpv-list">${cpvLabel(r)}</td>
-      <td>${buildLink(r)}</td>
-    </tr>
-  `).join('');
-  document.getElementById('result-count').textContent = `${data.length} Einträge`;
-}
-
-function getFiltered() {
-  const fp = document.getElementById('f-portal').value;
-  const fs = document.getElementById('f-such').value;
-  const ff = document.getElementById('f-frist').value;
-  const fq = document.getElementById('f-search').value.toLowerCase();
-
-  return DATA.filter(r => {
-    if (fp && r.portal !== fp) return false;
-    if (fs && r.suchbegriff !== fs) return false;
-    if (ff === 'yes' && !(r.frist || '').trim()) return false;
-    if (ff === 'no' && (r.frist || '').trim()) return false;
-    if (ff === 'soon') {
-      const d = fristDays(r.frist);
-      if (d === null || d < 0 || d > 14) return false;
-    }
-    const haystack = [
-      r.titel,
-      r.auftraggeber,
-      r.beschreibung,
-      r.organisationLand,
-      r.veroeffentlichungsdatum,
-      Array.isArray(r.cpvCodes) ? r.cpvCodes.join(' ') : r.cpvCodes
-    ].join(' ').toLowerCase();
-    if (fq && !haystack.includes(fq)) return false;
-    return true;
-  });
-}
-
-function getSorted(data) {
-  return [...data].sort((a, b) => {
-    let va = a[sortCol] || '', vb = b[sortCol] || '';
-    if (Array.isArray(va)) va = va.join('; ');
-    if (Array.isArray(vb)) vb = vb.join('; ');
-    if (sortCol === 'frist') {
-      const da = parseFrist(va), db = parseFrist(vb);
-      if (!da && !db) return 0;
-      if (!da) return 1;
-      if (!db) return -1;
-      return (da - db) * sortDir;
-    }
-    return va.localeCompare(vb) * sortDir;
-  });
-}
-
-function update() {
-  const filtered = getFiltered();
-  renderTable(getSorted(filtered));
-}
-
-// ---- Init filters ----
-function populateFilters() {
-  const portals = [...new Set(DATA.map(r => r.portal))].sort();
-  const such = [...new Set(DATA.map(r => r.suchbegriff))].sort();
-  const ps = document.getElementById('f-portal');
-  portals.forEach(p => { const o = document.createElement('option'); o.value = p; o.text = p; ps.appendChild(o); });
-  const ss = document.getElementById('f-such');
-  such.forEach(s => { const o = document.createElement('option'); o.value = s; o.text = s; ss.appendChild(o); });
-}
-
-// ---- Sort headers ----
-document.querySelectorAll('thead th[data-col]').forEach(th => {
-  th.addEventListener('click', () => {
-    const col = th.dataset.col;
-    if (sortCol === col) sortDir *= -1; else { sortCol = col; sortDir = 1; }
-    document.querySelectorAll('thead th .sort-icon').forEach(i => i.textContent = '↕');
-    th.querySelector('.sort-icon').textContent = sortDir === 1 ? '↑' : '↓';
-    update();
-  });
-});
-
-['f-portal','f-such','f-frist'].forEach(id => document.getElementById(id).addEventListener('change', update));
-document.getElementById('f-search').addEventListener('input', update);
-
-// ---- Advisor / Highlights ----
-function scoreEntry(r) {
-  let score = 0;
-  const t = (r.titel + ' ' + (r.beschreibung || '')).toLowerCase();
-  const s = r.suchbegriff.toLowerCase();
-
-  // Starke positive Signale
-  if (s === 'regionalentwicklung') score += 4;
-  if (t.includes('interreg')) score += 3;
-  if (t.includes('studie') || t.includes('szenario')) score += 3;
-  if (t.includes('leitbild') || t.includes('strategie')) score += 3;
-  if (t.includes('konzept') || t.includes('konzeption')) score += 2;
-  if (t.includes('standortentwicklung')) score += 3;
-  if (t.includes('projektleitung') || t.includes('projektleit')) score += 2;
-  if (t.includes('projektsteuerung')) score += 2;
-  if (t.includes('beratung') || t.includes('consulting') || t.includes('consultant')) score += 1;
-  if (t.includes('gutachten') || t.includes('sachverständig')) score += 2;
-  if (t.includes('denkmal') || t.includes('gedenkstätte') || t.includes('kulturg')) score += 1;
-  if (t.includes('raumplanung') || t.includes('flächenwidmung') || t.includes('örtlich')) score += 3;
-  if (t.includes('regional')) score += 2;
-
-  // Negative Signale – Infrastruktur / Bau / IT
-  if (t.includes('autobahn') || t.includes('schnellstraße') || t.includes('asfinag') || t.includes('asfinag')) score -= 4;
-  if (t.includes('tunnel') || t.includes('öba') || t.includes('baubegleitung')) score -= 3;
-  if (t.includes('bau- und hydro') || t.includes('hydrogeolog')) score -= 3;
-  if (t.includes('itpmpe') || t.includes('sapdl') || t.includes('it-expert')) score -= 5;
-  if (t.includes('möblierung') || t.includes('montage')) score -= 4;
-  if (t.includes('werbeagentur') || t.includes('marketingleist')) score -= 4;
-  if (t.includes('generalunternehmer')) score -= 3;
-  if (t.includes('raumkühlung') || t.includes('lüftung') || t.includes('haustechnik')) score -= 3;
-  if (t.includes('investinaustria')) score -= 2;
-  if (t.includes('divi_change')) score -= 2;
-  // Wiener Wohnen Hausverwaltung (reine Adressen ohne Planungsinhalt)
-  if (/^\d+\.,\s/.test(r.titel) && r.auftraggeber.includes('Wiener Wohnen')) score -= 3;
-
-  return score;
-}
-
-function buildAdvisor(data) {
-  const scored = data.map(r => ({ ...r, _score: scoreEntry(r) }))
-    .sort((a, b) => b._score - a._score);
-
-  const top = scored.filter(r => r._score > 0);
-  const urgent = top.filter(r => {
-    const d = fristDays(r.frist);
-    return d !== null && d >= 0 && d <= 14;
-  });
-
-  const total = data.length;
-  const hasUrgent = urgent.length > 0;
-
-  let intro = `<strong>Stefan:</strong> ${total} Ausschreibungen geprüft. `;
-  if (top.length === 0) {
-    intro += `Aktuell ist kein klarer mecca-Favorit dabei.`;
-  } else {
-    intro += `<strong>${Math.min(top.length, 3)} Empfehlungen</strong> oben angepinnt.`;
-    if (hasUrgent) intro += ` <span style="color:var(--urgent);font-weight:600">${urgent.length} dringend.</span>`;
-  }
-  document.getElementById('advisor-summary').innerHTML = intro;
-
-  const picksEl = document.getElementById('advisor-inline-picks');
-  if (top.length === 0) { picksEl.innerHTML = ''; return; }
-
-  picksEl.innerHTML = top.slice(0, 3).map((r) => {
-    const days = fristDays(r.frist);
-    const isUrgent = days !== null && days >= 0 && days <= 14;
-    const fristInfo = days === null ? 'Keine Frist angegeben'
-      : days < 0 ? 'Frist abgelaufen'
-      : isUrgent ? `Frist in ${days} Tagen`
-      : `Frist: ${r.frist}`;
-
-    let reason = '';
-    const t = r.titel.toLowerCase();
-    if (t.includes('interreg') || t.includes('studie') || t.includes('szenario'))
-      reason = 'Planungsstudie / Regionalentwicklung – klassisches mecca-Profil.';
-    else if (t.includes('standortentwicklung'))
-      reason = 'Standortentwicklung mit Projektleitungsleistungen – strategisch relevant.';
-    else if (t.includes('projektsteuerung') || t.includes('projektleitung'))
-      reason = 'Projektsteuerung / -leitung ohne reinen Baufokus – passt zu unserem PM-Angebot.';
-    else if (r.suchbegriff === 'Regionalentwicklung')
-      reason = 'Regionalentwicklung – Kernkompetenz von mecca.';
-    else if (t.includes('beratung') || t.includes('consulting'))
-      reason = 'Beratungsleistung – gut geeignet für kleinere Büros.';
-    else
-      reason = 'Relevanter Planungs- oder Beratungsauftrag.';
-
-    return `
-      <div class="advisor-inline-pick${isUrgent ? ' warn' : ''}" title="${escapeHtml(reason)}">
-        <div class="advisor-inline-title">${escapeHtml(r.titel)}</div>
-        <div class="advisor-inline-meta">${escapeHtml(r.auftraggeber)} · ${escapeHtml(fristInfo)}</div>
-        <div class="advisor-inline-meta"><a class="link-btn" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">Öffnen</a></div>
-      </div>`;
-  }).join('');
-}
-
-populateFilters();
-buildKPIs(DATA);
-buildCharts(DATA);
-buildAdvisor(DATA);
-update();
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="runtime-config.js"></script>
+  <script src="data_embed.js"></script>
+  <script src="dashboard.js"></script>
 </body>
 </html>

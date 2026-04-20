@@ -28,12 +28,27 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - run: npm run generate-runtime-config
+        env:
+          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
+          SUPABASE_HIDDEN_RECORDS_TABLE: ${{ vars.SUPABASE_HIDDEN_RECORDS_TABLE }}
       - run: npm run weekly-feed
+        env:
+          SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_HIDDEN_RECORDS_TABLE: ${{ vars.SUPABASE_HIDDEN_RECORDS_TABLE }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_ENABLED: ${{ vars.LLM_ENABLED }}
+          LLM_MAX_RECORDS: ${{ vars.LLM_MAX_RECORDS }}
       - name: Commit updated tender data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Ausschreibungen"
-          file_pattern: "dash/data_embed.js dash/data.json dash/ausschreibungen.csv"
+          file_pattern: "dash/data_embed.js dash/data.json dash/ausschreibungen.csv dash/runtime-config.js"
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
