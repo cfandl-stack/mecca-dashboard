@@ -193,6 +193,34 @@
     .advisor-inline-meta { margin-top: 3px; font-size: .7rem; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
     .admin-card { padding: 14px 18px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .admin-card[open] { padding-bottom: 14px; }
+    .admin-summary {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .admin-summary::-webkit-details-marker { display: none; }
+    .admin-summary::after {
+      content: "▾";
+      font-size: .95rem;
+      color: var(--text-light);
+      transition: transform .15s ease;
+      margin-left: auto;
+    }
+    .admin-card[open] .admin-summary::after { transform: rotate(180deg); }
+    .admin-panel {
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid rgba(180,165,140,.2);
+      padding-top: 12px;
+    }
     .admin-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; }
     .admin-title { font-size: .9rem; color: var(--green); font-weight: 600; }
     .admin-status { font-size: .78rem; color: var(--text-light); }
@@ -418,24 +446,26 @@
       </div>
     </div>
 
-    <div class="admin-card" id="admin-card" hidden>
-      <div class="admin-head">
-        <div class="admin-title">Ausschluesse verwalten</div>
+    <details class="admin-card" id="admin-card">
+      <summary class="admin-summary">
+        <div class="admin-title">Ausschlüsse verwalten</div>
         <div class="admin-status" id="auth-status">Nicht angemeldet</div>
+      </summary>
+      <div class="admin-panel">
+        <div class="admin-login" id="admin-login">
+          <input type="email" id="auth-email" placeholder="E-Mail für Magic Link" />
+          <button class="admin-btn" id="auth-send-link">Anmeldelink senden</button>
+        </div>
+        <div class="admin-actions" id="admin-actions" hidden>
+          <label class="toggle-option">
+            <input type="checkbox" id="toggle-show-hidden" />
+            Ausgeblendete anzeigen
+          </label>
+          <button class="admin-btn secondary" id="auth-signout">Abmelden</button>
+        </div>
+        <div class="admin-note" id="admin-note"></div>
       </div>
-      <div class="admin-login" id="admin-login">
-        <input type="email" id="auth-email" placeholder="E-Mail fuer Magic Link" />
-        <button class="admin-btn" id="auth-send-link">Anmeldelink senden</button>
-      </div>
-      <div class="admin-actions" id="admin-actions" hidden>
-        <label class="toggle-option">
-          <input type="checkbox" id="toggle-show-hidden" />
-          Ausgeblendete anzeigen
-        </label>
-        <button class="admin-btn secondary" id="auth-signout">Abmelden</button>
-      </div>
-      <div class="admin-note" id="admin-note"></div>
-    </div>
+    </details>
 
     <div class="filter-bar">
       <label>Portal</label>
@@ -457,9 +487,9 @@
       <select id="f-review">
         <option value="">Alle</option>
         <option value="passt gut">Passt gut</option>
-        <option value="pruefen">Pruefen</option>
+        <option value="pruefen">Prüfen</option>
         <option value="eher unpassend">Eher unpassend</option>
-        <option value="ungeprueft">Ungeprueft</option>
+        <option value="ungeprueft">Ungeprüft</option>
       </select>
       <label>Suche</label>
       <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
@@ -468,9 +498,9 @@
         <div class="review-filter-pills" id="review-filter-pills">
           <button type="button" class="review-pill is-active" data-value="">Alle</button>
           <button type="button" class="review-pill" data-value="passt gut">Passt gut</button>
-          <button type="button" class="review-pill" data-value="pruefen">Pruefen</button>
+          <button type="button" class="review-pill" data-value="pruefen">Prüfen</button>
           <button type="button" class="review-pill" data-value="eher unpassend">Eher unpassend</button>
-          <button type="button" class="review-pill" data-value="ungeprueft">Ungeprueft</button>
+          <button type="button" class="review-pill" data-value="ungeprueft">Ungeprüft</button>
         </div>
       </div>
       <span id="result-count"></span>
@@ -484,7 +514,7 @@
             <th data-col="suchbegriff">Suchbegriff <span class="sort-icon">&#8597;</span></th>
             <th data-col="titel">Titel / Beschreibung <span class="sort-icon">&#8597;</span></th>
             <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">&#8597;</span></th>
-            <th data-col="veroeffentlichungsdatum">Veroeffentlicht <span class="sort-icon">&#8597;</span></th>
+            <th data-col="veroeffentlichungsdatum">Veröffentlicht <span class="sort-icon">&#8597;</span></th>
             <th data-col="frist">Frist <span class="sort-icon">&#8597;</span></th>
             <th data-col="cpvCodes">CPV <span class="sort-icon">&#8597;</span></th>
             <th>Link</th>

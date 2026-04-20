@@ -78,6 +78,31 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+function prettifyGermanText(value) {
+  return String(value || "")
+    .replace(/\bFuer\b/g, "Für")
+    .replace(/\bfuer\b/g, "für")
+    .replace(/\bOeffnen\b/g, "Öffnen")
+    .replace(/\boeffnen\b/g, "öffnen")
+    .replace(/\bnoetig\b/g, "nötig")
+    .replace(/\bNoetig\b/g, "Nötig")
+    .replace(/\bEintraege\b/g, "Einträge")
+    .replace(/\beintraege\b/g, "einträge")
+    .replace(/\bVeroeffentlicht\b/g, "Veröffentlicht")
+    .replace(/\bVeroeffentlichung\b/g, "Veröffentlichung")
+    .replace(/\bveroeffentlicht\b/g, "veröffentlicht")
+    .replace(/\bveroeffentlichung\b/g, "veröffentlichung")
+    .replace(/\bPruefen\b/g, "Prüfen")
+    .replace(/\bpruefen\b/g, "prüfen")
+    .replace(/\bUngeprueft\b/g, "Ungeprüft")
+    .replace(/\bungeprueft\b/g, "ungeprüft")
+    .replace(/\bgeprueft\b/g, "geprüft")
+    .replace(/\bbestaetigen\b/g, "bestätigen")
+    .replace(/\bBestaetigen\b/g, "Bestätigen")
+    .replace(/\bEinschaetzung\b/g, "Einschätzung")
+    .replace(/\beinschaetzung\b/g, "einschätzung");
+}
+
 function parseFrist(value) {
   if (!value || !String(value).trim()) {
     return null;
@@ -136,14 +161,14 @@ function formatReviewLabel(label) {
   }
 
   if (label === "pruefen") {
-    return "Pruefen";
+    return "Prüfen";
   }
 
   if (label === "eher unpassend") {
     return "Eher unpassend";
   }
 
-  return "Ungeprueft";
+  return "Ungeprüft";
 }
 
 function updateReviewFilterPills(records = getVisibleBaseRecords()) {
@@ -180,7 +205,7 @@ function reviewBadge(record) {
     "eher unpassend": "badge-review-bad",
     ungeprueft: "badge-review-unknown"
   }[label] || "badge-review-unknown";
-  const reason = record.reviewReason ? ` title="${escapeHtml(record.reviewReason)}"` : "";
+  const reason = record.reviewReason ? ` title="${escapeHtml(prettifyGermanText(record.reviewReason))}"` : "";
 
   return `<span class="badge ${className}"${reason}>${escapeHtml(formatReviewLabel(label))}</span>`;
 }
@@ -250,7 +275,7 @@ function buildLink(record) {
     }
   }
 
-  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Oeffnen</a>`;
+  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Öffnen</a>`;
 }
 
 function cpvLabel(record) {
@@ -272,7 +297,7 @@ function descriptionLabel(record) {
   parts.push(`<div class="review-meta">${reviewBadge(record)}</div>`);
 
   if (reviewReason) {
-    parts.push(`<div class="small-meta">${escapeHtml(reviewReason)}</div>`);
+    parts.push(`<div class="small-meta">${escapeHtml(prettifyGermanText(reviewReason))}</div>`);
   }
 
   if (record._isHidden) {
@@ -312,14 +337,14 @@ function actionButton(record) {
 
   if (record._isHidden) {
     if (!canManageHiddenRecords()) {
-      return '<span class="action-hint">Login noetig</span>';
+      return '<span class="action-hint">Login nötig</span>';
     }
 
     return `<button class="table-action secondary" data-action="restore" data-record-key="${escapeHtml(record.recordKey)}">Wiederherstellen</button>`;
   }
 
   if (!canManageHiddenRecords()) {
-    return '<span class="action-hint">Login noetig</span>';
+    return '<span class="action-hint">Login nötig</span>';
   }
 
   return `<button class="table-action" data-action="hide" data-record-key="${escapeHtml(record.recordKey)}">Ausblenden</button>`;
@@ -368,10 +393,10 @@ function buildKPIs(records) {
   document.getElementById("kpi-row").innerHTML = `
     <div class="kpi"><div class="label">Gesamt</div><div class="value">${records.length}</div><div class="sub">aktive Ausschreibungen</div></div>
     <div class="kpi"><div class="label">Portale</div><div class="value">${portals.length}</div><div class="sub">${escapeHtml(portals.join(", "))}</div></div>
-    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${records.length} Eintraegen</div></div>
+    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${records.length} Einträgen</div></div>
     <div class="kpi"><div class="label">Frist &lt; 14 Tage</div><div class="value urgent">${soon.length}</div><div class="sub">dringend</div></div>
-    <div class="kpi"><div class="label">Passt gut</div><div class="value">${reviewGood}</div><div class="sub">AI-Einschaetzung</div></div>
-    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${escapeHtml(latestDate)}</div><div class="sub">Veroeffentlichung</div></div>
+    <div class="kpi"><div class="label">Passt gut</div><div class="value">${reviewGood}</div><div class="sub">AI-Einschätzung</div></div>
+    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${escapeHtml(latestDate)}</div><div class="sub">Veröffentlichung</div></div>
   `;
 }
 
@@ -533,8 +558,8 @@ function buildAdvisor(records) {
   const check = records.filter((record) => record.reviewLabel === "pruefen").length;
   const bad = records.filter((record) => record.reviewLabel === "eher unpassend").length;
 
-  let summary = `<strong>Stefan:</strong> ${records.length} aktive Ausschreibungen geprueft. `;
-  summary += `<strong>${good}</strong> passen gut, <strong>${check}</strong> bitte pruefen, <strong>${bad}</strong> eher unpassend.`;
+  let summary = `<strong>Stefan:</strong> ${records.length} aktive Ausschreibungen geprüft. `;
+  summary += `<strong>${good}</strong> passen gut, <strong>${check}</strong> bitte prüfen, <strong>${bad}</strong> eher unpassend.`;
   document.getElementById("advisor-summary").innerHTML = summary;
 
   const picksElement = document.getElementById("advisor-inline-picks");
@@ -555,7 +580,7 @@ function buildAdvisor(records) {
             : `Frist: ${record.frist}`;
 
       return `
-        <div class="advisor-inline-pick${urgent ? " warn" : ""}" title="${escapeHtml(record.reviewReason || "AI-Einschaetzung ohne Zusatzgrund")}">
+        <div class="advisor-inline-pick${urgent ? " warn" : ""}" title="${escapeHtml(prettifyGermanText(record.reviewReason || "AI-Einschätzung ohne Zusatzgrund"))}">
           <div class="advisor-inline-title">${escapeHtml(record.titel)}</div>
           <div class="advisor-inline-meta">${escapeHtml(record.auftraggeber)} · ${escapeHtml(fristInfo)}</div>
           <div class="advisor-inline-meta">${reviewBadge(record)}</div>
@@ -628,8 +653,8 @@ function renderTable(records) {
   const tbody = document.getElementById("table-body");
 
   if (!records.length) {
-    tbody.innerHTML = '<tr><td colspan="9" class="no-data">Keine Eintraege gefunden.</td></tr>';
-    document.getElementById("result-count").textContent = "0 Eintraege";
+    tbody.innerHTML = '<tr><td colspan="9" class="no-data">Keine Einträge gefunden.</td></tr>';
+    document.getElementById("result-count").textContent = "0 Einträge";
     return;
   }
 
@@ -650,7 +675,7 @@ function renderTable(records) {
       `
     )
     .join("");
-  document.getElementById("result-count").textContent = `${records.length} Eintraege`;
+  document.getElementById("result-count").textContent = `${records.length} Einträge`;
 }
 
 function updateTable() {
@@ -704,7 +729,7 @@ function updateAuthUi() {
     actionsRow.hidden = true;
     status.textContent = "Supabase nicht konfiguriert";
     setAdminMessage(
-      "Fuer Ausblenden/Wiederherstellen bitte PUBLIC_SUPABASE_URL und PUBLIC_SUPABASE_ANON_KEY konfigurieren.",
+      "Für Ausblenden/Wiederherstellen bitte PUBLIC_SUPABASE_URL und PUBLIC_SUPABASE_ANON_KEY konfigurieren.",
       "warning"
     );
     return;
@@ -847,7 +872,7 @@ async function sendMagicLink() {
     return;
   }
 
-  setAdminMessage("Magic Link versendet. Bitte E-Mail oeffnen und den Link bestaetigen.", "success");
+  setAdminMessage("Magic Link versendet. Bitte E-Mail öffnen und den Link bestätigen.", "success");
 }
 
 async function signOut() {
