@@ -253,6 +253,57 @@
       align-items: center;
     }
     .filter-bar label { font-size: .8rem; color: var(--text-light); font-weight: 600; }
+    .review-filter-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      min-width: 100%;
+      padding-top: 4px;
+      border-top: 1px solid rgba(180,165,140,.2);
+    }
+    .review-filter-label {
+      font-size: .8rem;
+      color: var(--text-light);
+      font-weight: 600;
+    }
+    .review-filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .review-pill {
+      border: 1px solid var(--border);
+      background: var(--card-solid);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: .78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .review-pill:hover {
+      border-color: var(--green);
+      color: var(--green);
+    }
+    .review-pill.is-active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+    .review-pill[data-value="eher unpassend"].is-active {
+      background: var(--urgent);
+      border-color: var(--urgent);
+    }
+    .review-pill[data-value="pruefen"].is-active {
+      background: #b18c16;
+      border-color: #b18c16;
+    }
+    .review-pill[data-value="ungeprueft"].is-active {
+      background: var(--sepia-dark);
+      border-color: var(--sepia-dark);
+    }
     #result-count { margin-left: auto; font-size: .8rem; color: var(--text-light); }
 
     .table-wrap { overflow: auto; }
@@ -412,6 +463,16 @@
       </select>
       <label>Suche</label>
       <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
+      <div class="review-filter-group">
+        <span class="review-filter-label">KI-Schnellfilter</span>
+        <div class="review-filter-pills" id="review-filter-pills">
+          <button type="button" class="review-pill is-active" data-value="">Alle</button>
+          <button type="button" class="review-pill" data-value="passt gut">Passt gut</button>
+          <button type="button" class="review-pill" data-value="pruefen">Pruefen</button>
+          <button type="button" class="review-pill" data-value="eher unpassend">Eher unpassend</button>
+          <button type="button" class="review-pill" data-value="ungeprueft">Ungeprueft</button>
+        </div>
+      </div>
       <span id="result-count"></span>
     </div>
 

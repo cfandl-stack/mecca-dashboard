@@ -146,6 +146,32 @@ function formatReviewLabel(label) {
   return "Ungeprueft";
 }
 
+function updateReviewFilterPills(records = getVisibleBaseRecords()) {
+  const currentValue = document.getElementById("f-review").value;
+  const counts = {
+    "": records.length,
+    "passt gut": 0,
+    pruefen: 0,
+    "eher unpassend": 0,
+    ungeprueft: 0
+  };
+
+  records.forEach((record) => {
+    const label = record.reviewLabel || "ungeprueft";
+    if (Object.prototype.hasOwnProperty.call(counts, label)) {
+      counts[label] += 1;
+    }
+  });
+
+  document.querySelectorAll("#review-filter-pills .review-pill").forEach((button) => {
+    const value = button.dataset.value || "";
+    const baseLabel = formatReviewLabel(value || "ungeprueft");
+    const visibleLabel = value ? baseLabel : "Alle";
+    button.textContent = `${visibleLabel} (${counts[value] ?? 0})`;
+    button.classList.toggle("is-active", value === currentValue);
+  });
+}
+
 function reviewBadge(record) {
   const label = record.reviewLabel || "ungeprueft";
   const className = {
@@ -629,6 +655,7 @@ function renderTable(records) {
 
 function updateTable() {
   renderTable(getSorted(getFiltered()));
+  updateReviewFilterPills();
 }
 
 function populateFilters() {
@@ -654,6 +681,8 @@ function populateFilters() {
     option.textContent = term;
     suchSelect.appendChild(option);
   });
+
+  updateReviewFilterPills(visibleRecords);
 }
 
 function setAdminMessage(message, tone = "neutral") {
@@ -856,6 +885,15 @@ function registerFilters() {
   });
   document.getElementById("f-search").addEventListener("input", updateTable);
   document.getElementById("toggle-show-hidden").addEventListener("change", updateTable);
+  document.getElementById("review-filter-pills").addEventListener("click", (event) => {
+    const button = event.target.closest("button.review-pill");
+    if (!button) {
+      return;
+    }
+
+    document.getElementById("f-review").value = button.dataset.value || "";
+    updateTable();
+  });
 }
 
 function registerSorting() {
