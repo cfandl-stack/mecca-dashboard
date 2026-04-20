@@ -233,6 +233,21 @@ test("Review Parser kann Planungs-Freitext heuristisch als passend werten", () =
   assert.match(parsed.reason, /passend/i);
 });
 
+test("Review Parser faellt bei unverwertbarem MiniMax-Freitext konservativ auf pruefen zurueck", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this procurement notice in more detail before deciding.",
+    {
+      titel: "Rahmenvertrag externe Leistungen",
+      beschreibung: "Diverse Unterstuetzungsleistungen",
+      auftraggeber: "Teststelle"
+    }
+  );
+
+  assert.equal(parsed.label, "pruefen");
+  assert.equal(parsed.score, 55);
+  assert.match(parsed.reason, /vorsichtshalber pruefen/i);
+});
+
 test("Review Prompt fordert nur PASS CHECK NO an", () => {
   const prompt = buildPrompt({
     portal: "TED",

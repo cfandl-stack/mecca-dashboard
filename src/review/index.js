@@ -343,7 +343,13 @@ function parseNarrativeFallback(value, record) {
     };
   }
 
-  throw new Error(text ? `Leere Token-Antwort, Freitext beginnt mit: ${text.slice(0, 140)}` : "Leere LLM-Antwort");
+  return {
+    label: "pruefen",
+    score: scoreForLabel("pruefen"),
+    reason: text
+      ? "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen."
+      : "Leere LLM-Antwort; Datensatz vorsichtshalber pruefen."
+  };
 }
 
 function extractJsonObject(value, record) {
