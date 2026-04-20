@@ -908,7 +908,9 @@ async function initSupabase() {
 }
 
 async function main() {
-  dataRecords = (window.DATA || [])
+  const initialData = typeof DATA !== "undefined" ? DATA : window.DATA || [];
+
+  dataRecords = initialData
     .map((record) => normalizeRecord(record))
     .filter((record) => !isExpiredDeadline(record.frist));
 
