@@ -15,13 +15,13 @@ const DATA = [
     "beschreibung": "Expanding agricultural activities and population growth have led to a considerable loss of forest cover in Côte d'Ivoire over the past 30 years. At the same time, natural resources are rarely used in an environmentally sustainable manner. This is resulting in higher climate risks and a decline in the economic potential of rural areas. Agricultural yields and the population's living conditions are already deteriorating due to changing precipitation patterns and infertile soils. Moreover, the pressure on biodiversity is increasing. Areas at risk include Taï and Comoé national parks and the Bossématié Nature Reserve. In view of these challenges, Côte d'Ivoire aims to reforest three million hectares of forest area and expand the country's protected areas by 2030. The Pro2GRN II project aims to strengthen biodiversity conservation in the Taï, Comoé and Bossématié regions using a multi-level, multi-actor approach. It builds on the results of previous projects, exploits synergies with ongoing projects and cooperates closely with KfW and other technical cooperation projects (notably \"ProForêt\" and \"ProPlanteurs\") in the areas of nature conservation, land use, agroforestry and forest restoration, and builds the capacity of stakeholders at local, regional and national levels. The project has four priority areas: The central element of the project's strategy is the development of a landscape approach (component 1) that integrates the full range of land protection and land use interests and combines ecological, social and economic objectives. Support for local authority and OIPR staff, village communities, private managers of protected areas and members of multi-stakeholder platforms will create favorable conditions for the conclusion and implementation of local agreements on natural resource management and other spatial planning instruments. Finally, component 1 also defines strategic orientations that are implemented by other components. Component 2 \"Management of protected areas\" aims to improve the management of the Tai and Comoé national parks, the Bossématié nature reserve and other protected areas. To achieve this, the project is supporting OIPR in improving their management system. In addition, local authorities, public institutions and private individuals will be supported in their efforts to preserve residual forests and enhance ecological connectivity in rural areas. Component 3 \"Agroecological innovations and agroforestry\" enhances the resilience of the affected regions against climate-related and environmental challenges by supporting adapted and agroecological practices and agroforestry systems. It will promote self-sufficiency in farm inputs and provide technical advice on biological plant protection and watersaving production methods. Support on transformation and marketing processes will strengthen local value creation. Component 4 \"Regulatory frameworks for biodiversity and climate\" aims to improve the capacities of regional development players. In this context, the project assists national authorities and other stakeholders in the dissemination and implementation of the National Biodiversity Strategy (NBSAP) and supports their access to biodiversity and climate financing mechanisms. In addition, technical advice will be provided for the implementation of a national system of MRV for emission reductions in the (agro-)forestry sector.",
     "veroeffentlichungsdatum": "2026-04-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:09.463Z",
+    "scrapedAt": "2026-04-20T15:01:23.419Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen spatial planning und regional development.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:44.620Z"
+    "reviewedAt": "2026-04-20T15:02:56.710Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9617eec4-d074-4434-ba10-c20e0ee2424d&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -40,13 +40,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-19",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:48.408Z",
+    "scrapedAt": "2026-04-20T15:02:01.313Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:46.048Z"
+    "reviewedAt": "2026-04-20T15:02:58.189Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/262500-2026",
@@ -64,13 +64,13 @@ const DATA = [
     "beschreibung": "Lebanon is currently facing a profound economic and financial crisis that has severely impacted both its local population and the Syrian refugees residing in the country. Beginning in 2019 and worsened by the COVID-19 pandemic and the Beirut port explosion in August 2020, the crisis has led to a staggering rise in poverty. Estimates indicate that around 80% of the Lebanese population and over 76% of displaced Syrians and Palestinians now live below the poverty line. The socio-economic landscape is characterized by significant devaluation of the Lebanese lira, high un-employment, and a massive loss of trust in government institutions. The dysfunction of the government has created challenges for both local and refugee communities. Resource competition has intensified, resulting in increased social tensions and conflict. Verbal harassment and violence against refugees are common, contributing to anxiety and mental distress among both groups. Project Overview: Cash for Work Lebanon (C4WL) In response to these challenges, the project \"Supporting Disadvantaged, Peripheral Neighborhoods through Cash for Work measures in Lebanon (C4WL)\" aims to enhance the socio-economic resilience of vulnerable populations in North Lebanon and Akkar. The project is implemented by Deutsche Gesell-schaft für Internationale Zusammenarbeit (GIZ) on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ). It focuses on providing short-term employment through a com-munity-based, participatory approach to ensure positive impacts on local neighborhoods. Cash for Work initiatives offer immediate financial relief and foster community engagement and cooper-ation between Lebanese residents and Syrian refugees. Key components include establishing community kitchens to address food insecurity while providing jobs for vulnerable individuals. Objectives - Enhance Livelihood Opportunities: By creating short-term employment through Cash for Work, the project aims to support both Lebanese and Syrian families in meeting their basic needs. A focus is on the empowerment of women. - Strengthen Community Cohesion: The project seeks to build trust and cooperation between host communities and refugees through participatory processes. - Reduce Food Insecurity: Community kitchens will not only provide meals but also serve as hubs for social interaction, mitigating tensions from food scarcity. Conclusion The Cash for Work project is a timely response to the pressing socio-economic challenges facing Leba-non. By focusing on community-driven solutions and fostering collaboration between refugees and the host population, the project aims to create a foundation for sustainable development and peaceful coex-istence. In a time of crisis, initiatives like C4WL are vital in addressing immediate needs while laying the groundwork for a more resilient future.",
     "veroeffentlichungsdatum": "2026-04-17",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:09.463Z",
+    "scrapedAt": "2026-04-20T15:01:23.418Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:49.553Z"
+    "reviewedAt": "2026-04-20T15:02:59.464Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/262557-2026",
@@ -87,13 +87,13 @@ const DATA = [
     "beschreibung": "Mauritania's border regions with Mali - Hodh El Gharbi, Assaba, and Guidimakha - are among the country's most dynamic yet most challenged territories. High poverty rates, limited infra-structure, and increasing climate pressures affect livelihoods and social cohesion. While the decentralization framework entrusts municipalities with the delivery of basic services, there is a need to further strengthen their technical, financial, and institutional capacities to fully meet citizens' expectations. The project ProCommune - Strengthening Border Municipalities is implemented by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ), in partnership with the Mauritanian Ministry of Economy and Finance (MEF). It forms part of the umbrella programme Peace and Social Cohesion in Mauritania and contributes to the national decentralization strategy and the 2030 Agenda - specifically SDG 1.5 (resilience to poverty and shocks) and SDG 16.7 (inclusive and effective institutions). The project runs from December 2024 to November 2027. Overall objective: Selected Mauritanian municipalities provide improved, needs-based public services to their populations. The project supports 17 communes along the Malian border, home to about 1.2 million people, including women, youth, pastoralists, and refugees. Key outputs: 1. Strengthened technical and organizational capacities of governmental and non-governmental actors at local and regional levels. 2. Enhanced coordination and cooperation among stakeholders at communal, regional, and national levels for inclusive governance. To achieve these results, ProCommune promotes participatory planning and budgeting, transparent municipal management, and inclusive local decision-making. It provides tailored training, coaching, and advisory services for communes, decentralized services, and civil-society organizations. The approach systematically integrates gender equality, environmental sustainability, and conflict sensitivity, in line with the integrated territorial approach (ATI). Given the region's exposure to climate shocks, insecurity, and migration, the project also fosters local resilience through community-based planning, risk assessment, and early-warning mechanisms. Cross-border cooperation and social cohesion are encouraged to prevent tensions and strengthen peace in the Sahel. By reinforcing local governance and the relationship between citizens and the state, ProCommune supports more effective, inclusive, and accountable service delivery in Mauritania's border areas.",
     "veroeffentlichungsdatum": "2026-04-17",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:27.769Z",
+    "scrapedAt": "2026-04-20T15:01:41.885Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen strategy und governance.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:50.639Z"
+    "reviewedAt": "2026-04-20T15:03:01.502Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-73ae2a86-56d2-417d-9764-a5d81c4613c6&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -109,13 +109,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-17",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:48.946Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:01.854Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:03.438Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/259030-2026",
@@ -135,13 +135,13 @@ const DATA = [
     "beschreibung": "Ziel des gegenständlichen Vergabeverfahrens war der Abschluss einer Rahmenvereinbarung mit einem Unternehmen zur Erbringung von weiterführenden Bildungsmaßnahmen im Bereich der sprachlichen Bildung zwischen Auftraggeberin und dem erfolgreichen Bieter.",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und beratung.",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:54.542Z"
+    "reviewedAt": "2026-04-20T15:03:04.870Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/261789-2026",
@@ -157,13 +157,13 @@ const DATA = [
     "beschreibung": "Der Abschnitt N09.56 Bex Nord – Martigny ist fast 15,8 km lang. Er beginnt an der Grenze der Filiale 1 (Estavayer-le-Lac) bei km 56,222 und endet am Perimeter des Projekts EP Martigny & Environs (km 72,000), das 2023 abgeschlossen wurde. Er umfasst die beiden Halbkreuzungen in Bex sowie eine Kreuzung in St-Maurice. Das vorliegende Projekt besteht daher darin, bestimmte Mängel der Infrastruktur zu beheben, um ihre Lebensdauer um etwa 15 Jahre zu verlängern, indem einzelne Maßnahmen in folgenden Bereichen durchgeführt werden: • T/U (Trassenführung und Umgebung) – Erneuerung der Beläge und Neugestaltung der Rastplätze • K (Kunstbauten) – bauliche Maßnahmen an 11 Bauwerken (darunter einige Zwillingsbauwerke) und statische Überprüfung von 7 Bauwerken. Individuell für jede Beschaffung. Die vorliegende Ausschreibung bezieht sich auf die Leistungen eines Umweltprojektentwicklers für den gesamten Abschnitt N09.56 Bex Nord – Martigny und für alle Phasen vom Konzeptentwurf (MK) bis zur Inbetriebnahme (MS). Die Aufgaben von UBB umfassen die Phasen von der Ausschreibung (AP) bis zur Inbetriebnahme (MS). Studien, die Gegenstand eines MK-MP sind, unterliegen nicht dem Genehmigungsverfahren. Der Abschnitt N09.56 Bex Nord – Martigny ist seit etwa einem halben Jahrhundert in Betrieb und wurde verschiedenen Instandhaltungsmassnahmen unterzogen. Die Beläge und bestimmte Bauwerke müssen rasch saniert werden. Der vorliegende Auftrag wird von PV environnement in Abstimmung mit den PV GC der Bereiche T/U und K in den Phasen MK und MP ausgeführt und betrifft hauptsächlich die Erstellung der NIE sowie die Leistungen der Umweltüberwachung der Ausführung (UBB) in der Phase AP bis MS. Das für die Beauftragten vorgesehene Stundenvolumen wird vom Auftraggeber vorgegeben. Es beträgt für diesen Auftrag 4'000 Stunden.",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Schweiz",
-    "scrapedAt": "2026-04-20T14:42:34.120Z",
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:43:57.512Z"
+    "reviewedAt": "2026-04-20T15:03:06.630Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1760aae7-a17c-42a3-ab85-8fa4d51a5088&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -180,13 +180,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:49.490Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:02.427Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:08.303Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f184520e-c1ab-45de-928f-611e7d59c9ab&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -210,13 +210,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:50.037Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:02.975Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:10.332Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=78b227dc-78f6-4085-b4fb-772e040a14e0-74E2171F92C4DE9A&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -232,13 +232,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:35.711Z",
+    "scrapedAt": "2026-04-20T15:02:48.632Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und strategie.",
+    "reviewReason": "Wirkt passend wegen strategie und evaluierung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:03.745Z"
+    "reviewedAt": "2026-04-20T15:03:11.852Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_105110&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -254,13 +254,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-16",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:36.269Z",
+    "scrapedAt": "2026-04-20T15:02:49.178Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:05.670Z"
+    "reviewedAt": "2026-04-20T15:03:13.357Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/254805-2026",
@@ -276,13 +276,13 @@ const DATA = [
     "beschreibung": "Ausgeschrieben wird eine Machbarkeitsstudie zur Einführung einer 4. Reinigungsstufe zur Spurenstoffelimination auf dem ZKW.",
     "veroeffentlichungsdatum": "2026-04-15",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:11.975Z",
+    "scrapedAt": "2026-04-20T15:01:27.306Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (machbarkeitsstudie) und Ausschlusskriterium (reinigung).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:06.609Z"
+    "reviewedAt": "2026-04-20T15:03:15.195Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/253552-2026",
@@ -298,13 +298,13 @@ const DATA = [
     "beschreibung": "Procedura di gara aperta telematica di rilevanza comunitaria, ai sensi degli artt. 14, 25 e 71 del D.Lgs. 36/2023, per la conclusione di un Accordo Quadro Quadriennale e successivo confronto competitivo con 3 operatori economici, per l’affidamento di servizi di “Assistenza Tecnica Specialistica all’Autorità di Gestione e strutture connesse per il Programma Regionale Fondo Sociale Europeo + 2021-2027 della Regione Campania”.",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:09.463Z",
+    "scrapedAt": "2026-04-20T15:01:23.418Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:07.928Z"
+    "reviewedAt": "2026-04-20T15:03:16.944Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/251692-2026",
@@ -320,13 +320,13 @@ const DATA = [
     "beschreibung": "Interaktív szakmai vizsgafeladatok és képesítő minta vizsgafeladatok készítése.",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:10.169Z"
+    "reviewedAt": "2026-04-20T15:03:19.080Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/254045-2026",
@@ -342,13 +342,13 @@ const DATA = [
     "beschreibung": "Gegenstand der vom jeweiligen Auftragnehmer zu erbringenden Leistungen ist die Schuldner- und Insolvenzberatung für die Bürger:innen des Landkreises München. Der Auftraggeber verfolgt mit der Schuldner- und Insolvenzberatung das Ziel, seinen Bürgern in ausweglos erscheinenden Finanzlagen Hilfe bei der Überwindung ihrer Schuldenprobleme und eine Zukunftsperspektive zu geben. Um dieses Ziel zu erreichen, ist neben der Regelung der Finanzprobleme oft auch eine psychosoziale Beratung der Bürger und die Einschaltung weiterer Dienste erforderlich, um die Ursachen von Schulden, die in den Lebensumständen des Bürgers und/oder in seiner Persönlichkeit liegen können, zu beseitigen oder zumindest zu verbessern. Die Schuldner- und Insolvenzberatung hat daher im Sinne einer ganzheitlichen Beratung und nachhaltig zu erfolgen. Der Landkreis München (nachfolgend als „Auftraggeber“ bezeichnet) hat den Auftrag in zwei (2) Lose aufgeteilt. Hintergrund hierfür ist auch, dass den Bürgern im Landkreis München die Wahl bleiben soll, an welche der beiden Beratungsstellen sie sich wenden. In jedem Los gibt es einen unterschiedlichen Auftragnehmer.",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (schuldner).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:11.566Z"
+    "reviewedAt": "2026-04-20T15:03:21.453Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/251231-2026",
@@ -367,13 +367,13 @@ const DATA = [
     "beschreibung": "Předmětem této veřejné zakázky je zajištění analýzy technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu pro Modifikaci třídící linky v Chrášťanech (dále jen „Projekt“), a to včetně všech souvisejících činností nezbytných pro řádnou realizaci Projektu. Vybraný účastník bude v rámci plnění této veřejné zakázky vykonávat služby v souladu s platnými a účinnými právními předpisy, vyhláškami, technickými normami a doporučeními profesních komor. Předmět plnění veřejné zakázky, tj. analýza technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu Projektu, je blíže specifikován v příloze č. 1 závazného návrhu smlouvy o analýza technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu, který tvoří přílohu č. 1 zadávací dokumentace. Kompletní údaje a podklady k Projektu jsou dostupné na profilu zadavatele na adrese: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0004637/zakazka/777648.",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:30.317Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:44.185Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:23.509Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/251930-2026",
@@ -389,13 +389,13 @@ const DATA = [
     "beschreibung": "Der Auftrag umfasst zwei Lose: Los 1: Geschäftsführung des Vereins und die Führung der Geschäftsstelle Los 2: Fachliche Bearbeitung von Aufgaben des ERT Der Inhalt der Lose bzw. die auszuübenden Tätigkeiten und Aufgaben werden nachfolgend umschrieben.",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Schweiz",
-    "scrapedAt": "2026-04-20T14:42:36.098Z",
+    "scrapedAt": "2026-04-20T15:01:48.062Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:14.327Z"
+    "reviewedAt": "2026-04-20T15:03:25.214Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-242a162f-f78c-4975-8e4e-9a68bacf1e82&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -411,13 +411,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:50.598Z",
+    "scrapedAt": "2026-04-20T15:02:03.515Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:16.060Z"
+    "reviewedAt": "2026-04-20T15:03:26.540Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-7247e9d4-c80c-4d3f-8924-0c36106771c5&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -433,13 +433,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-14",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:51.145Z",
+    "scrapedAt": "2026-04-20T15:02:04.062Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Eher Bau- oder Lieferfokus (tunnel, citytunnel).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:17.772Z"
+    "reviewedAt": "2026-04-20T15:03:29.073Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/248172-2026",
@@ -455,13 +455,13 @@ const DATA = [
     "beschreibung": "Leistungsgegenstand ist die Konzeption und Durchführung einer Maßnahme nach § 16 Abs. 1 SGB II i.V.m. § 45 Abs. 1 Satz 1 Nr. 1 SGB III, die das Ziel verfolgt erwerbsfähige Leistungsberechtigte an den Arbeits- und Ausbildungsmarkt heranzuführen. Die Leistung beinhaltet die Heranführung an eine geordnete und strukturierte Integrationsstrategie. Sowohl die psychosoziale als auch die gesundheitliche Situation der Teilnehmenden sollen Beachtung finden. Diese sollen in die Lage versetzt werden, ihre eigene Situation realistisch einzuschätzen, vorhandene Ressourcen zu erkennen und fehlende zu erarbeiten. So soll die individuelle Situation der Teilnehmenden nachhaltig stabilisiert werden. Bei der zu vergebenden Leistung handelt es sich inhaltlich um eine Kombination aus Einzel- und Gruppenangeboten.",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen strategie und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:20.175Z"
+    "reviewedAt": "2026-04-20T15:03:30.351Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/248460-2026",
@@ -485,13 +485,13 @@ const DATA = [
     "beschreibung": "Generálny projektant (Design Office) bude zodpovedný za vypracovanie projektovej dokumentácie pre stavebný zámer a projekt stavby a vykonávací projekt (okrem častí pokrytých EPC zmluvami), za koordináciu a zosúladenie všetkých projektantov a dodávateľov vrátane riešenia rozhraní medzi technologickými celkami, za zabezpečenie povoľovacieho procesu a získanie stavebného povolenia, za výkon autorského dozoru a odovzdanie vybranej části dokumentácie skutočného vyhotovenia stavby (zvyšok odovzdá zhotovitel stavby dle § 32 (3) Stavebného zákona), ako aj za operatívne riešenie technických problémov počas realizácie projektu, a to všetko v súlade s príslušnými ustanoveniami Stavebného zákona a technickou špecifikáciou",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-20T14:42:30.317Z",
+    "scrapedAt": "2026-04-20T15:01:44.185Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen design office.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:22.464Z"
+    "reviewedAt": "2026-04-20T15:03:31.640Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/250881-2026",
@@ -507,13 +507,13 @@ const DATA = [
     "beschreibung": "Die Katholische Kirchengemeinde Hl. Katharina Kasper Limburger Land ist Eigentümerin der Liegenschaft Flur 50, u.a. Flurstücke 17/4 (teilweise); 17/7; 17/8; 18/8 und 70/6 , Gemarkung Limburg mit der Anschrift Gartenstraße n.n. in 65549 Limburg/ Lahn und will den Neubau einer 4gruppigen Kindertagesstätte (3 Ü3 plus 1 altersgemischte Gruppe) auf den vor gen. Grundstücken durchführen. Die Auftraggeberin strebt den Neubau der Kindertagesstätte St. Marien auf den Flurstücken hinter dem zentralen Pfarrbüro, Gartenstraße 16, an. Vorliegend sind Generalplanungsleistungen ausgeschrieben. Die angefragten Planungsleistungen der Architektur und die Leistungen der Fachingenieure beginnen mit der Leistungsphase 1. Da es sich um eine öffentlich geförderte Maßnahme handelt, muss nach Abschluss der HOAI Leistungsphase 3 ein Förderantrag seitens der Auftraggeberin an die Stadt Limburg gestellt werden. Eine aus der Bearbeitungsdauer des Antrags resultierende Planungsverzögerung kann nicht kostenerhöhend geltend gemacht werden. Nach Vorlage des Förderbescheids kann die Projektbearbeitung fortgesetzt werden. Es werden folgende Anforderungen an die Planung gestellt: Planung und Neubau einer 4gruppige Kita (3 Ü3 + 1 altersgemischte Gruppe) inkl. Beioder Aufwärmkochküche, Möbeln, Außenanlagen und Erschließung. Herstellung der verkehrsund versorgungstechnischen Erschließung der neuen Kita von der Gartenstraße aus Energetischer Standard nach Gebäudeenergiegesetz (GEG) Sommerlicher Wärmeschutz Installation einer eigenbedarfsorientierten Photovoltaikmit Batterieanlage Verwendung des entstehenden Erdaushub auf dem Grundstück zur Gelände Modellierung Bei der Planung der Kita ist darauf zu achten, dass möglichst keine Wartungsund prüfungsrelevante Technik eingebaut wird. Anforderungen an die Technik: so wenig wie möglich, so viel wie nötig. Die Außenanlage muss auf der nicht für die Erschließung notwendigen und nicht bebauten Fläche geplant werden. Die Planung kann von gemischten Altersgruppen der Kinder ausgehen. Die Ausweisung eines separaten U3 Bereichs ist nicht erforderlich. Die erforderliche Brandschutzplanung ist durch den Generalplaner zu erbringen. Eine Beratung des Auftraggebers zu Handlungsalternativen und Potentialen wird erwartet. Die Beauftragung erfolgt stufenweise nach Maßgabe der in dem GeneralplanerVertragsentwurf aufgeführten Stufen. Bei den optional aufgeführten Leistungen handelt es sich um einseitige Optionsrechte zu Gunsten des Auftraggebers. Der Auftragnehmer hat keinen Anspruch darauf, dass die nur optional anzubietenden Leistungen vom Auftraggeber beauftragt werden. Der AN ist verpflichtet, eine Planungsund Bauzeitenrahmenplanung sowie im Weiteren eine aus der Rahmenplanung zu entwickelnde Detailplanung entsprechend den Rahmenbedingungen des Auftraggebers aufzustellen und die Einhaltung der Termine zu steuern und sicherzustellen. Die Terminplanung ist kontinuierlich monatsweise aktualisieren und dem Auftraggeber zur Freigabe vorzulegen. Folgende Rahmentermine sind geplant: Beauftragung Generalplaner: Ende Juni 2026 Planung und Abstimmung der Leistungsphasen 12 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Juli bis Ende Oktober 2026 Planung und Abstimmung der Leistungsphase 3 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Bis Ende November 2026 Einreichung Förderantrag bei Stadt Limburg (Basis Kostenberechnung) und Planung und Abstimmung der Leistungsphasen 4 sowie Einreichung Baugenehmigungsantrag: Dezember 2026 Planung und Abstimmung der Leistungsphasen 56 (Ausführungsplanung, Ausschreibung, Vorbereitung der Vergabe) bis ca. Juni 2027. Diese endet mit der Vorlage der bepreisten Leistungsverzeichnisse, die dann Grundlage für die Baufreigabe sind. Sollte sich dabei herausstellen das die Kosten nicht im Kostenrahmen liegen, so wird es erforderlich geeignete Lösungen unter Beteiligung des Zuschussgebers zu finden. Durchführung der Leistungsphase 7 (Vergabe) bis ca. Juli für die Hauptgewerke, danach baubegleitend. Baufreigabe ca. August 2027 Bauausführung ab ca. August 2027 – August 2028",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.120Z",
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beteiligung) und Ausschlusskriterium (generalplaner).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:24.222Z"
+    "reviewedAt": "2026-04-20T15:03:34.245Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-3b130ab5-e351-44c2-abc1-39d098b9fbf4&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -529,13 +529,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:51.689Z",
+    "scrapedAt": "2026-04-20T15:02:04.594Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:26.869Z"
+    "reviewedAt": "2026-04-20T15:03:39.002Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9bb117c7-2bed-498f-b88a-e114b0a59f82&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -553,13 +553,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:52.236Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:05.157Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:40.980Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f9eca694-2e21-4be5-a858-4ae9ccf3da7c&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -576,13 +576,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-12",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:52.790Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:05.704Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:43.271Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-8c542d41-bf2d-46ea-ac33-8238f486382e&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -601,13 +601,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-12",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:53.344Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:06.248Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:44.471Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=76efecc9-e509-4c6b-849b-f742ed3e258a-e5c657fe-facc-44fc-8afc-9a064d7d0ce3&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -623,13 +623,13 @@ const DATA = [
     "beschreibung": "dieser Ausschreibung ist der Abschluss einer Rahmenvereinbarung mit einer Leadagentur als Partner für die Bereiche Strategie, Branding, Kampagnen und Content Erstellung nach den Bestimmungen dieser Vereinbarung. Ausschreibungsunterlagen: https://vergabe.energieburgenland.at/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19d1f1b477a-4a24a5a0a90d50c7 Erfüllungsort: AT / ÖSTERREICH CPV Hauptteil: 79340000 (Werbe- und Marketingdienstleistungen) Auftrag ist in Lose aufgeteilt: Nein Art des Auftrags: Dienstleistungsauftrag Bezeichnung der Verfahrensart: Verhandlungsverfahren Laufzeit des Vertrages: 96 Monate Teilnahmebedingungen Informationen zur Übermittlung der Ange",
     "veroeffentlichungsdatum": "2026-04-12",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:36.816Z",
+    "scrapedAt": "2026-04-20T15:02:49.716Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:36.121Z"
+    "reviewedAt": "2026-04-20T15:03:46.159Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/245083-2026",
@@ -645,13 +645,13 @@ const DATA = [
     "beschreibung": "Die Verbandsgemeinde Südeifel plant gemeinsam mit weiteren touristischen Partnern in der Region die Umsetzung des Vorhabens „Tourist-Information der Zukunft“ –Prozessoptimierung und Digitalisierung in der Südeifel und im Gerolsteiner Land. Im Vordergrund stehen dabei Prozessoptimierung und Digitalisierung in der Südeifel und im Gerolsteiner Land. Beteiligt sind folgende Partner: Felsenland Südeifel Tourismus GmbH, Touristik GmbH Gerolsteiner Land, Zweckverband Feriengebiet Bitburger Land, Tourist-Information Prüm/Verbandsgemeinde Prüm sowie Tourist-Information Islek/Verbandsgemeinde Arzfeld. Fachkräftemangel, steigende Personal- und Betriebskosten sowie angespannte kommunale Haushalte stellen die Tourismusbranche vor tiefgreifende Herausforderungen. Zugleich verändern sich die Erwartungen der Gäste, die zunehmend digitale, serviceorientierte und zugleich effiziente Angebote voraussetzen. Zielsetzung der Ausschreibung ist es, die internen Strukturen der beteiligten Organisationen grundlegend weiterzuentwickeln. Im Mittelpunkt stehen dabei die Optimierung und Harmonisierung von Prozessen, der Aufbau einer gemeinsamen Wissensdatenbank für alle beteiligten Partner, sowie die Integration von KI-Tools in bestehende Arbeitsabläufe um diese effizienter und zukunftsfähig zu gestalten. Die gemeinsame Wissensbasis soll als zentraler Informationshub dienen, Ressourcen bündeln, Entscheidungen beschleunigen und Kosten senken.",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:09.463Z",
+    "scrapedAt": "2026-04-20T15:01:23.418Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen spatial planning und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:37.756Z"
+    "reviewedAt": "2026-04-20T15:03:48.795Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/244385-2026",
@@ -676,13 +676,13 @@ const DATA = [
     "beschreibung": "Ziel des gegenständlichen Vergabeverfahrens ist die Vergabe eines Auftrages zur Erstellung einer interdisziplinären Umwelt- und Ökostudie über die möglichen Auswirkungen einer Wasserzufuhr aus der Donau und/oder der Leitha in den Grundwasserkörper der Region Seewinkel-Neusiedler See sowie in den Neusiedler See. Im Detail siehe die Festlegungen in den Ausschreibungsunterlagen.",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:26.737Z",
+    "scrapedAt": "2026-04-20T15:01:40.012Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und studie.",
+    "reviewReason": "Wirkt passend wegen studie und forschung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:39.103Z"
+    "reviewedAt": "2026-04-20T15:03:50.848Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/246066-2026",
@@ -700,13 +700,13 @@ const DATA = [
     "beschreibung": "siehe Beschreibung des Loses 0001",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.120Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:53.365Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-94994af2-85d8-45c3-a0eb-6f03804d0719&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -722,13 +722,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:53.874Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:06.775Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:55.358Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/243080-2026",
@@ -744,13 +744,13 @@ const DATA = [
     "beschreibung": "Die Katholische Kirchengemeinde Hl. Katharina Kasper Limburger Land ist Eigentümerin der Liegenschaft Flur 50, u.a. Flurstücke 17/4 (teilweise); 17/7; 17/8; 18/8 und 70/6 , Gemarkung Limburg mit der Anschrift Gartenstraße n.n. in 65549 Limburg/ Lahn und will den Neubau einer 4gruppigen Kindertagesstätte (3 Ü3 plus 1 altersgemischte Gruppe) auf den vor gen. Grundstücken durchführen. Die Auftraggeberin strebt den Neubau der Kindertagesstätte St. Marien auf den Flurstücken hinter dem zentralen Pfarrbüro, Gartenstraße 16, an. Vorliegend sind Generalplanungsleistungen ausgeschrieben. Die angefragten Planungsleistungen der Architektur und die Leistungen der Fachingenieure beginnen mit der Leistungsphase 1. Da es sich um eine öffentlich geförderte Maßnahme handelt, muss nach Abschluss der HOAI Leistungsphase 3 ein Förderantrag seitens der Auftraggeberin an die Stadt Limburg gestellt werden. Eine aus der Bearbeitungsdauer des Antrags resultierende Planungsverzögerung kann nicht kostenerhöhend geltend gemacht werden. Nach Vorlage des Förderbescheids kann die Projektbearbeitung fortgesetzt werden. Es werden folgende Anforderungen an die Planung gestellt: Planung und Neubau einer 4gruppige Kita (3 Ü3 + 1 altersgemischte Gruppe) inkl. Beioder Aufwärmkochküche, Möbeln, Außenanlagen und Erschließung. Herstellung der verkehrsund versorgungstechnischen Erschließung der neuen Kita von der Gartenstraße aus Energetischer Standard nach Gebäudeenergiegesetz (GEG) Sommerlicher Wärmeschutz Installation einer eigenbedarfsorientierten Photovoltaikmit Batterieanlage Verwendung des entstehenden Erdaushub auf dem Grundstück zur Gelände Modellierung Bei der Planung der Kita ist darauf zu achten, dass möglichst keine Wartungsund prüfungsrelevante Technik eingebaut wird. Anforderungen an die Technik: so wenig wie möglich, so viel wie nötig. Die Außenanlage muss auf der nicht für die Erschließung notwendigen und nicht bebauten Fläche geplant werden. Die Planung kann von gemischten Altersgruppen der Kinder ausgehen. Die Ausweisung eines separaten U3 Bereichs ist nicht erforderlich. Die erforderliche Brandschutzplanung ist durch den Generalplaner zu erbringen. Eine Beratung des Auftraggebers zu Handlungsalternativen und Potentialen wird erwartet. Die Beauftragung erfolgt stufenweise nach Maßgabe der in dem GeneralplanerVertragsentwurf aufgeführten Stufen. Bei den optional aufgeführten Leistungen handelt es sich um einseitige Optionsrechte zu Gunsten des Auftraggebers. Der Auftragnehmer hat keinen Anspruch darauf, dass die nur optional anzubietenden Leistungen vom Auftraggeber beauftragt werden. Der AN ist verpflichtet, eine Planungsund Bauzeitenrahmenplanung sowie im Weiteren eine aus der Rahmenplanung zu entwickelnde Detailplanung entsprechend den Rahmenbedingungen des Auftraggebers aufzustellen und die Einhaltung der Termine zu steuern und sicherzustellen. Die Terminplanung ist kontinuierlich monatsweise aktualisieren und dem Auftraggeber zur Freigabe vorzulegen. Folgende Rahmentermine sind geplant: Beauftragung Generalplaner: Ende Juni 2026 Planung und Abstimmung der Leistungsphasen 12 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Juli bis Ende Oktober 2026 Planung und Abstimmung der Leistungsphase 3 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Bis Ende November 2026 Einreichung Förderantrag bei Stadt Limburg (Basis Kostenberechnung) und Planung und Abstimmung der Leistungsphasen 4 sowie Einreichung Baugenehmigungsantrag: Dezember 2026 Planung und Abstimmung der Leistungsphasen 56 (Ausführungsplanung, Ausschreibung, Vorbereitung der Vergabe) bis ca. Juni 2027. Diese endet mit der Vorlage der bepreisten Leistungsverzeichnisse, die dann Grundlage für die Baufreigabe sind. Sollte sich dabei herausstellen das die Kosten nicht im Kostenrahmen liegen, so wird es erforderlich geeignete Lösungen unter Beteiligung des Zuschussgebers zu finden. Durchführung der Leistungsphase 7 (Vergabe) bis ca. Juli für die Hauptgewerke, danach baubegleitend. Baufreigabe ca. August 2027 Bauausführung ab ca. August 2027 – August 2028",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.119Z",
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (spatial planning) und Ausschlusskriterium (generalplaner).",
+    "reviewReason": "Gemischte Signale zwischen Planung (beteiligung) und Ausschlusskriterium (generalplaner).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:45.816Z"
+    "reviewedAt": "2026-04-20T15:03:57.060Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-94548331-58ee-4a2f-ad53-ed04a383289f&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -768,13 +768,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:54.412Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:07.335Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:03:59.258Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-957e3259-b4b0-449e-b727-e00c84224ea0&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -792,13 +792,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:54.946Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:07.873Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:01.162Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-ef0584f2-4dec-4ce8-a326-6e265f8bb3c7&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -822,13 +822,13 @@ const DATA = [
     "beschreibung": "ist die Erbringung der Leistungen der Projektsteuerung, des Baustellenmanagements und sonstiger Dienstleistungen für die Erweiterung und Anpassung der ARA Klagenfurt. Ausschreibungsunterlagen: https://gv.vergabeportal.at/Detail/241493 Erfüllungsort: AT211 / Klagenfurt-Villach CPV Hauptteil: 71541000 (Projektmanagement im Bauwesen) CPV Hauptteil: 71247000 (Beaufsichtigung der Bauarbeiten) CPV Hauptteil: 71248000 (Projektaufsicht und Dokumentation) CPV Hauptteil: 71310000 (Technische Beratung und Konstruktionsberatung) CPV Hauptteil: 71328000 (Dienstleistungen für die Prüfung der Tragwerksplanung) CPV Hauptteil: 71520000 (Bauaufsicht) CPV Hauptteil: 71521000 (Baustellenüberwachung) CPV Hauptte",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:55.491Z",
+    "scrapedAt": "2026-04-20T15:02:08.441Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen projektmanagement und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:50.987Z"
+    "reviewedAt": "2026-04-20T15:04:03.710Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_71434A_BVergG-VIII-2-Z1_563906&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -844,13 +844,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:56.037Z",
+    "scrapedAt": "2026-04-20T15:02:08.980Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:53.247Z"
+    "reviewedAt": "2026-04-20T15:04:05.304Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-d9a0b20e-cd18-492b-877c-1c07a46cc4bf&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -866,13 +866,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:56.590Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:09.525Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:07.741Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a177eb2c-374a-4362-82c2-e20d5a0577b7&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -888,13 +888,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:57.133Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:10.070Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:09.566Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2306789&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -910,13 +910,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:37.367Z",
+    "scrapedAt": "2026-04-20T15:02:50.271Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:44:57.981Z"
+    "reviewedAt": "2026-04-20T15:04:11.051Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/239898-2026",
@@ -935,13 +935,13 @@ const DATA = [
     "beschreibung": "Győrben az állomás utasforgalmi létesítményeinek akadálymentesítése érdekében a tervezési feladat az állomáson meglévő, jelenleg sk+30 cm magas, térkő burkolatú peronok sk+55 cm magasságú akadálymentes peronokká történő átépítésének tervezése. A peronokat jelenleg 2 db gyalogos és 1 db lezárt postaaluljárón keresztül lehetséges megközelíteni. Az akadálymentesítés biztosítása érdekében mindenképpen szükséges a peronokra történő feljutás liftekkel történő biztosítása, melyet célszerűen az állomás mindkét oldali közterületi kapcsolata felé is biztosítani kell. Ennek érdekében előzetesen meg kell vizsgálni és meg kell tervezni 1 db aluljáró (az előzetesen preferált az úgynevezett érkezés aluljáró) akadálymentesítését a közterületek felé történő akadálymentes kapcsolattal együtt. A tervezési feladat részeként el kell végezni a peronokon a térvilágítás ellenőrzését és szükség szerint meg kell tervezni azok előírások szerinti megfelelőségét, illetve a peronemelés miatti módosításokat. Az új liftek energiaellátása és az aluljáró világításának vizsgálata, szükség szerinti átalakítása szintén tervezési feladat. A tervezés során a tervezési területről geodéziai felmérést, valamint tervezési feladat megvalósításához szükséges geotechnikai feltárást kell végezni és el kell készíteni a szükséges talajvizsgálati jelentést is.A közműtervezési feladatok meghatározására a nyilvántartási és egyéb adatok alapján el kell készíteni a tervezési terület meglévő közműgenplánját és a szükséges közműátalakítások engedélyezési és/vagy kiviteli tervét. A környezeti hatások felmérésére Előzetes Vizsgálati dokumentációt kell készíteni. El kell készíteni az egyéb szükséges terveket is (pl. vasúti kábelek kiváltása, védelembe helyezése). Nyertes Ajánlattevőnek a tervezés teljes időszakában úgy kell a műszaki tartalmat terveznie, hogy az a mindenkor hatályos Európai versenyjogi értelemben vett állami támogatási (ún. state aid) szabályoknak megfelelő legyen, valamint határozza meg a létrejövő infrastruktúra használatával kapcsolatos szabályokat és felmerülő üzemeltetési irányelveket.",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-20T14:42:21.965Z",
+    "scrapedAt": "2026-04-20T15:01:34.493Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:00.304Z"
+    "reviewedAt": "2026-04-20T15:04:12.200Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/238029-2026",
@@ -957,13 +957,13 @@ const DATA = [
     "beschreibung": "L’appalto ha per oggetto la fornitura e l’istallazione di arredi per comunità dettagliati nel computo metrico e nell’elenco prezzi prodotti secondo le specifiche caratteristiche tecniche dettagliate nella relazione tecnica specialistica arredo, nel Capitolato speciale d’appalto parte tecnica e nella relazione sui criteri ambientali minimi.",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:40.351Z",
+    "scrapedAt": "2026-04-20T15:01:52.178Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen smart village, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:02.196Z"
+    "reviewedAt": "2026-04-20T15:04:13.369Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-4af33aab-ce0b-4aea-a820-890796f7f789&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -979,13 +979,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:57.688Z",
+    "scrapedAt": "2026-04-20T15:02:10.615Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:03.439Z"
+    "reviewedAt": "2026-04-20T15:04:15.437Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-0bbf1b19-d265-440d-8940-9662c412ebc1&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1003,13 +1003,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:58.232Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:11.182Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:17.937Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-32f37933-1c2f-4e1f-b18b-1a10da86ab43&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPUlOVEVSUkVHJmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1026,13 +1026,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:03.015Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:15.907Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:19.244Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-4af33aab-ce0b-4aea-a820-890796f7f789&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1048,13 +1048,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:37.903Z",
+    "scrapedAt": "2026-04-20T15:02:50.810Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:09.211Z"
+    "reviewedAt": "2026-04-20T15:04:21.364Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/235151-2026",
@@ -1070,13 +1070,13 @@ const DATA = [
     "beschreibung": "SERVIZIO DI SUPPORTO E ASSISTENZA ALLE ATTIVITÀ ISTITUZIONALI DI IFEL VERSO I COMUNI IN MATERIA DI FABBISOGNI STANDARD E FISCALITÀ LOCALE",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:26.737Z",
+    "scrapedAt": "2026-04-20T15:01:40.012Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen forschung und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:10.899Z"
+    "reviewedAt": "2026-04-20T15:04:22.960Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/234053-2026",
@@ -1092,13 +1092,13 @@ const DATA = [
     "beschreibung": "Szúnyoggyérítés szakértői feladatok",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-20T14:42:30.317Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:44.185Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:25.264Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2305550&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1114,13 +1114,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:38.451Z",
+    "scrapedAt": "2026-04-20T15:02:51.463Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:14.701Z"
+    "reviewedAt": "2026-04-20T15:04:27.301Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-2fc5e0ac-c817-4b01-96ea-d9aff66f4a0d&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1139,13 +1139,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-05",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:58.791Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:11.726Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:29.184Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-3bce40c8-e365-4d59-9887-ab5224484cf8&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1165,13 +1165,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-04",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:59.327Z",
+    "scrapedAt": "2026-04-20T15:02:12.268Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen standortentwicklung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:17.370Z"
+    "reviewedAt": "2026-04-20T15:04:30.921Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-be7619a3-21cb-4005-bbc6-870bc3958c21&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1195,13 +1195,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-03",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:59.945Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:12.809Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:32.431Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/230370-2026",
@@ -1221,13 +1221,13 @@ const DATA = [
     "beschreibung": "Gegenstand dieser Ausschreibung ist die Vergabe von Dienstleistungen an einen Auftragnehmer, der für die Senatskanzlei Berlin die Organisation, Durchführung und Nachbereitung von Workshopformaten im Kontext Verwaltungsdigitalisierung übernimmt und dabei inhaltlich und konzeptionell unterstützt.",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:09.462Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:23.418Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:34.053Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/229399-2026",
@@ -1244,13 +1244,13 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je uzavření rámcové dohody s pěti účastníky na dobu určitou 4 let, na jejímž základě budou uzavírány dílčí prováděcí smlouvy na zpracování kompletních podkladů k žádostem o podporu předkládaným do výzev vyhlášených v rámci dotačních titulů pro období 2021-2027, a to Integrovaného regionálního operačního programu (dále též jen „IROP“), Operačního programu Spravedlivé transformace (dále též jen „OP ST“), Operačního programu Životní prostředí (dále též jen „OPŽP“), Národního plánu obnovy (dále též jen „NPO“), Operačního programu Doprava (dále též jen „OP DOPRAVA“), Operačního programu Technologie a aplikace pro konkurenceschopnost (dále též jen „OP TAK“) a Modernizačního fondu (dále též jen „MODFOND“).",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:11.975Z",
+    "scrapedAt": "2026-04-20T15:01:27.306Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:24.734Z"
+    "reviewedAt": "2026-04-20T15:04:35.279Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/227858-2026",
@@ -1269,13 +1269,13 @@ const DATA = [
     "beschreibung": "Erarbeiten einer städtebaulichen Masterplanung sowie einer baulichen Entwicklungsplanung für die beiden Standorte der Universitätsmedizin in Niedersachen. (Hannover und Göttingen)",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:37.351Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-783194dc-603f-4937-b78f-425497f5703a&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1291,13 +1291,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:00.497Z",
+    "scrapedAt": "2026-04-20T15:02:13.346Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:27.409Z"
+    "reviewedAt": "2026-04-20T15:04:38.588Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-adfa87f7-654a-4edc-b41e-9c75d30e4f7d&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1313,13 +1313,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:01.050Z",
+    "scrapedAt": "2026-04-20T15:02:13.887Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:30.416Z"
+    "reviewedAt": "2026-04-20T15:04:41.137Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6f702dbd-26d4-4e3f-8377-72394df3adc4&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1349,13 +1349,13 @@ const DATA = [
     "beschreibung": "des Vergabeverfahrens sind Generalplanerleistungen, die ÖBA und die Leistungen gemäß BauKG für das Projekt „GSA Umbau samt Einbau Raumkühlung in den Garconnièren / Wohnheim“ (siehe im Detail: Kurzdarstellung des Auftragsgegenstandes, Entwurf Generalplaner Vertrag , Allgemeine Vertragsbedingungen AMS). Ausschreibungsunterlagen: https://gv.vergabeportal.at/Detail/239553 Erfüllungsort: AT312 / Linz-Wels CPV Hauptteil: 71320000 (Planungsleistungen im Bauwesen) CPV Hauptteil: 71356400 (Technische Planungsleistungen) CPV Hauptteil: 71240000 (Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen) CPV Hauptteil: 71321000 (Technische Planungsleistungen für maschinen-",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:01.607Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (spatial planning) und Ausschlusskriterium (generalplaner).",
+    "scrapedAt": "2026-04-20T15:02:14.448Z",
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen generalplaner.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:31.860Z"
+    "reviewedAt": "2026-04-20T15:04:43.124Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/224991-2026",
@@ -1371,13 +1371,13 @@ const DATA = [
     "beschreibung": "Background Causes preventing MSMEs and farmers from harnessing the potential of agriculture, aquaculture and fisheries to generate enough income and create jobs, especially for women and young people, are manifold. Public services are not sufficiently available, and laws and regulations are inadequate or not consistently applied. Most MSMEs and farmers lack skills and access to financial services, especially in rural areas. However, Mozambique has favorable land, inland water and marine resources for increasing productivity and value addition to meet growing demand for food. The Government of Mozambique recognizes the importance of agriculture and the blue economy for economic development and supports the sectors through strategies such as the National Strategic Development Plan for the Agricultural Sector 2030 and the National Blue Economy Development Strategy. Our approach Within the framework of these strategies under the responsibility of the Ministry of Agriculture, Environment and Fisheries and by building on the experiences of different private sector development projects of German development cooperation in Mozambique, VaMoz Competir applies an integrated approach aiming at the creation of a more conducive environment for the development of the sector in rural and coastal areas. The project promotes income and employment opportunities through three interlinked work streams. 1. Value chain promotion Partnerships with well-established companies that source products from MSMEs and small producers are established aiming at a win-win situation of development and business targets. Within these partnerships, the project provides training to enhance skills, supports the development of digital solutions for supply chain management, and facilitates market processes. Better skills and linkages between small producers, processors, and service providers improve both the income situation and resilience to climate change. In the blue economy sector sustainable and inclusive upgrading strategies are developed and implemented in a participatory and systematic manner for selected aquaculture and fisheries value chains through the EU co-financing. 2. Access to finance By improving the bankability of MSMEs and introducing innovative financial products that are specifically tailored to the needs of agriculture and the blue economy, better conditions are created for access to needs-based financial services. Special emphasis is placed on services that meet the needs of women and young people. In addition, small producers and their organisations are enabled to make greater use of savings and insurance products and are supported in connecting to the formal financial system. This increases their resilience to economic and climatic challenges and ensures their long-term economic stability. 3. Rural economic ecosystem This work stream aims to benefit the private sector in rural areas in the long term. With this goal in mind, local support services for farmers and MSMEs are improved, and regional networks and support structures are established. This also includes support for the implementation of recommendations from national strategies and action plans as well as the public-private platform for the coordination of agricultural financing (CIFAM) under the leadership of the Ministry of Agriculture, Environment and Fisheries.",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:09.462Z",
+    "scrapedAt": "2026-04-20T15:01:23.418Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (strategie) und Ausschlusskriterium (supply).",
+    "reviewReason": "Gemischte Signale zwischen Planung (spatial planning) und Ausschlusskriterium (supply).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:33.206Z"
+    "reviewedAt": "2026-04-20T15:04:45.340Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-398a0027-c201-4bb2-b26f-c52aca3a5bdd&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1393,13 +1393,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:39.002Z",
+    "scrapedAt": "2026-04-20T15:02:52.010Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:34.547Z"
+    "reviewedAt": "2026-04-20T15:04:46.686Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-3f37d507-96e2-46bc-94bd-92c3fbc6404b&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1415,13 +1415,13 @@ const DATA = [
     "beschreibung": "des Vergabeverfahrens ist die Beschaffung von Werbeagenturleistungen für die Österreichische Apothekerkammer (insb Strategie u. Beratung; Planung u. Umsetzung von 360-Grad-Werbekampagnen; Online- u. Performance Marketing; Content-Erstellung; Media-Planung; Guerilla Marketing, Brand Experience; Projektmanagement; Reportings; Medienarbeit). Zu diesem Zweck beabsichtigt die Auftraggeberin eine Rahmenvereinbarung mit einem:einer RV-Partner:in mit einer Laufzeit von 3 Jahren abzuschließen. Tag des Vertragsabschlusses: 29.04.2025 CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) Art des Auftrags: Dienstleistungsauftrag Bezeichnung der Verfahrensart: Ve",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:39.551Z",
+    "scrapedAt": "2026-04-20T15:02:52.553Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen strategie und projektmanagement.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:35.918Z"
+    "reviewedAt": "2026-04-20T15:04:49.111Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/219236-2026",
@@ -1437,13 +1437,13 @@ const DATA = [
     "beschreibung": "affidamento SIA per redazione PUG e relativa VAS del Comune di Carmiano",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:52.937Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/219981-2026",
@@ -1461,13 +1461,13 @@ const DATA = [
     "beschreibung": "Die Stadt Wuppertal beabsichtigt, das im Rahmen des Integrierten städtebaulichen Entwicklungskonzepts (ISEK) Innenstadt Elberfeld vorgesehene begleitende Innenstadtmanagement an ein geeignetes Büro mit Erfahrung im Bereich City- und Innenstadtmanagement zu vergeben. Zentrale Aufgaben sind die Vernetzung und Stärkung lokaler Akteure, die Belebung der Innenstadt durch Projekte und Veranstaltungen sowie die Unterstützung bei der Weiterentwicklung des Standortes.",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:39.924Z"
+    "reviewedAt": "2026-04-20T15:04:55.365Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/221730-2026",
@@ -1487,13 +1487,13 @@ const DATA = [
     "beschreibung": "Der Rahmenvertrag zur Verkehrsplanung umfasst vor allem Leistungen in den Gebieten HafenCity und Grasbrook.",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:04:56.617Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/219440-2026",
@@ -1509,13 +1509,13 @@ const DATA = [
     "beschreibung": "Předmětem plnění veřejné zakázky je realizace pravidelného hodnocení vybraných individuálních projektů systémových (dále jen „IPs“) podaných do Operačního programu Jan Amos Komenský (dále jen „OP JAK“) v prioritě 2 - Vzdělávání, oblasti Regionální školství. Hlavními cíli evaluace jsou kvalitativně a kvantitativně vyhodnocovat, do jaké míry hodnocené projekty naplňují své stanovené cíle a očekávané výsledky, případné dopady; vyhodnocovat do jaké míry hodnocené projekty přispívají k naplňování komplexního koncepčního řešení; poskytnout Řídicímu orgánu OP JAK, členům Řídicích výborů IPs OP JAK a realizátorům IPs zpětnou vazbu a doporučení týkající se realizace projektů, a to včetně přenosu informací z praxe do systémového řešení a zpět.",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:14.446Z",
+    "scrapedAt": "2026-04-20T15:01:28.650Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen evaluierung und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:42.313Z"
+    "reviewedAt": "2026-04-20T15:04:59.731Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/219647-2026",
@@ -1533,13 +1533,13 @@ const DATA = [
     "beschreibung": "Abschluss einer Rahmenvereinbarung mit mehreren (bis zu fünf) RV-Partner*innen betreffend Unterstützung im Rahmen der Sachkostenoptimierung.",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:14.446Z",
+    "scrapedAt": "2026-04-20T15:01:28.650Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:43.736Z"
+    "reviewedAt": "2026-04-20T15:05:01.810Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/219447-2026",
@@ -1561,13 +1561,13 @@ const DATA = [
     "beschreibung": "Entwicklung von Standards für das kommunale Klimaschutz-Monitoring inklusive der Weiterentwicklung von BISKO. Leitlinien für wirksamen kommunalen Klimaschutz. (Kurztitel: Standards für das kommunale Klimaschutz-Monitoring)",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:23.941Z",
+    "scrapedAt": "2026-04-20T15:01:36.643Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und forschung.",
+    "reviewReason": "Wirkt passend wegen forschung und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:45.604Z"
+    "reviewedAt": "2026-04-20T15:05:03.537Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/220161-2026",
@@ -1589,13 +1589,13 @@ const DATA = [
     "beschreibung": "Rahmenvereinbarung für Aufträge über Schad- und Störstofferkundung von Wohnhausanlagen der Stadt Wien - Wiener Wohnen: umfasst Befundaufnahme v. Schad- u. Störstoffen der Wohnhausanlage, Begutachtung v. Schad- u. Störstoffen, Gutachten inkl. Massenermittlung, fachliche Beratung u. Unterstützung für Gewerkausschreibungen, Unterlagenerstellung für Bauausführungen und Abfallbewirtschaftungsmaßnamen, Befundungen während Bauausführungen, Unterlagenerstellung für Fertigstellungen von Bauausführungen",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:23.941Z",
+    "scrapedAt": "2026-04-20T15:01:36.643Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:46.987Z"
+    "reviewedAt": "2026-04-20T15:05:04.912Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-b7f115d2-0963-459f-91ae-3ee83ab8fd00&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVJhdW1wbGFudW5nJmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1611,13 +1611,13 @@ const DATA = [
     "beschreibung": "des Auftrages: Generalplanungsleistungen (Objektplanung und Fachplanung) für LPH 1-4 und optional für LPH 5-9. Kurze Beschreibung der zusätzlichen oder geänderten Leistungen: Wiederholung der Planung für die Leistungsphasen 2-4 aufgrund einer Redimensionierung des Projektumfangs sowie einer Optimierung des Raumprogramms. CPV Hauptteil: 71000000 (Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen) Art des Auftrags: Dienstleistungsauftrag Gründe für die Notwendigkeit geänderter Leistungen: Die Änderung wurde aufgrund von Umständen erforderlich, die trotz Erfüllung aller Sorgfaltspflichten nicht vorhergesehen werden konnten. Der Gesamtcharakter des Auftrages ve",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:46.180Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:59.056Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:06.798Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-902659eb-0d09-41bb-b6c3-899418658528&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVJlZ2lvbmFsZW50d2lja2x1bmcmbG9hZGVkPXRydWU=&orderColumn=2&orderDir=desc&start=0",
@@ -1633,13 +1633,13 @@ const DATA = [
     "beschreibung": "ist eine Studie, die im Hinblick auf die Eröffnung des BBT eine fachlich belastbare Grundlage schaffen soll, um die strategische Auseinandersetzung mit den Wirkungen des BBT auf den grenzüberschreitenden Raum systematisch vorzubereiten. Im Mittelpunkt stehen die Themen Mobilität und Verkehr, Wirtschaft und Tourismus, Raumordnung und Regionalentwicklung sowie Arbeitsmarkt und Bildung. Ausschreibungsunterlagen: https://tirol.vergabeportal.at/Detail/241254 Erfüllungsort: AT332 / Innsbruck CPV Hauptteil: 79315000 (Sozialforschung) Art des Auftrags: Dienstleistungsauftrag Weitere Informationen Disclaimer Hinweis: Die Suchfunktion des Unternehmensserviceportals stellt eine Serviceleistung dar, die",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:47.317Z",
+    "scrapedAt": "2026-04-20T15:02:00.200Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen regionalentwicklung und studie.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:50.703Z"
+    "reviewedAt": "2026-04-20T15:05:08.133Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-902659eb-0d09-41bb-b6c3-899418658528&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPUlOVEVSUkVHJmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -1655,13 +1655,13 @@ const DATA = [
     "beschreibung": "ist eine Studie, die im Hinblick auf die Eröffnung des BBT eine fachlich belastbare Grundlage schaffen soll, um die strategische Auseinandersetzung mit den Wirkungen des BBT auf den grenzüberschreitenden Raum systematisch vorzubereiten. Im Mittelpunkt stehen die Themen Mobilität und Verkehr, Wirtschaft und Tourismus, Raumordnung und Regionalentwicklung sowie Arbeitsmarkt und Bildung. Ausschreibungsunterlagen: https://tirol.vergabeportal.at/Detail/241254 Erfüllungsort: AT332 / Innsbruck CPV Hauptteil: 79315000 (Sozialforschung) Art des Auftrags: Dienstleistungsauftrag Weitere Informationen Disclaimer Hinweis: Die Suchfunktion des Unternehmensserviceportals stellt eine Serviceleistung dar, die",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:03.560Z",
+    "scrapedAt": "2026-04-20T15:02:16.458Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen regionalentwicklung und studie.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:51.972Z"
+    "reviewedAt": "2026-04-20T15:05:09.356Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/216147-2026",
@@ -1678,13 +1678,13 @@ const DATA = [
     "beschreibung": "Gegenstand des Auftrags war die Vergabe von Sanierungsträgerleistungen gemäß § 157 BauGB für die städtebauliche Maßnahme Stadt Wunstorf Sanierungsgebiet \"Innenstadt\" sowie das Innenstadtmanagement. Weitere Details zu den einzelnen Leistungsbildern sind dem Sanierungstreuhändervertrag sowie dem Innenstadtkonzept zu entnehmen.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:53.465Z"
+    "reviewedAt": "2026-04-20T15:05:12.035Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/215498-2026",
@@ -1708,13 +1708,13 @@ const DATA = [
     "beschreibung": "GARA EUROPEA A PROCEDURA APERTA PER L'APPALTO DEL SERVIZIO DI RACCOLTA E TRASPORTO DEI RU CLASSIFICATO COME \"VERDE\" AI SENSI DEI CRITERI DEL DM DEL 07/04/2025 DEL COMUNE DI MACOMER",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:23.941Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:36.643Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:13.827Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/214694-2026",
@@ -1733,13 +1733,13 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 5 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 373,9 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:38.445Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:16.010Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/215487-2026",
@@ -1758,13 +1758,13 @@ const DATA = [
     "beschreibung": "Im Rahmen des vorangegangenen Carve-outs wurde die ERP-Landschaft zwar technisch bereinigt und auf die BEW-spezifischen Datenbestände reduziert, sie weist jedoch weiterhin eine komplexe, historisch gewachsene Architektur mit zahlreichen kundeneigenen Entwicklungen (Z-Programme, modifizierte Standardobjekte, Sondertabellen, individuelle Reports) sowie teils heterogenen Prozessvarianten auf. Diese Individualisierungen begrenzen die Weiterentwicklungsfähigkeit, erschweren die nachhaltige Systempflege und stehen im Widerspruch zu den Zielsetzungen eines energieversorgerspezifischen, regulierungskonformen, effizienten ERP-Betriebs. Vor diesem Hintergrund beabsichtigt die BEW, die bestehende ERP-Landschaft vollständig durch eine standardorientierte, integrierte SAP S/4HANA-Systemarchitektur abzulösen. Die neue Systemlandschaft soll insbesondere: durchgängige End-to-End-Prozesse zwischen FI/CO (inkl. FI-AA, PS, SD), PM und MM (inkl. EH&S) ermöglichen, die Harmonisierung und Standardisierung von Funktionen und Stammdaten unterstützen (u.a. Business Partner, Universal Journal, harmonisierte Materialstämme), die Nutzung moderner SAP-Technologien ermöglichen (z. B. Fiori, CDS Views, Embedded Analytics), eine zukunftssichere Integration zu Umsystemen (GIS, DMS, Abrechnungssysteme, Reportinglösungen) gewährleisten, regulatorische Anforderungen (z. B. GoBD, EnWG, energiewirtschaftliche Nachweispflichten) nachhaltig erfüllen.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
+    "scrapedAt": "2026-04-20T15:01:38.445Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:45:58.756Z"
+    "reviewedAt": "2026-04-20T15:05:17.190Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/218019-2026",
@@ -1783,13 +1783,13 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 6 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 275,27 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:38.445Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:19.064Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/215384-2026",
@@ -1805,13 +1805,13 @@ const DATA = [
     "beschreibung": "Melde- und Beratungsstelle Antisemitismus für das Sächsische Staatsministerium für Kultus (SMK)",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:02.217Z"
+    "reviewedAt": "2026-04-20T15:05:21.191Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/215255-2026",
@@ -1827,13 +1827,13 @@ const DATA = [
     "beschreibung": "Betrieb einer bayerischen Wirtschaftsrepräsentanz in São Paulo / Brasilien für einen Zeitraum von vier Jahren ab Zuschlagserteilung, frühestens ab 01.08.2026, zur Förderung der Wirtschaftsbeziehungen zwischen Brasilien und dem Freistaat Bayern.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:03.282Z"
+    "reviewedAt": "2026-04-20T15:05:23.029Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/217594-2026",
@@ -1852,13 +1852,13 @@ const DATA = [
     "beschreibung": "Das BMWE als Auftraggeber (AG) beabsichtigt, einen Auftragnehmer (AN) als Projektträger für den Zeitraum vom 01.01.2027 bis 31.12.2029 mit insgesamt vier Aufgabenbereichen zu beauftragen: Für die beiden Säulen des Förderschwerpunkts Mittelstand-Digital, die Aufgabenbereiche 1 (Netzwerk der Mittelstand-Digital Zentren) und 2 (Initiative IT-Sicherheit in der Wirtschaft), ist eine Beleihung des AN geplant. Zu den Aufgabenbereichen 3 (Öffentlichkeitsarbeit) und 4 (Koordinierung der nationalen EDIHs) soll keine Beleihung erfolgen. Für die Aufgabenbereiche 1 und 2 fallen zusammengefasst folgende Leistungen an: - Unterstützung des BMWE bei der Planung und Entwicklung von neuen bzw. der Fortschreibung bestehender Fördermaßnahmen; Antragsprüfungen und -bewilligungen auf Basis der Förderbekanntmachungen für das neue Netzwerk der Mittelstand-Digital Zentren und für die Initiative IT-Sicherheit in der Wirtschaft; - Fachliche Betreuung und Steuerung, Administration und Bewirtschaftung sowie Erfolgskontrolle der Förderfälle (Projektmanagement), einschließlich beihilferechtlicher Betreuung der Zuwendungsempfänger; - Interne Vernetzung sowie Vernetzung mit externen Förder-/Unterstützungsangeboten; - Systematisches und projektübergreifendes kontinuierliches Monitoring sowie projekt-übergreifende Erfolgskontrolle (jährlich) zur Identifikation von Schwachstellen und Maßnahmen zur Verbesserung; - Begleitung der KI-Trainer und der neuen CYBERsicher-Trainer; sowie - Unterstützung des BMWE bei allen beihilferechtlich relevanten Aufgaben. Für den Aufgabenbereich 3 fallen zusammengefasst folgende Leistungen an: - Unterstützung des BMWE bei der Pflege, Redaktion und Erweiterung der neuen On-line-Plattform „Mittelstand-Digital“ mit Lotsenfunktion für KMU zu Digitalisierung, KI sowie IT- und Cybersicherheit; - Vorbehaltlich des BMWE-Gesamtkonzepts zu den Kanälen in den Sozialen Medien: Redaktionelle Betreuung des LinkedIn-Kanals und der Newsletter des Förderschwerpunkts; sowie - Unterstützung bei der Organisation von öffentlichkeitswirksamen Events des Förderschwerpunkts. Für den Aufgabenbereich 4 fallen zusammengefasst folgende Leistungen an: Nationale Kontaktstelle zur Betreuung und Beratung bei Anfragen der deutschen EDIHs und des BMWE zu fachlichen und administrativen Vorgängen; - Gemeinsam mit dem BMWE: Übernahme der Funktion des sog. Vertreters der Mitgliedstaaten (Member State Representative) für Deutschland ggü. der EU-KOM; - Betreuung und administrative Beratung der Ländergruppe der deutschen EDIHs innerhalb des europäischen Netzwerks der EDIHs; sowie - Unterstützung der Synergiebildung zwischen den EDIHs und anderen Initiativen.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen raumplanung und projektmanagement.",
+    "reviewReason": "Wirkt passend wegen projektmanagement und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:05.031Z"
+    "reviewedAt": "2026-04-20T15:05:24.258Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-8c92f3a3-075e-4921-8274-78e183a1e772&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1875,13 +1875,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:40.097Z",
+    "scrapedAt": "2026-04-20T15:02:53.102Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen street.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:06.151Z"
+    "reviewedAt": "2026-04-20T15:05:25.887Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-c494744d-c53a-4434-ae69-b8b49bb5d6dd&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -1898,13 +1898,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-29",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:40.643Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:02:53.641Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:28.518Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/213286-2026",
@@ -1925,13 +1925,13 @@ const DATA = [
     "beschreibung": "Die Stadt Göttingen lobt einen nicht-offenen freiraumplanerischen Realisierungswettbewerb mit Ideenteil gem. RPW 2013 mit vorgeschaltetem EU-weitem Teilnahmewettbewerb und Beteiligung der Öffentlichkeit aus.",
     "veroeffentlichungsdatum": "2026-03-27",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:16.427Z",
+    "scrapedAt": "2026-04-20T15:01:30.456Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beteiligung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:09.111Z"
+    "reviewedAt": "2026-04-20T15:05:30.264Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/214507-2026",
@@ -1948,13 +1948,13 @@ const DATA = [
     "beschreibung": "Despite Iraq's macroeconomic position as an upper-middle-income country, the economic situation in Iraq is tense and employment opportunities are scarce. IDPs, refugees from neighbouring countries, as well as host communities of displaced persons in Iraq face a high level or high risk of poverty stemming from the lack of prospects for income-generating employment. These groups often have insufficient qualifications for existing jobs or the qualifications are not recognised. Lack of access to finance for entrepreneurial activities and to employment-related networks further hampers employment growth. Structural business development support for start-ups and scale-ups is rare. Existential constraints often push vulnerable labour market participants into short-term, informal jobs with no prospects for long-term decent employment. Many IDP returnee and refugee families as well as vulnerable households in general rely on small-scale farming and livestock. Most of these enterprises are small, informal, and low in productivity due to limited access to finance and structured support as well as limited equipment and water access, weak business and marketing capacity and poor market linkages. Environmental pressures reduce agricultural productivity further and make climate-smart practices and improved resource management critical. Women and people with disabilities are severely disadvantaged. Despite very low participation in the labour market, 30% of women of working age are unemployed (compared with 13% of men) and there are far fewer female than male entrepreneurs. Women account for just 11% of the working population and have less access to land and other assets as well as financial services. People with disabilities are confronted with major barriers when trying to enter the labour market, hence, many are unemployed. Women with disabilities face an almost complete exclusion from the labour market, resulting from a combination of social stigma, physically inaccessible environments, prejudice from employers, the absence of tailored trainings, a lack of understanding by government officials and further. Against this backdrop, the German Federal Ministry for Economic Cooperation and Development (BMZ) commissioned the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH to implement the project \"Employment Prospects for Socioeconomic Integration of Refugees, IDPs and Host Communities in Iraq\" (EPSI). In collaboration with the Ministry of Labour and Social Affairs (MoLSA) in the Kurdistan Region of Iraq (KRI) the project aims to promote inclusive employment and entrepreneurship opportunities in the country (including Federal Iraq). Its overall objective reads as follows: \"The employment situation of refugees, IDPs and people from host communities has improved.\" The project focusses on four outputs: 1) Policy Advocacy: Raising awareness among state actors through evidence-based findings to improve the integration of refugees, IDPs and marginalised groups in host communities into labour market policy. 2) Skills for Employment: Developing market-relevant skills to enhance the employability of the target groups through vocational training and career development centres by upgrading or developing curricula and upskilling teachers. 3) Fit for Business: Building and developing entrepreneurial and business skills as well as providing financial support to Micro, Small, and MSMEs. 4) Short-term Employment Opportunities: Providing temporary employment opportunities, such as Cash for Work, for quick income generation to address the immediate financial needs of the target groups. GIZ intends to contract a service provider to contribute to fulfil output 3 in KRI. The objective of output 3 is to enhance technical and financial capacities of refugees, IDPs and vulnerable people in host communities to set up, expand or reactivate MSMEs by i.a. cooperating with local Business Development Service providers.",
     "veroeffentlichungsdatum": "2026-03-27",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (equipment).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:10.746Z"
+    "reviewedAt": "2026-04-20T15:05:32.405Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/208189-2026",
@@ -1971,13 +1971,13 @@ const DATA = [
     "beschreibung": "Předmětem této veřejné zakázky je zajištění výkonu technického dozoru nad prováděním Modifikace třídící linky v Chrášťanech (dále jen „Projekt“), a to včetně všech souvisejících činností nezbytných pro řádnou realizaci Projektu. Vybraný účastník bude v rámci plnění této veřejné zakázky vykonávat služby v souladu s platnými a účinnými právními předpisy, vyhláškami, technickými normami a doporučeními profesních komor. Předmět plnění veřejné zakázky, tj. výkon technického dozoru při provádění Projektu, je blíže specifikován v příloze č. 1 závazného návrhu smlouvy o zajištění technického dozoru, který tvoří přílohu č. 1 zadávací dokumentace.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:33.691Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/208638-2026",
@@ -1995,13 +1995,13 @@ const DATA = [
     "beschreibung": "Auftragsgegenstand ist die Konzipierung und Durchführung des Begutachtungsverfahrens für den Innovationspreis NRW im Zeitraum von 2027 bis 2029 sowie optional auch für die Jahre 2030, 2031 und 2032.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:07.952Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen raumplanung und beratung.",
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:13.818Z"
+    "reviewedAt": "2026-04-20T15:05:35.468Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/207805-2026",
@@ -2018,13 +2018,13 @@ const DATA = [
     "beschreibung": "Under this negotiated procedure, the ECB envisages to award a single framework agreement for the provision of works and services for the maintenance and development of the ECB's Environmental Management System at the ECB. The ECB envisaged to award a single framework framework agreement with an initial duration of 36 months, with the possibility of extension for another 12 months. The total duration of the contract shall not exceed 48 months. During the term of the contract, the ECB will order the provision of works and services with a direct order, in accordance with the terms and conditions of the contract.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:23.941Z",
+    "scrapedAt": "2026-04-20T15:01:36.643Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (maintenance).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:16.049Z"
+    "reviewedAt": "2026-04-20T15:05:36.972Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/210500-2026",
@@ -2046,13 +2046,13 @@ const DATA = [
     "beschreibung": "Předmětem plnění části 1 – 4 Veřejné zakázky je poskytování služeb energetického a technického poradenství pro bytové domy, a to pro stávající, jakož i potenciální klienty Zadavatele, konkrétně zpracování studie proveditelnosti a poskytování navazujících služeb, a to v souvislosti s realizací opatření ke snížení energetické náročnosti nemovitosti. Předmětem plnění části 5 Veřejné zakázky je poskytování služeb energetického a technického poradenství pro bytové domy, a to pro stávající, jakož i potenciální klienty Zadavatele, konkrétně zpracování projektové dokumentace a poskytování navazujících služeb, a to v souvislosti s realizací opatření ke snížení energetické náročnosti nemovitosti.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:23.941Z",
+    "scrapedAt": "2026-04-20T15:01:36.643Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:17.176Z"
+    "reviewedAt": "2026-04-20T15:05:39.268Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/210499-2026",
@@ -2071,13 +2071,13 @@ const DATA = [
     "beschreibung": "Gegenstand der Leistung ist die konzeptionelle Raumgestaltung sowie die Umsetzung der Ausstattung der Gemeinschaftsflächen der Bundeszentrale für politische Bildung in den Liegenschaften Bonn und Gera gemäß Leistungsbeschreibung.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:41.433Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/209223-2026",
@@ -2093,13 +2093,13 @@ const DATA = [
     "beschreibung": "siehe Leistungsbeschreibung",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:36.098Z",
+    "scrapedAt": "2026-04-20T15:01:48.062Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen regionalentwicklung und forschung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:20.736Z"
+    "reviewedAt": "2026-04-20T15:05:43.513Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/206581-2026",
@@ -2117,13 +2117,13 @@ const DATA = [
     "beschreibung": "Konzeptvergabe Michael-Schiffer Weg // Erftstadt Lechenich",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:22.296Z"
+    "reviewedAt": "2026-04-20T15:05:46.188Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/207122-2026",
@@ -2139,13 +2139,13 @@ const DATA = [
     "beschreibung": "Aufbau eines Zentrenmanagement zur Umsetzung des integrierten städtebaulichen Entwicklungskonzeptes für die Stadt Bendorf / Städtebaufördergebiet \"Stadtmitte\" im Förderprogramm\"Lebendige Zentren - Aktive Stadt\"",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:10.611Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:25.371Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:47.893Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/203965-2026",
@@ -2170,13 +2170,13 @@ const DATA = [
     "beschreibung": "Dienstleistungsauftrags in Form einer Rahmenvereinbarung betreffend die Erbringung von Dienstleistungen im Zusammenhang mit ESG, Konzernabschlusserstellung und Nachhaltigkeit. - Bekanntgabe vergebener Aufträge (Abschluss RV)",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:14.445Z",
+    "scrapedAt": "2026-04-20T15:01:28.649Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen tga.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:25.707Z"
+    "reviewedAt": "2026-04-20T15:05:50.728Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/204012-2026",
@@ -2192,13 +2192,13 @@ const DATA = [
     "beschreibung": "Zpracování evaluací projektů nebo výzev financovaných z evropského sociálního fondu. Evaluace jsou systematické a objektivní hodnocení probíhajících nebo dokončených projektů, programů nebo politik, jejich nastavení, implementace a výsledků. Cílem je určení relevance a naplnění cílů, posouzení rozvojové efektivnosti, účinku a udržitelnosti. Jde o proces stanovení důležitosti nebo významnosti určité aktivity, politiky nebo programu/projektu. V rámci DNS budou realizovány procesní, dopadové nebo strategické evaluace. Procesní evaluace hodnotí průběh implementace programu nebo intervence, zaměřuje se na probíhající procesy a jejím cílem jsou doporučení pro lepší nastavení procesů. Dopadová evaluace hodnotí dosažení plánovaných efektů/dopadů/výsledků. Nejčastěji s využitím kontrafaktuální dopadové evaluace (typ CIE) založené na statistických metodách či formou theory-based evaluace (typ TBIE) využitím metody teorie změny a případových studií. Strategická evaluace hodnotí nastavení, dosažení strategických cílů a příspěvek k jejich dosažení na úrovni celého operačního programu. Nezaměřuje se na dílčí intervence, ale hodnotí program jako celek s ohledem na dominantní témata operačního programu ve vztahu ke strategickým cílům.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:14.446Z",
+    "scrapedAt": "2026-04-20T15:01:28.649Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen evaluation und evaluierung.",
+    "reviewReason": "Wirkt passend wegen evaluierung und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:27.920Z"
+    "reviewedAt": "2026-04-20T15:05:55.040Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/206978-2026",
@@ -2215,13 +2215,13 @@ const DATA = [
     "beschreibung": "Das Landeskrankenhaus plant die Umsetzung und Etablierung von betrieblichen Restrukturierungs- und Optimierungsmaßnahmen. Ausgeschrieben werden die benötigten Beratungsleistungen zur Umsetzung.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:29.005Z"
+    "reviewedAt": "2026-04-20T15:05:57.082Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/204236-2026",
@@ -2255,13 +2255,13 @@ const DATA = [
     "beschreibung": "Predmetom zákaziek zadávaných v zriadenom dynamickom nákupnom systéme bude obstarávanie služieb v oblasti zabezpečenia prenájmu profesionálnej tlmočníckej techniky a služieb technickej obsluhy, vrátane dopravných nákladov na miesto poskytovania služieb. Predmetom zákazky je aj zabezpečenie služieb pomocou zvukového technika, profesionálneho zvukového vybavenia a tlmočníckej techniky na podujatia súvisiace s organizáciou konferencií, monitorovacích výborov a iných podujatí z dôvodu kvalitného ozvučenia priestoru, online priestoru, profesionálneho simultánneho tlmočenia a techniky s možnosťou elektronického hlasovania. Cieľom zriadenia DNS a zadávania čiastkových zákaziek v DNS je umožniť verejnému obstarávateľovi flexibilné zadávanie zákaziek v súlade so zákonom o verejnom obstarávaní podľa svojich reálnych potrieb, t. j. v čase a rozsahu, ktorý mu je známy. Zároveň dôvodom obstarávania je aj špecifickosť samotných podujatí, na ktorých sa vyžaduje technika a odborná obsluha, ktorou verejný obstarávateľ v požadovanom rozsahu nedisponuje. Podrobná špecifikácia predmetu zákazky, jeho presný rozsah ako aj ostatné doplňujúce informácie budú uvedené v jednotlivých čiastkových výzvach v rámci zriadeného DNS.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-20T14:42:39.282Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:51.155Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:05:58.250Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/200166-2026",
@@ -2284,13 +2284,13 @@ const DATA = [
     "beschreibung": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung mit bis zu drei Rahmenvereinbarungspartnern (folgend Partner genannt) in Los 1 und Los 2, sowie mit bis zu zwei Partnern in Los 3, Los 4 und Los 5 über diverse Dienstleistungen im Consultingbereich. Die gegenständliche Bekanntgabe erfolgt für die Lose 1, 2, 3 und 5. Das Ergebnis von Los 4 wird zu einem späteren Zeitpunkt bekanntgegeben, sobald das Verfahren für Los 4 abgeschlossen ist",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen tga.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:33.101Z"
+    "reviewedAt": "2026-04-20T15:06:00.996Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/202193-2026",
@@ -2306,13 +2306,13 @@ const DATA = [
     "beschreibung": "Cieľom štúdie uskutočniteľnosti je nájsť a odporučiť technicko, ekonomicko a enviromentálne efektívny variant (s dôrazom na prepojenie s pripravovanou stavbou východného mestského okruhu mesta Martin), ktorý bude slúžiť pre ďalší proces prípravy (proces EIA). Podrobné vymedzenie predmetu zákazky tvorí časť B.1 Opis predmetu zákazky súťažných podkladov.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-20T14:42:18.480Z",
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:34.320Z"
+    "reviewedAt": "2026-04-20T15:06:02.315Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/203122-2026",
@@ -2331,13 +2331,13 @@ const DATA = [
     "beschreibung": "Projektentwicklung und -management Sanierung WHA",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:18.480Z",
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:35.375Z"
+    "reviewedAt": "2026-04-20T15:06:03.881Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/200952-2026",
@@ -2356,13 +2356,13 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 5 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 373,9 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:38.444Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:06.237Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/203001-2026",
@@ -2381,13 +2381,13 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 6 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 275,27 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:38.444Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:07.538Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/200816-2026",
@@ -2403,13 +2403,13 @@ const DATA = [
     "beschreibung": "Procedura aperta con offerta economicamente più vantaggiosa",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:39.965Z"
+    "reviewedAt": "2026-04-20T15:06:09.489Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/202752-2026",
@@ -2426,13 +2426,13 @@ const DATA = [
     "beschreibung": "Rahmenvertrag für eine Agentur, die die Abteilung Marketing & Kommunikation bei überwiegend öffentlichen Vergabeverfahren (marketingspezifische Ausschreibungen) auf dem deutschen Markt beraten soll",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:41.959Z"
+    "reviewedAt": "2026-04-20T15:06:11.403Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/200450-2026",
@@ -2454,13 +2454,13 @@ const DATA = [
     "beschreibung": "Die Investitionsbank Berlin (IBB) benötigt einen Dienstleister für die Entwicklung und Umsetzung eines ganzheitlichen Veranstaltungskonzeptes, inkl. Entwicklung eines Kommunikationskonzeptes, für den Deutschen Gründer- und Unternehmertag (deGUT) 2026 mit Verlängerungsoption für den deGUT 2027, 2028 und 2029 unter Berücksichtigung der unten genannten Ziele sowie politischer Vorgaben und der individuellen Interessenlagen der beteiligten Akteure.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:34.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:46.657Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:12.627Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/203199-2026",
@@ -2477,13 +2477,13 @@ const DATA = [
     "beschreibung": "Im Rahmen des Interreg-Projekts ALGAE-Boost werden Ausrüstungsgegenstände für den Aufbau einer skalierbaren Algenproduktionsanlage beschafft. Gegenstand der Ausschreibung ist die Lieferung technischer Anlagenkomponenten, aufgeteilt in zwei Lose: zehn 1000-Liter-Edelstahlbehälter (Los 1) sowie zwei industrielle Thermostate/Temperiergeräte (Los 2) Mit dieser Beschaffung sowie ggf. nachfolgenden Beschaffungen (Los 3 und Los 4) wird der Aufbau einer skalierbaren Algenproduktionsanlage für die ganzjährige, standortunabhängige Kultivierung von Algen mit künstlichem Licht umgesetzt.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:39.282Z",
+    "scrapedAt": "2026-04-20T15:01:51.154Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (interreg) und Ausschlusskriterium (lieferung).",
+    "reviewReason": "Gemischte Signale zwischen Planung (spatial planning) und Ausschlusskriterium (lieferung).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:45.537Z"
+    "reviewedAt": "2026-04-20T15:06:14.398Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_822657&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
@@ -2499,13 +2499,13 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:43:41.181Z",
+    "scrapedAt": "2026-04-20T15:02:54.185Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:46.704Z"
+    "reviewedAt": "2026-04-20T15:06:15.904Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/198109-2026",
@@ -2524,13 +2524,13 @@ const DATA = [
     "beschreibung": "Erstellung eines Bedarfs- und Entwicklungsplanung mit Organisationsuntersuchung sowie einer Umsetzungsbegleitung für die Feuerwehr der Landeshauptstadt Wiesbaden",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:48.672Z"
+    "reviewedAt": "2026-04-20T15:06:17.515Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/198647-2026",
@@ -2546,13 +2546,13 @@ const DATA = [
     "beschreibung": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) beabsichtigt, im Wege eines Verhandlungsverfahrens mit Teilnahmewettbewerb gem. § 14 Abs. 3 Nr. 3 VgV eine Rahmenvereinbarung IT-Wartung und -Integration 2026 bis 2028 zu vergeben. Nähere Angaben entnehmen Sie bitte den Vergabeunterlagen.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:49.984Z"
+    "reviewedAt": "2026-04-20T15:06:18.811Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/199114-2026",
@@ -2569,13 +2569,13 @@ const DATA = [
     "beschreibung": "Programmbetreuung zur Durchführung einer städtebaulichen Gesamtmaßnahme im Förderprogramm \"Wachstum und nachhaltige Erneuerung\" (WEP) für das Fördergebiet \"Neue Ortsmitte Ottendorf-Okrilla\"",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:19.979Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/196433-2026",
@@ -2592,13 +2592,13 @@ const DATA = [
     "beschreibung": "Předmětem plnění zadávané veřejné zakázky je vypracování dokumentů Zlínského kraje – pasportů nemovitostí ve vlastnictví Zlínského kraje. Pasport bude zpracován pro vybrané budovy v majetku Zlínského kraje uvedené v příloze č. 1 obchodních podmínek za pomoci technologie 3D skenování.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:14.445Z",
+    "scrapedAt": "2026-04-20T15:01:28.649Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen evaluierung und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:54.062Z"
+    "reviewedAt": "2026-04-20T15:06:22.232Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/196273-2026",
@@ -2614,13 +2614,13 @@ const DATA = [
     "beschreibung": "- Planung der Freianlagen, inkl. Verkehrsanlagen, Ingenieurbauwerke und Technische Ausrüstung, in den Phasen LPH 5,6 und 7 über dem gesamten PFA 1.1. - Anpassung der Entwurfsplanung, für einige zu überarbeitende Bereiche, insbesondere die Flutmulde und das Anbindebauwerk. -Planung von Bauzuständen, bzw. Interimszuständen.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:16.425Z",
+    "scrapedAt": "2026-04-20T15:01:30.456Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen tga.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:55.450Z"
+    "reviewedAt": "2026-04-20T15:06:23.867Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/199350-2026",
@@ -2636,13 +2636,13 @@ const DATA = [
     "beschreibung": "70-00551-2790-B Objektplanung Freianlagen",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:16.425Z",
+    "scrapedAt": "2026-04-20T15:01:30.456Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen forschung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:46:57.508Z"
+    "reviewedAt": "2026-04-20T15:06:25.144Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/197987-2026",
@@ -2678,13 +2678,13 @@ const DATA = [
     "beschreibung": "Predmetom čiastkových zákaziek v zriadenom dynamickom nákupnom systéme bude poskytovanie architektonických, projekčných, inžinierskych služieb bežne dostupných na trhu, ako aj služieb s tým spojených, pre Univerzitu Komenského v Bratislave, jej fakulty a súčasti. Bližší opis čiastkových zákaziek je uvedený v súťažných podkladoch.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-20T14:42:18.480Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:27.186Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/198174-2026",
@@ -2703,13 +2703,13 @@ const DATA = [
     "beschreibung": "Planung, Ausführungsvorbereitung und Projektmanagement",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:18.480Z",
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:00.828Z"
+    "reviewedAt": "2026-04-20T15:06:28.689Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/198300-2026",
@@ -2725,13 +2725,13 @@ const DATA = [
     "beschreibung": "Es soll eine Machbarkeitsstudie zur Neuansiedlung von Makrophyten am Otterstedter See vergeben werden. Auftraggeber ist der Flecken Ottersberg. Berechtigter und Verpflichteter aus dem Vergabeverfahren ist ausschließlich der Flecken Ottersberg.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:18.480Z",
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen machbarkeitsstudie und studie.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:03.821Z"
+    "reviewedAt": "2026-04-20T15:06:31.633Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/196684-2026",
@@ -2753,13 +2753,13 @@ const DATA = [
     "beschreibung": "Der Landesbetrieb Daten und Information Rheinland-Pfalz (LDI) schreibt im Auftrag des Landes Rheinland-Pfalz eine Rahmenvereinbarung über die Lieferung von IT-Dienstleistungen aus. Die Ausschreibung ist in einzelne Lose gegliedert. Die Betreuung der je Los zu schließenden Rahmenverträge erfolgt durch den LDI.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:25.362Z",
+    "scrapedAt": "2026-04-20T15:01:38.444Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (lieferung).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:05.126Z"
+    "reviewedAt": "2026-04-20T15:06:33.459Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/197559-2026",
@@ -2775,13 +2775,13 @@ const DATA = [
     "beschreibung": "Servizio Gartner per IT Executives CIO",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:28.793Z",
+    "scrapedAt": "2026-04-20T15:01:43.001Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:07.108Z"
+    "reviewedAt": "2026-04-20T15:06:35.891Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/197206-2026",
@@ -2801,13 +2801,13 @@ const DATA = [
     "beschreibung": "Entwicklung eines Konzepts zur Umsetzung und zum Betrieb der Onlineplattform „Selbständig in Hamburg“, inklusive der Darstellung einer inhaltlichen und funktionalen Struktur für die Zielgruppe. Etablierung eines ergänzenden Beratungsangebotes für gewerbliche Selbstständige und Freiberuflerinnen und Freiberufler, die sich nicht mehr in der Gründungsphase (Zuständigkeit gründungsspezifische Beratung: Hamburger Existenzgründungsinitiative „hei.“) befinden sowie dessen Integration in- und die Verzahnung mit bestehenden Unterstützungsstrukturen der Freien und Hansestadt Hamburg, insbesondere das der Hamburger Existenzgründungs-Initiative „hei.“. Die relevanten Stakeholder sind angemessen in den Prozess einzubeziehen.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:32.235Z",
+    "scrapedAt": "2026-04-20T15:01:45.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:09.019Z"
+    "reviewedAt": "2026-04-20T15:06:38.134Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/197287-2026",
@@ -2836,13 +2836,13 @@ const DATA = [
     "beschreibung": "Předmětem plnění veřejných zakázek zadávaných v rámci tímto zadávacím řízením zaváděného DNS bude příprava a celkové organizační zajištění akcí a soutěží zadavatele bez ohledu na jejich územní vymezení (území ČR, Polska, Rakouska a dalších sousedních zemí), jenž povedou k propagaci CRR a jím spravovaných programů (zejm. IROP, Interreg V-A CZ-PL, Interreg V-A AT-CZ a dalších). DNS bude rozdělený do 2 kategorií ve smyslu § 138 odst. 1 ZZVZ, které jsou označeny takto: • Kategorie A - „Akce CRR“ - bude se jednat o celkové (zejména technické, personální, organizační - včetně cateringu, logistické, propagační) zajištění akcí (konferencí, workshopů, kulatých stolů, pracovních setkání a zasedání, outdoorových akcí, jednodenních či vícedenních apod.) pro Zadavatele • Kategorie B - „Soutěže CRR“ - bude se jednat o celkové zajištění soutěží pro Zadavatele, a to např. internetové, vědomostní, outdoorové, sportovní, jednorázové i vícekolové apod.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-20T14:42:39.282Z",
+    "scrapedAt": "2026-04-20T15:01:51.154Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen interreg, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:10.183Z"
+    "reviewedAt": "2026-04-20T15:06:40.190Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192977-2026",
@@ -2859,13 +2859,13 @@ const DATA = [
     "beschreibung": "Projektierung eines Windparks in einem Windenergiebereich nach dem Regionalplan Arnsberg, Teilabschnitt Kreis Soest und Hochsauerlandkreis, bis zur Erlangung der immissionsschutzrechtlichen Genehmigung (§ 4 BImSchG). Optional: Der Auftraggeber kann über die Projektierung weiter beauftragen. Die Unterlagen wurden teilweise aktualisiert bzw. konkretisiert im Vergleich zur Phase 1. Bitte beachten !",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:07.951Z",
+    "scrapedAt": "2026-04-20T15:01:21.907Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:11.835Z"
+    "reviewedAt": "2026-04-20T15:06:42.439Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193927-2026",
@@ -2886,13 +2886,13 @@ const DATA = [
     "beschreibung": "Durchführen von Wirtschaftlichkeitsuntersuchungen im Zuge einer technisch- funktionalen Machbarkeitsstudie",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:14.445Z",
+    "scrapedAt": "2026-04-20T15:01:28.649Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen machbarkeitsstudie und studie.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:13.534Z"
+    "reviewedAt": "2026-04-20T15:06:43.752Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193466-2026",
@@ -2911,13 +2911,13 @@ const DATA = [
     "beschreibung": "Gegenstand des Realisierungswettbewerbs ist die Vorplanung der öffentlichen Freiflächen und Straßen in den Bereichen: Spitalhof und Beim Brünnele, Archivstraße und Johann-Philipp-Palm-Straße in Schorndorf. Der Realisierungswettbewerb zielt auf eine Vielzahl von freiräumlichen und funktional ganzheitlich betrachteten Lösungsansätzen sowie auf die Vergabe eines Planungsauftrags für die Objektplanung Freianlagen und Verkehrsanlagen LpH 1-9 im Umfeld der neuen Bibliothek ab.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:16.425Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen raumplanung und stadtentwicklung.",
+    "scrapedAt": "2026-04-20T15:01:30.456Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:14.606Z"
+    "reviewedAt": "2026-04-20T15:06:45.318Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/195837-2026",
@@ -2934,13 +2934,13 @@ const DATA = [
     "beschreibung": "Planungsleistungen",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:16.425Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:30.456Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen raumplanung, aber nicht eindeutig genug.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:47.071Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/195184-2026",
@@ -2960,13 +2960,13 @@ const DATA = [
     "beschreibung": "Gegenstand dieses Vergabeverfahrens ist die Beauftragung eines externen Dienstleisters (Auftragnehmer/AN), die in der Leistungsbeschreibung unter II.1 und II.2 genannten Aufgaben sowie die in diesem Zusammenhang anfallenden Neben- und Zusatzaufgaben (II.1.1.2) ab dem 01.04.2026 durchzuführen. Konkret handelt es sich bei diesem Auftrag vor allem um Tätigkeiten zum Erhalt des Sicheren Einschlusses. Dies umfasst unter anderem die Überwachung der Anlage, die Durchführung von Schalthandlungen und von sicherheitstechnisch notwendigen Wiederkehrenden Prüfungen (WKP) sowie von Wartungs- und Instandhaltungsarbeiten. Zudem sind anfallende Reparatur- und Sanierungsarbeiten sowie evtl. notwendig werdende technische oder organisatorische Änderungen umzusetzen. Weiterhin ist die einleitende Planung des Rückbaus der kerntechnischen Anlage THTR-300 Gegenstand dieses Vergabeverfahrens. Neben den Tätigkeiten zum Erhalt des Sicheren Einschlusses ist somit gleichzeitig mit der Planung eines zeitnahen Rückbaus der Anlage zu beginnen und es sind erste Maßnahmen durchzuführen, die den Rückbau vorbereiten. Hinweis: Die Beauftragung beinhaltet explizit nicht die Übernahme der Verantwortung für die nukleare Sicherheit der Anlage. Diese obliegt weiterhin der Eigentümerin des THTR.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:18.479Z",
-    "reviewLabel": "eher unpassend",
-    "reviewScore": 20,
-    "reviewReason": "Wirkt fachfremd wegen maintenance.",
+    "scrapedAt": "2026-04-20T15:01:32.291Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:16.901Z"
+    "reviewedAt": "2026-04-20T15:06:49.157Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193057-2026",
@@ -2982,13 +2982,13 @@ const DATA = [
     "beschreibung": "Call for tenders for the selection, through an open competitive procedure, of an implementing body with the aim of awarding the contract for the implementation of the remaining part of the Programme No. 101138125 for the information and promotion of quality European fresh fruit and vegetables to be carried out in Italy and Germany called “La Dolce Frutta From Europe (DolceFrutta)\".",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:20.027Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "scrapedAt": "2026-04-20T15:01:33.524Z",
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen spatial planning und beratung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:18.777Z"
+    "reviewedAt": "2026-04-20T15:06:51.168Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193167-2026",
@@ -3007,13 +3007,13 @@ const DATA = [
     "beschreibung": "Das BMWE als Auftraggeber (AG) beabsichtigt, einen Auftragnehmer (AN) als Projektträger für den Zeitraum vom 02.06.2026 bis 31.12.2030 mit der fachlichen und administrativen Bearbeitung des Förderprogramms „Regionale Transformations-Netzwerke und Transformations-Hubs zur Stärkung der Wettbewerbsfähigkeit der Automobil- und Zulieferindustrie“ zu beauftragen. Zusätzlich soll der AN die unter den bisherigen Förderbekanntmachungen „Transformationsstrategien für Regionen der Fahrzeug- und Zulieferindustrie“ und „Aufbau und Umsetzung von Transformations-Hubs zur Unterstützung von Transformationsprozessen in Wertschöpfungsketten der Automobilindustrie“ geförderten Projekte vom 02.06.2026 bis 31.12.2026 betreuen sowie Abschlussarbeiten dieser Projekte vom 01.01.2027 bis 31.12.2027 durchführen. Ziel der veröffentlichten Förderrichtlinie ist es, einen Beitrag zur Stärkung der Wettbewerbsfähigkeit der Automobil- und Zulieferindustrie in Deutschland zu leisten. Die Förderrichtlinie besteht aus zwei Modulen: • Modul A: Einrichtung bzw. Weiterentwicklung regionaler Transformations-Netzwerke sowie die Konzeption, Umsetzung und Fortschreibung von Trans-formationsstrategien in den von der Automobil - und Zuliefererindustrie geprägten Wirtschaftsregionen in Deutschland, und • Modul B: Aufbau bzw. die Weiterentwicklung sowie der Betrieb thematischorientierter Transformations-Hubs entlang relevanter Themenschwerpunkte in den Wertschöpfungsketten der Automobil- und Zulieferindustrie.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:20.027Z",
+    "scrapedAt": "2026-04-20T15:01:33.524Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:19.847Z"
+    "reviewedAt": "2026-04-20T15:06:53.225Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193388-2026",
@@ -3029,13 +3029,13 @@ const DATA = [
     "beschreibung": "PROCEDURA APERTA, SUDDIVISA IN TRE LOTTI, PER L’AFFIDAMENTO DEI SERVIZI DI “ASSISTENZA TECNICA IN ATTUAZIONE DELL’ACCORDO PER LO SVILUPPO E LA COESIONE REGIONE SARDEGNA FSC 2021-2027, DESTINATI ALLA DIREZIONE GENERALE DELLA PRESIDENZA DELLA REGIONE AUTONOMA DELLA SARDEGNA",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-20T14:42:20.027Z",
+    "scrapedAt": "2026-04-20T15:01:33.524Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen technical assistance, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:21.990Z"
+    "reviewedAt": "2026-04-20T15:06:55.231Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193657-2026",
@@ -3062,13 +3062,13 @@ const DATA = [
     "beschreibung": "Predmetom zákazky je dodávka a inštalácia nového monitorovacieho a optimalizačného systému s validáciou dát pre hospodárne riadenie a vyhodnocovanie prevádzky a predikciu vrátane garančných meraní na 1. a 2. bloku atómovej elektrárne Mochovce, na 3. a 4. bloku atómovéj elektrárne Bohunice a na 3. a 4. bloku atómovej elektrárne Mochovce. Podrobné vymedzenie predmetu zákazky vrátane technických špecifikácií tvoria prílohu týchto súťažných podkladov – „P1 Technická špecifikácia EMO12/TŠ anglická verzia, P1A Technická špecifikácia EBO/TŠ anglická verzia, P1B Technická špecifikácia EMO34/TŠ anglická verzia“, ďalej spolu ako „Technické špecifikácie“.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-20T14:42:20.027Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:33.525Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:06:56.466Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/194232-2026",
@@ -3084,13 +3084,13 @@ const DATA = [
     "beschreibung": "Ausschreibung eines Vertrages zum Beitritt zu einer Einkaufsgemeinschaft im Gesundheitswesen",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:20.027Z",
+    "scrapedAt": "2026-04-20T15:01:33.525Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:24.592Z"
+    "reviewedAt": "2026-04-20T15:06:58.471Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/194779-2026",
@@ -3109,13 +3109,13 @@ const DATA = [
     "beschreibung": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, Colombia, on behalf of the Federal Ministry for Economic Cooperation and Development (BMZ), implements between July 2025 and June 2028 the \"Regions Initiative - Promoting the economic and health participation of particularly vulnerable refugees and migrants and host communities in Colombia\". Objective: to strengthen the inclusion and participation of migrants, women, LGBTIQ+ people, people with disabilities and other vulnerable groups in Cali (mainly) and Bogota, by: (1) improving employment and income (training, entrepreneurship, linkage with private sector and finance); (2) access to sexual and reproductive health services and rights (training, adaptation of protocols, clinical partnerships); (3) prevention of gender-based violence (training of providers, adaptation of standards and strengthening of safe spaces). With the reception of more than 2.81 million people from Venezuela, Colombia is one of the main receiving countries in the world. In addition, there are numerous refugees and migrants of other nationalities using Colombia as a transit country. In addition, by the end of 2023, 6.9 million Colombians were displaced within the country and more than 115,000 Colombians sought asylum outside the country, many in Spain. Cali, capital of the department of Valle del Cauca, is a central receiving city for Venezuelan migrants and internally displaced persons, especially from the Pacific region. The term \"migrants\" also includes refugees, asylum seekers and returnees. Cali faces the challenge of promoting the inclusive participation of vulnerable groups in social life and the labor market. Most affected are women, youth, LSBTQI+ people, ethnic minorities such as indigenous and Afro-Colombians, and people with disabilities, who often suffer multiple discriminations. The project's central objective is to strengthen the inclusive participation of migrants, women, LGBTIQ+ people, people with disabilities and other particularly vulnerable members of host communities in Colombia.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:20.028Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:33.525Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:01.561Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/193387-2026",
@@ -3131,13 +3131,13 @@ const DATA = [
     "beschreibung": "Projektsteuerung Sanierung GS Silberwald/FS Korczak - Nachtrag 14",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.459Z",
+    "scrapedAt": "2026-04-20T15:01:50.001Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:27.406Z"
+    "reviewedAt": "2026-04-20T15:07:02.749Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/194243-2026",
@@ -3153,13 +3153,13 @@ const DATA = [
     "beschreibung": "Kurzbeschreibung Baustelleneinrichtung 1x psch. Verkehrssicherung & Baustellenbeschilderung 1x psch. Turmdrehkran Obendreher 60 m 1x Stk. Oberboden abtragen ca. 300m² Baugrubenaushub ca. 1.200m³ Fundamentaushub ca. 500m³ Rohrleitungsgräben ca. 100m³ Aushub-Abfuhr ca. 1.000m³ Arbeitsräume verfüllen ca. 200m³ Perimeterdämmung unter Bodenplatte ca. 700m² Entwässerungsleitungen ca. 120m Mineralbeton ca.200m³ Sauberkeitsschicht C12/15 ca. 700m² Brunnengründungen ca. 110m Stahlbetonbodenplatten ca. 750m² Stahlbetonwände ca. 400m³ Zulage Sichtbeton ca. 300m² Stahlbetonstützen ca. 75 Stk. Stahlbetonunterzüge ca. 33m³ Stahlbetondecken ca.365m³ Fertigteiltreppenläufe mit Zwischenpodesten ca.55m² Betonstabstahl ca. 135t Betonstahlmatten, Lagermatten ca. 45t Abstandhalter ca. 15t Abbruch - Vorhandener Kamin über und unter Erdreich ca. 1 Stk. Perimeterdämmung Wände ca. 100m² Bitumen-Dickbeschichtung Wände ca. 100m² Verpreßpfähle ca. 25m",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.459Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:50.001Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:04.451Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/194307-2026",
@@ -3175,13 +3175,13 @@ const DATA = [
     "beschreibung": "Gegenstand des Verfahrens ist die Vergabe von Leistungen des Projektmanagements in Anlehnung an Heft-Nr. 9 der AHO-Fachkommission „Projektsteuerung / Projektmanagement“, Ausgabe 2014 für das Projekt Kapazitätserweiterung Ost-West-Achse Köln Leistungen der Projektsteuerung und des Projektmanagements gem. Heft Nr. 9 der AHO-Fachkommission„ Projektsteuerung / Projektmanagement“, Ausgabe 2014 für folgende Handlungsbereiche: - Organisation, Information, Koordination und Dokumentation - Qualitäten und Quantitäten - Kosten und Finanzierung - Termine, Kapazitäten und Logistik - Verträge und Versicherungen Das Projekt Kapazitätserweiterung Ost-West-Achse besteht aus folgenden Maßnahmen: I. Die Auftraggeber beabsichtigen, Generalplanerleistungen für eine Kapazitätserweiterung der Stadtbahnlinie 1auf dem Abschnitt von Weiden West bis Heumarkt stufenweise zu vergeben. Die Bahnsteige der bestehenden Haltestellen sind für den Einsatz von Langzügen auf 80 m Nutzlänge auszubauen. Die Haltestellen auf der Aachener Straße (Weiden-West bis Universitätsstraße) sind für den Endzustand zu planen. Zu den Generalplanerleistungen gehören insbesondere: Objektplanung Verkehrsanlagen des Schienen- und des Straßenverkehrs, Objektplanung Ingenieurbauwerke, Tragwerksplanung, Fachplanung Elektro und Fachplanung für die Technische Ausrüstung der Straßenverkehrsanlagen. Der Auftrag ist Teil des Gesamtprojektes \"Umbau der Ost-West-Achse\" - eines der bedeutendsten städtebaulichen Projekte der Stadt Köln. II. Die Auftraggeber beabsichtigen ferner, Generalplanerleistungen für eine Variantenuntersuchung im Innenstadtbereich für die oben genannte Strecke für eine oberirdische Lösung und eine unterirdische Lösung zu vergeben. Die oberirdische Lösung sieht eine vollständige Neuordnung aller Verkehrsanlagen auf der Oberfläche zwischen Heumarkt und Eisenbahnring vor. Die unterirdische Lösung sieht eine unterirdische Stadtbahnführung und eine vollständige Neuordnung der an der Oberfläche verbleibenden Verkehrsanlage vor. Der Tunnel im Innenstadtbereich soll sich von der Haltestelle Heumarkt bis zur Höhe des Eisenbahnringes mit vier Haltestellen, sowie einem Abzweig der Linie 9 westlich des Neumarktes erstrecken. Bei der unterirdischen Führung sind die vorhandenen unterirdischen Verknüpfungshaltestellen Heumarkt, Neumarkt und Rudolfplatzanzubinden. Nach einer politischen Entscheidung, welcher Variante der Vorzug zu geben ist, sind die weiteren Planungsleistungen ab der Leistungsphase 3 HOAI nur noch für die Vorzugsvariante zu erbringen. Die Stadt Köln schätzt die Kosten auf ca. € 100 Mio. für die oberirdische Lösung bzw. auf ca. € 700 Mio. für die unterirdische Lösung (ca. € 635 Mio. für Tunnel und ca. € 65 Mio. für Oberfläche). III. Hinzu kommen diverse Gutachter und weitere Beteiligte. Der Auftragnehmer soll die Auftraggeber sowohl während der Planungs- als auch während der Bauphase unterstützen.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.460Z",
+    "scrapedAt": "2026-04-20T15:01:50.002Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (projektmanagement) und Ausschlusskriterium (tunnel).",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:31.193Z"
+    "reviewedAt": "2026-04-20T15:07:07.025Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/194538-2026",
@@ -3197,13 +3197,13 @@ const DATA = [
     "beschreibung": "BAUBESCHREIBUNG ELEKTRO: Halle C Arbeitsstände +UFD/ Thermowand Erweiterung im Bestand. Die Vorschrift VDV 506 ist hierbei zu beachten. Auf dem Dach befinden sich Lichtkuppeln(RWA) Co2 Lüftungsfunktion erfolgt durch AN. Kabel, Leitungen + Verlegesysteme: Verlegesysteme als Kabelrinne an Stahlträgern. In allen Bereichen wird auf eine saubere und ordentliche Installation Wert gelegt. Rohrinstallation mittels ALU-Steckrohre. Beleuchtung: LED-Leuchten bei Bedarf auf Tragschienensystem. Fernmeldeanlagen: Ausführung einer strukturierten Gebäudeverkabelung. Anbindung an Bestand mittels LWL. Brandmeldeanlage: Kabelzug",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.460Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:50.002Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:08.894Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/195382-2026",
@@ -3219,13 +3219,13 @@ const DATA = [
     "beschreibung": "Tragwerksplanung mit thermischer Bauphysik (Wärmeschutz) zum Ersatzneubau Klassentrakt mit Mensa an der Grundschule Neue Friedensschule Sinn",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.460Z",
+    "scrapedAt": "2026-04-20T15:01:50.002Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:35.013Z"
+    "reviewedAt": "2026-04-20T15:07:10.533Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/195521-2026",
@@ -3241,13 +3241,13 @@ const DATA = [
     "beschreibung": "Das Teilbauwerk der Pliensaubrücke über den Neckarschifffahrtskanal ist in einem baulich sehr schlechten und insgesamt in einem unzeitgemäßen, optisch unattraktiven und der räumlichen Situation unangemessenen Zustand. Eine Generalsanierung scheidet sowohl aus wirtschaftlich nachhaltigen als auch aus städtebaulich, ästhetischen Gründen aus. Ein Ersatzneubau ist zwingend erforderlich. Das Gesamtprojekt Ersatzneubau Pliensaubrücke über den Neckar einschließlich der Rampe in den Neckaruferpark soll gemäß der vorliegenden Entwurfs-, der Kosten- und der Terminplanung realisiert werden (Baubeschluss). Es soll eine ca. 73m lange und mind. 6m breite Brücke in einer semiintegralen Stahlkonstruktion errichtet werden. Eine barrierefreie Führung des Fuß-/Radverkehrs auf der Rampe und Brücke muss gewährleistet werden. Eine durchgängige Handlaufbeleuchtung und ein Seilnetzgeländer sind angedacht.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.460Z",
+    "scrapedAt": "2026-04-20T15:01:50.002Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:36.169Z"
+    "reviewedAt": "2026-04-20T15:07:11.984Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/195532-2026",
@@ -3263,13 +3263,13 @@ const DATA = [
     "beschreibung": "Brandmeldeanlage Die Leistung umfasst die Lieferung, Montage, Inbetriebnahme und Programmierung einer Brandmeldeanlage mit Vollschutz (Kategorie 1) einschließlich Brandmelder, Handfeuermelder, akustischer Alarmierung und Feuerwehreinrichtungen. Die Anlage ist nach DIN 14675 und DIN VDE 0833 auszuführen, einschließlich Feuerwehraufschaltung, Ansteuerung der Lüftungsanlagen und Aufzugssteuerung im Brandfall. Sprachalarmanlage Die Leistung umfasst die Lieferung, Montage, Inbetriebnahme und Programmierung einer Sprachalarmanlage einschließlich Lautsprecher zur Alarmierung. Die Anlage ist nach DIN VDE 0833 und Sicherheitsstufe 2 auszuführen. Der STI Faktor findet keine Berücksichtigung, da die Alarmierung über DIN Ton stattfindet. Eine automatische Ansteuerung durch die BMZ, sowie die Anbindung für betriebliche Durchsagen, Amokalarm und Veranstaltungen sind neben der Feuerwehrsprechstelle am Hauptzugang vorzusehen. Eine vollflächige Alarmierung im Innen- und Außenbereich ist vorzusehen.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:37.460Z",
+    "scrapedAt": "2026-04-20T15:01:50.002Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen lieferung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:37.264Z"
+    "reviewedAt": "2026-04-20T15:07:13.796Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192938-2026",
@@ -3291,13 +3291,13 @@ const DATA = [
     "beschreibung": "Zielsetzung dieser Fördermaßnahme ist die Unterstützung eines effektiven und technologieneutralen Breitbandausbaus im Projektgebiet zur Errichtung eines nachhaltigen sowie zukunfts- und hochleistungsfähigen Breitbandnetzes (Gigabitnetz) in den unterversorgten Gebieten",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:15.669Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192941-2026",
@@ -3313,13 +3313,13 @@ const DATA = [
     "beschreibung": "Putz- und Malerarbeiten Außenputz + WDVS",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:17.606Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192961-2026",
@@ -3335,13 +3335,13 @@ const DATA = [
     "beschreibung": "Bei den ePa Wagen handelt es sich um Sonderanfertigungen von der Fa. digomed. Aus diesem Grund kann das Technologie Upgrade nur über den ursprünglichen Lieferanten der ePA-Wagen erfolgen. Neben den zu beschaffenden Komponenten besteht der Wagen zusätzlich aus einem Energiemanangement sowie Medical Grade PC. Alle Komponenten müssen als Gesamtsystem funktionieren und somit macht es sowohl aus technischer als auch aus wirtschaftlichen Gründen keinen Sinn dies von zwei unterschiedlichen Anbietern zu beziehen.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen medical.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:40.831Z"
+    "reviewedAt": "2026-04-20T15:07:18.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192974-2026",
@@ -3357,13 +3357,13 @@ const DATA = [
     "beschreibung": "Estricharbeiten",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:20.206Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192979-2026",
@@ -3380,13 +3380,13 @@ const DATA = [
     "beschreibung": "Gegenstand des Vertrages sind Bewachungsdienstleistungen an den Liegenschaften der AG am Dienstsitz Berlin (Los 1) und/oder Bonn (Los 2).",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:21.781Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/192981-2026",
@@ -3402,13 +3402,13 @@ const DATA = [
     "beschreibung": "Herstellung, Lieferung und Inbetriebnahme eines Kalibrierstandes für das Seitenkraftmessverfahren (SKM)",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-20T14:42:42.515Z",
+    "scrapedAt": "2026-04-20T15:01:54.601Z",
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen lieferung.",
     "reviewProvider": "minimax",
     "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-04-20T14:47:45.653Z"
+    "reviewedAt": "2026-04-20T15:07:23.036Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-e9bb03d0-28a6-454f-8201-cce3324b509f&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVJhdW1wbGFudW5nJmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
@@ -3424,12 +3424,12 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-20T14:42:46.412Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "scrapedAt": "2026-04-20T15:01:59.285Z",
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
+    "reviewProvider": "minimax",
+    "reviewModel": "MiniMax-M2.7",
+    "reviewedAt": "2026-04-20T15:07:24.192Z"
   }
 ];
