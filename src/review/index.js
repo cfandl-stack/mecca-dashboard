@@ -36,29 +36,140 @@ function buildPrompt(record) {
     "Typisch eher unpassend sind Hochbau, Tiefbau, Strassen- oder Schienenbau, Bauausfuehrung, TGA/Haustechnik, OeBA, reine Lieferleistungen, IT-only-Projekte, Werbeagenturleistungen, Reinigung oder medizintechnische Beschaffung.",
     "Waehle genau ein Label: passt gut | pruefen | eher unpassend.",
     "Verwende pruefen nur bei gemischten Signalen oder unklarer Relevanz.",
-    'Antworte ausschliesslich als JSON mit diesem Schema: {"label":"passt gut|pruefen|eher unpassend","score":0-100,"reason":"kurzer deutscher Satz, maximal 160 Zeichen"}',
+    "WICHTIG: Gib ausschliesslich ein JSON-Objekt zurueck. Kein Markdown. Keine Erklaerung. Kein Vorspann. Kein Nachspann.",
+    'Antwortformat exakt: {"label":"passt gut|pruefen|eher unpassend","score":0-100,"reason":"kurzer deutscher Satz, maximal 160 Zeichen"}',
+    'Beispiel: {"label":"pruefen","score":54,"reason":"Projektmanagement ist enthalten, aber der Bau- und Infrastrukturanteil wirkt fuer das Buero zu stark."}',
     `Datensatz: ${JSON.stringify(summarized)}`
   ].join("\n");
 }
 
+function stripThinkingArtifacts(value) {
+  return String(value || "")
+    .replace(/<think>[\s\S]*?<\/think>/gi, " ")
+    .replace(/```json/gi, "```")
+    .trim();
+}
+
+function extractFirstJsonObject(text) {
+  const start = text.indexOf("{");
+  if (start < 0) {
+    return "";
+  }
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = start; index < text.length; index += 1) {
+    const character = text[index];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (character === "\\") {
+        escaped = true;
+      } else if (character === "\"") {
+        inString = false;
+      }
+      continue;
+    }
+
+    if (character === "\"") {
+      inString = true;
+      continue;
+    }
+
+    if (character === "{") {
+      depth += 1;
+      continue;
+    }
+
+    if (character === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        return text.slice(start, index + 1);
+      }
+    }
+  }
+
+  return "";
+}
+
+function inferLabelFromNarrative(text) {
+  const normalized = normalizeWhitespace(text).toLowerCase();
+
+  if (
+    normalized.includes("eher unpassend") ||
+    normalized.includes("not a good fit") ||
+    normalized.includes("not suitable") ||
+    normalized.includes("less suitable")
+  ) {
+    return "eher unpassend";
+  }
+
+  if (
+    normalized.includes("passt gut") ||
+    normalized.includes("good fit") ||
+    normalized.includes("strong fit") ||
+    normalized.includes("well aligned")
+  ) {
+    return "passt gut";
+  }
+
+  if (
+    normalized.includes("pruefen") ||
+    normalized.includes("prüfen") ||
+    normalized.includes("needs review") ||
+    normalized.includes("mixed signals") ||
+    normalized.includes("unclear")
+  ) {
+    return "pruefen";
+  }
+
+  return "";
+}
+
+function parseNarrativeFallback(value) {
+  const text = normalizeWhitespace(stripThinkingArtifacts(value));
+  const label = inferLabelFromNarrative(text);
+
+  if (!label) {
+    throw new Error(text ? `Leere JSON-Antwort, Freitext beginnt mit: ${text.slice(0, 140)}` : "Leere LLM-Antwort");
+  }
+
+  const scoreMatch = text.match(/\bscore\b[:\s-]*(\d{1,3})/i) || text.match(/\b(\d{1,3})\s*\/\s*100\b/);
+  const score = scoreMatch ? Number(scoreMatch[1]) : null;
+  const firstSentence = text.split(/(?<=[.!?])\s+/)[0] || text;
+
+  return {
+    label,
+    score,
+    reason: firstSentence.slice(0, 160)
+  };
+}
+
 function extractJsonObject(value) {
-  const text = String(value || "").trim();
+  const text = stripThinkingArtifacts(value);
 
   if (!text) {
     throw new Error("Leere LLM-Antwort");
   }
 
-  const fencedMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  const fencedMatch = text.match(/```+\s*([\s\S]*?)```+/i);
   if (fencedMatch) {
     return JSON.parse(fencedMatch[1]);
   }
 
-  const objectMatch = text.match(/\{[\s\S]*\}/);
-  if (objectMatch) {
-    return JSON.parse(objectMatch[0]);
+  const objectCandidate = extractFirstJsonObject(text);
+  if (objectCandidate) {
+    return JSON.parse(objectCandidate);
   }
 
-  return JSON.parse(text);
+  try {
+    return JSON.parse(text);
+  } catch {
+    return parseNarrativeFallback(text);
+  }
 }
 
 function normalizeReviewPayload(payload, provider, model) {

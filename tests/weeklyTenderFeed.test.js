@@ -1,6 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
+const { extractJsonObject } = require("../src/review");
 
 const {
   buildTedCountryFilter,
@@ -163,4 +164,22 @@ test("MiniMax Payload Summary extrahiert relevante Debug-Felder", () => {
     outputSensitive: true,
     outputSensitiveType: 4
   });
+});
+
+test("Review Parser kann JSON aus Markdown-Codefences extrahieren", () => {
+  const parsed = extractJsonObject("```json\n{\"label\":\"pruefen\",\"score\":58,\"reason\":\"Grenzfall wegen Bauanteil.\"}\n```");
+
+  assert.deepEqual(parsed, {
+    label: "pruefen",
+    score: 58,
+    reason: "Grenzfall wegen Bauanteil."
+  });
+});
+
+test("Review Parser kann Freitext-Fallback auf Label pruefen abbilden", () => {
+  const parsed = extractJsonObject("Let me analyze this. The tender has mixed signals and needs review because planning and construction aspects overlap.");
+
+  assert.equal(parsed.label, "pruefen");
+  assert.equal(parsed.score, null);
+  assert.match(parsed.reason, /Let me analyze this/i);
 });
