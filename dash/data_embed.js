@@ -1,6 +1,330 @@
 const DATA = [
   {
     "portal": "TED",
+    "suchbegriff": "CPV 73220000-0 - Entwicklungsberatung",
+    "titel": "Deutschland – Dienstleistungen im Umweltschutz – 81322610-Appui technique à la conservation de la biodiversité et au bien-être des populations en Côte d'Ivoire",
+    "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/267818-2026",
+    "cpvCodes": [
+      "90700000",
+      "73220000",
+      "90713000"
+    ],
+    "beschreibung": "Expanding agricultural activities and population growth have led to a considerable loss of forest cover in Côte d'Ivoire over the past 30 years. At the same time, natural resources are rarely used in an environmentally sustainable manner. This is resulting in higher climate risks and a decline in the economic potential of rural areas. Agricultural yields and the population's living conditions are already deteriorating due to changing precipitation patterns and infertile soils. Moreover, the pressure on biodiversity is increasing. Areas at risk include Taï and Comoé national parks and the Bossématié Nature Reserve. In view of these challenges, Côte d'Ivoire aims to reforest three million hectares of forest area and expand the country's protected areas by 2030. The Pro2GRN II project aims to strengthen biodiversity conservation in the Taï, Comoé and Bossématié regions using a multi-level, multi-actor approach. It builds on the results of previous projects, exploits synergies with ongoing projects and cooperates closely with KfW and other technical cooperation projects (notably \"ProForêt\" and \"ProPlanteurs\") in the areas of nature conservation, land use, agroforestry and forest restoration, and builds the capacity of stakeholders at local, regional and national levels. The project has four priority areas: The central element of the project's strategy is the development of a landscape approach (component 1) that integrates the full range of land protection and land use interests and combines ecological, social and economic objectives. Support for local authority and OIPR staff, village communities, private managers of protected areas and members of multi-stakeholder platforms will create favorable conditions for the conclusion and implementation of local agreements on natural resource management and other spatial planning instruments. Finally, component 1 also defines strategic orientations that are implemented by other components. Component 2 \"Management of protected areas\" aims to improve the management of the Tai and Comoé national parks, the Bossématié nature reserve and other protected areas. To achieve this, the project is supporting OIPR in improving their management system. In addition, local authorities, public institutions and private individuals will be supported in their efforts to preserve residual forests and enhance ecological connectivity in rural areas. Component 3 \"Agroecological innovations and agroforestry\" enhances the resilience of the affected regions against climate-related and environmental challenges by supporting adapted and agroecological practices and agroforestry systems. It will promote self-sufficiency in farm inputs and provide technical advice on biological plant protection and watersaving production methods. Support on transformation and marketing processes will strengthen local value creation. Component 4 \"Regulatory frameworks for biodiversity and climate\" aims to improve the capacities of regional development players. In this context, the project assists national authorities and other stakeholders in the dissemination and implementation of the National Biodiversity Strategy (NBSAP) and supports their access to biodiversity and climate financing mechanisms. In addition, technical advice will be provided for the implementation of a national system of MRV for emission reductions in the (agro-)forestry sector.",
+    "veroeffentlichungsdatum": "2026-04-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:10.669Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "23.,Valentingasse 7",
+    "auftraggeber": "Stadt Wien - Wiener Wohnen",
+    "frist": "2026-05-18",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9617eec4-d074-4434-ba10-c20e0ee2424d&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "71240000",
+      "71242000",
+      "71241000",
+      "71541000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-19",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:52.301Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 73220000-0 - Entwicklungsberatung",
+    "titel": "Deutschland – Verbesserung und Unterstützung der Verwaltungs- und Gemeinschaftseinrichtungen – 81322597-Implementation of Cash for Work light rehabilitation measures in Northern Lebanon",
+    "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/262500-2026",
+    "cpvCodes": [
+      "98133100",
+      "73220000",
+      "75130000"
+    ],
+    "beschreibung": "Lebanon is currently facing a profound economic and financial crisis that has severely impacted both its local population and the Syrian refugees residing in the country. Beginning in 2019 and worsened by the COVID-19 pandemic and the Beirut port explosion in August 2020, the crisis has led to a staggering rise in poverty. Estimates indicate that around 80% of the Lebanese population and over 76% of displaced Syrians and Palestinians now live below the poverty line. The socio-economic landscape is characterized by significant devaluation of the Lebanese lira, high un-employment, and a massive loss of trust in government institutions. The dysfunction of the government has created challenges for both local and refugee communities. Resource competition has intensified, resulting in increased social tensions and conflict. Verbal harassment and violence against refugees are common, contributing to anxiety and mental distress among both groups. Project Overview: Cash for Work Lebanon (C4WL) In response to these challenges, the project \"Supporting Disadvantaged, Peripheral Neighborhoods through Cash for Work measures in Lebanon (C4WL)\" aims to enhance the socio-economic resilience of vulnerable populations in North Lebanon and Akkar. The project is implemented by Deutsche Gesell-schaft für Internationale Zusammenarbeit (GIZ) on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ). It focuses on providing short-term employment through a com-munity-based, participatory approach to ensure positive impacts on local neighborhoods. Cash for Work initiatives offer immediate financial relief and foster community engagement and cooper-ation between Lebanese residents and Syrian refugees. Key components include establishing community kitchens to address food insecurity while providing jobs for vulnerable individuals. Objectives - Enhance Livelihood Opportunities: By creating short-term employment through Cash for Work, the project aims to support both Lebanese and Syrian families in meeting their basic needs. A focus is on the empowerment of women. - Strengthen Community Cohesion: The project seeks to build trust and cooperation between host communities and refugees through participatory processes. - Reduce Food Insecurity: Community kitchens will not only provide meals but also serve as hubs for social interaction, mitigating tensions from food scarcity. Conclusion The Cash for Work project is a timely response to the pressing socio-economic challenges facing Leba-non. By focusing on community-driven solutions and fostering collaboration between refugees and the host population, the project aims to create a foundation for sustainable development and peaceful coex-istence. In a time of crisis, initiatives like C4WL are vital in addressing immediate needs while laying the groundwork for a more resilient future.",
+    "veroeffentlichungsdatum": "2026-04-17",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:10.669Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 75112100-5 - Verwaltungsentwicklung",
+    "titel": "Deutschland – Dienstleistungen der allgemeinen öffentlichen Verwaltung – 81321697-Appui-conseil pour renforcer les communes frontalières, le développement local et la gouvernance communale en Mauritanie",
+    "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/262557-2026",
+    "cpvCodes": [
+      "75110000",
+      "75112100"
+    ],
+    "beschreibung": "Mauritania's border regions with Mali - Hodh El Gharbi, Assaba, and Guidimakha - are among the country's most dynamic yet most challenged territories. High poverty rates, limited infra-structure, and increasing climate pressures affect livelihoods and social cohesion. While the decentralization framework entrusts municipalities with the delivery of basic services, there is a need to further strengthen their technical, financial, and institutional capacities to fully meet citizens' expectations. The project ProCommune - Strengthening Border Municipalities is implemented by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) on behalf of the German Federal Ministry for Economic Cooperation and Development (BMZ), in partnership with the Mauritanian Ministry of Economy and Finance (MEF). It forms part of the umbrella programme Peace and Social Cohesion in Mauritania and contributes to the national decentralization strategy and the 2030 Agenda - specifically SDG 1.5 (resilience to poverty and shocks) and SDG 16.7 (inclusive and effective institutions). The project runs from December 2024 to November 2027. Overall objective: Selected Mauritanian municipalities provide improved, needs-based public services to their populations. The project supports 17 communes along the Malian border, home to about 1.2 million people, including women, youth, pastoralists, and refugees. Key outputs: 1. Strengthened technical and organizational capacities of governmental and non-governmental actors at local and regional levels. 2. Enhanced coordination and cooperation among stakeholders at communal, regional, and national levels for inclusive governance. To achieve these results, ProCommune promotes participatory planning and budgeting, transparent municipal management, and inclusive local decision-making. It provides tailored training, coaching, and advisory services for communes, decentralized services, and civil-society organizations. The approach systematically integrates gender equality, environmental sustainability, and conflict sensitivity, in line with the integrated territorial approach (ATI). Given the region's exposure to climate shocks, insecurity, and migration, the project also fosters local resilience through community-based planning, risk assessment, and early-warning mechanisms. Cross-border cooperation and social cohesion are encouraged to prevent tensions and strengthen peace in the Sahel. By reinforcing local governance and the relationship between citizens and the state, ProCommune supports more effective, inclusive, and accountable service delivery in Mauritania's border areas.",
+    "veroeffentlichungsdatum": "2026-04-17",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:26.502Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Innere Westbahn - Unterstützung der Projektleitung",
+    "auftraggeber": "ÖBB-Infrastruktur AG",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-73ae2a86-56d2-417d-9764-a5d81c4613c6&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "71000000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-17",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:52.861Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 85312320-8 - Beratung",
+    "titel": "Österreich – Beratungsdienste – Stadt Wien - Kindergärten: Weiterführende Bildungsmaßnahmen im Bereich der sprachlichen Bildung",
+    "auftraggeber": "Magistrat der Stadt Wien vertreten durch Stadt Wien - Kindergärten",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/259030-2026",
+    "cpvCodes": [
+      "85312320",
+      "79995000",
+      "92511000",
+      "92500000",
+      "92510000"
+    ],
+    "beschreibung": "Ziel des gegenständlichen Vergabeverfahrens war der Abschluss einer Rahmenvereinbarung mit einem Unternehmen zur Erbringung von weiterführenden Bildungsmaßnahmen im Bereich der sprachlichen Bildung zwischen Auftraggeberin und dem erfolgreichen Bieter.",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Raumplanung",
+    "titel": "Schweiz – Umwelttechnische Beratung – N09.56 MP-240009 - EM Bex Nord - Martigny - PV Environnement + UBB (ID 11495)",
+    "auftraggeber": "Bundesamt für Strassen ASTRA - Abteilung Strasseninfrastruktur West - Filiale Thun",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/261789-2026",
+    "cpvCodes": [
+      "71313000"
+    ],
+    "beschreibung": "Der Abschnitt N09.56 Bex Nord – Martigny ist fast 15,8 km lang. Er beginnt an der Grenze der Filiale 1 (Estavayer-le-Lac) bei km 56,222 und endet am Perimeter des Projekts EP Martigny & Environs (km 72,000), das 2023 abgeschlossen wurde. Er umfasst die beiden Halbkreuzungen in Bex sowie eine Kreuzung in St-Maurice. Das vorliegende Projekt besteht daher darin, bestimmte Mängel der Infrastruktur zu beheben, um ihre Lebensdauer um etwa 15 Jahre zu verlängern, indem einzelne Maßnahmen in folgenden Bereichen durchgeführt werden: • T/U (Trassenführung und Umgebung) – Erneuerung der Beläge und Neugestaltung der Rastplätze • K (Kunstbauten) – bauliche Maßnahmen an 11 Bauwerken (darunter einige Zwillingsbauwerke) und statische Überprüfung von 7 Bauwerken. Individuell für jede Beschaffung. Die vorliegende Ausschreibung bezieht sich auf die Leistungen eines Umweltprojektentwicklers für den gesamten Abschnitt N09.56 Bex Nord – Martigny und für alle Phasen vom Konzeptentwurf (MK) bis zur Inbetriebnahme (MS). Die Aufgaben von UBB umfassen die Phasen von der Ausschreibung (AP) bis zur Inbetriebnahme (MS). Studien, die Gegenstand eines MK-MP sind, unterliegen nicht dem Genehmigungsverfahren. Der Abschnitt N09.56 Bex Nord – Martigny ist seit etwa einem halben Jahrhundert in Betrieb und wurde verschiedenen Instandhaltungsmassnahmen unterzogen. Die Beläge und bestimmte Bauwerke müssen rasch saniert werden. Der vorliegende Auftrag wird von PV environnement in Abstimmung mit den PV GC der Bereiche T/U und K in den Phasen MK und MP ausgeführt und betrifft hauptsächlich die Erstellung der NIE sowie die Leistungen der Umweltüberwachung der Ausführung (UBB) in der Phase AP bis MS. Das für die Beauftragten vorgesehene Stundenvolumen wird vom Auftraggeber vorgegeben. Es beträgt für diesen Auftrag 4'000 Stunden.",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Schweiz",
+    "scrapedAt": "2026-04-20T08:14:34.045Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Abruf aus Rahmenvereinbarung ITPMPE2021, Los 1, 4233835",
+    "auftraggeber": "Bundesrechenzentrum GmbH",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1760aae7-a17c-42a3-ab85-8fa4d51a5088&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "79421000",
+      "72200000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:53.391Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Abruf aus Rahmenvereinbarung SAPDL2022, TL2, 4233770",
+    "auftraggeber": "Bundesrechenzentrum GmbH",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f184520e-c1ab-45de-928f-611e7d59c9ab&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "72200000",
+      "79421000",
+      "72220000",
+      "72261000",
+      "72262000",
+      "72263000",
+      "72266000",
+      "72254000",
+      "72316000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:53.932Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Strategie",
+    "titel": "Evaluierung ADA Drittmittelstrategie",
+    "auftraggeber": "Austrian Development Agency",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=78b227dc-78f6-4085-b4fb-772e040a14e0-74E2171F92C4DE9A&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "79411000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:15:41.662Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Strategie",
+    "titel": "LK Horn - Geländeoberfläche herrichten",
+    "auftraggeber": "Land Niederösterreich, p.A. Amt der NÖ-Landesregierung, Abteilung Gesundheitsstrategie",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_105110&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "45100000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-16",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:15:42.211Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79314000-8 - Machbarkeit",
+    "titel": "Deutschland – Durchführbarkeitsstudie – Machbarkeitsstudie zur Einführung einer 4. Reinigungsstufe zur Spurenstoffelimination auf dem ZKW",
+    "auftraggeber": "Entsorgungsbetriebe Lübeck",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/254805-2026",
+    "cpvCodes": [
+      "79314000"
+    ],
+    "beschreibung": "Ausgeschrieben wird eine Machbarkeitsstudie zur Einführung einer 4. Reinigungsstufe zur Spurenstoffelimination auf dem ZKW.",
+    "veroeffentlichungsdatum": "2026-04-15",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:13.179Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 73220000-0 - Entwicklungsberatung",
+    "titel": "Italien – Beratung im Bereich Entwicklung – Proc. n. 4304/AQ/2026 - Accordo Quadro assistenza tecnica ADG FSE",
+    "auftraggeber": "Giunta Regionale della Campania - Ufficio Speciale Centrale Acquisti",
+    "frist": "2026-05-02T23:59:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/253552-2026",
+    "cpvCodes": [
+      "73220000"
+    ],
+    "beschreibung": "Procedura di gara aperta telematica di rilevanza comunitaria, ai sensi degli artt. 14, 25 e 71 del D.Lgs. 36/2023, per la conclusione di un Accordo Quadro Quadriennale e successivo confronto competitivo con 3 operatori economici, per l’affidamento di servizi di “Assistenza Tecnica Specialistica all’Autorità di Gestione e strutture connesse per il Programma Regionale Fondo Sociale Europeo + 2021-2027 della Regione Campania”.",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:10.669Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 85312320-8 - Beratung",
+    "titel": "Ungarn – Beratungsdienste – Interaktív vizsgabank beszerzése",
+    "auftraggeber": "Nemzeti Szakképzési és Felnőttképzési Hivatal",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/251692-2026",
+    "cpvCodes": [
+      "85312320"
+    ],
+    "beschreibung": "Interaktív szakmai vizsgafeladatok és képesítő minta vizsgafeladatok készítése.",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Ungarn",
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 85312320-8 - Beratung",
+    "titel": "Deutschland – Beratungsdienste – Schuldner- und Insolvenzberatung im Landkreis München",
+    "auftraggeber": "Landratsamt München - Zentrale Vergabestelle und Einkauf",
+    "frist": "2026-05-13T23:59:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/254045-2026",
+    "cpvCodes": [
+      "85312320"
+    ],
+    "beschreibung": "Gegenstand der vom jeweiligen Auftragnehmer zu erbringenden Leistungen ist die Schuldner- und Insolvenzberatung für die Bürger:innen des Landkreises München. Der Auftraggeber verfolgt mit der Schuldner- und Insolvenzberatung das Ziel, seinen Bürgern in ausweglos erscheinenden Finanzlagen Hilfe bei der Überwindung ihrer Schuldenprobleme und eine Zukunftsperspektive zu geben. Um dieses Ziel zu erreichen, ist neben der Regelung der Finanzprobleme oft auch eine psychosoziale Beratung der Bürger und die Einschaltung weiterer Dienste erforderlich, um die Ursachen von Schulden, die in den Lebensumständen des Bürgers und/oder in seiner Persönlichkeit liegen können, zu beseitigen oder zumindest zu verbessern. Die Schuldner- und Insolvenzberatung hat daher im Sinne einer ganzheitlichen Beratung und nachhaltig zu erfolgen. Der Landkreis München (nachfolgend als „Auftraggeber“ bezeichnet) hat den Auftrag in zwei (2) Lose aufgeteilt. Hintergrund hierfür ist auch, dass den Bürgern im Landkreis München die Wahl bleiben soll, an welche der beiden Beratungsstellen sie sich wenden. In jedem Los gibt es einen unterschiedlichen Auftragnehmer.",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421100-2 - Projektaufsicht",
+    "titel": "Tschechien – Projektüberwachung, außer Projektüberwachung von Bauarbeiten – Odborné konzultační služby související s technickým řešením modifikace třídící linky v Chrášťanech, vč. vypracování metodiky hodnocení výkonových parametrů a její ověření",
+    "auftraggeber": "Pražské služby, a.s.",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/251231-2026",
+    "cpvCodes": [
+      "79421100",
+      "79714000",
+      "72224000",
+      "71318000"
+    ],
+    "beschreibung": "Předmětem této veřejné zakázky je zajištění analýzy technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu pro Modifikaci třídící linky v Chrášťanech (dále jen „Projekt“), a to včetně všech souvisejících činností nezbytných pro řádnou realizaci Projektu. Vybraný účastník bude v rámci plnění této veřejné zakázky vykonávat služby v souladu s platnými a účinnými právními předpisy, vyhláškami, technickými normami a doporučeními profesních komor. Předmět plnění veřejné zakázky, tj. analýza technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu Projektu, je blíže specifikován v příloze č. 1 závazného návrhu smlouvy o analýza technického řešení, posouzení projektové dokumentace a vypracování metodiky ověřovacího plánu, který tvoří přílohu č. 1 zadávací dokumentace. Kompletní údaje a podklady k Projektu jsou dostupné na profilu zadavatele na adrese: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0004637/zakazka/777648.",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Tschechien",
+    "scrapedAt": "2026-04-20T08:14:30.046Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Regionalentwicklung",
+    "titel": "Schweiz – Dienstleistungen der öffentlichen Verwaltung, Verteidigung und Sozialversicherung – Beschaffung Mandat Geschäftsführung, Geschäftsstelle und Fachberatung für den Verein Entwicklungsraum Thun ERT (2027 – 2031; mit Verlängerungsoption um fünf Jahre)",
+    "auftraggeber": "Verein Entwicklungsraum Thun (ERT)",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/251930-2026",
+    "cpvCodes": [
+      "75000000"
+    ],
+    "beschreibung": "Der Auftrag umfasst zwei Lose: Los 1: Geschäftsführung des Vereins und die Führung der Geschäftsstelle Los 2: Fachliche Bearbeitung von Aufgaben des ERT Der Inhalt der Lose bzw. die auszuübenden Tätigkeiten und Aufgaben werden nachfolgend umschrieben.",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Schweiz",
+    "scrapedAt": "2026-04-20T08:14:35.502Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Abruf aus Rahmenvereinbarung Projektmanagement Dienstleistungen",
+    "auftraggeber": "ÖBB Business Competence Center GmbH",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-242a162f-f78c-4975-8e4e-9a68bacf1e82&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "72000000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:54.481Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Für das Projekt A14 TUF Citytunnel STSG-Maßnahme_RV Lean Management Österreich 2023-2025 (2026,2027) - Los 3 - Region Tirol & Vorarlberg - 04. Abruf",
+    "auftraggeber": "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-7247e9d4-c80c-4d3f-8924-0c36106771c5&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "79400000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-14",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:55.029Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 85312320-8 - Beratung",
+    "titel": "Deutschland – Beratungsdienste – HerBeg - Heranführung und Begleitung",
+    "auftraggeber": "Jobcenter Wuppertal AöR",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/248172-2026",
+    "cpvCodes": [
+      "85312320"
+    ],
+    "beschreibung": "Leistungsgegenstand ist die Konzeption und Durchführung einer Maßnahme nach § 16 Abs. 1 SGB II i.V.m. § 45 Abs. 1 Satz 1 Nr. 1 SGB III, die das Ziel verfolgt erwerbsfähige Leistungsberechtigte an den Arbeits- und Ausbildungsmarkt heranzuführen. Die Leistung beinhaltet die Heranführung an eine geordnete und strukturierte Integrationsstrategie. Sowohl die psychosoziale als auch die gesundheitliche Situation der Teilnehmenden sollen Beachtung finden. Diese sollen in die Lage versetzt werden, ihre eigene Situation realistisch einzuschätzen, vorhandene Ressourcen zu erkennen und fehlende zu erarbeiten. So soll die individuelle Situation der Teilnehmenden nachhaltig stabilisiert werden. Bei der zu vergebenden Leistung handelt es sich inhaltlich um eine Kombination aus Einzel- und Gruppenangeboten.",
+    "veroeffentlichungsdatum": "2026-04-13",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
+  },
+  {
+    "portal": "TED",
     "suchbegriff": "CPV 79421100-2 - Projektaufsicht",
     "titel": "Slowakei – Planung von Werksanlagen – SE Integrátor - Generálny projektant",
     "auftraggeber": "Slovenské elektrárne, a.s.",
@@ -20,7 +344,54 @@ const DATA = [
     "beschreibung": "Generálny projektant (Design Office) bude zodpovedný za vypracovanie projektovej dokumentácie pre stavebný zámer a projekt stavby a vykonávací projekt (okrem častí pokrytých EPC zmluvami), za koordináciu a zosúladenie všetkých projektantov a dodávateľov vrátane riešenia rozhraní medzi technologickými celkami, za zabezpečenie povoľovacieho procesu a získanie stavebného povolenia, za výkon autorského dozoru a odovzdanie vybranej části dokumentácie skutočného vyhotovenia stavby (zvyšok odovzdá zhotovitel stavby dle § 32 (3) Stavebného zákona), ako aj za operatívne riešenie technických problémov počas realizácie projektu, a to všetko v súlade s príslušnými ustanoveniami Stavebného zákona a technickou špecifikáciou",
     "veroeffentlichungsdatum": "2026-04-13",
     "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-13T08:10:48.926Z"
+    "scrapedAt": "2026-04-20T08:14:30.046Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Raumplanung",
+    "titel": "Deutschland – Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen – Generalplanervertrag Kita Neubau St. Marien, Limburg",
+    "auftraggeber": "Katholische Kirchengemeinde Heilige Katharina Kasper Limburger Land",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/250881-2026",
+    "cpvCodes": [
+      "71240000"
+    ],
+    "beschreibung": "Die Katholische Kirchengemeinde Hl. Katharina Kasper Limburger Land ist Eigentümerin der Liegenschaft Flur 50, u.a. Flurstücke 17/4 (teilweise); 17/7; 17/8; 18/8 und 70/6 , Gemarkung Limburg mit der Anschrift Gartenstraße n.n. in 65549 Limburg/ Lahn und will den Neubau einer 4gruppigen Kindertagesstätte (3 Ü3 plus 1 altersgemischte Gruppe) auf den vor gen. Grundstücken durchführen. Die Auftraggeberin strebt den Neubau der Kindertagesstätte St. Marien auf den Flurstücken hinter dem zentralen Pfarrbüro, Gartenstraße 16, an. Vorliegend sind Generalplanungsleistungen ausgeschrieben. Die angefragten Planungsleistungen der Architektur und die Leistungen der Fachingenieure beginnen mit der Leistungsphase 1. Da es sich um eine öffentlich geförderte Maßnahme handelt, muss nach Abschluss der HOAI Leistungsphase 3 ein Förderantrag seitens der Auftraggeberin an die Stadt Limburg gestellt werden. Eine aus der Bearbeitungsdauer des Antrags resultierende Planungsverzögerung kann nicht kostenerhöhend geltend gemacht werden. Nach Vorlage des Förderbescheids kann die Projektbearbeitung fortgesetzt werden. Es werden folgende Anforderungen an die Planung gestellt: Planung und Neubau einer 4gruppige Kita (3 Ü3 + 1 altersgemischte Gruppe) inkl. Beioder Aufwärmkochküche, Möbeln, Außenanlagen und Erschließung. Herstellung der verkehrsund versorgungstechnischen Erschließung der neuen Kita von der Gartenstraße aus Energetischer Standard nach Gebäudeenergiegesetz (GEG) Sommerlicher Wärmeschutz Installation einer eigenbedarfsorientierten Photovoltaikmit Batterieanlage Verwendung des entstehenden Erdaushub auf dem Grundstück zur Gelände Modellierung Bei der Planung der Kita ist darauf zu achten, dass möglichst keine Wartungsund prüfungsrelevante Technik eingebaut wird. Anforderungen an die Technik: so wenig wie möglich, so viel wie nötig. Die Außenanlage muss auf der nicht für die Erschließung notwendigen und nicht bebauten Fläche geplant werden. Die Planung kann von gemischten Altersgruppen der Kinder ausgehen. Die Ausweisung eines separaten U3 Bereichs ist nicht erforderlich. Die erforderliche Brandschutzplanung ist durch den Generalplaner zu erbringen. Eine Beratung des Auftraggebers zu Handlungsalternativen und Potentialen wird erwartet. Die Beauftragung erfolgt stufenweise nach Maßgabe der in dem GeneralplanerVertragsentwurf aufgeführten Stufen. Bei den optional aufgeführten Leistungen handelt es sich um einseitige Optionsrechte zu Gunsten des Auftraggebers. Der Auftragnehmer hat keinen Anspruch darauf, dass die nur optional anzubietenden Leistungen vom Auftraggeber beauftragt werden. Der AN ist verpflichtet, eine Planungsund Bauzeitenrahmenplanung sowie im Weiteren eine aus der Rahmenplanung zu entwickelnde Detailplanung entsprechend den Rahmenbedingungen des Auftraggebers aufzustellen und die Einhaltung der Termine zu steuern und sicherzustellen. Die Terminplanung ist kontinuierlich monatsweise aktualisieren und dem Auftraggeber zur Freigabe vorzulegen. Folgende Rahmentermine sind geplant: Beauftragung Generalplaner: Ende Juni 2026 Planung und Abstimmung der Leistungsphasen 12 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Juli bis Ende Oktober 2026 Planung und Abstimmung der Leistungsphase 3 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Bis Ende November 2026 Einreichung Förderantrag bei Stadt Limburg (Basis Kostenberechnung) und Planung und Abstimmung der Leistungsphasen 4 sowie Einreichung Baugenehmigungsantrag: Dezember 2026 Planung und Abstimmung der Leistungsphasen 56 (Ausführungsplanung, Ausschreibung, Vorbereitung der Vergabe) bis ca. Juni 2027. Diese endet mit der Vorlage der bepreisten Leistungsverzeichnisse, die dann Grundlage für die Baufreigabe sind. Sollte sich dabei herausstellen das die Kosten nicht im Kostenrahmen liegen, so wird es erforderlich geeignete Lösungen unter Beteiligung des Zuschussgebers zu finden. Durchführung der Leistungsphase 7 (Vergabe) bis ca. Juli für die Hauptgewerke, danach baubegleitend. Baufreigabe ca. August 2027 Bauausführung ab ca. August 2027 – August 2028",
+    "veroeffentlichungsdatum": "2026-04-13",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:34.045Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Abruf aus Rahmenvereinbarung Projektmanagement Dienstleistungen",
+    "auftraggeber": "ÖBB Business Competence Center GmbH",
+    "frist": "",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-3b130ab5-e351-44c2-abc1-39d098b9fbf4&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "72000000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-13",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:55.574Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Vergabeverfahren „Adaptierung Mehrzweckgebäude als Generalübernehmer, 1. Bauabschnitt Feuerwehr St. Leonhard bei Freistadt“",
+    "auftraggeber": "Marktgemeinde St. Leonhard bei Freistadt",
+    "frist": "2026-04-30",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9bb117c7-2bed-498f-b88a-e114b0a59f82&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "45211350",
+      "45216121",
+      "71541000"
+    ],
+    "beschreibung": "",
+    "veroeffentlichungsdatum": "2026-04-13",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:56.125Z"
   },
   {
     "portal": "USP Bund",
@@ -36,7 +407,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-12",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:08.894Z"
+    "scrapedAt": "2026-04-20T08:14:56.678Z"
   },
   {
     "portal": "USP Bund",
@@ -54,7 +425,22 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-12",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:09.420Z"
+    "scrapedAt": "2026-04-20T08:14:57.222Z"
+  },
+  {
+    "portal": "USP Bund",
+    "suchbegriff": "Strategie",
+    "titel": "Leadagentur im Bereich Strategie, Branding, Kampagnen und Content Erstellung 2026 bis 2030",
+    "auftraggeber": "Burgenland Energie AG",
+    "frist": "2026-04-30",
+    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=76efecc9-e509-4c6b-849b-f742ed3e258a-e5c657fe-facc-44fc-8afc-9a064d7d0ce3&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
+    "cpvCodes": [
+      "79340000"
+    ],
+    "beschreibung": "dieser Ausschreibung ist der Abschluss einer Rahmenvereinbarung mit einer Leadagentur als Partner für die Bereiche Strategie, Branding, Kampagnen und Content Erstellung nach den Bestimmungen dieser Vereinbarung. Ausschreibungsunterlagen: https://vergabe.energieburgenland.at/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19d1f1b477a-4a24a5a0a90d50c7 Erfüllungsort: AT / ÖSTERREICH CPV Hauptteil: 79340000 (Werbe- und Marketingdienstleistungen) Auftrag ist in Lose aufgeteilt: Nein Art des Auftrags: Dienstleistungsauftrag Bezeichnung der Verfahrensart: Verhandlungsverfahren Laufzeit des Vertrages: 96 Monate Teilnahmebedingungen Informationen zur Übermittlung der Ange",
+    "veroeffentlichungsdatum": "2026-04-12",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:15:42.758Z"
   },
   {
     "portal": "TED",
@@ -69,7 +455,7 @@ const DATA = [
     "beschreibung": "Die Verbandsgemeinde Südeifel plant gemeinsam mit weiteren touristischen Partnern in der Region die Umsetzung des Vorhabens „Tourist-Information der Zukunft“ –Prozessoptimierung und Digitalisierung in der Südeifel und im Gerolsteiner Land. Im Vordergrund stehen dabei Prozessoptimierung und Digitalisierung in der Südeifel und im Gerolsteiner Land. Beteiligt sind folgende Partner: Felsenland Südeifel Tourismus GmbH, Touristik GmbH Gerolsteiner Land, Zweckverband Feriengebiet Bitburger Land, Tourist-Information Prüm/Verbandsgemeinde Prüm sowie Tourist-Information Islek/Verbandsgemeinde Arzfeld. Fachkräftemangel, steigende Personal- und Betriebskosten sowie angespannte kommunale Haushalte stellen die Tourismusbranche vor tiefgreifende Herausforderungen. Zugleich verändern sich die Erwartungen der Gäste, die zunehmend digitale, serviceorientierte und zugleich effiziente Angebote voraussetzen. Zielsetzung der Ausschreibung ist es, die internen Strukturen der beteiligten Organisationen grundlegend weiterzuentwickeln. Im Mittelpunkt stehen dabei die Optimierung und Harmonisierung von Prozessen, der Aufbau einer gemeinsamen Wissensdatenbank für alle beteiligten Partner, sowie die Integration von KI-Tools in bestehende Arbeitsabläufe um diese effizienter und zukunftsfähig zu gestalten. Die gemeinsame Wissensbasis soll als zentraler Informationshub dienen, Ressourcen bündeln, Entscheidungen beschleunigen und Kosten senken.",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:28.589Z"
+    "scrapedAt": "2026-04-20T08:14:10.668Z"
   },
   {
     "portal": "TED",
@@ -93,7 +479,7 @@ const DATA = [
     "beschreibung": "Ziel des gegenständlichen Vergabeverfahrens ist die Vergabe eines Auftrages zur Erstellung einer interdisziplinären Umwelt- und Ökostudie über die möglichen Auswirkungen einer Wasserzufuhr aus der Donau und/oder der Leitha in den Grundwasserkörper der Region Seewinkel-Neusiedler See sowie in den Neusiedler See. Im Detail siehe die Festlegungen in den Ausschreibungsunterlagen.",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:44.642Z"
+    "scrapedAt": "2026-04-20T08:14:25.547Z"
   },
   {
     "portal": "TED",
@@ -110,7 +496,7 @@ const DATA = [
     "beschreibung": "siehe Beschreibung des Loses 0001",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
+    "scrapedAt": "2026-04-20T08:14:34.045Z"
   },
   {
     "portal": "USP Bund",
@@ -125,7 +511,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-10",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:09.966Z"
+    "scrapedAt": "2026-04-20T08:14:57.774Z"
   },
   {
     "portal": "TED",
@@ -140,7 +526,7 @@ const DATA = [
     "beschreibung": "Die Katholische Kirchengemeinde Hl. Katharina Kasper Limburger Land ist Eigentümerin der Liegenschaft Flur 50, u.a. Flurstücke 17/4 (teilweise); 17/7; 17/8; 18/8 und 70/6 , Gemarkung Limburg mit der Anschrift Gartenstraße n.n. in 65549 Limburg/ Lahn und will den Neubau einer 4gruppigen Kindertagesstätte (3 Ü3 plus 1 altersgemischte Gruppe) auf den vor gen. Grundstücken durchführen. Die Auftraggeberin strebt den Neubau der Kindertagesstätte St. Marien auf den Flurstücken hinter dem zentralen Pfarrbüro, Gartenstraße 16, an. Vorliegend sind Generalplanungsleistungen ausgeschrieben. Die angefragten Planungsleistungen der Architektur und die Leistungen der Fachingenieure beginnen mit der Leistungsphase 1. Da es sich um eine öffentlich geförderte Maßnahme handelt, muss nach Abschluss der HOAI Leistungsphase 3 ein Förderantrag seitens der Auftraggeberin an die Stadt Limburg gestellt werden. Eine aus der Bearbeitungsdauer des Antrags resultierende Planungsverzögerung kann nicht kostenerhöhend geltend gemacht werden. Nach Vorlage des Förderbescheids kann die Projektbearbeitung fortgesetzt werden. Es werden folgende Anforderungen an die Planung gestellt: Planung und Neubau einer 4gruppige Kita (3 Ü3 + 1 altersgemischte Gruppe) inkl. Beioder Aufwärmkochküche, Möbeln, Außenanlagen und Erschließung. Herstellung der verkehrsund versorgungstechnischen Erschließung der neuen Kita von der Gartenstraße aus Energetischer Standard nach Gebäudeenergiegesetz (GEG) Sommerlicher Wärmeschutz Installation einer eigenbedarfsorientierten Photovoltaikmit Batterieanlage Verwendung des entstehenden Erdaushub auf dem Grundstück zur Gelände Modellierung Bei der Planung der Kita ist darauf zu achten, dass möglichst keine Wartungsund prüfungsrelevante Technik eingebaut wird. Anforderungen an die Technik: so wenig wie möglich, so viel wie nötig. Die Außenanlage muss auf der nicht für die Erschließung notwendigen und nicht bebauten Fläche geplant werden. Die Planung kann von gemischten Altersgruppen der Kinder ausgehen. Die Ausweisung eines separaten U3 Bereichs ist nicht erforderlich. Die erforderliche Brandschutzplanung ist durch den Generalplaner zu erbringen. Eine Beratung des Auftraggebers zu Handlungsalternativen und Potentialen wird erwartet. Die Beauftragung erfolgt stufenweise nach Maßgabe der in dem GeneralplanerVertragsentwurf aufgeführten Stufen. Bei den optional aufgeführten Leistungen handelt es sich um einseitige Optionsrechte zu Gunsten des Auftraggebers. Der Auftragnehmer hat keinen Anspruch darauf, dass die nur optional anzubietenden Leistungen vom Auftraggeber beauftragt werden. Der AN ist verpflichtet, eine Planungsund Bauzeitenrahmenplanung sowie im Weiteren eine aus der Rahmenplanung zu entwickelnde Detailplanung entsprechend den Rahmenbedingungen des Auftraggebers aufzustellen und die Einhaltung der Termine zu steuern und sicherzustellen. Die Terminplanung ist kontinuierlich monatsweise aktualisieren und dem Auftraggeber zur Freigabe vorzulegen. Folgende Rahmentermine sind geplant: Beauftragung Generalplaner: Ende Juni 2026 Planung und Abstimmung der Leistungsphasen 12 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Juli bis Ende Oktober 2026 Planung und Abstimmung der Leistungsphase 3 aller für die Planung und Umsetzung notwendigen Objekte nach GeneralplanerVertragsentwurf: Bis Ende November 2026 Einreichung Förderantrag bei Stadt Limburg (Basis Kostenberechnung) und Planung und Abstimmung der Leistungsphasen 4 sowie Einreichung Baugenehmigungsantrag: Dezember 2026 Planung und Abstimmung der Leistungsphasen 56 (Ausführungsplanung, Ausschreibung, Vorbereitung der Vergabe) bis ca. Juni 2027. Diese endet mit der Vorlage der bepreisten Leistungsverzeichnisse, die dann Grundlage für die Baufreigabe sind. Sollte sich dabei herausstellen das die Kosten nicht im Kostenrahmen liegen, so wird es erforderlich geeignete Lösungen unter Beteiligung des Zuschussgebers zu finden. Durchführung der Leistungsphase 7 (Vergabe) bis ca. Juli für die Hauptgewerke, danach baubegleitend. Baufreigabe ca. August 2027 Bauausführung ab ca. August 2027 – August 2028",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
+    "scrapedAt": "2026-04-20T08:14:34.045Z"
   },
   {
     "portal": "USP Bund",
@@ -157,7 +543,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:10.513Z"
+    "scrapedAt": "2026-04-20T08:14:58.322Z"
   },
   {
     "portal": "USP Bund",
@@ -174,7 +560,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:11.062Z"
+    "scrapedAt": "2026-04-20T08:14:58.842Z"
   },
   {
     "portal": "USP Bund",
@@ -197,7 +583,7 @@ const DATA = [
     "beschreibung": "ist die Erbringung der Leistungen der Projektsteuerung, des Baustellenmanagements und sonstiger Dienstleistungen für die Erweiterung und Anpassung der ARA Klagenfurt. Ausschreibungsunterlagen: https://gv.vergabeportal.at/Detail/241493 Erfüllungsort: AT211 / Klagenfurt-Villach CPV Hauptteil: 71541000 (Projektmanagement im Bauwesen) CPV Hauptteil: 71247000 (Beaufsichtigung der Bauarbeiten) CPV Hauptteil: 71248000 (Projektaufsicht und Dokumentation) CPV Hauptteil: 71310000 (Technische Beratung und Konstruktionsberatung) CPV Hauptteil: 71328000 (Dienstleistungen für die Prüfung der Tragwerksplanung) CPV Hauptteil: 71520000 (Bauaufsicht) CPV Hauptteil: 71521000 (Baustellenüberwachung) CPV Hauptte",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:11.611Z"
+    "scrapedAt": "2026-04-20T08:14:59.388Z"
   },
   {
     "portal": "USP Bund",
@@ -212,7 +598,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:12.164Z"
+    "scrapedAt": "2026-04-20T08:14:59.923Z"
   },
   {
     "portal": "USP Bund",
@@ -227,7 +613,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:12.702Z"
+    "scrapedAt": "2026-04-20T08:15:00.472Z"
   },
   {
     "portal": "USP Bund",
@@ -242,7 +628,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:13.249Z"
+    "scrapedAt": "2026-04-20T08:15:01.022Z"
   },
   {
     "portal": "USP Bund",
@@ -257,7 +643,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-09",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:58.161Z"
+    "scrapedAt": "2026-04-20T08:15:43.305Z"
   },
   {
     "portal": "TED",
@@ -275,7 +661,7 @@ const DATA = [
     "beschreibung": "Győrben az állomás utasforgalmi létesítményeinek akadálymentesítése érdekében a tervezési feladat az állomáson meglévő, jelenleg sk+30 cm magas, térkő burkolatú peronok sk+55 cm magasságú akadálymentes peronokká történő átépítésének tervezése. A peronokat jelenleg 2 db gyalogos és 1 db lezárt postaaluljárón keresztül lehetséges megközelíteni. Az akadálymentesítés biztosítása érdekében mindenképpen szükséges a peronokra történő feljutás liftekkel történő biztosítása, melyet célszerűen az állomás mindkét oldali közterületi kapcsolata felé is biztosítani kell. Ennek érdekében előzetesen meg kell vizsgálni és meg kell tervezni 1 db aluljáró (az előzetesen preferált az úgynevezett érkezés aluljáró) akadálymentesítését a közterületek felé történő akadálymentes kapcsolattal együtt. A tervezési feladat részeként el kell végezni a peronokon a térvilágítás ellenőrzését és szükség szerint meg kell tervezni azok előírások szerinti megfelelőségét, illetve a peronemelés miatti módosításokat. Az új liftek energiaellátása és az aluljáró világításának vizsgálata, szükség szerinti átalakítása szintén tervezési feladat. A tervezés során a tervezési területről geodéziai felmérést, valamint tervezési feladat megvalósításához szükséges geotechnikai feltárást kell végezni és el kell készíteni a szükséges talajvizsgálati jelentést is.A közműtervezési feladatok meghatározására a nyilvántartási és egyéb adatok alapján el kell készíteni a tervezési terület meglévő közműgenplánját és a szükséges közműátalakítások engedélyezési és/vagy kiviteli tervét. A környezeti hatások felmérésére Előzetes Vizsgálati dokumentációt kell készíteni. El kell készíteni az egyéb szükséges terveket is (pl. vasúti kábelek kiváltása, védelembe helyezése). Nyertes Ajánlattevőnek a tervezés teljes időszakában úgy kell a műszaki tartalmat terveznie, hogy az a mindenkor hatályos Európai versenyjogi értelemben vett állami támogatási (ún. state aid) szabályoknak megfelelő legyen, valamint határozza meg a létrejövő infrastruktúra használatával kapcsolatos szabályokat és felmerülő üzemeltetési irányelveket.",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-13T08:10:40.512Z"
+    "scrapedAt": "2026-04-20T08:14:20.729Z"
   },
   {
     "portal": "TED",
@@ -290,7 +676,7 @@ const DATA = [
     "beschreibung": "L’appalto ha per oggetto la fornitura e l’istallazione di arredi per comunità dettagliati nel computo metrico e nell’elenco prezzi prodotti secondo le specifiche caratteristiche tecniche dettagliate nella relazione tecnica specialistica arredo, nel Capitolato speciale d’appalto parte tecnica e nella relazione sui criteri ambientali minimi.",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:59.238Z"
+    "scrapedAt": "2026-04-20T08:14:40.271Z"
   },
   {
     "portal": "USP Bund",
@@ -305,7 +691,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:13.794Z"
+    "scrapedAt": "2026-04-20T08:15:01.571Z"
   },
   {
     "portal": "USP Bund",
@@ -322,7 +708,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:14.346Z"
+    "scrapedAt": "2026-04-20T08:15:02.118Z"
   },
   {
     "portal": "USP Bund",
@@ -338,7 +724,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:24.099Z"
+    "scrapedAt": "2026-04-20T08:15:07.554Z"
   },
   {
     "portal": "USP Bund",
@@ -353,7 +739,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-08",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:58.699Z"
+    "scrapedAt": "2026-04-20T08:15:43.849Z"
   },
   {
     "portal": "TED",
@@ -368,7 +754,7 @@ const DATA = [
     "beschreibung": "SERVIZIO DI SUPPORTO E ASSISTENZA ALLE ATTIVITÀ ISTITUZIONALI DI IFEL VERSO I COMUNI IN MATERIA DI FABBISOGNI STANDARD E FISCALITÀ LOCALE",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:44.642Z"
+    "scrapedAt": "2026-04-20T08:14:25.547Z"
   },
   {
     "portal": "TED",
@@ -383,7 +769,7 @@ const DATA = [
     "beschreibung": "Szúnyoggyérítés szakértői feladatok",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-13T08:10:48.926Z"
+    "scrapedAt": "2026-04-20T08:14:30.046Z"
   },
   {
     "portal": "USP Bund",
@@ -398,7 +784,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-07",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:59.228Z"
+    "scrapedAt": "2026-04-20T08:15:44.400Z"
   },
   {
     "portal": "USP Bund",
@@ -416,7 +802,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-05",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:14.868Z"
+    "scrapedAt": "2026-04-20T08:15:02.658Z"
   },
   {
     "portal": "USP Bund",
@@ -435,7 +821,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-04",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:15.396Z"
+    "scrapedAt": "2026-04-20T08:15:03.222Z"
   },
   {
     "portal": "USP Bund",
@@ -458,7 +844,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-03",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:15.939Z"
+    "scrapedAt": "2026-04-20T08:15:03.770Z"
   },
   {
     "portal": "TED",
@@ -477,7 +863,7 @@ const DATA = [
     "beschreibung": "Gegenstand dieser Ausschreibung ist die Vergabe von Dienstleistungen an einen Auftragnehmer, der für die Senatskanzlei Berlin die Organisation, Durchführung und Nachbereitung von Workshopformaten im Kontext Verwaltungsdigitalisierung übernimmt und dabei inhaltlich und konzeptionell unterstützt.",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:28.589Z"
+    "scrapedAt": "2026-04-20T08:14:10.668Z"
   },
   {
     "portal": "TED",
@@ -493,7 +879,7 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je uzavření rámcové dohody s pěti účastníky na dobu určitou 4 let, na jejímž základě budou uzavírány dílčí prováděcí smlouvy na zpracování kompletních podkladů k žádostem o podporu předkládaným do výzev vyhlášených v rámci dotačních titulů pro období 2021-2027, a to Integrovaného regionálního operačního programu (dále též jen „IROP“), Operačního programu Spravedlivé transformace (dále též jen „OP ST“), Operačního programu Životní prostředí (dále též jen „OPŽP“), Národního plánu obnovy (dále též jen „NPO“), Operačního programu Doprava (dále též jen „OP DOPRAVA“), Operačního programu Technologie a aplikace pro konkurenceschopnost (dále též jen „OP TAK“) a Modernizačního fondu (dále též jen „MODFOND“).",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:32.088Z"
+    "scrapedAt": "2026-04-20T08:14:13.179Z"
   },
   {
     "portal": "TED",
@@ -511,7 +897,7 @@ const DATA = [
     "beschreibung": "Erarbeiten einer städtebaulichen Masterplanung sowie einer baulichen Entwicklungsplanung für die beiden Standorte der Universitätsmedizin in Niedersachen. (Hannover und Göttingen)",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
+    "scrapedAt": "2026-04-20T08:14:34.044Z"
   },
   {
     "portal": "USP Bund",
@@ -526,7 +912,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:16.483Z"
+    "scrapedAt": "2026-04-20T08:15:04.313Z"
   },
   {
     "portal": "USP Bund",
@@ -541,7 +927,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:17.021Z"
+    "scrapedAt": "2026-04-20T08:15:04.864Z"
   },
   {
     "portal": "USP Bund",
@@ -570,7 +956,7 @@ const DATA = [
     "beschreibung": "des Vergabeverfahrens sind Generalplanerleistungen, die ÖBA und die Leistungen gemäß BauKG für das Projekt „GSA Umbau samt Einbau Raumkühlung in den Garconnièren / Wohnheim“ (siehe im Detail: Kurzdarstellung des Auftragsgegenstandes, Entwurf Generalplaner Vertrag , Allgemeine Vertragsbedingungen AMS). Ausschreibungsunterlagen: https://gv.vergabeportal.at/Detail/239553 Erfüllungsort: AT312 / Linz-Wels CPV Hauptteil: 71320000 (Planungsleistungen im Bauwesen) CPV Hauptteil: 71356400 (Technische Planungsleistungen) CPV Hauptteil: 71240000 (Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen) CPV Hauptteil: 71321000 (Technische Planungsleistungen für maschinen-",
     "veroeffentlichungsdatum": "2026-04-02",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:17.588Z"
+    "scrapedAt": "2026-04-20T08:15:05.428Z"
   },
   {
     "portal": "TED",
@@ -585,69 +971,7 @@ const DATA = [
     "beschreibung": "Background Causes preventing MSMEs and farmers from harnessing the potential of agriculture, aquaculture and fisheries to generate enough income and create jobs, especially for women and young people, are manifold. Public services are not sufficiently available, and laws and regulations are inadequate or not consistently applied. Most MSMEs and farmers lack skills and access to financial services, especially in rural areas. However, Mozambique has favorable land, inland water and marine resources for increasing productivity and value addition to meet growing demand for food. The Government of Mozambique recognizes the importance of agriculture and the blue economy for economic development and supports the sectors through strategies such as the National Strategic Development Plan for the Agricultural Sector 2030 and the National Blue Economy Development Strategy. Our approach Within the framework of these strategies under the responsibility of the Ministry of Agriculture, Environment and Fisheries and by building on the experiences of different private sector development projects of German development cooperation in Mozambique, VaMoz Competir applies an integrated approach aiming at the creation of a more conducive environment for the development of the sector in rural and coastal areas. The project promotes income and employment opportunities through three interlinked work streams. 1. Value chain promotion Partnerships with well-established companies that source products from MSMEs and small producers are established aiming at a win-win situation of development and business targets. Within these partnerships, the project provides training to enhance skills, supports the development of digital solutions for supply chain management, and facilitates market processes. Better skills and linkages between small producers, processors, and service providers improve both the income situation and resilience to climate change. In the blue economy sector sustainable and inclusive upgrading strategies are developed and implemented in a participatory and systematic manner for selected aquaculture and fisheries value chains through the EU co-financing. 2. Access to finance By improving the bankability of MSMEs and introducing innovative financial products that are specifically tailored to the needs of agriculture and the blue economy, better conditions are created for access to needs-based financial services. Special emphasis is placed on services that meet the needs of women and young people. In addition, small producers and their organisations are enabled to make greater use of savings and insurance products and are supported in connecting to the formal financial system. This increases their resilience to economic and climatic challenges and ensures their long-term economic stability. 3. Rural economic ecosystem This work stream aims to benefit the private sector in rural areas in the long term. With this goal in mind, local support services for farmers and MSMEs are improved, and regional networks and support structures are established. This also includes support for the implementation of recommendations from national strategies and action plans as well as the public-private platform for the coordination of agricultural financing (CIFAM) under the leadership of the Ministry of Agriculture, Environment and Fisheries.",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:28.589Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "A14 Rheintal Autobahn ASt Hohenems - ÖBA",
-    "auftraggeber": "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-913f7817-32ad-495f-b642-62c3475c17ee&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "71248000",
-      "71541000",
-      "71520000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-04-01",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:18.120Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Rahmenvereinbarung für Leistungen der Projektsteuerung",
-    "auftraggeber": "Bundesimmobiliengesellschaft m.b.H.",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-8bad93a7-1200-4b22-801c-76bed42c76a2&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "71541000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-04-01",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:18.671Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Werbeagenturleistungen",
-    "auftraggeber": "Österreichische Apothekerkammer",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-3f37d507-96e2-46bc-94bd-92c3fbc6404b&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "79416000"
-    ],
-    "beschreibung": "des Vergabeverfahrens ist die Beschaffung von Werbeagenturleistungen für die Österreichische Apothekerkammer (insb Strategie u. Beratung; Planung u. Umsetzung von 360-Grad-Werbekampagnen; Online- u. Performance Marketing; Content-Erstellung; Media-Planung; Guerilla Marketing, Brand Experience; Projektmanagement; Reportings; Medienarbeit). Zu diesem Zweck beabsichtigt die Auftraggeberin eine Rahmenvereinbarung mit einem:einer RV-Partner:in mit einer Laufzeit von 3 Jahren abzuschließen. Tag des Vertragsabschlusses: 29.04.2025 CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) Art des Auftrags: Dienstleistungsauftrag Bezeichnung der Verfahrensart: Ve",
-    "veroeffentlichungsdatum": "2026-04-01",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:19.221Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Strategie",
-    "titel": "Beratungsleistungen im Rahmen von Strategie- und Organisations-entwicklungsprozessen der TU Wien: Abschluss einer Rahmenvereinbarung mit mehreren Bietern",
-    "auftraggeber": "Technische Universität Wien",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-80c3a7b8-f5a9-42a8-9547-6ee404ca480f&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "79410000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-04-01",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:59.769Z"
+    "scrapedAt": "2026-04-20T08:14:10.668Z"
   },
   {
     "portal": "USP Bund",
@@ -662,7 +986,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:00.325Z"
+    "scrapedAt": "2026-04-20T08:15:44.952Z"
   },
   {
     "portal": "USP Bund",
@@ -677,7 +1001,132 @@ const DATA = [
     "beschreibung": "des Vergabeverfahrens ist die Beschaffung von Werbeagenturleistungen für die Österreichische Apothekerkammer (insb Strategie u. Beratung; Planung u. Umsetzung von 360-Grad-Werbekampagnen; Online- u. Performance Marketing; Content-Erstellung; Media-Planung; Guerilla Marketing, Brand Experience; Projektmanagement; Reportings; Medienarbeit). Zu diesem Zweck beabsichtigt die Auftraggeberin eine Rahmenvereinbarung mit einem:einer RV-Partner:in mit einer Laufzeit von 3 Jahren abzuschließen. Tag des Vertragsabschlusses: 29.04.2025 CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) CPV Hauptteil: 79416000 (Öffentlichkeitsarbeit) Art des Auftrags: Dienstleistungsauftrag Bezeichnung der Verfahrensart: Ve",
     "veroeffentlichungsdatum": "2026-04-01",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:00.850Z"
+    "scrapedAt": "2026-04-20T08:15:45.490Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71410000-5 - Raumplanung",
+    "titel": "Italien – Stadtplanung – Procedura selettiva ad evidenza pubblica per l&#8217;individuazione di un soggetto affidatario dei servizi di architettura ed ingegneria relativi alla redazione del PIANO URBANISTICO GENERALE (P.U.G.) del Comune di Carmiano e relativa procedura di V.A.S.",
+    "auftraggeber": "Comune di Carmiano",
+    "frist": "2026-04-23T12:30:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/219236-2026",
+    "cpvCodes": [
+      "71410000"
+    ],
+    "beschreibung": "affidamento SIA per redazione PUG e relativa VAS del Comune di Carmiano",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:11.837Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71410000-5 - Raumplanung",
+    "titel": "Deutschland – Unternehmens- und Managementberatung und zugehörige Dienste – Einrichtung eines begleitenden Innenstadtmanagements für die Innenstadt Elberfeld",
+    "auftraggeber": "Stadt Wuppertal",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/219981-2026",
+    "cpvCodes": [
+      "79400000",
+      "71410000",
+      "79416200"
+    ],
+    "beschreibung": "Die Stadt Wuppertal beabsichtigt, das im Rahmen des Integrierten städtebaulichen Entwicklungskonzepts (ISEK) Innenstadt Elberfeld vorgesehene begleitende Innenstadtmanagement an ein geeignetes Büro mit Erfahrung im Bereich City- und Innenstadtmanagement zu vergeben. Zentrale Aufgaben sind die Vernetzung und Stärkung lokaler Akteure, die Belebung der Innenstadt durch Projekte und Veranstaltungen sowie die Unterstützung bei der Weiterentwicklung des Standortes.",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:11.838Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71410000-5 - Raumplanung",
+    "titel": "Deutschland – Dienstleistungen von Architekturbüros – Rahmenvertrag Verkehrsplanung",
+    "auftraggeber": "HafenCity Hamburg GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/221730-2026",
+    "cpvCodes": [
+      "71200000",
+      "71240000",
+      "71300000",
+      "71322500",
+      "71410000"
+    ],
+    "beschreibung": "Der Rahmenvertrag zur Verkehrsplanung umfasst vor allem Leistungen in den Gebieten HafenCity und Grasbrook.",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:11.838Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79419000-4 - Evaluation",
+    "titel": "Tschechien – Beratung in Sachen Evaluierung – Evaluace regionálních individuálních projektů systémových OP JAK: Střední článek podpory a Podpora kurikulární práce škol",
+    "auftraggeber": "Ministerstvo školství, mládeže a tělovýchovy",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/219440-2026",
+    "cpvCodes": [
+      "79419000"
+    ],
+    "beschreibung": "Předmětem plnění veřejné zakázky je realizace pravidelného hodnocení vybraných individuálních projektů systémových (dále jen „IPs“) podaných do Operačního programu Jan Amos Komenský (dále jen „OP JAK“) v prioritě 2 - Vzdělávání, oblasti Regionální školství. Hlavními cíli evaluace jsou kvalitativně a kvantitativně vyhodnocovat, do jaké míry hodnocené projekty naplňují své stanovené cíle a očekávané výsledky, případné dopady; vyhodnocovat do jaké míry hodnocené projekty přispívají k naplňování komplexního koncepčního řešení; poskytnout Řídicímu orgánu OP JAK, členům Řídicích výborů IPs OP JAK a realizátorům IPs zpětnou vazbu a doporučení týkající se realizace projektů, a to včetně přenosu informací z praxe do systémového řešení a zpět.",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Tschechien",
+    "scrapedAt": "2026-04-20T08:14:14.895Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79419000-4 - Evaluation",
+    "titel": "Österreich – Unternehmens- und Managementberatung – Stadt Wien - Wiener Gesundheitsverbund / Unterstützung im Rahmen der Sachkostenoptimierung (SOUND 3.0)",
+    "auftraggeber": "Stadt Wien - Wiener Gesundheitsverbund",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/219647-2026",
+    "cpvCodes": [
+      "79410000",
+      "79420000",
+      "79419000"
+    ],
+    "beschreibung": "Abschluss einer Rahmenvereinbarung mit mehreren (bis zu fünf) RV-Partner*innen betreffend Unterstützung im Rahmen der Sachkostenoptimierung.",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:14.895Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
+    "titel": "Deutschland – Forschungs- und Entwicklungsdienste und zugehörige Beratung – Standards für das kommunale Klimaschutz-Monitoring",
+    "auftraggeber": "Bundesministeriums für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN)",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/219447-2026",
+    "cpvCodes": [
+      "73000000",
+      "73200000",
+      "90711000",
+      "90711200",
+      "90711300",
+      "90711400",
+      "90713000"
+    ],
+    "beschreibung": "Entwicklung von Standards für das kommunale Klimaschutz-Monitoring inklusive der Weiterentwicklung von BISKO. Leitlinien für wirksamen kommunalen Klimaschutz. (Kurztitel: Standards für das kommunale Klimaschutz-Monitoring)",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
+    "titel": "Österreich – Schadstoffrückverfolgung und -überwachung und Sanierung – Rahmenvereinbarung über Schad- und Störstofferkundung von Wohnhausanlagen der Stadt Wien - Wiener Wohnen (kurz: WrWKS - Schad- und Störstofferkundung\")",
+    "auftraggeber": "Stadt Wien - Wiener Wohnen Kundenservice GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/220161-2026",
+    "cpvCodes": [
+      "90740000",
+      "71313000",
+      "90713000",
+      "71315100",
+      "71317210",
+      "71240000",
+      "71313400"
+    ],
+    "beschreibung": "Rahmenvereinbarung für Aufträge über Schad- und Störstofferkundung von Wohnhausanlagen der Stadt Wien - Wiener Wohnen: umfasst Befundaufnahme v. Schad- u. Störstoffen der Wohnhausanlage, Begutachtung v. Schad- u. Störstoffen, Gutachten inkl. Massenermittlung, fachliche Beratung u. Unterstützung für Gewerkausschreibungen, Unterlagenerstellung für Bauausführungen und Abfallbewirtschaftungsmaßnamen, Befundungen während Bauausführungen, Unterlagenerstellung für Fertigstellungen von Bauausführungen",
+    "veroeffentlichungsdatum": "2026-03-31",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
   },
   {
     "portal": "USP Bund",
@@ -692,7 +1141,7 @@ const DATA = [
     "beschreibung": "des Auftrages: Generalplanungsleistungen (Objektplanung und Fachplanung) für LPH 1-4 und optional für LPH 5-9. Kurze Beschreibung der zusätzlichen oder geänderten Leistungen: Wiederholung der Planung für die Leistungsphasen 2-4 aufgrund einer Redimensionierung des Projektumfangs sowie einer Optimierung des Raumprogramms. CPV Hauptteil: 71000000 (Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen) Art des Auftrags: Dienstleistungsauftrag Gründe für die Notwendigkeit geänderter Leistungen: Die Änderung wurde aufgrund von Umständen erforderlich, die trotz Erfüllung aller Sorgfaltspflichten nicht vorhergesehen werden konnten. Der Gesamtcharakter des Auftrages ve",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:04.997Z"
+    "scrapedAt": "2026-04-20T08:14:48.455Z"
   },
   {
     "portal": "USP Bund",
@@ -707,105 +1156,7 @@ const DATA = [
     "beschreibung": "ist eine Studie, die im Hinblick auf die Eröffnung des BBT eine fachlich belastbare Grundlage schaffen soll, um die strategische Auseinandersetzung mit den Wirkungen des BBT auf den grenzüberschreitenden Raum systematisch vorzubereiten. Im Mittelpunkt stehen die Themen Mobilität und Verkehr, Wirtschaft und Tourismus, Raumordnung und Regionalentwicklung sowie Arbeitsmarkt und Bildung. Ausschreibungsunterlagen: https://tirol.vergabeportal.at/Detail/241254 Erfüllungsort: AT332 / Innsbruck CPV Hauptteil: 79315000 (Sozialforschung) Art des Auftrags: Dienstleistungsauftrag Weitere Informationen Disclaimer Hinweis: Die Suchfunktion des Unternehmensserviceportals stellt eine Serviceleistung dar, die",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:06.777Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "40B-02089 Projektsteuerung, KZ-Gedenkstätte Gusen, Georgestrasse 7, 4222 Langenstein",
-    "auftraggeber": "Burghauptmannschaft Österreich",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-07ed2b89-b79c-42b5-9f57-3b0f669f51a0&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "71541000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-31",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:19.763Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Abruf aus Rahmenvereinbarung ITPMPE2021, Los 1, 4233653",
-    "auftraggeber": "Bundesrechenzentrum GmbH",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-c8bd7f15-89f2-4db2-8d9a-4339f8672954&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "79421000",
-      "72200000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-31",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:20.311Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Abruf aus Rahmenvereinbarung SAPDL2022, TL1, 4233691",
-    "auftraggeber": "Bundesrechenzentrum GmbH",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-3b2a42db-7eed-422e-89e1-e91709661800&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "72200000",
-      "72220000",
-      "72261000",
-      "72262000",
-      "72263000",
-      "72266000",
-      "72316000",
-      "79421000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-31",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:20.868Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Abruf aus Rahmenvereinbarung SAPDL2022, TL1, 4233710",
-    "auftraggeber": "Bundesrechenzentrum GmbH",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-efe7110a-977a-4a82-92f5-98f98f996b0b&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "72200000",
-      "72220000",
-      "72261000",
-      "72262000",
-      "72263000",
-      "72266000",
-      "72316000",
-      "79421000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-31",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:21.393Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Abruf aus Rahmenvereinbarung SAPDL2022, TL3, 4233766",
-    "auftraggeber": "Bundesrechenzentrum GmbH",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6a2bc009-695d-4c6d-aac5-134cd3e2f91d&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVByb2pla3RtYW5hZ2VtZW50JmxvYWRlZD10cnVl&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "72200000",
-      "79421000",
-      "72220000",
-      "72261000",
-      "72262000",
-      "72263000",
-      "72266000",
-      "72254000",
-      "72316000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-31",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:21.940Z"
+    "scrapedAt": "2026-04-20T08:14:50.146Z"
   },
   {
     "portal": "USP Bund",
@@ -820,7 +1171,61 @@ const DATA = [
     "beschreibung": "ist eine Studie, die im Hinblick auf die Eröffnung des BBT eine fachlich belastbare Grundlage schaffen soll, um die strategische Auseinandersetzung mit den Wirkungen des BBT auf den grenzüberschreitenden Raum systematisch vorzubereiten. Im Mittelpunkt stehen die Themen Mobilität und Verkehr, Wirtschaft und Tourismus, Raumordnung und Regionalentwicklung sowie Arbeitsmarkt und Bildung. Ausschreibungsunterlagen: https://tirol.vergabeportal.at/Detail/241254 Erfüllungsort: AT332 / Innsbruck CPV Hauptteil: 79315000 (Sozialforschung) Art des Auftrags: Dienstleistungsauftrag Weitere Informationen Disclaimer Hinweis: Die Suchfunktion des Unternehmensserviceportals stellt eine Serviceleistung dar, die",
     "veroeffentlichungsdatum": "2026-03-31",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:24.665Z"
+    "scrapedAt": "2026-04-20T08:15:08.098Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71410000-5 - Raumplanung",
+    "titel": "Deutschland – Stadtplanung und Landschaftsgestaltung – Stadt Wunstorf - Städtebauliche Sanierung \"Innenstadt Wunstorf\" - Vergabe der Sanierungsträgerleistungen",
+    "auftraggeber": "Stadt Wunstorf",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/216147-2026",
+    "cpvCodes": [
+      "71400000",
+      "71410000"
+    ],
+    "beschreibung": "Gegenstand des Auftrags war die Vergabe von Sanierungsträgerleistungen gemäß § 157 BauGB für die städtebauliche Maßnahme Stadt Wunstorf Sanierungsgebiet \"Innenstadt\" sowie das Innenstadtmanagement. Weitere Details zu den einzelnen Leistungsbildern sind dem Sanierungstreuhändervertrag sowie dem Innenstadtkonzept zu entnehmen.",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:11.837Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71410000-5 - Raumplanung",
+    "titel": "Ungarn – Stadtplanung – Erzsébetváros Településfejl-i és -rendezési terv",
+    "auftraggeber": "Budapest Főváros VII. kerület Erzsébetváros Önkormányzata",
+    "frist": "2026-04-19T00:00:00+01:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/217538-2026",
+    "cpvCodes": [
+      "71410000"
+    ],
+    "beschreibung": "Új településfejlesztési terv és településrendezési terv (együtt: településterv) elkészítése Budapest Főváros VII. Kerület Erzsébetváros Önkormányzata részére",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Ungarn",
+    "scrapedAt": "2026-04-20T08:14:11.837Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
+    "titel": "Italien – Einsammeln von kommunalem Müll – GARA EUROPEA A PROCEDURA APERTA PER L'APPALTO DEL SERVIZIO DI RACCOLTA E TRASPORTO DEI RU CLASSIFICATO COME \"VERDE\" AI SENSI DEI CRITERI DEL DM DEL 07/04/2025 DEL COMUNE DI MACOMER",
+    "auftraggeber": "CMSS - Settore III - Appalti e Contratti, Provveditorato, Sicurezza, Servizio Protezione Dati Personali",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/215498-2026",
+    "cpvCodes": [
+      "90511100",
+      "90500000",
+      "90512000",
+      "90600000",
+      "90714100",
+      "90900000",
+      "90713000",
+      "90714500",
+      "90610000"
+    ],
+    "beschreibung": "GARA EUROPEA A PROCEDURA APERTA PER L'APPALTO DEL SERVIZIO DI RACCOLTA E TRASPORTO DEI RU CLASSIFICATO COME \"VERDE\" AI SENSI DEI CRITERI DEL DM DEL 07/04/2025 DEL COMUNE DI MACOMER",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
   },
   {
     "portal": "TED",
@@ -838,7 +1243,43 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 5 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 373,9 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 72224000-1 - IT-Projektmanagement",
+    "titel": "Deutschland – Systemberatung – S4/HANA Transformation",
+    "auftraggeber": "BEW Berliner Energie und Wärme GmbH",
+    "frist": "2026-04-30T11:00:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/215487-2026",
+    "cpvCodes": [
+      "72246000",
+      "72222200",
+      "72222300",
+      "72224100"
+    ],
+    "beschreibung": "Im Rahmen des vorangegangenen Carve-outs wurde die ERP-Landschaft zwar technisch bereinigt und auf die BEW-spezifischen Datenbestände reduziert, sie weist jedoch weiterhin eine komplexe, historisch gewachsene Architektur mit zahlreichen kundeneigenen Entwicklungen (Z-Programme, modifizierte Standardobjekte, Sondertabellen, individuelle Reports) sowie teils heterogenen Prozessvarianten auf. Diese Individualisierungen begrenzen die Weiterentwicklungsfähigkeit, erschweren die nachhaltige Systempflege und stehen im Widerspruch zu den Zielsetzungen eines energieversorgerspezifischen, regulierungskonformen, effizienten ERP-Betriebs. Vor diesem Hintergrund beabsichtigt die BEW, die bestehende ERP-Landschaft vollständig durch eine standardorientierte, integrierte SAP S/4HANA-Systemarchitektur abzulösen. Die neue Systemlandschaft soll insbesondere: durchgängige End-to-End-Prozesse zwischen FI/CO (inkl. FI-AA, PS, SD), PM und MM (inkl. EH&S) ermöglichen, die Harmonisierung und Standardisierung von Funktionen und Stammdaten unterstützen (u.a. Business Partner, Universal Journal, harmonisierte Materialstämme), die Nutzung moderner SAP-Technologien ermöglichen (z. B. Fiori, CDS Views, Embedded Analytics), eine zukunftssichere Integration zu Umsystemen (GIS, DMS, Abrechnungssysteme, Reportinglösungen) gewährleisten, regulatorische Anforderungen (z. B. GoBD, EnWG, energiewirtschaftliche Nachweispflichten) nachhaltig erfüllen.",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 72224000-1 - IT-Projektmanagement",
+    "titel": "Tschechien – Solarzellendachdeckarbeiten – Realizace 4 FVE",
+    "auftraggeber": "SAKO Brno SOLAR a.s.",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/218019-2026",
+    "cpvCodes": [
+      "45261215",
+      "09332000",
+      "09331200",
+      "72224000"
+    ],
+    "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 6 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 275,27 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Tschechien",
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
   },
   {
     "portal": "TED",
@@ -853,7 +1294,40 @@ const DATA = [
     "beschreibung": "Melde- und Beratungsstelle Antisemitismus für das Sächsische Staatsministerium für Kultus (SMK)",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Deutschland – Beratungsdienste im Bereich Wirtschaftsförderung – Betrieb einer bayerischen Wirtschaftsrepräsentanz in São Paulo / Brasilien",
+    "auftraggeber": "Freistaat Bayern vertreten durch das Bayerische Staatsministerium für Wirtschaft, Landesentwicklung und Energie",
+    "frist": "2026-04-27T12:00:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/215255-2026",
+    "cpvCodes": [
+      "79411100"
+    ],
+    "beschreibung": "Betrieb einer bayerischen Wirtschaftsrepräsentanz in São Paulo / Brasilien für einen Zeitraum von vier Jahren ab Zuschlagserteilung, frühestens ab 01.08.2026, zur Förderung der Wirtschaftsbeziehungen zwischen Brasilien und dem Freistaat Bayern.",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:32.336Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Deutschland – Unterstützende Dienste für die öffentliche Verwaltung – Projektträgerschaft Mittelstand-Digital",
+    "auftraggeber": "Bundesministerium für Wirtschaft und Energie",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/217594-2026",
+    "cpvCodes": [
+      "75130000",
+      "75131000",
+      "79411100",
+      "73000000"
+    ],
+    "beschreibung": "Das BMWE als Auftraggeber (AG) beabsichtigt, einen Auftragnehmer (AN) als Projektträger für den Zeitraum vom 01.01.2027 bis 31.12.2029 mit insgesamt vier Aufgabenbereichen zu beauftragen: Für die beiden Säulen des Förderschwerpunkts Mittelstand-Digital, die Aufgabenbereiche 1 (Netzwerk der Mittelstand-Digital Zentren) und 2 (Initiative IT-Sicherheit in der Wirtschaft), ist eine Beleihung des AN geplant. Zu den Aufgabenbereichen 3 (Öffentlichkeitsarbeit) und 4 (Koordinierung der nationalen EDIHs) soll keine Beleihung erfolgen. Für die Aufgabenbereiche 1 und 2 fallen zusammengefasst folgende Leistungen an: - Unterstützung des BMWE bei der Planung und Entwicklung von neuen bzw. der Fortschreibung bestehender Fördermaßnahmen; Antragsprüfungen und -bewilligungen auf Basis der Förderbekanntmachungen für das neue Netzwerk der Mittelstand-Digital Zentren und für die Initiative IT-Sicherheit in der Wirtschaft; - Fachliche Betreuung und Steuerung, Administration und Bewirtschaftung sowie Erfolgskontrolle der Förderfälle (Projektmanagement), einschließlich beihilferechtlicher Betreuung der Zuwendungsempfänger; - Interne Vernetzung sowie Vernetzung mit externen Förder-/Unterstützungsangeboten; - Systematisches und projektübergreifendes kontinuierliches Monitoring sowie projekt-übergreifende Erfolgskontrolle (jährlich) zur Identifikation von Schwachstellen und Maßnahmen zur Verbesserung; - Begleitung der KI-Trainer und der neuen CYBERsicher-Trainer; sowie - Unterstützung des BMWE bei allen beihilferechtlich relevanten Aufgaben. Für den Aufgabenbereich 3 fallen zusammengefasst folgende Leistungen an: - Unterstützung des BMWE bei der Pflege, Redaktion und Erweiterung der neuen On-line-Plattform „Mittelstand-Digital“ mit Lotsenfunktion für KMU zu Digitalisierung, KI sowie IT- und Cybersicherheit; - Vorbehaltlich des BMWE-Gesamtkonzepts zu den Kanälen in den Sozialen Medien: Redaktionelle Betreuung des LinkedIn-Kanals und der Newsletter des Förderschwerpunkts; sowie - Unterstützung bei der Organisation von öffentlichkeitswirksamen Events des Förderschwerpunkts. Für den Aufgabenbereich 4 fallen zusammengefasst folgende Leistungen an: Nationale Kontaktstelle zur Betreuung und Beratung bei Anfragen der deutschen EDIHs und des BMWE zu fachlichen und administrativen Vorgängen; - Gemeinsam mit dem BMWE: Übernahme der Funktion des sog. Vertreters der Mitgliedstaaten (Member State Representative) für Deutschland ggü. der EU-KOM; - Betreuung und administrative Beratung der Ländergruppe der deutschen EDIHs innerhalb des europäischen Netzwerks der EDIHs; sowie - Unterstützung der Synergiebildung zwischen den EDIHs und anderen Initiativen.",
+    "veroeffentlichungsdatum": "2026-03-30",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:32.336Z"
   },
   {
     "portal": "USP Bund",
@@ -869,7 +1343,7 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-30",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:01.390Z"
+    "scrapedAt": "2026-04-20T08:15:46.032Z"
   },
   {
     "portal": "USP Bund",
@@ -885,7 +1359,94 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-29",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:01.961Z"
+    "scrapedAt": "2026-04-20T08:15:46.579Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Dienstleistungen von Architekturbüros – Konzeptvergabe mit architektonisch-freiraumplanerischem Wettbewerb zur Veräußerung des städtischen Grundstücks 'Alte Ländcheshalle' in Hofheim-Wallau",
+    "auftraggeber": "Magistrat der Kreisstadt Hofheim am Taunus",
+    "frist": "2026-04-17T23:59:59+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/211103-2026",
+    "cpvCodes": [
+      "71200000",
+      "71222000",
+      "71221000",
+      "71420000"
+    ],
+    "beschreibung": "Der Magistrat beabsichtigt, das im Stadtteil Wallau gelegene, ca. 8.112 m² große städtische Grundstück Rheingauer Weg 21, auf dem sich die nicht mehr genutzte Mehrzweckhalle Ländcheshalle (alt) befindet, mit dem Ziel einer wohnbaulichen Entwicklung zu veräußern. Im Rahmen eines öffentlichen Beteiligungsprozesses wurden städtebauliche-freiraumplanerische, ökologische, energetische sowie verkehrliche Anforderungen erarbeitet, die bei der Standortentwicklung zu berücksichtigen sind. Um den damit verbundenen qualitativen Anforderungen an die Entwicklung gerecht zu werden, beabsichtigt der Magistrat der Kreisstadt Hofheim am Taunus die Vergabe des städtischen Grundstücks nach Konzeptqualität. In diesem Kontext wird ein architektonisch-freiraumplanerischer Wettbewerb in Anlehnung an die Richtlinie für Planungswettbewerbe 2013 (RPW 2013) ausgelobt. Das Wettbewerbsverfahren wird als nichtoffener Wettbewerb nach § 3 RPW 2013 durchgeführt.",
+    "veroeffentlichungsdatum": "2026-03-27",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen – Realisierungswettbewerb Quartiersplatz \"Grüne Mitte Ebertal\" | Wettbewerbsergebnisse",
+    "auftraggeber": "Stadt Göttingen",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/213286-2026",
+    "cpvCodes": [
+      "71000000",
+      "71200000",
+      "71220000",
+      "71222000",
+      "71400000",
+      "71420000"
+    ],
+    "beschreibung": "Die Stadt Göttingen lobt einen nicht-offenen freiraumplanerischen Realisierungswettbewerb mit Ideenteil gem. RPW 2013 mit vorgeschaltetem EU-weitem Teilnahmewettbewerb und Beteiligung der Öffentlichkeit aus.",
+    "veroeffentlichungsdatum": "2026-03-27",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Deutschland – Unternehmens- und Managementberatung – 81323050-Transforming agribusinesses to improve the employment situation in the Kurdistan Region of Iraq",
+    "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+    "frist": "2026-04-24T23:59:59+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/214507-2026",
+    "cpvCodes": [
+      "79410000",
+      "79411100"
+    ],
+    "beschreibung": "Despite Iraq's macroeconomic position as an upper-middle-income country, the economic situation in Iraq is tense and employment opportunities are scarce. IDPs, refugees from neighbouring countries, as well as host communities of displaced persons in Iraq face a high level or high risk of poverty stemming from the lack of prospects for income-generating employment. These groups often have insufficient qualifications for existing jobs or the qualifications are not recognised. Lack of access to finance for entrepreneurial activities and to employment-related networks further hampers employment growth. Structural business development support for start-ups and scale-ups is rare. Existential constraints often push vulnerable labour market participants into short-term, informal jobs with no prospects for long-term decent employment. Many IDP returnee and refugee families as well as vulnerable households in general rely on small-scale farming and livestock. Most of these enterprises are small, informal, and low in productivity due to limited access to finance and structured support as well as limited equipment and water access, weak business and marketing capacity and poor market linkages. Environmental pressures reduce agricultural productivity further and make climate-smart practices and improved resource management critical. Women and people with disabilities are severely disadvantaged. Despite very low participation in the labour market, 30% of women of working age are unemployed (compared with 13% of men) and there are far fewer female than male entrepreneurs. Women account for just 11% of the working population and have less access to land and other assets as well as financial services. People with disabilities are confronted with major barriers when trying to enter the labour market, hence, many are unemployed. Women with disabilities face an almost complete exclusion from the labour market, resulting from a combination of social stigma, physically inaccessible environments, prejudice from employers, the absence of tailored trainings, a lack of understanding by government officials and further. Against this backdrop, the German Federal Ministry for Economic Cooperation and Development (BMZ) commissioned the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH to implement the project \"Employment Prospects for Socioeconomic Integration of Refugees, IDPs and Host Communities in Iraq\" (EPSI). In collaboration with the Ministry of Labour and Social Affairs (MoLSA) in the Kurdistan Region of Iraq (KRI) the project aims to promote inclusive employment and entrepreneurship opportunities in the country (including Federal Iraq). Its overall objective reads as follows: \"The employment situation of refugees, IDPs and people from host communities has improved.\" The project focusses on four outputs: 1) Policy Advocacy: Raising awareness among state actors through evidence-based findings to improve the integration of refugees, IDPs and marginalised groups in host communities into labour market policy. 2) Skills for Employment: Developing market-relevant skills to enhance the employability of the target groups through vocational training and career development centres by upgrading or developing curricula and upskilling teachers. 3) Fit for Business: Building and developing entrepreneurial and business skills as well as providing financial support to Micro, Small, and MSMEs. 4) Short-term Employment Opportunities: Providing temporary employment opportunities, such as Cash for Work, for quick income generation to address the immediate financial needs of the target groups. GIZ intends to contract a service provider to contribute to fulfil output 3 in KRI. The objective of output 3 is to enhance technical and financial capacities of refugees, IDPs and vulnerable people in host communities to set up, expand or reactivate MSMEs by i.a. cooperating with local Business Development Service providers.",
+    "veroeffentlichungsdatum": "2026-03-27",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:32.335Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Tschechien – Projektüberwachung, außer Projektüberwachung von Bauarbeiten – Zajištění technického dozoru pro modifikaci třídící linky v Chrášťanech II.",
+    "auftraggeber": "Pražské služby, a.s.",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/208189-2026",
+    "cpvCodes": [
+      "79421100",
+      "79714000"
+    ],
+    "beschreibung": "Předmětem této veřejné zakázky je zajištění výkonu technického dozoru nad prováděním Modifikace třídící linky v Chrášťanech (dále jen „Projekt“), a to včetně všech souvisejících činností nezbytných pro řádnou realizaci Projektu. Vybraný účastník bude v rámci plnění této veřejné zakázky vykonávat služby v souladu s platnými a účinnými právními předpisy, vyhláškami, technickými normami a doporučeními profesních komor. Předmět plnění veřejné zakázky, tj. výkon technického dozoru při provádění Projektu, je blíže specifikován v příloze č. 1 závazného návrhu smlouvy o zajištění technického dozoru, který tvoří přílohu č. 1 zadávací dokumentace.",
+    "veroeffentlichungsdatum": "2026-03-26",
+    "organisationLand": "Tschechien",
+    "scrapedAt": "2026-04-20T08:14:08.938Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Deutschland – Unternehmens- und Managementberatung und zugehörige Dienste – Begutachtungsverfahren für den Innovationspreis NRW 2027 bis 2029",
+    "auftraggeber": "Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen",
+    "frist": "2026-04-21T23:59:59+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/208638-2026",
+    "cpvCodes": [
+      "79400000",
+      "79416000",
+      "79421000"
+    ],
+    "beschreibung": "Auftragsgegenstand ist die Konzipierung und Durchführung des Begutachtungsverfahrens für den Innovationspreis NRW im Zeitraum von 2027 bis 2029 sowie optional auch für die Jahre 2030, 2031 und 2032.",
+    "veroeffentlichungsdatum": "2026-03-26",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:08.938Z"
   },
   {
     "portal": "TED",
@@ -901,7 +1462,7 @@ const DATA = [
     "beschreibung": "Under this negotiated procedure, the ECB envisages to award a single framework agreement for the provision of works and services for the maintenance and development of the ECB's Environmental Management System at the ECB. The ECB envisaged to award a single framework framework agreement with an initial duration of 36 months, with the possibility of extension for another 12 months. The total duration of the contract shall not exceed 48 months. During the term of the contract, the ECB will order the provision of works and services with a direct order, in accordance with the terms and conditions of the contract.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:42.170Z"
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
   },
   {
     "portal": "TED",
@@ -922,7 +1483,7 @@ const DATA = [
     "beschreibung": "Předmětem plnění části 1 – 4 Veřejné zakázky je poskytování služeb energetického a technického poradenství pro bytové domy, a to pro stávající, jakož i potenciální klienty Zadavatele, konkrétně zpracování studie proveditelnosti a poskytování navazujících služeb, a to v souvislosti s realizací opatření ke snížení energetické náročnosti nemovitosti. Předmětem plnění části 5 Veřejné zakázky je poskytování služeb energetického a technického poradenství pro bytové domy, a to pro stávající, jakož i potenciální klienty Zadavatele, konkrétně zpracování projektové dokumentace a poskytování navazujících služeb, a to v souvislosti s realizací opatření ke snížení energetické náročnosti nemovitosti.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:42.170Z"
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
   },
   {
     "portal": "TED",
@@ -940,7 +1501,7 @@ const DATA = [
     "beschreibung": "Gegenstand der Ausschreibung ist die vollumfängliche fachlich geprägte Projektleitung für die Einführung einer elektronischen Aktenführung (eAkte) mittels eines Dokumentenmanagementsystems (DMS) in der Auftrag gebenden Körperschaft des öffentlichen Rechts. Das DMS-Produkt (d.velop AG) wurde bereits beschafft und befindet sich im operativen Einsatz.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
   },
   {
     "portal": "TED",
@@ -959,23 +1520,7 @@ const DATA = [
     "beschreibung": "Vergabe einer Dienstleistung an einen Bieter zur wissenschaftlichen Begleitung, Forschung und Evaluation des Dienstleistungsauftrages Übergang-Schule-Beruf (ÜSB) durch Integrationsfachdienste (IFD).",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421100-2 - Projektaufsicht",
-    "titel": "Tschechien – Projektüberwachung, außer Projektüberwachung von Bauarbeiten – Zajištění technického dozoru pro modifikaci třídící linky v Chrášťanech II.",
-    "auftraggeber": "Pražské služby, a.s.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/208189-2026",
-    "cpvCodes": [
-      "79421100",
-      "79714000"
-    ],
-    "beschreibung": "Předmětem této veřejné zakázky je zajištění výkonu technického dozoru nad prováděním Modifikace třídící linky v Chrášťanech (dále jen „Projekt“), a to včetně všech souvisejících činností nezbytných pro řádnou realizaci Projektu. Vybraný účastník bude v rámci plnění této veřejné zakázky vykonávat služby v souladu s platnými a účinnými právními předpisy, vyhláškami, technickými normami a doporučeními profesních komor. Předmět plnění veřejné zakázky, tj. výkon technického dozoru při provádění Projektu, je blíže specifikován v příloze č. 1 závazného návrhu smlouvy o zajištění technického dozoru, který tvoří přílohu č. 1 zadávací dokumentace.",
-    "veroeffentlichungsdatum": "2026-03-26",
-    "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:48.926Z"
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
   },
   {
     "portal": "TED",
@@ -993,7 +1538,7 @@ const DATA = [
     "beschreibung": "Gegenstand der Leistung ist die konzeptionelle Raumgestaltung sowie die Umsetzung der Ausstattung der Gemeinschaftsflächen der Bundeszentrale für politische Bildung in den Liegenschaften Bonn und Gera gemäß Leistungsbeschreibung.",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
+    "scrapedAt": "2026-04-20T08:14:34.044Z"
   },
   {
     "portal": "TED",
@@ -1008,7 +1553,39 @@ const DATA = [
     "beschreibung": "siehe Leistungsbeschreibung",
     "veroeffentlichungsdatum": "2026-03-26",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:53.399Z"
+    "scrapedAt": "2026-04-20T08:14:35.502Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "INTERREG",
+    "titel": "Österreich – Forschungsdienste – Nationalpark Thayatal - Aufbau Molluskenmonitoring für das Gebiet des Nationalparks Thayatal im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178)",
+    "auftraggeber": "Nationalpark Thayatal GmbH",
+    "frist": "2026-04-03T12:00:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/207184-2026",
+    "cpvCodes": [
+      "73110000",
+      "73300000"
+    ],
+    "beschreibung": "Die Auftraggeberin Nationalpark Thayatal GmbH benötigt im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178) Leistungen für die Koordination und Umsetzung einer Molluskenerhebung und Aufbau eines Molluskenmonitorings im Nationalparkgebiet, die Dokumentation und Sicherung der Daten sowie die Erstellung eines Projektberichts. Ziel der ausgeschriebenen Studie ist die Durchführung einer standardisierten Ersterhebung der Molluskenfauna im Nationalpark Thayatal und von fünf ausgewählten Standorten im Národní park Podyjí sowie der Aufbau eines langfristig wiederholbaren Monitorings. Angebote müssen fristgerecht per Mail an die Nationalpark Thayatal GmbH, office@np-thayatal.at, z.Hd. Julian Haider eingereicht werden (aus techn. Gründen war die Angabe der E-Mail Adresse im Feld BT-18-Lot nicht möglich). Für weitere Details wird auf die Ausschreibungsunterlagen verwiesen.",
+    "veroeffentlichungsdatum": "2026-03-26",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "INTERREG",
+    "titel": "Österreich – Forschungsdienste – Nationalpark Thayatal - Aufbau Makrozoobenthosmonitoring für das Gebiet des Nationalparks Thayatal im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178)",
+    "auftraggeber": "Nationalpark Thayatal GmbH",
+    "frist": "2026-04-03T12:00:00+01:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/208153-2026",
+    "cpvCodes": [
+      "73110000",
+      "73300000"
+    ],
+    "beschreibung": "Die Auftraggeberin Nationalpark Thayatal GmbH benötigt im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178) Leistungen für die Koordination und Umsetzung einer Makrozoobenthoserhebung und Aufbau eines Makrozoobenthosmonitorings im Nationalparkgebiet, die Dokumentation und Sicherung der Daten sowie die Erstellung eines Projektberichts. Ziel der ausgeschriebenen Studie ist die Durchführung einer standardisierten Basiserhebung des Makrozoobenthos in ausgewählten Fließgewässern des Nationalparks Thayatal sowie der Aufbau eines langfristigen Monitoringsystems. Angebote müssen fristgerecht per Mail an die Nationalpark Thayatal GmbH, office@np-thayatal.at, z.Hd. Julian Haider eingereicht werden (aus techn. Gründen war die Angabe der E-Mail Adresse im Feld BT-18-Lot nicht möglich). Für weitere Details wird auf die Ausschreibungsunterlagen verwiesen.",
+    "veroeffentlichungsdatum": "2026-03-26",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
   },
   {
     "portal": "TED",
@@ -1025,7 +1602,7 @@ const DATA = [
     "beschreibung": "Konzeptvergabe Michael-Schiffer Weg // Erftstadt Lechenich",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
+    "scrapedAt": "2026-04-20T08:14:11.837Z"
   },
   {
     "portal": "TED",
@@ -1040,7 +1617,7 @@ const DATA = [
     "beschreibung": "Aufbau eines Zentrenmanagement zur Umsetzung des integrierten städtebaulichen Entwicklungskonzeptes für die Stadt Bendorf / Städtebaufördergebiet \"Stadtmitte\" im Förderprogramm\"Lebendige Zentren - Aktive Stadt\"",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
+    "scrapedAt": "2026-04-20T08:14:11.837Z"
   },
   {
     "portal": "TED",
@@ -1064,7 +1641,7 @@ const DATA = [
     "beschreibung": "Dienstleistungsauftrags in Form einer Rahmenvereinbarung betreffend die Erbringung von Dienstleistungen im Zusammenhang mit ESG, Konzernabschlusserstellung und Nachhaltigkeit. - Bekanntgabe vergebener Aufträge (Abschluss RV)",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
+    "scrapedAt": "2026-04-20T08:14:14.894Z"
   },
   {
     "portal": "TED",
@@ -1079,7 +1656,7 @@ const DATA = [
     "beschreibung": "Zpracování evaluací projektů nebo výzev financovaných z evropského sociálního fondu. Evaluace jsou systematické a objektivní hodnocení probíhajících nebo dokončených projektů, programů nebo politik, jejich nastavení, implementace a výsledků. Cílem je určení relevance a naplnění cílů, posouzení rozvojové efektivnosti, účinku a udržitelnosti. Jde o proces stanovení důležitosti nebo významnosti určité aktivity, politiky nebo programu/projektu. V rámci DNS budou realizovány procesní, dopadové nebo strategické evaluace. Procesní evaluace hodnotí průběh implementace programu nebo intervence, zaměřuje se na probíhající procesy a jejím cílem jsou doporučení pro lepší nastavení procesů. Dopadová evaluace hodnotí dosažení plánovaných efektů/dopadů/výsledků. Nejčastěji s využitím kontrafaktuální dopadové evaluace (typ CIE) založené na statistických metodách či formou theory-based evaluace (typ TBIE) využitím metody teorie změny a případových studií. Strategická evaluace hodnotí nastavení, dosažení strategických cílů a příspěvek k jejich dosažení na úrovni celého operačního programu. Nezaměřuje se na dílčí intervence, ale hodnotí program jako celek s ohledem na dominantní témata operačního programu ve vztahu ke strategickým cílům.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
+    "scrapedAt": "2026-04-20T08:14:14.894Z"
   },
   {
     "portal": "TED",
@@ -1094,7 +1671,7 @@ const DATA = [
     "beschreibung": "Der Kombinierte Verkehr (KV) ist ein wesentlicher Faktor für die Verlagerung von Güterverkehr von der Straße auf das Binnenschiff und auf die Schiene. Er trägt damit zur Einsparung von Treibhausgasemissionen und zur Einhaltung der nationalen und europäischen Klimaziele bei. Seine Bedeutung wird der aktuellen Verkehrsprognose 2040 zufolge künftig noch weiter zunehmen. Erforderlich ist ein gut ausgebautes, flächendeckendes Netz an bi- und trimodalen Umschlaganlagen für den Umschlag zwischen den Verkehrsträgern Straße, Schiene und Binnenwasserstraße, das auch ausreichende Kapazitäten für den künftigen Bedarf aufweist. Durch den Umschlag zwischen den Verkehrsträgern entstehen beim Transport von Gütern im Kombinierten Verkehr gegenüber unimodalen Gütertransporten zusätzliche Kosten. Daher fördert der Bund den Kombinierten Verkehr. Dies erfolgt über Zuschüsse an private Unternehmen für Investitionen in Umschlaganlagen des Kombinierten Verkehrs. Seit Ende 2022 erfolgt die Förderung auf Grundlage der Richtlinie des Bundesministeriums für Verkehr (BMV) zur Förderung von Investitionen in Umschlaganlagen des Kombinierten Verkehrs vom 23. November 2022 (https://www.bmv.de/SharedDocs/DE/Anlage/G/foerderrichtlinie-von-umschlaganlagen-des-kombinierten-verkehrs.pdf?__blob=publicationFile). Diese Förderrichtlinie gilt bis 31.12.2026. Eine Verlängerung um ein Jahr ist geplant. Bereits seit 1998 galten kontinuierlich Förderrichtlinien des Bundes, auf deren Grundlage die Förderung des Neu- und Ausbaus von KV-Umschlaganlagen privater Unternehmen erfolgte. So erfolgte zuvor im Zeitraum vom 01.01.2017 bis 30.09.2022 auf Grundlage der Richtlinie zur Förderung von Umschlaganlagen des Kombinierten Verkehrs nicht bundeseigener Unternehmen. Die Durchführung der Förderung (Prüfung von Förderanträgen, Bewilligung der Förderung, Prüfung der Verwendung) haben das Eisenbahn-Bundesamt (EBA) und die Generaldirektion Wasserstraßen und Schifffahrt (GDWS) übernommen. Entsprechend den Haushaltsvorschriften zum Zuwendungsrecht ist die laufende Förderung einer Erfolgskontrolle zu unterziehen. Diese Erfolgskontrolle umfasst die Evaluierung der bewilligten Vorhaben (AP 1) sowie eine Zielerreichungskontrolle, eine Wirkungskontrolle und eine Wirtschaftlichkeitskontrolle der bisherigen Förderung (AP 2). Darüber hinaus ist für die Planung einer möglichen neuen Förderung eine Wirtschaftlichkeitsuntersuchung durchzuführen. In diesem Rahmen sollen zusätzlich Möglichkeiten erörtert und geprüft werden, ob und wie – unter Beachtung des Grundsatzes der Wirtschaftlichkeit der Bundeshaushaltsordnung (BHO) – die Förderung für private KV-Umschlaganlagen verbessert, ggf. um neue Fördergegenstände ergänzt und auf andere multimodale Umschlaganlagen ausgeweitet werden kann (AP 3). Darüber hinaus soll geprüft werden, ob und wie eine betriebliche Förderung im Sinne einer Anschubfinanzierung von KV-Verkehren und anderen multimodalen Verkehren möglich ist (AP 4). Bei AP 3 und 4 ist insbesondere zu beachten, dass Erweiterungen von Förderungen oder neue Fördergegenstände im Zeichen knapper werdender Haushaltsmittel eines klaren Wirtschaftlichkeitsnachweises im Hinblick auf das Ziel der damit zu erreichenden CO2-Einsparung bedürfen. Überförderungen, die ggf. auch durch die Kombination einer KV-spezifischen Förderung mit anderen Unterstützungsmaßnahmen des Bundes auftreten können, sind in jedem Falle zu vermeiden. Im Sinne des im Koalitionsvertrags festgehaltenen Ziels des Bürokratierückbaus sollen außerdem Förderungen missbrauchssicher so ausgestaltet sein, dass sie für die beantragenden Unternehmen wie für die bewilligenden Behörden möglichst geringen bürokratischen Aufwand verursachen. ***** Die Einzelheiten sind den elektronisch bereitgestellten Vergabeunterlagen zu entnehmen.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:33.687Z"
+    "scrapedAt": "2026-04-20T08:14:14.895Z"
   },
   {
     "portal": "TED",
@@ -1111,7 +1688,23 @@ const DATA = [
     "beschreibung": "Die Samtgemeinde Ilmenau plant die Neuausschreibung der technischen und kaufmännischen Betriebsführung des Abwassernetzes für das gesamte Samtgemeindegebiet. Dieses umfasst das Gebiet der Gemeinden Barnstedt, Deutsch-Evern, Embsen und Melbeck. Vor circa 20 Jahren ist im Rahmen eines europaweiten Vergabeverfahrens ein Public-Private-Partnership (PPP) -Modell für die Aufgabe der Abwasserbeseitigung in der Samtgemeinde Ilmenau ausgeschrieben worden. Abwasserbeseitigung im hiesigen Sinne umfasst lediglich die Beseitigung von Misch- und Schmutzwasser. Die Beseitigung des Niederschlagswassers verbleibt weiterhin als Aufgabe der einzelnen Mitgliedsgemeinde. In dieser Struktur wird die Betriebsführung des Abwassernetzes der Samtgemeinde Ilmenau von der Abwassergesellschaft Ilmenau mbH (AGI) erbracht. An der AGI hält die Samtgemeinde Ilmenau 51 % der Gesellschaftsanteile, während der private Partner 49 % der Gesellschaftsanteile besitzt. Ebenso wurde im Rahmen dieser Vergabe das Anlagevermögen, wie Leitungen und Pumpwerke, auf die AGI übertragen. Zwischen der AGI und der Samtgemeinde besteht ein entsprechender Dienstleistungsvertrag, durch den sich die AGI zur Wahrnehmung der der Samtgemeinde obliegenden Pflichten zur Abwasserbeseitigung verpflichtet. Die zur Betriebsführung erforderlichen Dienstleistungen werden von einem Dienstleister für die AGI erbracht. Dieser Dienstleistungsvertrag soll nun neu vergeben werden. Im gleichen Zuge wird die AGI zu einer 100 % kommunalen Gesellschaft werden. Das bisherige PPP-Modell wird nicht weiter fortgesetzt. Im Rahmen dieses Vergabeverfahrens wird daher nicht erneut ein Gesellschaftsanteil der AGI ausgeschrieben. Der Leistungsumfang der hier ausgeschriebenen Dienstleistungen beschränken sich auf die Betriebsführung des Abwassernetzes.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:42.169Z"
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Deutschland – Unternehmens- und Managementberatung und zugehörige Dienste – Beratungsleistungen zur Umsetzung und Etablierung von betrieblichen Restrukturierungs- und Optimierungsmaßnahmen beim Landeskrankenhaus (AöR)",
+    "auftraggeber": "Landeskrankenhaus (AöR)",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/206978-2026",
+    "cpvCodes": [
+      "79400000",
+      "79411000"
+    ],
+    "beschreibung": "Das Landeskrankenhaus plant die Umsetzung und Etablierung von betrieblichen Restrukturierungs- und Optimierungsmaßnahmen. Ausgeschrieben werden die benötigten Beratungsleistungen zur Umsetzung.",
+    "veroeffentlichungsdatum": "2026-03-25",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:32.335Z"
   },
   {
     "portal": "TED",
@@ -1127,25 +1720,111 @@ const DATA = [
     "beschreibung": "Die Auftraggeberin Nationalpark Thayatal GmbH benötigt im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178) Leistungen für die Koordination und Umsetzung einer Makrozoobenthoserhebung und Aufbau eines Makrozoobenthosmonitorings im Nationalparkgebiet, die Dokumentation und Sicherung der Daten sowie die Erstellung eines Projektberichts. Ziel der ausgeschriebenen Studie ist die Durchführung einer standardisierten Basiserhebung des Makrozoobenthos in ausgewählten Fließgewässern des Nationalparks Thayatal sowie der Aufbau eines langfristigen Monitoringsystems. Angebote müssen fristgerecht per Mail an die Nationalpark Thayatal GmbH, office@np-thayatal.at, z.Hd. Julian Haider eingereicht werden (aus techn. Gründen war die Angabe der E-Mail Adresse im Feld BT-18-Lot nicht möglich). Für weitere Details wird auf die Ausschreibungsunterlagen verwiesen.",
     "veroeffentlichungsdatum": "2026-03-25",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
   },
   {
     "portal": "TED",
-    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
-    "titel": "Deutschland – Dienstleistungen im Umweltschutz – Landesweites Libellen Monitoring nach FFH (2026-2030)",
-    "auftraggeber": "Landesamt für Umwelt",
-    "frist": "2026-04-07T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/200616-2026",
+    "suchbegriff": "INTERREG",
+    "titel": "Slowakei – Dienstleistungen von Tontechnikern – „Zabezpečenie prenájmu profesionálnej tlmočníckej techniky a služieb technickej obsluhy pre rezort MIRRI SR“",
+    "auftraggeber": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/204236-2026",
     "cpvCodes": [
-      "90700000",
-      "90711500",
-      "90713000",
-      "90720000"
+      "92370000",
+      "51000000",
+      "79952000",
+      "32232000",
+      "51310000",
+      "71356300",
+      "71356100",
+      "32330000",
+      "32333300",
+      "32341000",
+      "32323300",
+      "32323000",
+      "32333200",
+      "32340000",
+      "33195100",
+      "48515000",
+      "32350000",
+      "32351000",
+      "60000000"
     ],
-    "beschreibung": "Die hier inkludierten Libellenarten sind Bestandteil der Anhänge der FFH-Richtlinie (Anhang II & IV). Für diese Arten müssen die Länder Daten über den Erhaltungszustand an das Bundesamt für Naturschutz liefern. Diese Daten sind dann Grundlage/Bestandteil des nationalen Berichts an die EU. Die Daten müssen in jedem Berichtspflichtzeitraum neu erhoben werden. Die Stichprobenflächen sind in den beiliegenden Shape-Dateien verortet und benannt. Der Auftragnehmer erbringt sämtliche Leistungen durch die beauftragte Person oder Firma in vollem Umfang selbst. Die Einbeziehung von nicht bereits im Angebot genannten und als geeignet nachgewiesenen Unterauftragnehmern ist erst nach ausdrücklicher Zustimmung des Auftraggebers zulässig. Bitte beachten Sie die mit den übrigen Vergabeunterlagen bereitgestellte Leistungsbeschreibung hinsichtlich der erschöpfenden Darstellung des hier ausgeschriebenen Auftrags.",
+    "beschreibung": "Predmetom zákaziek zadávaných v zriadenom dynamickom nákupnom systéme bude obstarávanie služieb v oblasti zabezpečenia prenájmu profesionálnej tlmočníckej techniky a služieb technickej obsluhy, vrátane dopravných nákladov na miesto poskytovania služieb. Predmetom zákazky je aj zabezpečenie služieb pomocou zvukového technika, profesionálneho zvukového vybavenia a tlmočníckej techniky na podujatia súvisiace s organizáciou konferencií, monitorovacích výborov a iných podujatí z dôvodu kvalitného ozvučenia priestoru, online priestoru, profesionálneho simultánneho tlmočenia a techniky s možnosťou elektronického hlasovania. Cieľom zriadenia DNS a zadávania čiastkových zákaziek v DNS je umožniť verejnému obstarávateľovi flexibilné zadávanie zákaziek v súlade so zákonom o verejnom obstarávaní podľa svojich reálnych potrieb, t. j. v čase a rozsahu, ktorý mu je známy. Zároveň dôvodom obstarávania je aj špecifickosť samotných podujatí, na ktorých sa vyžaduje technika a odborná obsluha, ktorou verejný obstarávateľ v požadovanom rozsahu nedisponuje. Podrobná špecifikácia predmetu zákazky, jeho presný rozsah ako aj ostatné doplňujúce informácie budú uvedené v jednotlivých čiastkových výzvach v rámci zriadeného DNS.",
+    "veroeffentlichungsdatum": "2026-03-25",
+    "organisationLand": "Slowakei",
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "INTERREG",
+    "titel": "Österreich – Forschungsdienste – Nationalpark Thayatal - Aufbau Molluskenmonitoring für das Gebiet des Nationalparks Thayatal im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178)",
+    "auftraggeber": "Nationalpark Thayatal GmbH",
+    "frist": "2026-03-27T12:00:00+01:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/204513-2026",
+    "cpvCodes": [
+      "73110000",
+      "73300000"
+    ],
+    "beschreibung": "Die Auftraggeberin Nationalpark Thayatal GmbH benötigt im Rahmen des INTERREG Projekts „BioReMo – Biodiversity Research and Monitoring“ (ATCZ00178) Leistungen für die Koordination und Umsetzung einer Molluskenerhebung und Aufbau eines Molluskenmonitorings im Nationalparkgebiet, die Dokumentation und Sicherung der Daten sowie die Erstellung eines Projektberichts. Ziel der ausgeschriebenen Studie ist die Durchführung einer standardisierten Ersterhebung der Molluskenfauna im Nationalpark Thayatal und von fünf ausgewählten Standorten im Národní park Podyjí sowie der Aufbau eines langfristig wiederholbaren Monitorings. Angebote müssen fristgerecht per Mail an die Nationalpark Thayatal GmbH, office@np-thayatal.at, z.Hd. Julian Haider eingereicht werden (aus techn. Gründen war die Angabe der E-Mail Adresse im Feld BT-18-Lot nicht möglich). Für weitere Details wird auf die Ausschreibungsunterlagen verwiesen.",
+    "veroeffentlichungsdatum": "2026-03-25",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Österreich – Dienstleistungen für Unternehmen: Recht, Marketing, Consulting, Einstellungen, Druck und Sicherheit – FSW_Rahmenvereinbarung Consultingleistungen (ROD2415)",
+    "auftraggeber": "Fonds Soziales Wien",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/200166-2026",
+    "cpvCodes": [
+      "79000000",
+      "79416200",
+      "72200000",
+      "72246000",
+      "72220000",
+      "72227000",
+      "79421000",
+      "79400000"
+    ],
+    "beschreibung": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung mit bis zu drei Rahmenvereinbarungspartnern (folgend Partner genannt) in Los 1 und Los 2, sowie mit bis zu zwei Partnern in Los 3, Los 4 und Los 5 über diverse Dienstleistungen im Consultingbereich. Die gegenständliche Bekanntgabe erfolgt für die Lose 1, 2, 3 und 5. Das Ergebnis von Los 4 wird zu einem späteren Zeitpunkt bekanntgegeben, sobald das Verfahren für Los 4 abgeschlossen ist",
     "veroeffentlichungsdatum": "2026-03-24",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:42.169Z"
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:08.938Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
+    "titel": "Slowakei – Durchführbarkeitsstudie, Beratung, Analyse – Vypracovanie štúdie uskutočniteľnosti R3 Martin – Mošovce",
+    "auftraggeber": "Národná diaľničná spoločnosť, a.s.",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/202193-2026",
+    "cpvCodes": [
+      "71241000"
+    ],
+    "beschreibung": "Cieľom štúdie uskutočniteľnosti je nájsť a odporučiť technicko, ekonomicko a enviromentálne efektívny variant (s dôrazom na prepojenie s pripravovanou stavbou východného mestského okruhu mesta Martin), ktorý bude slúžiť pre ďalší proces prípravy (proces EIA). Podrobné vymedzenie predmetu zákazky tvorí časť B.1 Opis predmetu zákazky súťažných podkladov.",
+    "veroeffentlichungsdatum": "2026-03-24",
+    "organisationLand": "Slowakei",
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
+    "titel": "Österreich – Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen – 10., Bürgergasse 10",
+    "auftraggeber": "Stadt Wien - Wiener Wohnen",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/203122-2026",
+    "cpvCodes": [
+      "71240000",
+      "71242000",
+      "71241000",
+      "71541000"
+    ],
+    "beschreibung": "Projektentwicklung und -management Sanierung WHA",
+    "veroeffentlichungsdatum": "2026-03-24",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
   },
   {
     "portal": "TED",
@@ -1162,7 +1841,7 @@ const DATA = [
     "beschreibung": "Die Freie und Hansestadt Hamburg (FHH) - Finanzbehörde - als Auftraggeber (AG) beabsichtigt den Abschluss eines Vertrages über die Durchführung von ÖKOPROFIT®-Einsteigerprogrammen in Hamburg.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:42.169Z"
+    "scrapedAt": "2026-04-20T08:14:21.795Z"
   },
   {
     "portal": "TED",
@@ -1180,7 +1859,7 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 5 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 373,9 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
   },
   {
     "portal": "TED",
@@ -1198,7 +1877,38 @@ const DATA = [
     "beschreibung": "Předmětem veřejné zakázky je projektová příprava (vč. návrhu řešení systému ochrany před bleskem (dále jen „LPS“)), dodávka a instalace fotovoltaických elektráren (dále jen „FVE“) na střechách 6 objektů na území statutárního města Brna dle tabulky níže (vč. realizace LPS a potřebných stavebních úprav dotčeného odběrného místa a střechy), a to o celkovém objemu výkonu FVE 275,27 kWp. Veřejná zakázka je zadávána s využitím § 92 odst. 2 ZZVZ formou stanovení požadavků na výkon a funkci (metoda design & build), které jsou specifikovány v rámci přílohy č. 1 návrhu smlouvy, který tvoří přílohu č. 1 zadávací dokumentace. Nedílnou součástí plnění dodavatele je projektová příprava pro vydání všech nezbytných povolení a instalaci FVE, vč. vyřízení všech potřebných povolení a dále kompletní zajištění realizace FVE, následné kolaudace a uvedení FVE do trvalého provozu.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Italien – Allgemeine Managementberatung – Procedura aperta per l&#8217;affidamento del &#8220;Servizio di supporto specialistico in materia amministrativa, tecnica, legale e contabile ai processi gestionali dell&#8217;Assemblea Territoriale Idrica &#8211; Catania&#8221; con il criterio dell&#8217;offerta economicamente pi&#249; vantaggiosa sulla base del miglior rapporto qualit&#224;/prezzo",
+    "auftraggeber": "Comune di Adrano",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/200816-2026",
+    "cpvCodes": [
+      "79411000"
+    ],
+    "beschreibung": "Procedura aperta con offerta economicamente più vantaggiosa",
+    "veroeffentlichungsdatum": "2026-03-24",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:32.335Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "titel": "Deutschland – Juristische Beratung und Vertretung – Rahmenvertrag Pitchberatung",
+    "auftraggeber": "spectrumK GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/202752-2026",
+    "cpvCodes": [
+      "79110000",
+      "79411000"
+    ],
+    "beschreibung": "Rahmenvertrag für eine Agentur, die die Abteilung Marketing & Kommunikation bei überwiegend öffentlichen Vergabeverfahren (marketingspezifische Ausschreibungen) auf dem deutschen Markt beraten soll",
+    "veroeffentlichungsdatum": "2026-03-24",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:32.335Z"
   },
   {
     "portal": "TED",
@@ -1219,7 +1929,7 @@ const DATA = [
     "beschreibung": "Die Investitionsbank Berlin (IBB) benötigt einen Dienstleister für die Entwicklung und Umsetzung eines ganzheitlichen Veranstaltungskonzeptes, inkl. Entwicklung eines Kommunikationskonzeptes, für den Deutschen Gründer- und Unternehmertag (deGUT) 2026 mit Verlängerungsoption für den deGUT 2027, 2028 und 2029 unter Berücksichtigung der unten genannten Ziele sowie politischer Vorgaben und der individuellen Interessenlagen der beteiligten Akteure.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
+    "scrapedAt": "2026-04-20T08:14:34.044Z"
   },
   {
     "portal": "TED",
@@ -1235,7 +1945,7 @@ const DATA = [
     "beschreibung": "Im Rahmen des Interreg-Projekts ALGAE-Boost werden Ausrüstungsgegenstände für den Aufbau einer skalierbaren Algenproduktionsanlage beschafft. Gegenstand der Ausschreibung ist die Lieferung technischer Anlagenkomponenten, aufgeteilt in zwei Lose: zehn 1000-Liter-Edelstahlbehälter (Los 1) sowie zwei industrielle Thermostate/Temperiergeräte (Los 2) Mit dieser Beschaffung sowie ggf. nachfolgenden Beschaffungen (Los 3 und Los 4) wird der Aufbau einer skalierbaren Algenproduktionsanlage für die ganzjährige, standortunabhängige Kultivierung von Algen mit künstlichem Licht umgesetzt.",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
+    "scrapedAt": "2026-04-20T08:14:39.279Z"
   },
   {
     "portal": "USP Bund",
@@ -1250,7 +1960,56 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-24",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:02.508Z"
+    "scrapedAt": "2026-04-20T08:15:47.117Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Deutschland – Unternehmens- und Managementberatung und zugehörige Dienste – Bedarfs- und Entwicklungsplan BF",
+    "auftraggeber": "Landeshauptstadt Wiesbaden - Der Magistrat",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/198109-2026",
+    "cpvCodes": [
+      "79400000",
+      "79410000",
+      "79414000",
+      "79421000"
+    ],
+    "beschreibung": "Erstellung eines Bedarfs- und Entwicklungsplanung mit Organisationsuntersuchung sowie einer Umsetzungsbegleitung für die Feuerwehr der Landeshauptstadt Wiesbaden",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:08.937Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Deutschland – Projektmanagement, außer Projektüberwachung von Bauarbeiten – Rahmenvereinbarung IT-Wartung und -Integration 2026 bis 2028",
+    "auftraggeber": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/198647-2026",
+    "cpvCodes": [
+      "79421000"
+    ],
+    "beschreibung": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) beabsichtigt, im Wege eines Verhandlungsverfahrens mit Teilnahmewettbewerb gem. § 14 Abs. 3 Nr. 3 VgV eine Rahmenvereinbarung IT-Wartung und -Integration 2026 bis 2028 zu vergeben. Nähere Angaben entnehmen Sie bitte den Vergabeunterlagen.",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:08.937Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
+    "titel": "Deutschland – Dienstleistungen von öffentlichen Behörden – Programmbetreuung zur Durchführung einer städtebaulichen Gesamtmaßnahme im Förderprogramm \"Wachstum und nachhaltige Erneuerung\" (WEP) für das Fördergebiet \"Neue Ortsmitte Ottendorf-Okrilla\"",
+    "auftraggeber": "Gemeinde Ottendorf-Okrilla",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/199114-2026",
+    "cpvCodes": [
+      "75120000",
+      "79421000"
+    ],
+    "beschreibung": "Programmbetreuung zur Durchführung einer städtebaulichen Gesamtmaßnahme im Förderprogramm \"Wachstum und nachhaltige Erneuerung\" (WEP) für das Fördergebiet \"Neue Ortsmitte Ottendorf-Okrilla\"",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:08.937Z"
   },
   {
     "portal": "TED",
@@ -1266,7 +2025,54 @@ const DATA = [
     "beschreibung": "Předmětem plnění zadávané veřejné zakázky je vypracování dokumentů Zlínského kraje – pasportů nemovitostí ve vlastnictví Zlínského kraje. Pasport bude zpracován pro vybrané budovy v majetku Zlínského kraje uvedené v příloze č. 1 obchodních podmínek za pomoci technologie 3D skenování.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
+    "scrapedAt": "2026-04-20T08:14:14.894Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Landschaftsgestaltung – PFA 1.1 - Freianlagen, inkl. Verkehrsanlagen, Ing Bau und Technische Ausrüstung",
+    "auftraggeber": "DB Projekt Stuttgart-Ulm GmbH (Bukr 5S)",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/196273-2026",
+    "cpvCodes": [
+      "71420000"
+    ],
+    "beschreibung": "- Planung der Freianlagen, inkl. Verkehrsanlagen, Ingenieurbauwerke und Technische Ausrüstung, in den Phasen LPH 5,6 und 7 über dem gesamten PFA 1.1. - Anpassung der Entwurfsplanung, für einige zu überarbeitende Bereiche, insbesondere die Flutmulde und das Anbindebauwerk. -Planung von Bauzuständen, bzw. Interimszuständen.",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Bauarbeiten für Kindergärten – Neubau einer fünfgruppigen Kindertagesstätte in 67595 Bechtheim - Garten- und Landschaftsbauarbeiten",
+    "auftraggeber": "Verbandsgemeindeverwaltung Wonnegau",
+    "frist": "2026-04-14T09:00:00+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/198472-2026",
+    "cpvCodes": [
+      "45214100",
+      "71421000",
+      "45112723"
+    ],
+    "beschreibung": "Die Ortsgemeinde Bechtheim plant den Abriss und Neubau der Kindertagesstätte “Kunterbunt“ auf dem Grundstück “Im Bongarten 6“. Der Neubau ist als zweigeschossiges, nichtunterkellertes Gebäude in Massivbauweise geplant. Bedingt durch die Hanglage wird das unterste Geschoss (Gartengeschoss) zum größten Teil in Betonbauweise errichtet. Die Fassade zum Garten hin wird in Holzständerbauweise, die Decke über dem Gartengeschoss in Stahlbeton ausgeführt. Das von der Straße aus erschlossene Erdgeschoss wird in Holzständerbauweise mit einer Brettsperrholzdecke und umlaufender Attika errichtet. Die Gebäudeabmessungen betragen ca. 41,70 x 17,77 m, die Höhe der Attika ca. 7,50m im Gartenbereich und ca. 4,10m straßenseitig. Die Zufahrt zum Baugrundstück erfolgt über die Straße “Im Bongarten“.",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Landschaftsgestaltung – 70-00551-2790-B Objektplanung Freianlagen - PR1160388",
+    "auftraggeber": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/199350-2026",
+    "cpvCodes": [
+      "71420000"
+    ],
+    "beschreibung": "70-00551-2790-B Objektplanung Freianlagen",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
   },
   {
     "portal": "TED",
@@ -1283,7 +2089,75 @@ const DATA = [
     "beschreibung": "Ausschreibung von Ingenieurleistungen für die Erstellung einer Machbarkeitsstudie für ein Wärmenetz",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
+    "titel": "Slowakei – Dienstleistungen von Architekturbüros – Architektonické, projekčné a inžinierske služby - DNS",
+    "auftraggeber": "Univerzita Komenského v Bratislave",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/197987-2026",
+    "cpvCodes": [
+      "71200000",
+      "71300000",
+      "71500000",
+      "71240000",
+      "71241000",
+      "71242000",
+      "71243000",
+      "71244000",
+      "71245000",
+      "71246000",
+      "71247000",
+      "71248000",
+      "71250000",
+      "71251000",
+      "71319000",
+      "71330000",
+      "71351200",
+      "71351730",
+      "71315300",
+      "71520000",
+      "71521000"
+    ],
+    "beschreibung": "Predmetom čiastkových zákaziek v zriadenom dynamickom nákupnom systéme bude poskytovanie architektonických, projekčných, inžinierskych služieb bežne dostupných na trhu, ako aj služieb s tým spojených, pre Univerzitu Komenského v Bratislave, jej fakulty a súčasti. Bližší opis čiastkových zákaziek je uvedený v súťažných podkladoch.",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Slowakei",
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
+    "titel": "Österreich – Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen – 15., Braunhirschengasse 36-38",
+    "auftraggeber": "Stadt Wien - Wiener Wohnen",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/198174-2026",
+    "cpvCodes": [
+      "71240000",
+      "71242000",
+      "71241000",
+      "71541000"
+    ],
+    "beschreibung": "Planung, Ausführungsvorbereitung und Projektmanagement",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Österreich",
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
+    "titel": "Deutschland – Durchführbarkeitsstudie, Beratung, Analyse – Studie Makrophyten - Otterstedter See",
+    "auftraggeber": "Flecken Ottersberg c/o Landkreis Verden - Zentrale Vergabestelle",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/198300-2026",
+    "cpvCodes": [
+      "71241000"
+    ],
+    "beschreibung": "Es soll eine Machbarkeitsstudie zur Neuansiedlung von Makrophyten am Otterstedter See vergeben werden. Auftraggeber ist der Flecken Ottersberg. Berechtigter und Verpflichteter aus dem Vergabeverfahren ist ausschließlich der Flecken Ottersberg.",
+    "veroeffentlichungsdatum": "2026-03-23",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
   },
   {
     "portal": "TED",
@@ -1304,7 +2178,7 @@ const DATA = [
     "beschreibung": "Der Landesbetrieb Daten und Information Rheinland-Pfalz (LDI) schreibt im Auftrag des Landes Rheinland-Pfalz eine Rahmenvereinbarung über die Lieferung von IT-Dienstleistungen aus. Die Ausschreibung ist in einzelne Lose gegliedert. Die Betreuung der je Los zu schließenden Rahmenverträge erfolgt durch den LDI.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
+    "scrapedAt": "2026-04-20T08:14:24.193Z"
   },
   {
     "portal": "TED",
@@ -1319,7 +2193,7 @@ const DATA = [
     "beschreibung": "Servizio Gartner per IT Executives CIO",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
+    "scrapedAt": "2026-04-20T08:14:28.579Z"
   },
   {
     "portal": "TED",
@@ -1338,7 +2212,7 @@ const DATA = [
     "beschreibung": "Entwicklung eines Konzepts zur Umsetzung und zum Betrieb der Onlineplattform „Selbständig in Hamburg“, inklusive der Darstellung einer inhaltlichen und funktionalen Struktur für die Zielgruppe. Etablierung eines ergänzenden Beratungsangebotes für gewerbliche Selbstständige und Freiberuflerinnen und Freiberufler, die sich nicht mehr in der Gründungsphase (Zuständigkeit gründungsspezifische Beratung: Hamburger Existenzgründungsinitiative „hei.“) befinden sowie dessen Integration in- und die Verzahnung mit bestehenden Unterstützungsstrukturen der Freien und Hansestadt Hamburg, insbesondere das der Hamburger Existenzgründungs-Initiative „hei.“. Die relevanten Stakeholder sind angemessen in den Prozess einzubeziehen.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:50.637Z"
+    "scrapedAt": "2026-04-20T08:14:32.335Z"
   },
   {
     "portal": "TED",
@@ -1366,7 +2240,7 @@ const DATA = [
     "beschreibung": "Předmětem plnění veřejných zakázek zadávaných v rámci tímto zadávacím řízením zaváděného DNS bude příprava a celkové organizační zajištění akcí a soutěží zadavatele bez ohledu na jejich územní vymezení (území ČR, Polska, Rakouska a dalších sousedních zemí), jenž povedou k propagaci CRR a jím spravovaných programů (zejm. IROP, Interreg V-A CZ-PL, Interreg V-A AT-CZ a dalších). DNS bude rozdělený do 2 kategorií ve smyslu § 138 odst. 1 ZZVZ, které jsou označeny takto: • Kategorie A - „Akce CRR“ - bude se jednat o celkové (zejména technické, personální, organizační - včetně cateringu, logistické, propagační) zajištění akcí (konferencí, workshopů, kulatých stolů, pracovních setkání a zasedání, outdoorových akcí, jednodenních či vícedenních apod.) pro Zadavatele • Kategorie B - „Soutěže CRR“ - bude se jednat o celkové zajištění soutěží pro Zadavatele, a to např. internetové, vědomostní, outdoorové, sportovní, jednorázové i vícekolové apod.",
     "veroeffentlichungsdatum": "2026-03-23",
     "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
+    "scrapedAt": "2026-04-20T08:14:39.278Z"
   },
   {
     "portal": "TED",
@@ -1382,7 +2256,7 @@ const DATA = [
     "beschreibung": "Projektierung eines Windparks in einem Windenergiebereich nach dem Regionalplan Arnsberg, Teilabschnitt Kreis Soest und Hochsauerlandkreis, bis zur Erlangung der immissionsschutzrechtlichen Genehmigung (§ 4 BImSchG). Optional: Der Auftraggeber kann über die Projektierung weiter beauftragen. Die Unterlagen wurden teilweise aktualisiert bzw. konkretisiert im Vergleich zur Phase 1. Bitte beachten !",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
+    "scrapedAt": "2026-04-20T08:14:08.937Z"
   },
   {
     "portal": "TED",
@@ -1402,7 +2276,41 @@ const DATA = [
     "beschreibung": "Durchführen von Wirtschaftlichkeitsuntersuchungen im Zuge einer technisch- funktionalen Machbarkeitsstudie",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
+    "scrapedAt": "2026-04-20T08:14:14.894Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Dienstleistungen von Architekturbüros bei Freianlagen – Nichtoffener Realisierungswettbewerb mit TW und anschließendem Verhandlungsverfahren - Objektplanung Freianlagen / Verkehrsanlagen: Neugestaltung des Bibliotheksumfelds in der Altstadt von Schorndorf",
+    "auftraggeber": "Stadtverwaltung Schorndorf - Fachbereich Stadtentwicklung und Baurecht",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/193466-2026",
+    "cpvCodes": [
+      "71222000",
+      "71322500",
+      "71400000",
+      "71421000"
+    ],
+    "beschreibung": "Gegenstand des Realisierungswettbewerbs ist die Vorplanung der öffentlichen Freiflächen und Straßen in den Bereichen: Spitalhof und Beim Brünnele, Archivstraße und Johann-Philipp-Palm-Straße in Schorndorf. Der Realisierungswettbewerb zielt auf eine Vielzahl von freiräumlichen und funktional ganzheitlich betrachteten Lösungsansätzen sowie auf die Vergabe eines Planungsauftrags für die Objektplanung Freianlagen und Verkehrsanlagen LpH 1-9 im Umfeld der neuen Bibliothek ab.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
+    "titel": "Deutschland – Dienstleistungen von Architekturbüros – Realisierungswettbewerb „Neue Mitte Nellmersbach“",
+    "auftraggeber": "Gemeinde Leutenbach/ Nellmersbach",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/195837-2026",
+    "cpvCodes": [
+      "71200000",
+      "71420000"
+    ],
+    "beschreibung": "Planungsleistungen",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:16.209Z"
   },
   {
     "portal": "TED",
@@ -1421,29 +2329,11 @@ const DATA = [
     "beschreibung": "Gegenstand dieses Vergabeverfahrens ist die Beauftragung eines externen Dienstleisters (Auftragnehmer/AN), die in der Leistungsbeschreibung unter II.1 und II.2 genannten Aufgaben sowie die in diesem Zusammenhang anfallenden Neben- und Zusatzaufgaben (II.1.1.2) ab dem 01.04.2026 durchzuführen. Konkret handelt es sich bei diesem Auftrag vor allem um Tätigkeiten zum Erhalt des Sicheren Einschlusses. Dies umfasst unter anderem die Überwachung der Anlage, die Durchführung von Schalthandlungen und von sicherheitstechnisch notwendigen Wiederkehrenden Prüfungen (WKP) sowie von Wartungs- und Instandhaltungsarbeiten. Zudem sind anfallende Reparatur- und Sanierungsarbeiten sowie evtl. notwendig werdende technische oder organisatorische Änderungen umzusetzen. Weiterhin ist die einleitende Planung des Rückbaus der kerntechnischen Anlage THTR-300 Gegenstand dieses Vergabeverfahrens. Neben den Tätigkeiten zum Erhalt des Sicheren Einschlusses ist somit gleichzeitig mit der Planung eines zeitnahen Rückbaus der Anlage zu beginnen und es sind erste Maßnahmen durchzuführen, die den Rückbau vorbereiten. Hinweis: Die Beauftragung beinhaltet explizit nicht die Übernahme der Verantwortung für die nukleare Sicherheit der Anlage. Diese obliegt weiterhin der Eigentümerin des THTR.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
+    "scrapedAt": "2026-04-20T08:14:17.600Z"
   },
   {
     "portal": "TED",
-    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
-    "titel": "Deutschland – Dienstleistungen im Umweltschutz – Landesweites Libellen Monitoring nach FFH (2026-2030)",
-    "auftraggeber": "Landesamt für Umwelt",
-    "frist": "2026-04-07T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/194370-2026",
-    "cpvCodes": [
-      "90700000",
-      "90711500",
-      "90713000",
-      "90720000"
-    ],
-    "beschreibung": "Die hier inkludierten Libellenarten sind Bestandteil der Anhänge der FFH-Richtlinie (Anhang II & IV). Für diese Arten müssen die Länder Daten über den Erhaltungszustand an das Bundesamt für Naturschutz liefern. Diese Daten sind dann Grundlage/Bestandteil des nationalen Berichts an die EU. Die Daten müssen in jedem Berichtspflichtzeitraum neu erhoben werden. Die Stichprobenflächen sind in den beiliegenden Shape-Dateien verortet und benannt. Der Auftragnehmer erbringt sämtliche Leistungen durch die beauftragte Person oder Firma in vollem Umfang selbst. Die Einbeziehung von nicht bereits im Angebot genannten und als geeignet nachgewiesenen Unterauftragnehmern ist erst nach ausdrücklicher Zustimmung des Auftraggebers zulässig. Bitte beachten Sie die mit den übrigen Vergabeunterlagen bereitgestellte Leistungsbeschreibung hinsichtlich der erschöpfenden Darstellung des hier ausgeschriebenen Auftrags.",
-    "veroeffentlichungsdatum": "2026-03-20",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:42.169Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
     "titel": "Italien – Beratungsdienste im Bereich Wirtschaftsförderung – BANDO DI GARA MEDIANTE PROCEDURA COMPETITIVA APERTA PER LA SELEZIONE DI UN ORGANISMO INCARICATO DELL’ESECUZIONE DI UNA PARTE DEL PROGRAMMA DI INFORMAZIONE E PROMOZIONE IN ITALIA E IN GERMANIA DENOMINATO “DOLCEFRUTTA – LA DOLCE FRUTTA FROM EUROPE” COFINANZIATO DALL’UNIONE EUROPEA AI SENSI DEL REG (UE) 1144/2014",
     "auftraggeber": "Producers' Organisation Melodia Società Cooperativa Agricola",
     "frist": "",
@@ -1454,11 +2344,11 @@ const DATA = [
     "beschreibung": "Call for tenders for the selection, through an open competitive procedure, of an implementing body with the aim of awarding the contract for the implementation of the remaining part of the Programme No. 101138125 for the information and promotion of quality European fresh fruit and vegetables to be carried out in Italy and Germany called “La Dolce Frutta From Europe (DolceFrutta)\".",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:50.636Z"
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
   },
   {
     "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
     "titel": "Deutschland – Dienstleistungen für die öffentliche Verwaltung – Projektträgerschaft zur fachlichen und administrativen Umsetzung der Förderrichtlinie „Regionale Transformations-Netzwerke und Transformations-Hubs zur Stärkung der Wettbewerbsfähigkeit der Automobil- und Zulieferindustrie“",
     "auftraggeber": "Bundesministerium für Wirtschaft und Energie",
     "frist": "",
@@ -1472,11 +2362,84 @@ const DATA = [
     "beschreibung": "Das BMWE als Auftraggeber (AG) beabsichtigt, einen Auftragnehmer (AN) als Projektträger für den Zeitraum vom 02.06.2026 bis 31.12.2030 mit der fachlichen und administrativen Bearbeitung des Förderprogramms „Regionale Transformations-Netzwerke und Transformations-Hubs zur Stärkung der Wettbewerbsfähigkeit der Automobil- und Zulieferindustrie“ zu beauftragen. Zusätzlich soll der AN die unter den bisherigen Förderbekanntmachungen „Transformationsstrategien für Regionen der Fahrzeug- und Zulieferindustrie“ und „Aufbau und Umsetzung von Transformations-Hubs zur Unterstützung von Transformationsprozessen in Wertschöpfungsketten der Automobilindustrie“ geförderten Projekte vom 02.06.2026 bis 31.12.2026 betreuen sowie Abschlussarbeiten dieser Projekte vom 01.01.2027 bis 31.12.2027 durchführen. Ziel der veröffentlichten Förderrichtlinie ist es, einen Beitrag zur Stärkung der Wettbewerbsfähigkeit der Automobil- und Zulieferindustrie in Deutschland zu leisten. Die Förderrichtlinie besteht aus zwei Modulen: • Modul A: Einrichtung bzw. Weiterentwicklung regionaler Transformations-Netzwerke sowie die Konzeption, Umsetzung und Fortschreibung von Trans-formationsstrategien in den von der Automobil - und Zuliefererindustrie geprägten Wirtschaftsregionen in Deutschland, und • Modul B: Aufbau bzw. die Weiterentwicklung sowie der Betrieb thematischorientierter Transformations-Hubs entlang relevanter Themenschwerpunkte in den Wertschöpfungsketten der Automobil- und Zulieferindustrie.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:50.637Z"
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
   },
   {
     "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
+    "titel": "Italien – Dienstleistungen im Bereich Unternehmensleitung – AFFIDAMENTO DEI SERVIZI, IN TRE LOTTI, DI “ASSISTENZA TECNICA IN ATTUAZIONE DELL’ACCORDO PER LO SVILUPPO E LA COESIONE REGIONE SARDEGNA FSC 2021-2027",
+    "auftraggeber": "Regione Autonoma della Sardegna",
+    "frist": "2026-04-20T12:00:00+01:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/193388-2026",
+    "cpvCodes": [
+      "79420000"
+    ],
+    "beschreibung": "PROCEDURA APERTA, SUDDIVISA IN TRE LOTTI, PER L’AFFIDAMENTO DEI SERVIZI DI “ASSISTENZA TECNICA IN ATTUAZIONE DELL’ACCORDO PER LO SVILUPPO E LA COESIONE REGIONE SARDEGNA FSC 2021-2027, DESTINATI ALLA DIREZIONE GENERALE DELLA PRESIDENZA DELLA REGIONE AUTONOMA DELLA SARDEGNA",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
+    "titel": "Slowakei – Datennetzverwaltungs- und -unterstützungsdienste – Optimalizácia účinnosti výroby EMO12, EBO a EMO34",
+    "auftraggeber": "Slovenské elektrárne, a.s.",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/193657-2026",
+    "cpvCodes": [
+      "72315000",
+      "38570000",
+      "72315200",
+      "71300000",
+      "38120000",
+      "45111300",
+      "45255400",
+      "48000000",
+      "32421000",
+      "71632000",
+      "80531200",
+      "79420000"
+    ],
+    "beschreibung": "Predmetom zákazky je dodávka a inštalácia nového monitorovacieho a optimalizačného systému s validáciou dát pre hospodárne riadenie a vyhodnocovanie prevádzky a predikciu vrátane garančných meraní na 1. a 2. bloku atómovej elektrárne Mochovce, na 3. a 4. bloku atómovéj elektrárne Bohunice a na 3. a 4. bloku atómovej elektrárne Mochovce. Podrobné vymedzenie predmetu zákazky vrátane technických špecifikácií tvoria prílohu týchto súťažných podkladov – „P1 Technická špecifikácia EMO12/TŠ anglická verzia, P1A Technická špecifikácia EBO/TŠ anglická verzia, P1B Technická špecifikácia EMO34/TŠ anglická verzia“, ďalej spolu ako „Technické špecifikácie“.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Slowakei",
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
+    "titel": "Italien – Architekturentwurf – Servizi di ingegneria e architettura per la redazione del PFTE, del progetto esecutivo, del coordinamento sicurezza in fase di progettazione con eventuale opzione della DL e CSE dell’intervento di “Ampliamento e ammodernamento dell’ortomercato con modifica del tracciato di via Rovelli e realizzazione del nuovo piazzale destinato all’insediamento degli spettacoli viaggianti (fase 1 del progetto)”",
+    "auftraggeber": "Bergamo Mercati Spa",
+    "frist": "2026-04-09T12:00:00+01:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/193840-2026",
+    "cpvCodes": [
+      "71220000",
+      "71520000",
+      "79417000"
+    ],
+    "beschreibung": "Procedura aperta per l’affidamento dei servizi di ingegneria e architettura per la redazione in modalità BIM del progetto di fattibilità tecnico-economica e del progetto esecutivo, incluso il coordinamento sicurezza in fase di progettazione dell’intervento relativo all’ “Ampliamento e ammodernamento dell’ortomercato con modifica del tracciato di via Rovelli e realizzazione del nuovo piazzale destinato all’insediamento degli spettacoli viaggianti (fase 1 del progetto)”, secondo quanto indicato nella documentazione messa a disposizione, da aggiudicarsi secondo il criterio dell'offerta economicamente più vantaggiosa, ai sensi di quanto disposto dagli artt.71 e 108, comma 2, lett.b) del D.Lgs.36/2023, sulla base dei criteri indicati nel bando-disciplinare di gara.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Italien",
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
+    "titel": "Deutschland – Beschaffungsberatung – Vergabe eines Vertrages für Beschaffungsberatung",
+    "auftraggeber": "Krankenhaus Agatharied",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/194232-2026",
+    "cpvCodes": [
+      "79418000"
+    ],
+    "beschreibung": "Ausschreibung eines Vertrages zum Beitritt zu einer Einkaufsgemeinschaft im Gesundheitswesen",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "CPV 79400000-8 - Managementberatung",
     "titel": "Deutschland – Wirtschaftshilfe an das Ausland – 81322782-Liderazgo principal del proyecto e implementación de los tres productos del módulo",
     "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
     "frist": "2026-04-20T23:59:59+02:00",
@@ -1490,7 +2453,227 @@ const DATA = [
     "beschreibung": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, Colombia, on behalf of the Federal Ministry for Economic Cooperation and Development (BMZ), implements between July 2025 and June 2028 the \"Regions Initiative - Promoting the economic and health participation of particularly vulnerable refugees and migrants and host communities in Colombia\". Objective: to strengthen the inclusion and participation of migrants, women, LGBTIQ+ people, people with disabilities and other vulnerable groups in Cali (mainly) and Bogota, by: (1) improving employment and income (training, entrepreneurship, linkage with private sector and finance); (2) access to sexual and reproductive health services and rights (training, adaptation of protocols, clinical partnerships); (3) prevention of gender-based violence (training of providers, adaptation of standards and strengthening of safe spaces). With the reception of more than 2.81 million people from Venezuela, Colombia is one of the main receiving countries in the world. In addition, there are numerous refugees and migrants of other nationalities using Colombia as a transit country. In addition, by the end of 2023, 6.9 million Colombians were displaced within the country and more than 115,000 Colombians sought asylum outside the country, many in Spain. Cali, capital of the department of Valle del Cauca, is a central receiving city for Venezuelan migrants and internally displaced persons, especially from the Pacific region. The term \"migrants\" also includes refugees, asylum seekers and returnees. Cali faces the challenge of promoting the inclusive participation of vulnerable groups in social life and the labor market. Most affected are women, youth, LSBTQI+ people, ethnic minorities such as indigenous and Afro-Colombians, and people with disabilities, who often suffer multiple discriminations. The project's central objective is to strengthen the inclusive participation of migrants, women, LGBTIQ+ people, people with disabilities and other particularly vulnerable members of host communities in Colombia.",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:50.637Z"
+    "scrapedAt": "2026-04-20T08:14:19.512Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Projektmanagement im Bauwesen – Projektsteuerung Sanierung GS Silberwald/FS Korczak - Nachtrag 14",
+    "auftraggeber": "Stadt Halle (Saale)",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/193387-2026",
+    "cpvCodes": [
+      "71541000"
+    ],
+    "beschreibung": "Projektsteuerung Sanierung GS Silberwald/FS Korczak - Nachtrag 14",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.959Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Rohbauarbeiten – Erweiterung und Sanierung Grundschule JWS-GMS Maichingen - Rohbauarbeiten",
+    "auftraggeber": "Stadt Sindelfingen Amt für Gebäudewirtschaft",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/194243-2026",
+    "cpvCodes": [
+      "45223220"
+    ],
+    "beschreibung": "Kurzbeschreibung Baustelleneinrichtung 1x psch. Verkehrssicherung & Baustellenbeschilderung 1x psch. Turmdrehkran Obendreher 60 m 1x Stk. Oberboden abtragen ca. 300m² Baugrubenaushub ca. 1.200m³ Fundamentaushub ca. 500m³ Rohrleitungsgräben ca. 100m³ Aushub-Abfuhr ca. 1.000m³ Arbeitsräume verfüllen ca. 200m³ Perimeterdämmung unter Bodenplatte ca. 700m² Entwässerungsleitungen ca. 120m Mineralbeton ca.200m³ Sauberkeitsschicht C12/15 ca. 700m² Brunnengründungen ca. 110m Stahlbetonbodenplatten ca. 750m² Stahlbetonwände ca. 400m³ Zulage Sichtbeton ca. 300m² Stahlbetonstützen ca. 75 Stk. Stahlbetonunterzüge ca. 33m³ Stahlbetondecken ca.365m³ Fertigteiltreppenläufe mit Zwischenpodesten ca.55m² Betonstabstahl ca. 135t Betonstahlmatten, Lagermatten ca. 45t Abstandhalter ca. 15t Abbruch - Vorhandener Kamin über und unter Erdreich ca. 1 Stk. Perimeterdämmung Wände ca. 100m² Bitumen-Dickbeschichtung Wände ca. 100m² Verpreßpfähle ca. 25m",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.959Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Projektmanagement im Bauwesen – Projektsteuerungsleistungen für das Projekt Kapazitätserweiterung Ost-West-Achse Köln",
+    "auftraggeber": "Amt für Straßen und Radwegebau",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/194307-2026",
+    "cpvCodes": [
+      "71541000"
+    ],
+    "beschreibung": "Gegenstand des Verfahrens ist die Vergabe von Leistungen des Projektmanagements in Anlehnung an Heft-Nr. 9 der AHO-Fachkommission „Projektsteuerung / Projektmanagement“, Ausgabe 2014 für das Projekt Kapazitätserweiterung Ost-West-Achse Köln Leistungen der Projektsteuerung und des Projektmanagements gem. Heft Nr. 9 der AHO-Fachkommission„ Projektsteuerung / Projektmanagement“, Ausgabe 2014 für folgende Handlungsbereiche: - Organisation, Information, Koordination und Dokumentation - Qualitäten und Quantitäten - Kosten und Finanzierung - Termine, Kapazitäten und Logistik - Verträge und Versicherungen Das Projekt Kapazitätserweiterung Ost-West-Achse besteht aus folgenden Maßnahmen: I. Die Auftraggeber beabsichtigen, Generalplanerleistungen für eine Kapazitätserweiterung der Stadtbahnlinie 1auf dem Abschnitt von Weiden West bis Heumarkt stufenweise zu vergeben. Die Bahnsteige der bestehenden Haltestellen sind für den Einsatz von Langzügen auf 80 m Nutzlänge auszubauen. Die Haltestellen auf der Aachener Straße (Weiden-West bis Universitätsstraße) sind für den Endzustand zu planen. Zu den Generalplanerleistungen gehören insbesondere: Objektplanung Verkehrsanlagen des Schienen- und des Straßenverkehrs, Objektplanung Ingenieurbauwerke, Tragwerksplanung, Fachplanung Elektro und Fachplanung für die Technische Ausrüstung der Straßenverkehrsanlagen. Der Auftrag ist Teil des Gesamtprojektes \"Umbau der Ost-West-Achse\" - eines der bedeutendsten städtebaulichen Projekte der Stadt Köln. II. Die Auftraggeber beabsichtigen ferner, Generalplanerleistungen für eine Variantenuntersuchung im Innenstadtbereich für die oben genannte Strecke für eine oberirdische Lösung und eine unterirdische Lösung zu vergeben. Die oberirdische Lösung sieht eine vollständige Neuordnung aller Verkehrsanlagen auf der Oberfläche zwischen Heumarkt und Eisenbahnring vor. Die unterirdische Lösung sieht eine unterirdische Stadtbahnführung und eine vollständige Neuordnung der an der Oberfläche verbleibenden Verkehrsanlage vor. Der Tunnel im Innenstadtbereich soll sich von der Haltestelle Heumarkt bis zur Höhe des Eisenbahnringes mit vier Haltestellen, sowie einem Abzweig der Linie 9 westlich des Neumarktes erstrecken. Bei der unterirdischen Führung sind die vorhandenen unterirdischen Verknüpfungshaltestellen Heumarkt, Neumarkt und Rudolfplatzanzubinden. Nach einer politischen Entscheidung, welcher Variante der Vorzug zu geben ist, sind die weiteren Planungsleistungen ab der Leistungsphase 3 HOAI nur noch für die Vorzugsvariante zu erbringen. Die Stadt Köln schätzt die Kosten auf ca. € 100 Mio. für die oberirdische Lösung bzw. auf ca. € 700 Mio. für die unterirdische Lösung (ca. € 635 Mio. für Tunnel und ca. € 65 Mio. für Oberfläche). III. Hinzu kommen diverse Gutachter und weitere Beteiligte. Der Auftragnehmer soll die Auftraggeber sowohl während der Planungs- als auch während der Bauphase unterstützen.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.960Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Elektroinstallationsarbeiten – SWU-EL | Avenio XL - Elekroinstallation",
+    "auftraggeber": "SWU Ulm/Neu-Ulm GmbH",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/194538-2026",
+    "cpvCodes": [
+      "45311200"
+    ],
+    "beschreibung": "BAUBESCHREIBUNG ELEKTRO: Halle C Arbeitsstände +UFD/ Thermowand Erweiterung im Bestand. Die Vorschrift VDV 506 ist hierbei zu beachten. Auf dem Dach befinden sich Lichtkuppeln(RWA) Co2 Lüftungsfunktion erfolgt durch AN. Kabel, Leitungen + Verlegesysteme: Verlegesysteme als Kabelrinne an Stahlträgern. In allen Bereichen wird auf eine saubere und ordentliche Installation Wert gelegt. Rohrinstallation mittels ALU-Steckrohre. Beleuchtung: LED-Leuchten bei Bedarf auf Tragschienensystem. Fernmeldeanlagen: Ausführung einer strukturierten Gebäudeverkabelung. Anbindung an Bestand mittels LWL. Brandmeldeanlage: Kabelzug",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.960Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Dienstleistungen von Ingenieurbüros – Tragwerksplanung mit thermischer Bauphysik (Wärmeschutz) zum Ersatzneubau Klassentrakt mit Mensa an der Grundschule Neue Friedensschule Sinn",
+    "auftraggeber": "Der Kreisausschuss des Lahn-Dill-Kreises",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/195382-2026",
+    "cpvCodes": [
+      "71300000"
+    ],
+    "beschreibung": "Tragwerksplanung mit thermischer Bauphysik (Wärmeschutz) zum Ersatzneubau Klassentrakt mit Mensa an der Grundschule Neue Friedensschule Sinn",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.960Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Projektmanagement im Bauwesen – Ersatzneubau der Pliensaubrücke als Teilbauwerk über den Neckarschifffahrtskanal, Leistungen der Projektsteuerung gemäß AHO_Heft Nr.9",
+    "auftraggeber": "Stadt Esslingen",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/195521-2026",
+    "cpvCodes": [
+      "71541000"
+    ],
+    "beschreibung": "Das Teilbauwerk der Pliensaubrücke über den Neckarschifffahrtskanal ist in einem baulich sehr schlechten und insgesamt in einem unzeitgemäßen, optisch unattraktiven und der räumlichen Situation unangemessenen Zustand. Eine Generalsanierung scheidet sowohl aus wirtschaftlich nachhaltigen als auch aus städtebaulich, ästhetischen Gründen aus. Ein Ersatzneubau ist zwingend erforderlich. Das Gesamtprojekt Ersatzneubau Pliensaubrücke über den Neckar einschließlich der Rampe in den Neckaruferpark soll gemäß der vorliegenden Entwurfs-, der Kosten- und der Terminplanung realisiert werden (Baubeschluss). Es soll eine ca. 73m lange und mind. 6m breite Brücke in einer semiintegralen Stahlkonstruktion errichtet werden. Eine barrierefreie Führung des Fuß-/Radverkehrs auf der Rampe und Brücke muss gewährleistet werden. Eine durchgängige Handlaufbeleuchtung und ein Seilnetzgeländer sind angedacht.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.960Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Projektmanagement",
+    "titel": "Deutschland – Installation von Brandmeldeanlagen – Erweiterung und Sanierung Grundschule JWS-GMS Maichingen - Sicherheitstechnik",
+    "auftraggeber": "Stadt Sindelfingen Amt für Gebäudewirtschaft",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/195532-2026",
+    "cpvCodes": [
+      "45312100"
+    ],
+    "beschreibung": "Brandmeldeanlage Die Leistung umfasst die Lieferung, Montage, Inbetriebnahme und Programmierung einer Brandmeldeanlage mit Vollschutz (Kategorie 1) einschließlich Brandmelder, Handfeuermelder, akustischer Alarmierung und Feuerwehreinrichtungen. Die Anlage ist nach DIN 14675 und DIN VDE 0833 auszuführen, einschließlich Feuerwehraufschaltung, Ansteuerung der Lüftungsanlagen und Aufzugssteuerung im Brandfall. Sprachalarmanlage Die Leistung umfasst die Lieferung, Montage, Inbetriebnahme und Programmierung einer Sprachalarmanlage einschließlich Lautsprecher zur Alarmierung. Die Anlage ist nach DIN VDE 0833 und Sicherheitsstufe 2 auszuführen. Der STI Faktor findet keine Berücksichtigung, da die Alarmierung über DIN Ton stattfindet. Eine automatische Ansteuerung durch die BMZ, sowie die Anbindung für betriebliche Durchsagen, Amokalarm und Veranstaltungen sind neben der Feuerwehrsprechstelle am Hauptzugang vorzusehen. Eine vollflächige Alarmierung im Innen- und Außenbereich ist vorzusehen.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:37.960Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Fernsprech- und Datenübertragungsdienste – Auswahlverfahren Großlangheim - Gigabit-RL 2.0",
+    "auftraggeber": "Markt Großlangheim",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192938-2026",
+    "cpvCodes": [
+      "64210000",
+      "32412000",
+      "32561000",
+      "32562000",
+      "32562100",
+      "32562300",
+      "64215000"
+    ],
+    "beschreibung": "Zielsetzung dieser Fördermaßnahme ist die Unterstützung eines effektiven und technologieneutralen Breitbandausbaus im Projektgebiet zur Errichtung eines nachhaltigen sowie zukunfts- und hochleistungsfähigen Breitbandnetzes (Gigabitnetz) in den unterversorgten Gebieten",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Bau von Bürogebäuden – Putz- und Malerarbeiten Außenputz + WDVS",
+    "auftraggeber": "Magistrat der Kreisstadt Groß-Gerau",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192941-2026",
+    "cpvCodes": [
+      "45213150"
+    ],
+    "beschreibung": "Putz- und Malerarbeiten Außenputz + WDVS",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Bauarbeiten – Volkswohnung GmbH, VOB/A EU Offenes Verfahren, Generalunternehmerleistungen, Modernisierung von drei Mehrfamilienhäusern, 76185 Karlsruhe, Gellertstr. 9-11, Grillparzerstr. 12-16, Sophienstr.186a",
+    "auftraggeber": "Volkswohnung GmbH",
+    "frist": "2026-03-31T23:59:59+02:00",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192955-2026",
+    "cpvCodes": [
+      "45000000",
+      "45200000",
+      "45210000",
+      "45211000"
+    ],
+    "beschreibung": "Modernisierung, energetische Sanierung und Dachgeschoss-Aufstockung von drei Mehrfamilienhäusern in der Weststadt, 76185 Karlsruhe, Gellertstr. 9-11, Grillparzerstr. 12-16, Sophienstr.186a. Die Gebäude befinden sich auf einem gemeinsamen Flurstück und sind voll unterkellert. Für die 4-5-geschossigen Wohngebäude (Baujahr 1953) sind im 1. Bauabschnitt insgesamt 67 Wohneinheiten mit einer BGF von ca. 7.762m² vorgesehen. Für den Bestand ist Energiestandard KfW EH-55 und für den Neubau / Aufstockung ist Energiestandard KfW EH-40 zu erbringen. Die Durchführung der Maßnahmen erfolgt in unbewohntem Zustand. Dieses Vergabeverfahren umfasst ausschließlich den ersten Bauabschnitt. Der Auftraggeber beabsichtigt - vorbehaltlich einer vollständigen, ordnungsgemäßen und vertragsgemäßen Leistungserbringung im ersten Bauabschnitt - den zweiten Bauabschnitt im Anschluss in einem gesonderten Verhandlungsverfahren gemäß Art. 26 und Art. 29 der Richtlinie 2014/24/EU sowie § 14 VgV ausschließlich mit dem Auftragnehmer des ersten Bauabschnitts zu verhandeln. Ein Anspruch auf Zuschlag oder Beauftragung entsteht hieraus nicht. Die Vergabe des zweiten Bauabschnitts erfolgt ausschließlich nach erfolgreichem Abschluss dieses gesonderten Verhandlungsverfahrens.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Reparatur- und Wartungsdienste – Upgrade//Reparatur ePA-Wagen",
+    "auftraggeber": "Universitätsklinikum Bonn AöR",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192961-2026",
+    "cpvCodes": [
+      "50000000"
+    ],
+    "beschreibung": "Bei den ePa Wagen handelt es sich um Sonderanfertigungen von der Fa. digomed. Aus diesem Grund kann das Technologie Upgrade nur über den ursprünglichen Lieferanten der ePA-Wagen erfolgen. Neben den zu beschaffenden Komponenten besteht der Wagen zusätzlich aus einem Energiemanangement sowie Medical Grade PC. Alle Komponenten müssen als Gesamtsystem funktionieren und somit macht es sowohl aus technischer als auch aus wirtschaftlichen Gründen keinen Sinn dies von zwei unterschiedlichen Anbietern zu beziehen.",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Estricharbeiten – Generalsanierung Litzelhardthalle",
+    "auftraggeber": "Stadtverwaltung Radolfzell am Bodensee",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192974-2026",
+    "cpvCodes": [
+      "45262320"
+    ],
+    "beschreibung": "Estricharbeiten",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Dienstleistungen von Sicherheitsdiensten – Bewachungs- und Sicherungsleistungen BMZ Berlin (Los 1) und Bonn (Los 2)",
+    "auftraggeber": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192979-2026",
+    "cpvCodes": [
+      "79710000",
+      "79713000"
+    ],
+    "beschreibung": "Gegenstand des Vertrages sind Bewachungsdienstleistungen an den Liegenschaften der AG am Dienstsitz Berlin (Los 1) und/oder Bonn (Los 2).",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
+  },
+  {
+    "portal": "TED",
+    "suchbegriff": "Strategie",
+    "titel": "Deutschland – Prüfstände – Herstellung, Lieferung und Inbetriebnahme eines Kalibrierstandes für das Seitenkraftmessverfahren (SKM)",
+    "auftraggeber": "Bundesanstalt für Straßen- und Verkehrswesen",
+    "frist": "",
+    "link": "https://ted.europa.eu/de/notice/-/detail/192981-2026",
+    "cpvCodes": [
+      "34328100"
+    ],
+    "beschreibung": "Herstellung, Lieferung und Inbetriebnahme eines Kalibrierstandes für das Seitenkraftmessverfahren (SKM)",
+    "veroeffentlichungsdatum": "2026-03-20",
+    "organisationLand": "Deutschland",
+    "scrapedAt": "2026-04-20T08:14:42.899Z"
   },
   {
     "portal": "USP Bund",
@@ -1505,1179 +2688,6 @@ const DATA = [
     "beschreibung": "",
     "veroeffentlichungsdatum": "2026-03-20",
     "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:11:05.319Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Deutschland – Projektgestaltung, außer Projektgestaltung von Bauarbeiten – simul+ Kreativ",
-    "auftraggeber": "Sächsisches Staatsministerium für Infrastruktur und Landesentwicklung",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/192905-2026",
-    "cpvCodes": [
-      "79421200",
-      "75131000"
-    ],
-    "beschreibung": "simul+ Kreativ",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71410000-5 - Raumplanung",
-    "titel": "Deutschland – Stadtplanung – Go4Gewerbe - Mönchengladbach Trabrennbahn - Landschaftsplanung Grünordnungsplan und Umweltbericht",
-    "auftraggeber": "NRW.URBAN Kommunale Entwicklung GmbH",
-    "frist": "2026-03-23T23:59:59+01:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/191673-2026",
-    "cpvCodes": [
-      "71410000",
-      "71400000",
-      "71420000",
-      "90712000",
-      "90712100"
-    ],
-    "beschreibung": "Im Zuge des Bauleitplanverfahrens ist ein Grünordungsplan seitens der Stadt gewünscht sowie die Erstellung eines Umweltberichtes erforderlich. Diese Leistungen werden mit diesem Verfahren beschafft.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71410000-5 - Raumplanung",
-    "titel": "Ungarn – Stadtplanung – Településterv készítése Budapest XV. kerületére",
-    "auftraggeber": "Budapest Főváros XV. Kerület Rákospalota, Pestújhely, Újpalota Önkormányzata",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/192517-2026",
-    "cpvCodes": [
-      "71410000"
-    ],
-    "beschreibung": "Új településterv (településfejlesztési terv és településrendezési terv) és megalapozó dokumentumainak elkészítése a 419/2021. (VII. 15.) Korm. rendelet (1)-(4) melléklete, a 2/2005. (I. 11.) Korm. rendelet, valamint a 68/2018. (IV. 9.) Korm. rendelet és a 449/2025. (XII. 29.) Korm. rendelet szerinti tartalommal, Budapest XV. kerület teljes közigazgatási területére vonatkozóan. Részletesen a felhívás „A közbeszerzés leírása” rovatában és a műszaki leírásban.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen – Neubau Ganztagsschule Planungsleistungen",
-    "auftraggeber": "Amt Ortrand für die Stadt Ortrand",
-    "frist": "2026-04-13T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/190710-2026",
-    "cpvCodes": [
-      "71000000",
-      "71240000",
-      "71300000",
-      "71420000",
-      "71317100",
-      "71321000",
-      "71321200",
-      "71321300",
-      "71321400",
-      "71327000"
-    ],
-    "beschreibung": "Das Bildungszentrum der Stadt Ortrand umfasst u.a. den Schulkomplex mit drei Schulgebäuden. Aufgrund des Rechtsanspruches auf Ganztagsbetreuung und daraus resultierender fehlender Raumkapazität beabsichtigt die Stadt Ortrand einen Schulneubau als Erweiterungsbau zu den bestehenden Schulgebäuden zu errichten.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Landschaftsgestaltung – Planung von Freianlagen im Projekt \"Berlin TXL, The UrbanTech Republic\"",
-    "auftraggeber": "Tegel Projekt GmbH",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/190851-2026",
-    "cpvCodes": [
-      "71420000"
-    ],
-    "beschreibung": "Gegenstand des Wettbewerbs ist die Gestaltung des öffentlichen Raums für den Campus „Berlin TXL – The Urban Tech Republic'“, dem Industrie- und Forschungspark für urbane Technologien auf dem Gelände des ehemaligen Flughafens Tegel.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Dienstleistungen von Architekturbüros bei Freianlagen – Ortskern Affstätt - Städtebaulich/ Freiraumplanerischer nichtoffener Realisierungswettbewerb mit Ideenteil inkl. vorgelagertem TnWb und anschließendem VgV-Verhandlungsverfahren - Stadt Herrenberg",
-    "auftraggeber": "Stadt Herrenberg",
-    "frist": "2026-04-13T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/190884-2026",
-    "cpvCodes": [
-      "71222000",
-      "71322500",
-      "71400000",
-      "71421000"
-    ],
-    "beschreibung": "Die Stadt Herrenberg betreibt eine intensive Innenentwicklung und wird mit dem Sanierungsgebiet \"Ortskern Affstätt\" seit 2023 vom Land Baden-Württemberg dabei unterstützt. Dieses eröffnet der Stadt die Möglichkeit, im Ortskern des Ortsteils städtebauliche, gestalterische und funktionale Defizite zu beseitigen und Aufwertungsmaßnahmen durchzuführen. Das Wettbewerbsgebiet liegt vollständig im Sanierungsgebiet. Das Plangebiet umfasst rund 17.955 m² Gesamtfläche. Ziel der Aufwertungsmaßnahmen ist die Stärkung des Ortskerns als attraktiver urbaner Begegnungs- und Aufenthaltsraum sowie eine funktional-verkehrliche Neuordnung und gestalterische Aufwertung der Ortsdurchfahrt. Der Realisierungswettbewerb mit Ideenteil zielt auf eine Vielzahl von freiräumlichen, städtebaulichen und funktional ganzheitlich betrachteten Lösungsansätzen sowie auf die Vergabe eines Planungsauftrags für die Objektplanung Freianlagen und Verkehrsanlagen im Ortskern Affstätt ab (Lph 1-9). Außerdem sollen städtebauliche Ideenkonzepte für die zukünftige Entwicklung und Neuordnung von vier Bereichen im Sanierungsgebiet \"Ortskern Affstätt\" gesammelt werden. Die Realisierung wird voraussichtlich in drei Bauabschnitten erfolgen. Der Wettbewerb ist gemäß § 78 Abs. 2 S.2 VgV einem Verhandlungsverfahren nach § 17 VgV für die Vergabe der Objektplanung Freianlagen und Verkehrsanlagen vorgeschaltet und ist als nichtoffener Realisierungswettbewerb mit Ideenteil mit vorgeschaltetem, qualifiziertem Bewerbungs- und Auswahlverfahren mit 15 Teilnehmerinnen und Teilnehmern ausgelobt (vgl. auch A 9). Der Durchführung des nichtoffenen Realisierungswettbewerbs mit Ideenteil liegen für den Realisierungsteil die Richtlinien für Planungswettbewerbe RPW 2013 in der Fassung vom 31.01.2013 mit dem Einführungserlass des Landes Baden-Württemberg vom 27.03.2013 zugrunde. Die Anwendung und Anerkennung der RPW 2013 ist für die Ausloberin, die Teilnehmerinnen und Teilnehmer sowie für alle anderen am Wettbewerb Beteiligten verbindlich, soweit in der Auslobung nicht ausdrücklich anderes festgelegt ist. Die Architektenkammer Baden-Württemberg hat an der Vorbereitung und Auslobung dieses Wettbewerbs beratend mitgewirkt. Die Auslobung wurde dort unter der Nummer 2026-1-01 registriert. Der nichtoffene Realisierungswettbewerb mit Ideenteil richtet sich an Bewerberinnen und Bewerbern bzw. Bewerbergemeinschaften aus den Fachrichtungen Landschaftsarchitektur bzw. Stadtplanung zwingend zusammen mit der Fachdisziplin Verkehrsplanung (siehe hierzu auch A 8). Die Gesamtzahl der Teilnehmenden (Bewerberinnen und Bewerber bzw. Bewerbergemeinschaften) am Wettbewerbsverfahren wird auf 15 beschränkt. Davon wurden fünf Teilnehmende von der Ausloberin vorab benannt. Zehn weitere Teilnehmende (Bewerberinnen und Bewerber bzw. Bewerbergemeinschaften) werden im Bewerbungs- und Auswahlverfahren ausgewählt. Im Anschluss an das Wettbewerbsverfahren wird die Ausloberin mit den Preisträgerinnen und Preisträgern des Wettbewerbs ein Verhandlungsverfahren ohne Teilnahmewettbewerb entsprechend der VgV für die Vergabe der Objektplanung Freianlagen und Verkehrsanlagen durchführen (§ 14 Abs. 4 Nr. 8 VgV). Die Wettbewerbsarbeiten werden dem Preisgericht anonym vorgelegt (§ 72 Abs. 2 S. 3 VgV).",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
-    "titel": "Deutschland – Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen – Erkelenz, Fünf Dörfer, Machbarkeitsstudie sakrale Bauten",
-    "auftraggeber": "Starke Projekte GmbH",
-    "frist": "2026-04-09T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/191748-2026",
-    "cpvCodes": [
-      "71240000",
-      "71241000"
-    ],
-    "beschreibung": "Die Stadt Erkelenz beabsichtigt im Rahmen der Revitalisierung der fünf Dörfer am Tagebaurand Garzweiler die zukünftige Entwicklung und Wiedernutzbarmachung der ehemals sakral genutzten Bauwerke in Keyenberg, Kuckum und Berverath umfassend zu untersuchen. Hier ausgeschrieben wird die Erstellung einer Machbarkeitsstudie für diese sakralen Bauten. Ziel ist es, für die drei profanierten und denkmalgeschützten Gebäude tragfähige Perspektiven zu erarbeiten, ihre besondere Bedeutung als identitätsstiftende Orte der zurückgewonnenen Dörfer zu stärken und damit einen Beitrag zur sozialen, kulturellen und räumlichen Wiederbelebung der Ortschaften zu leisten. Die Machbarkeitsstudie soll Grundlagen schaffen, um die Kirchen und die Kapelle als potenzielle zentrale Räume dörflichen Lebens neu zu denken und sie - wo sinnvoll - in eine gemeinwohlorientierte, multifunktionale Nutzung zu überführen",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 72224000-1 - IT-Projektmanagement",
-    "titel": "Deutschland – Softwareprogrammierung und -beratung – Beratungs- und Entwicklungsleistungen für das Hamburg Port Management System - HPMS",
-    "auftraggeber": "Hamburg Port Authority AöR",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/192549-2026",
-    "cpvCodes": [
-      "72200000",
-      "72224000"
-    ],
-    "beschreibung": "Beratungs- und Entwicklungsleistungen für das Hamburg Port Management System (HPMS): Los 1 – Softwareentwicklung, Los 2 – Test-Management in Softwareprojekten, Los 3 – Teamleitung – Agile Softwareentwicklung.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
-    "titel": "Tschechien – Dienstleistungen des Gesundheitswesens – Experti ve zdravotnictví pro služby v projektu Renovace a modernizace nemocnic na Ukrajině v rámci UIF“",
-    "auftraggeber": "Česká rozvojová agentura",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/190540-2026",
-    "cpvCodes": [
-      "85100000",
-      "79411000",
-      "71317200",
-      "85140000"
-    ],
-    "beschreibung": "Předmětem této veřejné zakázky je zajištění odborných služeb expertů ve zdravotnictví v rámci projektu Renovace a modernizace nemocnic na Ukrajině v rámci UIF (Ukrajine Investment Framework), a to za účelem poskytování odborné podpory v oblasti řízení kvality nemocniční péče a zdravotnické techniky. Konkrétní specifikace služby je uvedena v návrhu smlouvy, který tvoří přílohu č. 1 této ZD. Předmět služeb je smlouvou rozdělen na jednotlivá témata. Zadavatel požaduje zajištění minimálně 2 expertů pro každou níže uvedenou kategorii služeb: a. Expert na řízení kvality nemocniční péče, b. Expert na zdravotnickou techniku. Účastník musí nabídnout pro každou z kategorií služeb minimálně 2 experty, kteří splňují všechny kvalifikační požadavky stanovené pro danou kategorii. Jedna fyzická osoba může být nabídnuta pro obě kategorie, pokud její odborné a časové kapacity umožňují plnění obou oblastí. Jména expertů budou účastníkem zadávacího řízení doplněna do návrhu smlouvy (příloha č. 1 ZD) v rámci podávané nabídky, podle právního řádu České republiky.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:50.636Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
-    "titel": "Deutschland – Unternehmens- und Managementberatung – 81323050-Transforming agribusinesses to improve the employment situation in the Kurdistan Region of Iraq",
-    "auftraggeber": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
-    "frist": "2026-04-10T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/190654-2026",
-    "cpvCodes": [
-      "79410000",
-      "79411100"
-    ],
-    "beschreibung": "Despite Iraq's macroeconomic position as an upper-middle-income country, the economic situation in Iraq is tense and employment opportunities are scarce. IDPs, refugees from neighbouring countries, as well as host communities of displaced persons in Iraq face a high level or high risk of poverty stemming from the lack of prospects for income-generating employment. These groups often have insufficient qualifications for existing jobs or the qualifications are not recognised. Lack of access to finance for entrepreneurial activities and to employment-related networks further hampers employment growth. Structural business development support for start-ups and scale-ups is rare. Existential constraints often push vulnerable labour market participants into short-term, informal jobs with no prospects for long-term decent employment. Many IDP returnee and refugee families as well as vulnerable households in general rely on small-scale farming and livestock. Most of these enterprises are small, informal, and low in productivity due to limited access to finance and structured support as well as limited equipment and water access, weak business and marketing capacity and poor market linkages. Environmental pressures reduce agricultural productivity further and make climate-smart practices and improved resource management critical. Women and people with disabilities are severely disadvantaged. Despite very low participation in the labour market, 30% of women of working age are unemployed (compared with 13% of men) and there are far fewer female than male entrepreneurs. Women account for just 11% of the working population and have less access to land and other assets as well as financial services. People with disabilities are confronted with major barriers when trying to enter the labour market, hence, many are unemployed. Women with disabilities face an almost complete exclusion from the labour market, resulting from a combination of social stigma, physically inaccessible environments, prejudice from employers, the absence of tailored trainings, a lack of understanding by government officials and further. Against this backdrop, the German Federal Ministry for Economic Cooperation and Development (BMZ) commissioned the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH to implement the project \"Employment Prospects for Socioeconomic Integration of Refugees, IDPs and Host Communities in Iraq\" (EPSI). In collaboration with the Ministry of Labour and Social Affairs (MoLSA) in the Kurdistan Region of Iraq (KRI) the project aims to promote inclusive employment and entrepreneurship opportunities in the country (including Federal Iraq). Its overall objective reads as follows: \"The employment situation of refugees, IDPs and people from host communities has improved.\" The project focusses on four outputs: 1) Policy Advocacy: Raising awareness among state actors through evidence-based findings to improve the integration of refugees, IDPs and marginalised groups in host communities into labour market policy. 2) Skills for Employment: Developing market-relevant skills to enhance the employability of the target groups through vocational training and career development centres by upgrading or developing curricula and upskilling teachers. 3) Fit for Business: Building and developing entrepreneurial and business skills as well as providing financial support to Micro, Small, and MSMEs. 4) Short-term Employment Opportunities: Providing temporary employment opportunities, such as Cash for Work, for quick income generation to address the immediate financial needs of the target groups. GIZ intends to contract a service provider to contribute to fulfil output 3 in KRI. The objective of output 3 is to enhance technical and financial capacities of refugees, IDPs and vulnerable people in host communities to set up, expand or reactivate MSMEs by i.a. cooperating with local Business Development Service providers.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:50.636Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79411000-8 - Managementberatung",
-    "titel": "Deutschland – Beratungsdienste im Bereich Wirtschaftsförderung – Aufbau und Betrieb eines regionalen Netzwerkbüros \"Transformation Heidekreis\"",
-    "auftraggeber": "Landkreis Heidekreis, Der Landrat",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/192539-2026",
-    "cpvCodes": [
-      "79411100"
-    ],
-    "beschreibung": "Der Heidekreis beabsichtigt den Aufbau eines regionalen Netzwerkbüros „Transformation Heidekreis“ als physische Anlaufstelle im Heidekreis für die ansässigen Unternehmen und andere Stakeholder der Wirtschaft. Ort und Beschaffenheit des Büros sind mit dem Auftraggeber abzustimmen, die Kosten trägt der Auftragnehmer, sie sind im abzugebenden Preis einzukalkulieren. Der Heidekreis hat mehrere Themen identifiziert, die wesentlich für das Gelingen der nötigen wirtschaftlichen Transformationsprozesse hin zur Digitalität und Nachhaltigkeit am Standort sind. Zugleich sollen weitere Entwicklungstrends aufgegriffen werden, die eine große Bedeutung für die Zukunftsfähigkeit der Wirtschaftsregion haben werden. Diese Themen und Trends sollen fachlich begleitet und für den Heidekreis bearbeitet werden. Der Auftragnehmer soll dabei Markt- und Standortanalysen durchführen, Netzwerkstrukturen aufbauen, Netzwerke managen, das Netzwerkbüro im Heidekreis etablieren und mit Personal vor Ort betreiben. Die Zusammenarbeit mit dem landkreiseigenen Personal der Wirtschaftsförderung ist besonders zu berücksichtigen. Konkret sind folgende Aufgaben zu bearbeiten: - Beobachtung und Bewertung von aktuellen Entwicklungen - Identifizierung der für den Heidekreis relevanten Akteure in dem jeweiligen Bereich - Ansprache und Vernetzung derselben - Entwicklung von weiterführenden Projekten - Aufzeigen von Umsetzungsmöglichkeiten in Politik, Verwaltung, Kommunen und Wirtschaft - Begleitung von gegebenenfalls resultierenden Investitions- bzw. Ansiedlungsprojekten in Zusammenarbeit mit den jeweiligen Kommunen - Öffentlichkeitsarbeit - Vertretung in überregionalen Netzwerken und Institutionen im Norddeutschen Raum (bspw. KEAN, Rüstungscluster Niedersachsen, InnoNON, Hochschulen in HB, HA, LB, HH…) - Vorhalten einer regionalen Anlauf-/Kontaktstelle für Nachhaltigkeitsthemen und Nachhaltigkeitsberichterstattung, branchenspezifische Marktsondierung und -Beobachtung Die Auftragsvergabe erfolgt unter der auflösenden Bedingung der endgültigen Finanzierung des Projektes im Rahmen der „Zukunftsregion HEIDEfinition“ durch die NBank. Der Auftraggeber behält sich vor, bei Nichtbewilligung oder nur teilweisen Bewilligung des Projektes durch den oder die Fördermittelgeber, das Vergabeverfahren aufzuheben. Die Kosten der Angebotserstellung trägt allein der Auftragnehmer.",
-    "veroeffentlichungsdatum": "2026-03-19",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:50.636Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Slowakei – Instrumententafeln – Modernizácia budenia 6 ks dieselgenerátorov na 1. a 2. bloku SE EMO",
-    "auftraggeber": "Slovenské elektrárne, a.s.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/186287-2026",
-    "cpvCodes": [
-      "31682200",
-      "79421200",
-      "45111300",
-      "45255400",
-      "71632000"
-    ],
-    "beschreibung": "Predmetom zákazky je realizácia výmeny rozvádzačov budenia šiestich dieselgenerátorov vrátane kompaudného transformátora a inštalačného materiálu na 1. a 2. bloku SE EMO. Realizácia bude formou \"dodávky na kľúč\". Do predmetu plnenia je zahrnutá inžinierska a projektová činnosť, montážne a demontážné práce, dodávka zariadení a materiálu, spracovanie realizačnej dokumentácie, dokumentácie skutočného vyhotovenia, skúšky a uvedenie do prevádzky. Podrobné vymedzenie predmetu zákazky vrátane technických špecifikácií tvorí prílohu č. 1 týchto súťažných podkladov - „Technická špecifikácia“.",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Österreich – Unternehmensorganisation – ÖGK - Telemedizin",
-    "auftraggeber": "Österreichische Gesundheitskasse",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/188785-2026",
-    "cpvCodes": [
-      "79996000",
-      "72262000",
-      "72267000",
-      "72310000",
-      "79994000",
-      "72200000",
-      "79633000",
-      "79421000",
-      "48180000",
-      "32232000",
-      "48515000",
-      "72212515",
-      "85000000"
-    ],
-    "beschreibung": "Ziel der Beschaffung ist die langfristige Implementierung eines österreichweiten telemedizinischen Versorgungsmodells.",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71410000-5 - Raumplanung",
-    "titel": "Deutschland – Stadtplanung – Aufbau eines Zentrenmanagement zur Umsetzung des integrierten städtebaulichen Entwicklungskonzeptes",
-    "auftraggeber": "Stadtverwaltung Bendorf",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/187737-2026",
-    "cpvCodes": [
-      "71410000"
-    ],
-    "beschreibung": "Aufbau eines Zentrenmanagement zur Umsetzung des integrierten städtebaulichen Entwicklungskonzeptes für die Stadt Bendorf / Städtebaufördergebiet \"Stadtmitte\" im Förderprogramm\"Lebendige Zentren - Aktive Stadt\"",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Dienstleistungen von Architekturbüros – Städtebaulicher Ideen- und hochbaulicher Realisierungswettbewerb „Neubau Kindertagesstätte Rück II“",
-    "auftraggeber": "Gemeinde Waldbronn",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/186596-2026",
-    "cpvCodes": [
-      "71200000",
-      "71420000"
-    ],
-    "beschreibung": "Anlass für die Durchführung des Wettbewerbsverfahrens durch die Gemeinde Waldbronn ist der geplante Neubau einer 6-gruppigen Kindertagesstätte im Neubaugebiet an der Stuttgarter Straße. Um die bestmögliche architektonische, städtebauliche und wirtschaftliche Lösung für den Neubau und seine Integration in den städtebaulichen Kontext zu erreichen, hat sich der Gemeinderat für die Durchführung eines städtebaulichen Ideenwettbewerbes verbunden mit einem hochbaulichen Realisierungswettbewerbes entschieden. Bestandteil des Wettbewerbs ist der hochbauliche Realisierungsteil mit der Kindertagesstätte und ein Ideenteil, der den nördlichen Teil bis zur Talstraße umfasst.",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
-    "titel": "Deutschland – Durchführbarkeitsstudie, Beratung, Analyse – Ausbau Odenwaldbahn",
-    "auftraggeber": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/185544-2026",
-    "cpvCodes": [
-      "71241000"
-    ],
-    "beschreibung": "Ausbau Kreuzungsbahnhöfe Odenwaldbahn",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 85312320-8 - Beratung",
-    "titel": "Deutschland – Beratungsdienste – Weiterentwicklung Controlling",
-    "auftraggeber": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/186125-2026",
-    "cpvCodes": [
-      "85312320"
-    ],
-    "beschreibung": "Beratungsvertrag zur Weiterentwicklung Controllings.",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Raumplanung",
-    "titel": "Deutschland – Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen – Ringschluss Straßenbahnlinie 301 - Planungsleistungen LPH 1+2 nach HOA 2021 für Verkehrsanlagen, Technische Ausrüstung sowie Ingenieurbauwerke und einer anschließenden standardisierten Bewertung für das gesamte Stadtgebiet Gelsenkirchen",
-    "auftraggeber": "Stadt Gelsenkirchen",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/186666-2026",
-    "cpvCodes": [
-      "71000000",
-      "71200000",
-      "71240000"
-    ],
-    "beschreibung": "\"Ringschluss Straßenbahnlinie 301 - Planungsleistungen LPH 1+2 nach HOA 2021 für Verkehrsanlagen, Technische Ausrüstung sowie Ingenieurbauwerke und einer anschließenden standardisierten Bewertung für das gesamte Stadtgebiet Gelsenkirchen\"",
-    "veroeffentlichungsdatum": "2026-03-18",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Deutschland – Dienstleistungen in den Bereichen Erholung, Kultur und Sport – Beratungs-, Koordinierungs- und Betriebsmanagementleistungen Ausstellung und Betrieb Gartenschau 2029",
-    "auftraggeber": "Eigenbetrieb Bürgergartenschau 2029",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/185255-2026",
-    "cpvCodes": [
-      "92000000",
-      "63513000",
-      "75241000",
-      "79420000",
-      "79421000",
-      "79990000",
-      "92312000",
-      "92330000",
-      "79950000",
-      "79952000",
-      "77300000",
-      "71222000"
-    ],
-    "beschreibung": "Beratungs-, Koordinierungs- und Betriebsmanagementleistungen sowie Leistungen innerhalb der Durchführung der Bürgergartenschau für Ausstellung und Betrieb",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 73220000-0 - Entwicklungsberatung",
-    "titel": "Tschechien – Beratung im Bereich Forschung – Research and development work within the project \"Research and development of EDA tools and multi-core application processors with accelerators based on RISC-V architecture\"",
-    "auftraggeber": "Codasip s.r.o.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/182793-2026",
-    "cpvCodes": [
-      "73210000",
-      "73220000"
-    ],
-    "beschreibung": "The subject matter of the Public Contract is the provision of services. The subject matter of the Public Contract is described by a technical specification which forms Annex No. 1 of the Tender Document.",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:28.588Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71410000-5 - Raumplanung",
-    "titel": "Deutschland – Stadtplanung – ISEK_Erarbeitung eines integrierten städtebaulichen Entwicklungskonzepts",
-    "auftraggeber": "Stadt Rosenheim",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/182458-2026",
-    "cpvCodes": [
-      "71410000",
-      "71200000"
-    ],
-    "beschreibung": "Das Leistungsbild ist gegliedert in neun Leistungsbausteine, die von den Bietern zu bearbeiten sind. 1, Bestandsaufnahme 2, Herausarbeiten von Stärken, Schwächen, Chancen und Risiken (SWOT Analyse) 3, Leitbild, Strategien, Ziele, Handlungsleitlinien 4, Handlungsräume und Handlungsfeldern 5, Projekte und Maßnahmen 6, Kosten- und Finanzierungsübersicht für die Projekte und Maßnahmen 7, Öffentlichkeitsarbeit, PlanungsdiaVorbereitung, Durchführung und Nacharbeit von Veranstaltungen mit politischen Gremien und Vorbereitung, Durchführung und Nacharbeit von Bürgerbeteiligungsveranstaltungen) 8, Dokumentation 9, Konzept für Monitoring und Evaluation",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71410000-5 - Raumplanung",
-    "titel": "Deutschland – Stadtplanung – Fördergebietsmanagement und die Erstellung eines Integrierten Stadtteilentwicklungskonzepts -ISEK",
-    "auftraggeber": "Magistrat der Stadt Kassel",
-    "frist": "2026-04-16T10:00:00+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184311-2026",
-    "cpvCodes": [
-      "71410000",
-      "71420000",
-      "75131000",
-      "71241000"
-    ],
-    "beschreibung": "Fördergebietsmanagement und die Erstellung eines Integrierten Stadtteilentwicklungskonzepts -ISEK für das Fördergebiet Kassel Östlich der Fulda im Rahmen des Städtebauförderprogramms Wachstum und nachhaltige Erneuerung",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:30.442Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Bau von Grundschulen – Neubau Haus 1 Grundschule (GS) Hildburghausen - Los 25 Freianlagen/Infrastruktur/RRB",
-    "auftraggeber": "Landratsamt Hildburghausen",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184193-2026",
-    "cpvCodes": [
-      "45214210",
-      "45262310",
-      "45112700",
-      "45233253",
-      "71421000"
-    ],
-    "beschreibung": "Das LV umfasst das Herstellen der Außenanlagen, die Neuanlage eines Regenrückhaltebeckens als naturnahen Teich sowie einer Zisterne im Schulgarten inkl. der dafür notwendigen Infrastruktur.",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Kunstwerke – Gestaltungswettbewerb Denkmal zur Mahnung und Erinnerung an die Opfer der kommunistischen Diktatur in Deutschland als nichtoffener Wettbewerb mit vorgeschaltetem offenen Bewerberverfahren für Künstlerinnen und Künstler, Architektinnen und Architekten, Landschaftsarchitektinnen und -architekten sowie Arbeitsgemeinschaften aus den Disziplinen Kunst, Architektur und Landschaftsarchitektur",
-    "auftraggeber": "Bundesrepublik Deutschland, vertreten durch den Beauftragten für Kultur und Medien (BKM), vertreten durch das Bundesamt für Bauwesen und Raumordnung (BBR)",
-    "frist": "2026-04-17T14:00:00+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184780-2026",
-    "cpvCodes": [
-      "92311000",
-      "71200000",
-      "71420000",
-      "71222000",
-      "92312000"
-    ],
-    "beschreibung": "siehe LOS 0001",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 72224000-1 - IT-Projektmanagement",
-    "titel": "Deutschland – Softwarepaket und Informationssysteme – Beschaffung einer standardisierten Notrufabfrage in Bayerischen Leitstellen (SNA-Bayern)",
-    "auftraggeber": "Staatliche Feuerwehrschule Geretsried",
-    "frist": "2026-04-07T11:00:00+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/182701-2026",
-    "cpvCodes": [
-      "48000000",
-      "30200000",
-      "48820000",
-      "50324100",
-      "72212900",
-      "72224100",
-      "72250000",
-      "72263000",
-      "72267000",
-      "72268000"
-    ],
-    "beschreibung": "Ausschreibungsgegenstand ist die Erstellung eines IT-Gesamtsystems zur standardisierten Notrufabfrage in allen Integrierten Leitstellen des Freistaats Bayern, einschließlich der Herbeiführung der Betriebsbereitschaft und Anbindung an die Einsatzleitsysteme (derzeit \"ELDIS III BY\" der eurofunk KAPPACHER GmbH sowie potenzieller Nachfolgesysteme) in allen Integrierten Leitstellen des Freistaats Bayern, einschließlich Systemservice und Weiterentwicklung auf Grundlage eines Werkvertrags.",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:43.300Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 85312320-8 - Beratung",
-    "titel": "Deutschland – Beratungsdienste – Rahmenvereinbarung über die soziale Betreuung der angeschlossenen Bundesbehörden",
-    "auftraggeber": "Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184514-2026",
-    "cpvCodes": [
-      "85312320",
-      "85312510"
-    ],
-    "beschreibung": "Rahmenvereinbarung über die soziale Betreuung der Beschäftigten der angeschlossenen Bundesbehörden",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 85312320-8 - Beratung",
-    "titel": "Deutschland – Dienstleistungen des Sozialwesens und zugehörige Dienstleistungen – Quartiersbezogene Unterstützung - Leipzig Paunsdorf",
-    "auftraggeber": "Stadt Leipzig",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184985-2026",
-    "cpvCodes": [
-      "85300000",
-      "85312320"
-    ],
-    "beschreibung": "Quartiersbezogene Unterstützung von Asylsuchenden und Anwohnern im Stadtteil/Stadtteilkoordinatoren Asyl in Leipzig-Paunsdorf.",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "INTERREG",
-    "titel": "Deutschland – Dienstleistungen für die öffentliche Verwaltung – Datenerfassung und kartografische Darstellung der Habitatverbesserungen im Flachwasserbereich des Bodensees inklusive technische Schutzmaßnahmen",
-    "auftraggeber": "Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg",
-    "frist": "2026-04-07T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/183549-2026",
-    "cpvCodes": [
-      "75131000",
-      "38221000",
-      "72313000",
-      "75130000",
-      "79951000"
-    ],
-    "beschreibung": "Der Auftragnehmer erarbeitet eine Zusammenstellung von Habitatverbesserungen im Flachwasserbereich des Bodensees inklusive technischer Schutzmaßnahmen gegen fischfressende Vögel, welche bereits existieren, ggf. bereits in Planung sind und aufbauend auf den Erkenntnissen dieses Projektes in Zukunft neu zu planen sind (QGIS-Projekt). Ein Fokus soll hierbei auf der Bedeutung von natürlichen und/oder künstlichen Rückzugshabitaten für Jungfische (am Bodensee sog. \"Fischreiser\") liegen. Im Rahmen von durch den Auftragnehmer moderierten Workshops soll der länderübergreifende Austausch und der Wissensgewinn von zuständigen Behördenvertretern aus den Bereichen Naturschutz und Fischerei und Vertretern der Erwerbs- und Angelfischerei rund um das Thema \"Bedeutung von Flachwasserhabitaten für den Fischartenschutz im Bodensee\" und über die Rolle der Fischreiser gefördert werden. Zusätzlich soll eine Handreichung zum Bau und zur Pflege von Fischreisern erarbeitet werden. Der länderübergreifende Austausch mit den regionalen Expertinnen und Experten aus Fischartenschutz und Ornithologie findet im Rahmen eines vom Auftraggeber moderierten Workshops statt. Kurzzusammenfassung des Interreg-Projekts \"Fischartenschutz und Kormoranmanagement am Bodensee\" Durch internationale, mit allen Bodensee-Anrainern abgestimmte, Maßnahmen soll der Schutz gefährdeter Fischarten in der Bodenseeregion verstärkt vorangetrieben werden. Das Wissen über gefährdete Fischarten in der Region wird im Rahmen des Projekts zusammengetragen und darauf aufbauend Maßnahmen zur Verbesserung ihres Schutzes erarbeitet. Die Maßnahmen beinhalten neben ökologischen Aufwertungen der Fischhabitate auch technische Schutzmaßnahmen gegen Kormoranfraß. Daten werden in einer Datenbank erfasst und wasserbautechnische \"Musterlösungen\" erarbeitet. Zur Reduktion des Fraßdrucks durch Kormorane auf gefährdete Fischarten werden Grundlagen erarbeitet, welche auf eine internationale Strategie zum Kormoranmanagement abzielen. Diese beinhalten auch den Einsatz modernster Drohnentechnologie zum Brutmanagement der Kormorane. Dabei soll die Eignung und Bewilligungsfähigkeit von regionalen Maßnahmen zum Kormoranmanagement und ihrer grenzüberschreitenden Wirkung geklärt werden. Ausführliche Beschreibung der Arbeitspakete AP des Interreg-Projekts siehe Anlage zur Leistungsbeschreibung. Für weitere ausführlichere Informationen verweisen wir auf die zur Verfügung gestellten Vergabeunterlagen, insbesondere auf das Dokument \"3.1_001 Leistungsbeschreibung.pdf\"",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "INTERREG",
-    "titel": "Slowakei – Informations- und Werbeerzeugnisse – Nákup reklamných predmetov s potlačou",
-    "auftraggeber": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/184100-2026",
-    "cpvCodes": [
-      "39294100",
-      "22462000",
-      "30192121",
-      "30192122",
-      "30192130",
-      "37822100",
-      "30192127",
-      "22815000",
-      "22816000",
-      "22816100",
-      "22817000",
-      "30190000",
-      "30192000",
-      "22852000",
-      "32342100",
-      "32581100",
-      "39295200",
-      "39221100",
-      "22114000",
-      "44511320",
-      "39811100",
-      "39221121",
-      "39221120",
-      "39225710",
-      "18931100",
-      "30237270",
-      "18930000",
-      "31681500",
-      "18235300",
-      "18330000",
-      "18331000",
-      "18333000",
-      "18300000",
-      "39511100",
-      "18937000",
-      "35113400",
-      "37461000",
-      "44424300",
-      "18420000",
-      "18440000",
-      "33711620",
-      "33141623",
-      "15842000",
-      "30237132",
-      "33741300",
-      "30199792",
-      "30199791",
-      "60000000"
-    ],
-    "beschreibung": "Predmetom čiastkových zákaziek zadávaných v zriadenom dynamickom nákupnom systéme bude obstarávanie reklamných predmetov a propagačných materiálov ako napríklad: perá, ceruzky, bloky, diáre, kľúčenky atď. Cieľom zriadenia DNS a zadávania čiastkových zákaziek v DNS je umožniť verejnému obstarávateľovi flexibilné zadávanie zákaziek v súlade so zákonom o verejnom obstarávaní podľa svojich reálnych potrieb, t. j. v čase a rozsahu, ktorý mu je známy.",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Strategie",
-    "titel": "strategische Beratungsleistungen",
-    "auftraggeber": "ÖBB-Holding AG",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-4f8ee783-ae5e-4684-9629-c36da107c1e6&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "79410000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-17",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:03.069Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Deutschland – Unterstützende Dienste für die öffentliche Verwaltung – Projektträgerschaft Internationaler Wasserstoff",
-    "auftraggeber": "Bundesministerium für Wirtschaft und Energie",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/178141-2026",
-    "cpvCodes": [
-      "75130000",
-      "75131000",
-      "79411100",
-      "73000000",
-      "79421000"
-    ],
-    "beschreibung": "Gegenstand der zu vergebenen Leistung ist die Übernahme von Projektträgeraufgaben im Zusammenhang mit der direkten Projektförderung bei Vorhaben für den Aufbau von Erzeugungsanlagen von klimaneutralem Wasserstoff und seinen Derivaten sowie von begleitenden Forschungsvorhaben im Sinne der nationalen Wasserstoffstrategie des BMWE sowie damit verbundene Zusatzaufgaben. Die Projektförderung umfasst gegenwärtig die Förderziele - Zeitnaher und zielgerichteter Aufbau eines globalen Marktes für erneuerbaren Wasser-stoff und seiner Derivate und hierdurch bewirkte Preissenkung durch Skalierung und Innovation, - Beitrag zum Einsatz und zur Anwendung von Technologien zur Erzeugung von erneu-erbarem Wasserstoff und seinen Derivaten von Unternehmen mit Niederlassung oder Betriebsstätte in Deutschland, - Vorbereitung und Umsetzung von Importrouten für erneuerbaren Wasserstoff und seinen Derivaten nach Deutschland.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:27.371Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79419000-4 - Evaluation",
-    "titel": "Österreich – Dienstleistungen für die öffentliche Verwaltung – Evaluierung der Umsetzung von Social Prescribing im Rahmen des Fördercalls Social Prescribing in der Primär- und pädiatrischen Versorgung (2026 – 2028)",
-    "auftraggeber": "Gesundheit Österreich GmbH",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/181690-2026",
-    "cpvCodes": [
-      "75131000",
-      "98133100",
-      "79419000"
-    ],
-    "beschreibung": "Das gegenständliche Vergabeverfahren wird im Rahmen des Beschaffungssystems für externe Leistungen für die Planung, Abwicklung und (übergreifende) Evaluation von Initiativen und Fördercalls sowie Projekten (Versand der europaweiten Bekanntmachung an TED-EU am 29.04.2024 zu Veröffentlichungsnummer 260221-2024, ABl. S 86/2024, Datum der Veröffentlichung: 02/05/2024) gemäß BVergG 2018 durchgeführt. Leistungsgegenstand des Vergabeverfahrens ist die Durchführung der Evaluierung der Umsetzung von Social Prescribing im Rahmen des Fördercalls Social Prescribing in der Primär- und pädiatrischen Versorgung (2026 – 2028).",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
-    "titel": "Tschechien – Durchführbarkeitsstudie, Beratung, Analyse – Strategická a medicínská koncepce s hmotově objemovou studií rozvoje areálů Fakultní nemocnice Brno",
-    "auftraggeber": "Fakultní nemocnice Brno",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177978-2026",
-    "cpvCodes": [
-      "71241000",
-      "71220000",
-      "71320000",
-      "85140000"
-    ],
-    "beschreibung": "Předmětem plnění veřejné zakázky je zpracování strategické a medicínské koncepce s hmotově objemovou studií rozvoje areálů Fakultní nemocnice Brno",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Italien – Verwaltung von Öffentlichkeitsarbeit – procedura aperta sopra soglia europeaper la conclusione di un accordo quadro per l’affidamento dei servizi di front office e back office per il Comune di Monfalcone a supporto dei seguenti uffici: Gabinetto, demografico, stamperia e URP, Relazioni Internazionali, Promozione del territorio e media, ragioneria ed altri servizi ai sensi degli artt. 54 comma 3 e 60 comma 2 del D.lgs. 50/2016 e s.m.i.",
-    "auftraggeber": "Centrale di Committenza Monfalconese",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/179660-2026",
-    "cpvCodes": [
-      "79416100"
-    ],
-    "beschreibung": "procedura aperta sopra soglia europeaper la conclusione di un accordo quadro per l’affidamento dei servizi di front office e back office per il Comune di Monfalcone a supporto dei seguenti uffici: Gabinetto, demografico, stamperia e URP, Relazioni Internazionali, Promozione del territorio e media, ragioneria ed altri servizi ai sensi degli artt. 54 comma 3 e 60 comma 2 del D.lgs. 50/2016 e s.m.i.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Österreich – Werbe- und Marketingdienstleistungen – Rahmenvereinbarung „Corporate Design Theater in der Josefstadt“",
-    "auftraggeber": "Theater in der Josefstadt Betriebsgesellschaft m.b.H.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/181002-2026",
-    "cpvCodes": [
-      "79340000",
-      "79413000"
-    ],
-    "beschreibung": "Die Theater in der Josefstadt Betriebsgesellschaft m.b.H. beabsichtigt den Abschluss einer Rahmenvereinbarung (mit einer Partei) betreffend die (visuelle) Konzeptionierung und Umsetzung eines neuen Corporate Designs des Theaters in der Josefstadt sowie weitergehender Agenturleistungen ab der Spielsaison 2026/27. Die potentiellen Leistungen umfassen dabei neben der grafische Konzeptionierung und Aufbereitung der Theaterproduktionen in den Drucksorten und elektronischen Medien auch die grafische Umsetzung der Homepage sowie unterschiedliche weiterführende Leistungen wie die Gestaltung von Give-Aways und POS oder einer Neukonzeptionierung von Innen- und Außenräumen. Die Laufzeit der Rahmenvereinbarung wird dabei 3 Jahre betragen, mit einer Option des Auftraggebers auf eine zweimalige Verlängerung um jeweils ein weiteres Jahr (insgesamt somit bis zu 5 Jahre, vgl im Detail Rahmenvereinbarung Anhang III). Der Auftraggeber weist darauf hin, dass als geschätzter Auftragswert das Richtbudget (exkl Druckkosten, sonstige Drittkosten, diverse weitere Werbematerialien, etc) für die maximale Laufzeit von 5 Jahren (= 3 Jahre und 2 optional) in Höhe von insgesamt EUR 440.000,-- (netto) zur Verfügung steht. Die auf Grundlage der gegenständlichen Rahmenvereinbarung maximalabrufbare, gesamte Auftragssumme (Höchstmenge, exkl Druckkosten, sonstige Drittkosten, diverse weitere Werbematerialien, etc) beläuft sich – insgesamt über die gesamtmögliche Dauer der Rahmenvereinbarung (5 Jahre) auf EUR 520.000,-- (netto).",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 90713000-8 - Umweltberatung",
-    "titel": "Österreich – Dienstleistungen im Grafik-Design – Magazin Umwelt & Energie (U&E) Grafik und Externe Redaktionsunterstützung",
-    "auftraggeber": "Land Niederösterreich, p.A. Amt der NÖ-Landesregierung",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/180018-2026",
-    "cpvCodes": [
-      "79822500",
-      "90713000"
-    ],
-    "beschreibung": "Vollständige grafische Erstellung eines 52seitigen Magazins 4x/a inkl. Covergestaltung und Übergabe der Druckunterlage an die Druckerei.Externe Redaktionsunterstützung 4x/a mit inhaltlichen Umwelt- und Naturschwerpunkt inkl. Lektorat und Beratung bei der Themensetzung.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:10:42.169Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 85312320-8 - Beratung",
-    "titel": "Deutschland – Dienstleistungen des Sozialwesens – Gesonderte Beratung und Betreuung für Flüchtlinge",
-    "auftraggeber": "Landkreis Anhalt-Bitterfeld",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/179755-2026",
-    "cpvCodes": [
-      "85310000",
-      "85312320",
-      "85320000"
-    ],
-    "beschreibung": "Gesonderte Beratung und Betreuung für Flüchtlinge",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:47.148Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Raumplanung",
-    "titel": "Deutschland – Möbel – Raumgestaltung und -ausstattung Gemeinschaftsflächen der BpB in Bonn und Gera",
-    "auftraggeber": "Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/180966-2026",
-    "cpvCodes": [
-      "39100000",
-      "79932000",
-      "79931000",
-      "39130000"
-    ],
-    "beschreibung": "Gegenstand der Leistung ist die konzeptionelle Raumgestaltung sowie die Umsetzung der Ausstattung der Gemeinschaftsflächen der Bundeszentrale für politische Bildung in den Liegenschaften Bonn und Gera gemäß Leistungsbeschreibung.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:52.398Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "INTERREG",
-    "titel": "Slowakei – Bauarbeiten – Eliminácia bezpečnostných rizík na ceste III/3489, Raslavice - Abrahámovce",
-    "auftraggeber": "Prešovský samosprávny kraj",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177903-2026",
-    "cpvCodes": [
-      "45000000",
-      "45233223"
-    ],
-    "beschreibung": "Predmetom zákazky je eliminácia bezpečnostných rizík na ceste III/3489 v úseku na spojnici medzi obcami Raslavice a Abrahámovce. Začiatok riešeného úseku je v kum. staničení km 1,900 a koniec úseku v km 2,480. Celková dĺžka upravovaného úseku cesty je 580 m. Cesta III/3489 v upravovanom úseku je v nevyhovujúcom stavebno-technickom stave. Na ceste sa nachádzajú lokálne zosuvy. Na väčšine úseku je nefunkčný odvodňovací systém a nedostatočné bezpečnostné zariadenia. V riešenom úseku je navrhované zhotovenie oporných múrov a doplnenie bezpečnostných zariadení a doplnenie odvodnenia. Cesta III/3489 je v správe verejného obstarávateľa - Správy a údržby ciest Prešovského samosprávneho kraja, oblasť Bardejov. Podrobné vymedzenie predmetu zákazky tvorí samostatnú časť súťažných podkladov B.2 Opis predmetu zákazky.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Slowakei",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "INTERREG",
-    "titel": "Ungarn – Bauleistungen im Hochbau – Kulturális központ létrehozása-Bocskai u. 25.sz.",
-    "auftraggeber": "Nyíregyháza Megyei Jogú Város Önkormányzata",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/181073-2026",
-    "cpvCodes": [
-      "45210000",
-      "45111000",
-      "45300000"
-    ],
-    "beschreibung": "\"Interkulturális kapcsolatok erősítése kulturális intézmények fejlesztése révén Szatmár megyében és Szabolcs-Szatmár-Bereg vármegyében\"(Strengthening intercultural relations through the development of cultural institutions in Satu Mare County and Szabolcs-Szatmár-Bereg County) projekt keretében kulturális központ építési beruházásának megvalósítása, meglévő épület részleges bontásával, bővítésével és új épületrészek kivitelezésével, teljes körű kivitelezési tervdokumentáció alapján.",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Ungarn",
-    "scrapedAt": "2026-04-13T08:10:57.622Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Strategie",
-    "titel": "Strategie- & Politikberatung",
-    "auftraggeber": "Fachgruppe Wien der Beförderungsgewerbe mit PKW",
-    "frist": "",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=e5f51f9d-9ddb-4fc7-95a8-ef0d9eb2144d-883DD7B8-82AA-4A22-936F-ABAD39740272&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "79413000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-16",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:03.606Z"
-  },
-  {
-    "portal": "USP Bund",
-    "suchbegriff": "Strategie",
-    "titel": "„GÖG: Kommunikationsleistungen“",
-    "auftraggeber": "Gesundheit Österreich GmbH",
-    "frist": "2026-04-16",
-    "link": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-e2dd9149-ca9e-47c3-a6ef-ce0e73132eba&backlink=L2F0Lmd2LmJtZHcuZXByb2MtcC9wdWJsaWMvdGVuZGVybGlzdD9xPVN0cmF0ZWdpZSZsb2FkZWQ9dHJ1ZQ==&orderColumn=2&orderDir=desc&start=0",
-    "cpvCodes": [
-      "14097609",
-      "79416000",
-      "79416200",
-      "79413000",
-      "79340000",
-      "79800000",
-      "79970000"
-    ],
-    "beschreibung": "",
-    "veroeffentlichungsdatum": "2026-03-15",
-    "organisationLand": "Österreich",
-    "scrapedAt": "2026-04-13T08:12:04.139Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79421000-1 - Projektmanagement",
-    "titel": "Deutschland – Kommunikationsinfrastruktur – Betrieb der bestehenden Cisco-UCC-Infrastrukturen inkl. Managed Service Firewall und Projektsteuerung",
-    "auftraggeber": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174658-2026",
-    "cpvCodes": [
-      "32571000",
-      "32420000",
-      "79421000"
-    ],
-    "beschreibung": "Los 1 UCC-Lösung Ziel ist der Betrieb und die Servetierung der bestehenden Cisco-UCC-Infrastrukturen inklusive verschiedener Applikationen, sowie die Migration der bestehenden Cisco-Kauflizenzen in entsprechende Cisco-Flex-Plan-Lizenzen. Derzeit werden 10 Cisco-Call-Manager auf einer zentralen redundanten Serverplattform für ca. 30.000 Nutzer an ca. 300 Standorten betrieben. Los 2 Managed Service Firewall Mit den ausgeschriebenen Leistungsbereichen soll der Auftragnehmer den Betrieb und die Betreuung der installierten Juniper-Firewall-Plattform vom Typ Juniper SRX4100 inklusive Managementplattform Junos Space für die bestehende UCC-Infrastruktur (Los 1) des Auftraggebers übernehmen. Los 3 Projektsteuerung UCC-Lösung Objektüberwachung und Projektsteuerung bei der Migration der bestehenden Cisco-Call-Manager UCC-Infrastruktur inklusive der entsprechenden Applikationen an den Standorten des Auftraggebers. Der Vertrag tritt mit Zuschlagserteilung in Kraft. - Der System-Vertrag (Los 1) hat eine Laufzeit bis zum 30.06.2030. - Der Service-Vertrag (Los 2) hat eine Laufzeit bis zum 28.02.2029. - Der Dienstleistungsvertrag (Los 3) hat eine Laufzeit bis zum 30.06.2030.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:27.370Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79419000-4 - Evaluation",
-    "titel": "Italien – Beratung in Sachen Evaluierung – Procedura aperta per l'acquisizione del Servizio di Valutazione del Complemento per lo sviluppo rurale del Piano Strategico Nazionale della PAC 2023-2027 della Regione Marche",
-    "auftraggeber": "Regione Marche",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175105-2026",
-    "cpvCodes": [
-      "79419000"
-    ],
-    "beschreibung": "Procedura aperta per l'acquisizione del Servizio di Valutazione del Complemento per lo sviluppo rurale del Piano Strategico Nazionale della PAC 2023-2027 della Regione Marche",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:33.686Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71420000-8 - Landschaftsplanung",
-    "titel": "Deutschland – Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen – Stadt Wegberg, Vergabe Generalplanung Sanierung Erich Kästner Grundschule & Turnhalle der Schule am Grenzlandring",
-    "auftraggeber": "Stadt Wegberg",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175828-2026",
-    "cpvCodes": [
-      "71240000",
-      "71221000",
-      "71321000",
-      "71312000",
-      "71420000"
-    ],
-    "beschreibung": "Die Stadt Wegberg beabsichtigt die Vergabe von Generalplanungsleistungen für die umfassende bauliche, funktionale und energetische Sanierung der Erich-Kästner-Grundschule Wegberg einschließlich Erweiterungen, Interimsschule sowie der Neustrukturierung des OGS-Bereichs sowie für die Kernsanierung der Turnhalle der Schule am Grenzlandring. Gegenstand der Vergabe sind sämtliche Grundleistungen und ausgewählte Besondere Leistungen der Leistungsbilder Objektplanung Gebäude und Innenräume, Objektplanung Freianlagen, Fachplanung Technische Ausrüstung und Tragwerksplanung nach HOAI einschließlich bauphysikalischer Nachweise und ergänzender planerischer Leistungen. Die Planungen basieren auf vorliegenden Machbarkeitsstudien und werden stufenweise beauftragt.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:35.881Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
-    "titel": "Deutschland – Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen – Machbarkeitsstudie Stadtbahnlinie 7 Frechen-Kerpen",
-    "auftraggeber": "Rhein-Erft-Kreis",
-    "frist": "2026-04-07T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174493-2026",
-    "cpvCodes": [
-      "71000000",
-      "71240000",
-      "71241000"
-    ],
-    "beschreibung": "Erstellung einer Machbarkeitsstudie zur Verlängerung der Stadtbahnlinie 7 von Frechen nach Kerpen",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:37.068Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 71241000-9 - Machbarkeit",
-    "titel": "Tschechien – Planungsleistungen im Bauwesen – Dynamický nákupní systém na výkon projekčních činností pro Zoo Praha",
-    "auftraggeber": "Zoologická zahrada hl. m. Prahy",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177551-2026",
-    "cpvCodes": [
-      "71320000",
-      "71241000",
-      "71242000",
-      "71355000",
-      "71246000",
-      "71315200",
-      "71310000"
-    ],
-    "beschreibung": "Cílem je zavedení DNS pro zadávání veřejných zakázek ve 3 kategorich, jejichž předmětem plnění budou zejména služby spočívající ve zpracování architektonického návrhu a projektové dokumentace expozičního nebo neexpozičního objektu, nebo objektu určeného k chovu zvířat a souvisejících objektů, nebo objektů pro návštěvníky a dalších objektů.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Tschechien",
-    "scrapedAt": "2026-04-13T08:10:37.070Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Deutschland – Öffentlichkeitsarbeit – Informationsinitiative \"Tierversuche verstehen\"",
-    "auftraggeber": "Helmholtz-Zentrum Dresden-Rossendorf e.V.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174710-2026",
-    "cpvCodes": [
-      "79416000",
-      "92100000",
-      "92110000"
-    ],
-    "beschreibung": "Für die Fortsetzung der seit 2016 laufenden Informationsinitiative \"Tierversuche verstehen\" der Allianz der Wissenschaftsorganisationen (www.tierversuche-verstehen.de) suchen die fünf Auftraggeber Dienstleister für die Ausgestaltung und Umsetzung der in den Leistungsbeschreibungen beschriebenen Maßnahmen. Die Projektlaufzeit beträgt 5 Jahre. Eine Beschreibung des Vergabegegenstands und der Leistungen der Auftragnehmer befindet sich in den Leistungsbeschreibungen sowie in den Vertragsentwürfen (siehe Anhänge).",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Deutschland – Öffentlichkeitsarbeit – Informationsinitiative \"Tierversuche verstehen\"",
-    "auftraggeber": "Helmholtz-Zentrum Dresden-Rossendorf e.V.",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175089-2026",
-    "cpvCodes": [
-      "79416000",
-      "92100000",
-      "92110000"
-    ],
-    "beschreibung": "Für die Fortsetzung der seit 2016 laufenden Informationsinitiative \"Tierversuche verstehen\" der Allianz der Wissenschaftsorganisationen (www.tierversuche-verstehen.de) suchen die fünf Auftraggeber Dienstleister für die Ausgestaltung und Umsetzung der in den Leistungsbeschreibungen beschriebenen Maßnahmen. Die Projektlaufzeit beträgt 5 Jahre. Eine Beschreibung des Vergabegegenstands und der Leistungen der Auftragnehmer befindet sich in den Leistungsbeschreibungen sowie in den Vertragsentwürfen (siehe Anhänge).",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Deutschland – Beschaffungsberatung – Rahmenvereinbarung für Einkaufsdienstleistungen für Klinikapotheken im Bereich Pharma",
-    "auftraggeber": "Klinikum Fürth (Anstalt des öffentlichen Rechts)",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175120-2026",
-    "cpvCodes": [
-      "79418000"
-    ],
-    "beschreibung": "Ziel des gegenständlichen Vergabeverfahrens ist die Vergabe einer Rahmenvereinbarung im Sinne von § 21 VgV für Einkaufsdienstleistungen für Klinikapotheken im Bereich Pharma an ein geeignetes und leistungsfähiges Unternehmen als langfristigen Kooperationspartner (sog. Ein-Partner-Rahmenvereinbarung).",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Italien – Dienstleistungen im Bereich Unternehmensleitung – Procedura Aperta per l’individuazione di un Organismo Intermedio cui affidare la gestione e il controllo dell’intervento Buoni servizio all’infanzia.",
-    "auftraggeber": "Giunta Regionale",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/176184-2026",
-    "cpvCodes": [
-      "79420000"
-    ],
-    "beschreibung": "Procedura aperta ai sensi dell’art. 71 del D. Lgs. n. 36/2023, per l’individuazione di un Organismo Intermedio cui affidare la gestione e il controllo dell’intervento “Buoni servizio all’infanzia, per servizi di cura ai non autosufficienti e per la fruizione di altri interventi coerenti le politiche regionali in materia di inclusione sociale”.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Italien",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "CPV 79400000-8 - Managementberatung",
-    "titel": "Deutschland – Beratung im Bereich Finanzverwaltung – Neuausrichtung und Neustrukturierung der Einkaufsorganisation des Unternehmens",
-    "auftraggeber": "Die Autobahn GmbH des Bundes",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/176722-2026",
-    "cpvCodes": [
-      "79412000"
-    ],
-    "beschreibung": "Neuausrichtung und Neustrukturierung der Einkaufsorganisation des Unternehmens",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:39.105Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Softwarepaket und Informationssysteme – Einführung eines neuen CAFM-Systems",
-    "auftraggeber": "RWTH Aachen University",
-    "frist": "2026-03-17T23:59:59+01:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174780-2026",
-    "cpvCodes": [
-      "48000000",
-      "72000000"
-    ],
-    "beschreibung": "Einführung eines neuen CAFM für das Facility Management an der RWTH Aachen",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.847Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Dienstleistungen von Architektur-, Konstruktions- und Ingenieurbüros und Prüfstellen – Neuaufstellung des Flächennutzungsplanes (FNP)",
-    "auftraggeber": "Stadt Neukirchen-Vluyn, Hauptamt",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175526-2026",
-    "cpvCodes": [
-      "71000000"
-    ],
-    "beschreibung": "Neuaufstellung des Flächennutzungsplanes (FNP) einschließlich Umweltprüfung/ Umweltbericht und ASP Stufe I für die Stadt Neukirchen-Vluyn",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.847Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Software-Beratung – Leistungen zum Einsatz des Formular-Management-Systems (FMS): Los 4",
-    "auftraggeber": "Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern und für Heimat, dieses vertreten durch das Beschaffungsamt des BMI",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175576-2026",
-    "cpvCodes": [
-      "72266000",
-      "72265000",
-      "72263000"
-    ],
-    "beschreibung": "Gegenstand des Vergabeverfahrens ist die Erbringung von Leistungen zum Einsatz des Formular Management Systems (FMS). Diese untergliedern sich in die folgenden Teilbereiche: - Initialberatung, Projektmanagement - Entwicklung, Einführung, Wartung und Pflege, Machbarkeitsstudien",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.847Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Bauarbeiten für Schulgebäude – Schlüsselfertiger Neubau einer 3-Feld-Sporthalle für eine Grundschule am Standort Sinstorfer Weg 40 in Hamburg - Planungs- und Bauleistungen – Generalunternehmerleistungen inkl. Planungsleistung ab LPH 5 HOAI",
-    "auftraggeber": "GMH | Gebäudemanagement Hamburg GmbH",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/175952-2026",
-    "cpvCodes": [
-      "45214200"
-    ],
-    "beschreibung": "Die GMH | Gebäudemanagement Hamburg hat die Aufgabe, die Schulimmobilien unter Berücksichtigung der schulischen Belange zu planen, zu bauen, zu unterhalten, zu bewirtschaften und die ca. 60 Schulen an die Behörde für Schule und Berufsbildung zu vermieten. Die Schulimmobilien umfassen sämtliche für schulische Zwecke genutzten Grundstücke und Gebäude der staatlichen und beruflichen Schulen. Die Grundstücksfläche aller allgemeinbildenden und beruflichen staatlichen Schulen beträgt etwa 9,1 Mio. qm und die Hauptnutzungsfläche etwa 3,1 Mio. qm. In dieser Tätigkeit wurde GMH mit dem Neubau einer 3-Feld-Sporthalle für eine Grundschule am Standort Sinstorfer Weg 40 in Hamburg in Hamburg beauftragt. Im Weiteren siehe Ziffer 5.1.6 der Bekanntmachung.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.848Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Dienstleistungen von Ingenieurbüros – VgV Fachplanung TGA (HLS) - Neubau Werkstätten der Ferdinand-von-Steinbeis Gewerbliche Schule, Tuttlingen",
-    "auftraggeber": "Landkreis Tuttlingen",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177211-2026",
-    "cpvCodes": [
-      "71300000"
-    ],
-    "beschreibung": "Der Landkreis Tuttlingen beabsichtigt den Ersatzneubau der Werkstätten der Ferdinand-von-Steinbeis gewerblichen Schule. Die berufliche Ferdinand-von- Steinbeis-Schule bietet Ausbildungsplätze für rund 1500 SchülerInnen in Teil- und Vollzeit und gehört somit zu den größten Berufsschulzentren in der Region Tuttlingen. Die Werkstätten der Schule weisen erhebliche bauliche Mängel auf und stehen zur Disposition. Aus diesem Grund soll auf dem heutigen Grundstück ein Ersatzneubau geplant werden. Hierzu hat der Landkreis Tuttlingen einen Realisierungswettbewerb für Architekten und Landschaftsarchitekten durchgeführt. Das daran anschließende VgVVerfahren mit den Preisträgern ist noch nicht abgeschlossen. Für die Schule sollen Werkstätten der Fachbereiche Medizintechnik, Metalltechnik, Holztechnik, Elektro- und Informationstechnik, sowie eine Cafeteria geplant werden. Ein weiteres Augenmerk der Bearbeitung liegt auf der Flexibilität, Nachhaltigkeit, Digitalisierung und Industrie 4.0- Fähigkeit der Schule. Die Programmfläche (Nutzungsfläche NUF 1-6) beträgt ca. 3.500 m². Für die Leistungen der Fachplanung TGA gem. §§ 53, 55 HOAI ALG 1-3, 7, 8 (HLS), LPH 1-8, +9, wird ein geeignetes Ingenieurbüro auch mit Erfahrungen im Holz-/Holzhybridbau gesucht. Die Beauftragung soll stufenweise erfolgen. Es besteht kein Rechtsanspruch auf die weitere Beauftragung der jeweils nachfolgenden Leistungsstufe. Die Fachplanung TGA (Elektro) ist Gegenstand einer separaten Auftragsbekanntmachung. Eine Zuarbeit der Fachplaner für die Objektplanung zum Nachweis der Nachhaltigkeitskriterien ist erforderlich. Weitere Informationen siehe Ziffer 5.1.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.848Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Technische Planungsleistungen für Verkehrsanlagen – Verkehrsanlagenplanung (Los 1) und BIM-Gesamtkoordination (Los 2)",
-    "auftraggeber": "Die Autobahn GmbH des Bundes - NL Südbayern",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177314-2026",
-    "cpvCodes": [
-      "71322500",
-      "71000000"
-    ],
-    "beschreibung": "Verkehrsanlagenplanung (Los 1) und BIM-Gesamtkoordination (Los 2)",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.848Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Projektmanagement",
-    "titel": "Deutschland – Dienstleistungen in der Tragwerksplanung – VgV Tragwerksplanung - Neubau Werkstätten der Ferdinand-von-Steinbeis Gewerbliche Schule, Tuttlingen",
-    "auftraggeber": "Landkreis Tuttlingen",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/177400-2026",
-    "cpvCodes": [
-      "71327000"
-    ],
-    "beschreibung": "Der Landkreis Tuttlingen beabsichtigt den Ersatzneubau der Werkstätten der Ferdinand-von-Steinbeis gewerblichen Schule. Die berufliche Ferdinand-von-Steinbeis-Schule bietet Ausbildungsplätze für rund 1500 SchülerInnen in Teil- und Vollzeit und gehört somit zu den größten Berufsschulzentren in der Region Tuttlingen. Die Werkstätten der Schule weisen erhebliche bauliche Mängel auf und stehen zur Disposition. Aus diesem Grund soll auf dem heutigen Grundstück ein Ersatzneubau geplant werden. Hierzu hat der Landkreis Tuttlingen einen Realisierungswettbewerb für Architekten und Landschaftsarchitekten durchgeführt. Das daran anschließende VgV-Verfahren mit den Preisträgern ist noch nicht abgeschlossen. Für die Schule sollen Werkstätten der Fachbereiche Medizintechnik, Metalltechnik, Holztechnik, Elektro- und Informationstechnik, sowie eine Cafeteria geplant werden. Ein weiteres Augenmerk der Bearbeitung liegt auf der Flexibilität, Nachhaltigkeit, Digitalisierung und Industrie 4.0-Fähigkeit der Schule. Die Programmfläche (Nutzungsfläche NUF 1-6) beträgt ca. 3.500 m². Für die Leistungen der Tragwerksplanung gem. §§ 49, 51 HOAI LPH 1-6 inkl. Objektüberwachung als Besondere Leistung wird ein geeignetes Ingenieurbüro, auch mit Erfahrung im Holz-/Holzhybridbau gesucht. Die Beauftragung soll stufenweise erfolgen. Es besteht kein Rechtsanspruch auf die weitere Beauftragung der jeweils nachfolgenden Leistungsstufe. Weitere Informationen siehe Ziffer 5.1.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:10:55.848Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Baustellenüberwachung – Invest-Container B16, Bauüberwachung zwischen Fulda und Bebra, Strecke 3600",
-    "auftraggeber": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174375-2026",
-    "cpvCodes": [
-      "71521000"
-    ],
-    "beschreibung": "Im Rahmen des Invest-Containers B16 Bebra-Fulda für die Oberbausanierung 2027 im Regionalbereich Mitte werden in einer 3-monatigen Totalsperrung vom 05.02. – 14.05.2027 auf der Strecke 3600 Frankfurt – Göttingen umfassende 1:1 Erneuerungen der Gleise und Weichen umgesetzt. Hinzu kommen im üblichen Rahmen Instandhaltungsarbeiten sowie die Sanierung/Neubau einer EÜ zwischen Bad-Hersfeld und Oberhaun (nicht Inhalt der hier ausgeschriebenen Leistung). Inhalt des hier gegenständlichen Vergabepakets sind die Bauüberwachungsarbeiten der Oberbauarbeiten für 35,1 km Gleiserneuerung und 39 Weichenerneuerungen sowie der zugehörigen Sicherungs- und bauaffinen Dienstleistungen, die im Zuge der Totalsperrung vom 05.02. – 14.05.2027 sowie in den für die Maßnahmen im Bf. Fulda separat genannten Sperrzeiten. Die Bauüberwachungsleistung beginnt in 06/26 mit der Vorbereitung/Planung der Ausführung der v.g. Arbeiten. In den Monaten 10 & 11/26 sollen die BE-Flächen bereits erstellt werden.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Bauarbeiten für Ausstellungsgebäude – TPA.PHY.612.002 Ausstellungsbau Alles in Maßen",
-    "auftraggeber": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174383-2026",
-    "cpvCodes": [
-      "45212310",
-      "45212313"
-    ],
-    "beschreibung": "Der Sammlungsbau wird im Rahmen der Sanierung brandschutztechnisch ertüchtigt, die Infrastruktur sowie die technische Gebäudeausrüstung saniert bzw. weitgehend erneuert. Die Ausstellungen werden inhaltlich, medial und gestalterisch neu gestaltet oder aktualisiert und entsprechend den neu entwickelten Ausstellungsclustern im Sammlungsbau angeordnet. Sanierung Sammlungsbau: TPA.PHY.612.002 Ausstellungsbau Alles in Maßen",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Bauarbeiten – MPI für Astronomie: Erweiterung Institutsgebäude: Malerarbeiten",
-    "auftraggeber": "Max-Planck-Gesellschaft Abt.III",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174396-2026",
-    "cpvCodes": [
-      "45000000",
-      "45410000",
-      "45442110"
-    ],
-    "beschreibung": "MPI für Astronomie: Malerarbeiten: Malerarbeiten - Wandflächen inkl. Innenputzarbeiten Beschichtung von Stahlbetonwänden SB1, Treppenraum: Vorarbeiten, Grundputz und Putz für Q2, Anstrich: ca.230 m2 Beschichtung von Stahlbetonwänden SB1, Technikräume: Vorarbeiten, Grundputz und Putz für Q2, Anstrich: ca.380 m2 Beschichtung von Stahlbetonwänden SB1, Flur, Büros: Vorarbeiten, Grundputz und Putz für Q3, Anstrich: ca.460 m2 Beschichtung MW-Wände (KS) mehrlagige Spachtelung Q3 und Anstrich, UG: ca.550 m2 Beschichtung GK-Wandflächen Q2: Spachtelung auf Q3 + Anstrich: ca.2.300 m2 Beschichtung TB-Wandflächen, zementgebunden Q2: Spachtelung auf Q3 + Anstrich: ca.770 m2 Malerarbeiten - Deckenflächen inkl.Fleck-Spachtelung Beschichtung von Stahlbetondecken, ink. Vorarbeiten, Fleckspachteln und Dispersions-Anstrich: ca.1.950 m2 Beschichtung von GK-Decken, ink. Vorarbeiten, Fleckspachteln und Dispersions-Anstrich: ca.70 m2 Schutzmassnahmen Schutzabdeckung an Bodenflächen inkl. Treppen: ca.1.650 m2 Schutzabdeckung an Fensterflächen: ca.100 m2 Schutzabdeckung an Wandflächen: ca.300 m2 Mit der Ausführung ist zu beginnen: innerhalb von 12 Werktagen nach Zugang der Aufforderung durch den AG (§5Abs. 2 Satz 2 VOB/B); die Aufforderung wird Ihnen vorauss. bis zum 13.04.2026 zugehen. Die Leistung ist zu vollenden (abnahmereif fertig zu stellen): innerhalb von 110 Werktagen nach vorstehend angegebener Frist für den Ausführungsbeginn. (5 Arbeitstage/ Woche) Besonderer Hinweis betr. Bieterfragen aufgrund besonderer äußerer Ereignisse (z.B. Sars-COV-2 oder Ukraine Krieg): Bitte berücksichtigen Sie bei Ihrer Angebotserstellung etwaige mögliche bzw. erkennbare Beeinträchtigungen, z.B. in Bezug auf die Verfügbarkeit von Materialien und Produkten, Arbeitskräften, eine evtl. verzögerte Beibringung von geforderten Nachweisen, Auswirkungen auf etwaige Nachunternehmer etc. Fragen, die in diesem Zusammenhang auftreten, bitten wir rechtzeitig vor Angebotsfrist über das Nachrichtensystem der eVergabe zu stellen.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Bauarbeiten für Rohrleitungen – Projekt Refill: Querung 3 Deutsche Bahn",
-    "auftraggeber": "Netz Leipzig GmbH",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174403-2026",
-    "cpvCodes": [
-      "45231100"
-    ],
-    "beschreibung": "Beschreibung Projekt Refill 1. Die Stadtwerke Leipzig GmbH (nachfolgend „Stadtwerke Leipzig)“ ist der kommunale Versorger für die Strom-, Gas- und Wärmeversorgung in Leipzig. Die Stadtwerke Leipzig betreiben in Leipzig mehrere Heizkraftwerke, u.a. das GUD-Heizkraftwerk Nord, das HKW Süd, mehrere Blockheizkraftwerke und Heizwerke, die das Leipziger Fernwärmenetz mit Wärme versorgen. Die Stadtwerke Leipzig versorgen rund ein Drittel der Einwohner Leipzigs über das ca. 500 Kilometerlange Fernwärmeverbundnetz mit Wärme. Das hierfür erforderliche Strom-, Gas- und Fernwärmenetz wird von der Auftraggeberin (einer Tochtergesellschaft der Stadtwerke Leipzig) betrieben. Aufgrund der Bestrebungen in Leipzig, bis 2040 klimaneutral zu sein, sollen die vorhandenen Infrastrukturen neu gedacht werden. Ein erster Schritt dazu ist der Ausstieg aus der Kohle und dem damit verbundenen Bezugsende von Wärme aus dem Kraftwerk Lippendorf. Zur Kompensation dieser Wärmemengen kann neben der Eigenerzeugung in neuen Kraftwerken ein signifikanter Anteil der Fernwärme aus bisher nicht genutzter industrieller Abwärme stammen. Die Industrieanlagen der TotalEnergies Raffinerie Mitteldeutschland (nachfolgend: „TRM“) beherbergen großes Potenzial für eine Nutzung industrieller Abwärme. Deshalb soll eine Einspeisung dieser Abwärme in das Fernwärmenetz der Stadt Leipzig erfolgen. Diesem Ziel dient die Errichtung einer Fernwärmetrasse samt erforderlicher technischer Anlagen von Leuna nach Kulkwitz, insgesamt als \"Projekt\" bezeichnet. 2. Damit das Projekt realisiert werden kann, ist eine öffentlich-rechtliche Vorhabengenehmigung in Gestalt eines Planfeststellungsbeschlusses erforderlich. 3. Die Auftraggeberin wurde von der Stadtwerke Leipzig GmbH mit der Realisierung des Projekts beauftragt.",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Bauarbeiten für Militärgebäude und -einrichtungen – Nasszellen",
-    "auftraggeber": "Thüringer Landesamt für Bau und Verkehr",
-    "frist": "",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174405-2026",
-    "cpvCodes": [
-      "45216200"
-    ],
-    "beschreibung": "Neubau Unterkunftsgebäude Geb. 117 und Geb. 118 in der Liegenschaft Werratal-Kaserne Bad Salzungen, Hersfelder Straße in 36433 Bad Salzungen",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Dienstleistungen von Architekturbüros – Stadtteilarchitekt",
-    "auftraggeber": "Stadt Monschau",
-    "frist": "2026-04-03T23:59:59+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174406-2026",
-    "cpvCodes": [
-      "71200000"
-    ],
-    "beschreibung": "Leistungen eines Stadtteilarchitekten zur fachlichen Beratung und Mobilisierung von Immobilieneigentümern und Informationsvermittlung",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
-  },
-  {
-    "portal": "TED",
-    "suchbegriff": "Strategie",
-    "titel": "Deutschland – Metallbauarbeiten – Metallbauarbeiten, Fenster, Türen, Tonnenhalle",
-    "auftraggeber": "Landeshauptstadt München, Baureferat",
-    "frist": "2026-04-07T10:00:00+02:00",
-    "link": "https://ted.europa.eu/de/notice/-/detail/174408-2026",
-    "cpvCodes": [
-      "45262670",
-      "45321000",
-      "44221100",
-      "44221200",
-      "44221000",
-      "44115900"
-    ],
-    "beschreibung": "Generalinstandsetzung und Umbau der Jutier- und Tonnenhalle; Gewerk: Metallbauarbeiten, Fenster, Türen, Tonnenhalle",
-    "veroeffentlichungsdatum": "2026-03-13",
-    "organisationLand": "Deutschland",
-    "scrapedAt": "2026-04-13T08:11:00.613Z"
+    "scrapedAt": "2026-04-20T08:14:48.681Z"
   }
 ];
