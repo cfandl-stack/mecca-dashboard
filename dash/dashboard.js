@@ -283,21 +283,14 @@ function cpvLabel(record) {
   return values.length ? escapeHtml(values.join("; ")) : '<span class="no-frist">-</span>';
 }
 
-function descriptionLabel(record) {
+function titleDescriptionLabel(record) {
   const description = String(record.beschreibung || "").trim();
-  const reviewReason = String(record.reviewReason || "").trim();
   const parts = [];
 
   if (description) {
     const shortDescription =
       description.length > 190 ? `${description.slice(0, 190)}...` : description;
     parts.push(`<div class="description-snippet">${escapeHtml(shortDescription)}</div>`);
-  }
-
-  parts.push(`<div class="review-meta">${reviewBadge(record)}</div>`);
-
-  if (reviewReason) {
-    parts.push(`<div class="small-meta">${escapeHtml(prettifyGermanText(reviewReason))}</div>`);
   }
 
   if (record._isHidden) {
@@ -308,6 +301,19 @@ function descriptionLabel(record) {
       .filter(Boolean)
       .join(" ");
     parts.push(`<div class="small-meta hidden-meta">${escapeHtml(hiddenMeta || "Ausgeblendet")}</div>`);
+  }
+
+  return parts.join("");
+}
+
+function reviewLabelCell(record) {
+  const reviewReason = String(record.reviewReason || "").trim();
+  const parts = [`<div class="review-meta">${reviewBadge(record)}</div>`];
+
+  if (reviewReason) {
+    parts.push(
+      `<div class="small-meta review-reason">${escapeHtml(prettifyGermanText(reviewReason))}</div>`
+    );
   }
 
   return parts.join("");
@@ -627,6 +633,13 @@ function getFiltered() {
 }
 
 function getSorted(records) {
+  const reviewRank = {
+    "passt gut": 0,
+    pruefen: 1,
+    ungeprueft: 2,
+    "eher unpassend": 3
+  };
+
   return [...records].sort((left, right) => {
     let leftValue = left[sortCol] || "";
     let rightValue = right[sortCol] || "";
@@ -645,6 +658,15 @@ function getSorted(records) {
       return (leftDate - rightDate) * sortDir;
     }
 
+    if (sortCol === "reviewLabel") {
+      const leftRank = reviewRank[leftValue] ?? Number.MAX_SAFE_INTEGER;
+      const rightRank = reviewRank[rightValue] ?? Number.MAX_SAFE_INTEGER;
+
+      if (leftRank !== rightRank) {
+        return (leftRank - rightRank) * sortDir;
+      }
+    }
+
     return String(leftValue).localeCompare(String(rightValue)) * sortDir;
   });
 }
@@ -653,7 +675,7 @@ function renderTable(records) {
   const tbody = document.getElementById("table-body");
 
   if (!records.length) {
-    tbody.innerHTML = '<tr><td colspan="9" class="no-data">Keine Einträge gefunden.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="10" class="no-data">Keine Einträge gefunden.</td></tr>';
     document.getElementById("result-count").textContent = "0 Einträge";
     return;
   }
@@ -664,7 +686,8 @@ function renderTable(records) {
         <tr class="${record._isHidden ? "row-hidden" : ""}">
           <td>${portalBadge(record.portal)}</td>
           <td>${suchBadge(record.suchbegriff)}</td>
-          <td class="titel-cell"><strong>${escapeHtml(record.titel)}</strong>${descriptionLabel(record)}</td>
+          <td class="review-cell">${reviewLabelCell(record)}</td>
+          <td class="titel-cell"><strong>${escapeHtml(record.titel)}</strong>${titleDescriptionLabel(record)}</td>
           <td class="ag-cell">${organizationLabel(record)}</td>
           <td class="date-cell">${publicationLabel(record)}</td>
           <td style="white-space:nowrap">${fristLabel(record.frist)}</td>
