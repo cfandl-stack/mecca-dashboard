@@ -1,8 +1,12 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const os = require("node:os");
+const path = require("node:path");
 const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
 const { buildPrompt, extractJsonObject } = require("../src/review");
 const { fetchHiddenRecordKeys } = require("../src/integrations/supabase");
+const { loadEnvironmentFiles, parseDotEnv } = require("../src/core/env");
 
 const {
   buildTedCountryFilter,
@@ -196,6 +200,58 @@ test("USP Detail-HTML liefert CPV und Beschreibung", () => {
 
   assert.deepEqual(detail.cpvCodes, ["79419000-4"]);
   assert.match(detail.beschreibung, /Strategie und Evaluation/);
+});
+
+test(".env Parser liest Kommentare, Quotes und einfache Key-Value-Paare", () => {
+  const parsed = parseDotEnv(`
+    # Kommentar
+    LLM_PROVIDER=minimax
+    LLM_MODEL="MiniMax-M2.5"
+    LLM_ENABLED='true'
+  `);
+
+  assert.deepEqual(parsed, {
+    LLM_PROVIDER: "minimax",
+    LLM_MODEL: "MiniMax-M2.5",
+    LLM_ENABLED: "true"
+  });
+});
+
+test("lokale Environment-Dateien werden geladen ohne bestehende Variablen zu ueberschreiben", () => {
+  const tempDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "mecca-env-test-"));
+  const originalProvider = process.env.LLM_PROVIDER;
+  const originalModel = process.env.LLM_MODEL;
+
+  fs.writeFileSync(
+    path.join(tempDirectory, ".env.local"),
+    "LLM_PROVIDER=minimax\nLLM_MODEL=MiniMax-M2.5\n",
+    "utf8"
+  );
+
+  process.env.LLM_PROVIDER = "manual-provider";
+  delete process.env.LLM_MODEL;
+
+  try {
+    const loadedFiles = loadEnvironmentFiles({ cwd: tempDirectory });
+
+    assert.equal(loadedFiles.length, 1);
+    assert.equal(process.env.LLM_PROVIDER, "manual-provider");
+    assert.equal(process.env.LLM_MODEL, "MiniMax-M2.5");
+  } finally {
+    if (originalProvider === undefined) {
+      delete process.env.LLM_PROVIDER;
+    } else {
+      process.env.LLM_PROVIDER = originalProvider;
+    }
+
+    if (originalModel === undefined) {
+      delete process.env.LLM_MODEL;
+    } else {
+      process.env.LLM_MODEL = originalModel;
+    }
+
+    fs.rmSync(tempDirectory, { recursive: true, force: true });
+  }
 });
 
 test("Supabase-Ausfall blockiert den Feed nicht", async () => {

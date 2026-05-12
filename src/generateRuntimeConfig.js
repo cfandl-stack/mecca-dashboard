@@ -1,5 +1,8 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { loadEnvironmentFiles } = require("./core/env");
+
+loadEnvironmentFiles();
 
 function normalizeValue(value) {
   return String(value || "").trim();

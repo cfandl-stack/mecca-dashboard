@@ -2,6 +2,7 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const { execFile } = require("node:child_process");
 const { promisify } = require("node:util");
+const { loadEnvironmentFiles } = require("./core/env");
 
 const { chromium } = require("playwright");
 
@@ -11,6 +12,8 @@ const { createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, strip
 const { fetchHiddenRecordKeys } = require("./integrations/supabase");
 const { enrichRecordsWithReview } = require("./review");
 const { buildTedQuery } = require("./sources/ted");
+
+loadEnvironmentFiles();
 
 const CSV_HEADERS = [
   "recordKey",
