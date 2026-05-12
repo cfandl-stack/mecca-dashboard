@@ -1,5 +1,7 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { execFile } = require("node:child_process");
+const { promisify } = require("node:util");
 
 const { chromium } = require("playwright");
 
@@ -53,6 +55,7 @@ const COUNTRY_NAMES = {
 
 const USP_DEFAULT_PAGE_SIZE = 25;
 const USP_DEFAULT_COUNTRY = "Ã–sterreich";
+const execFileAsync = promisify(execFile);
 
 function mergeConfig(baseConfig, overrideConfig = {}) {
   const merged = { ...baseConfig };
@@ -435,24 +438,71 @@ function extractUspDetailFromHtml(html) {
   };
 }
 
+function getErrorMessage(error) {
+  if (!error) {
+    return "Unbekannter Fehler";
+  }
+
+  const message = normalizeWhitespace(error.message || error);
+  const causeMessage =
+    error.cause && typeof error.cause === "object"
+      ? normalizeWhitespace(error.cause.message || "")
+      : "";
+
+  return causeMessage && !message.includes(causeMessage)
+    ? `${message} (cause: ${causeMessage})`
+    : message;
+}
+
+async function fetchWithCurl(url, config, acceptHeader) {
+  const curlCommand = process.platform === "win32" ? "curl.exe" : "curl";
+  const args = [
+    "-L",
+    "--fail",
+    "--silent",
+    "--show-error",
+    "--max-time",
+    String(Math.max(5, Math.ceil(config.runtime.requestTimeoutMs / 1000))),
+    "-H",
+    `Accept: ${acceptHeader}`,
+    "-A",
+    config.runtime.userAgent
+  ];
+
+  if (process.platform === "win32") {
+    args.push("--ssl-no-revoke");
+  }
+
+  args.push(String(url));
+
+  const { stdout } = await execFileAsync(curlCommand, args, {
+    maxBuffer: 10 * 1024 * 1024
+  });
+  return stdout;
+}
+
 async function fetchUspJson(url, config) {
   const controller = new AbortController();
   const timeoutHandle = setTimeout(() => controller.abort(), config.runtime.requestTimeoutMs);
 
   try {
-    const response = await fetch(url, {
-      headers: {
-        accept: "application/json",
-        "user-agent": config.runtime.userAgent
-      },
-      signal: controller.signal
-    });
+    try {
+      const response = await fetch(url, {
+        headers: {
+          accept: "application/json",
+          "user-agent": config.runtime.userAgent
+        },
+        signal: controller.signal
+      });
 
-    if (!response.ok) {
-      throw new Error(`USP API status ${response.status}`);
+      if (!response.ok) {
+        throw new Error(`USP API status ${response.status}`);
+      }
+
+      return response.json();
+    } catch {
+      return JSON.parse(await fetchWithCurl(url, config, "application/json"));
     }
-
-    return response.json();
   } finally {
     clearTimeout(timeoutHandle);
   }
@@ -463,19 +513,23 @@ async function fetchUspText(url, config) {
   const timeoutHandle = setTimeout(() => controller.abort(), config.runtime.requestTimeoutMs);
 
   try {
-    const response = await fetch(url, {
-      headers: {
-        accept: "text/html,application/xhtml+xml",
-        "user-agent": config.runtime.userAgent
-      },
-      signal: controller.signal
-    });
+    try {
+      const response = await fetch(url, {
+        headers: {
+          accept: "text/html,application/xhtml+xml",
+          "user-agent": config.runtime.userAgent
+        },
+        signal: controller.signal
+      });
 
-    if (!response.ok) {
-      throw new Error(`USP Detail status ${response.status}`);
+      if (!response.ok) {
+        throw new Error(`USP Detail status ${response.status}`);
+      }
+
+      return response.text();
+    } catch {
+      return fetchWithCurl(url, config, "text/html,application/xhtml+xml");
     }
-
-    return response.text();
   } finally {
     clearTimeout(timeoutHandle);
   }
@@ -634,7 +688,7 @@ async function scrapeUsp(config, logger, cutoffDate) {
         const payload = await fetchUspJson(apiUrl, config);
         rows = Array.isArray(payload.data) ? payload.data : [];
       } catch (error) {
-        logger.warn("USP Suche Ã¼bersprungen", { searchTerm, message: error.message });
+        logger.warn("USP Suche Ã¼bersprungen", { searchTerm, message: getErrorMessage(error) });
         break;
       }
 
@@ -663,7 +717,7 @@ async function scrapeUsp(config, logger, cutoffDate) {
             logger.warn("USP Detail konnte nicht geladen werden", {
               searchTerm,
               link: normalizedRow.link,
-              message: error.message
+              message: getErrorMessage(error)
             });
           }
         }
