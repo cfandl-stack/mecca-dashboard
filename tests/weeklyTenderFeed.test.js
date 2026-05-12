@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
 const { buildPrompt, extractJsonObject } = require("../src/review");
+const { fetchHiddenRecordKeys } = require("../src/integrations/supabase");
 
 const {
   buildTedCountryFilter,
@@ -117,6 +118,39 @@ test("Feed kann abgelaufene und manuell ausgeblendete Datensaetze herausfiltern"
 
   const hidden = filterHiddenRecords(visible, new Set(["https://example.test/a"]));
   assert.equal(hidden.length, 0);
+});
+
+test("Supabase-Ausfall blockiert den Feed nicht", async () => {
+  const originalFetch = global.fetch;
+  const originalUrl = process.env.SUPABASE_URL;
+  const originalPublicUrl = process.env.PUBLIC_SUPABASE_URL;
+  const originalKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const warnings = [];
+
+  process.env.SUPABASE_URL = "https://example.supabase.co";
+  process.env.PUBLIC_SUPABASE_URL = "";
+  process.env.SUPABASE_SERVICE_ROLE_KEY = "test-key";
+  global.fetch = async () => {
+    throw new TypeError("fetch failed");
+  };
+
+  try {
+    const keys = await fetchHiddenRecordKeys({
+      warn(message, context) {
+        warnings.push({ message, context });
+      }
+    });
+
+    assert.equal(keys.size, 0);
+    assert.equal(warnings.length, 1);
+    assert.match(warnings[0].message, /konnten nicht geladen werden/i);
+    assert.match(warnings[0].context.message, /fetch failed/i);
+  } finally {
+    global.fetch = originalFetch;
+    process.env.SUPABASE_URL = originalUrl;
+    process.env.PUBLIC_SUPABASE_URL = originalPublicUrl;
+    process.env.SUPABASE_SERVICE_ROLE_KEY = originalKey;
+  }
 });
 
 test("MiniMax Adapter kann String- und Array-Content lesen", () => {

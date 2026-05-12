@@ -51,12 +51,19 @@ async function fetchHiddenRecords(logger) {
 }
 
 async function fetchHiddenRecordKeys(logger) {
-  const rows = await fetchHiddenRecords(logger);
-  return new Set(
-    rows
-      .map((row) => String(row.record_key || "").trim())
-      .filter(Boolean)
-  );
+  try {
+    const rows = await fetchHiddenRecords(logger);
+    return new Set(
+      rows
+        .map((row) => String(row.record_key || "").trim())
+        .filter(Boolean)
+    );
+  } catch (error) {
+    logger?.warn("Supabase Hidden Records konnten nicht geladen werden", {
+      message: error instanceof Error ? error.message : String(error)
+    });
+    return new Set();
+  }
 }
 
 module.exports = {
