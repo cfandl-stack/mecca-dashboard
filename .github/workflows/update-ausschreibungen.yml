@@ -1,8 +1,9 @@
 name: Update Ausschreibungen
 
 on:
-  schedule:
-    - cron: "0 6 * * 1"
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
@@ -23,17 +24,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+        if: github.event_name == 'workflow_dispatch'
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+        if: github.event_name == 'workflow_dispatch'
       - run: npx playwright install --with-deps chromium
+        if: github.event_name == 'workflow_dispatch'
       - run: npm run generate-runtime-config
+        if: github.event_name == 'workflow_dispatch'
         env:
           PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
           PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
           SUPABASE_HIDDEN_RECORDS_TABLE: ${{ vars.SUPABASE_HIDDEN_RECORDS_TABLE }}
       - run: npm run weekly-feed
+        if: github.event_name == 'workflow_dispatch'
         env:
           SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -45,6 +51,7 @@ jobs:
           LLM_ENABLED: ${{ vars.LLM_ENABLED }}
           LLM_MAX_RECORDS: ${{ vars.LLM_MAX_RECORDS }}
       - name: Commit updated tender data
+        if: github.event_name == 'workflow_dispatch'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Ausschreibungen"
