@@ -7,12 +7,17 @@ const { fetchHiddenRecordKeys } = require("../src/integrations/supabase");
 const {
   buildTedCountryFilter,
   buildTedWeeklyQuery,
+  buildUspDetailUrl,
   countryLabel,
+  extractUspDeadlineFromApiRow,
+  extractUspDetailFromHtml,
   filterExpiredRecords,
   filterHiddenRecords,
   formatCpvSearchTerm,
+  getUspApiUrl,
   isExpiredDeadline,
   normalizeFeedRecord,
+  normalizeUspApiRow,
   tedNoticeMatchesAllowedCountries,
   parseDate,
   toIsoDate
@@ -118,6 +123,79 @@ test("Feed kann abgelaufene und manuell ausgeblendete Datensaetze herausfiltern"
 
   const hidden = filterHiddenRecords(visible, new Set(["https://example.test/a"]));
   assert.equal(hidden.length, 0);
+});
+
+test("USP API URL und Detail-Links werden robust gebaut", () => {
+  const apiUrl = getUspApiUrl(
+    {
+      usp: {
+        url: "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist"
+      }
+    },
+    "Projektmanagement",
+    25,
+    5
+  );
+
+  assert.equal(
+    apiUrl.href,
+    "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/api/tenderlist?q=Projektmanagement&start=25&length=5"
+  );
+  assert.equal(
+    buildUspDetailUrl(
+      "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/",
+      "abc-123",
+      true
+    ),
+    "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/notice-detail?object=abc-123"
+  );
+});
+
+test("USP API-Zeilen werden in Feed-Records ueberfuehrt", () => {
+  const row = [
+    "Abruf aus Rahmenvereinbarung ITPMPE2021, Los 1, 4233873",
+    "Bundesrechenzentrum GmbH",
+    "2026-05-10",
+    null,
+    "a2c49245-23b2-46e1",
+    false,
+    null,
+    null
+  ];
+
+  const normalized = normalizeUspApiRow(
+    row,
+    "Projektmanagement",
+    {
+      usp: {
+        detailBaseUrl: "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/"
+      }
+    }
+  );
+
+  assert.equal(normalized.portal, "USP Bund");
+  assert.equal(normalized.suchbegriff, "Projektmanagement");
+  assert.equal(normalized.veroeffentlichungsdatum, "2026-05-10");
+  assert.equal(
+    normalized.link,
+    "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1"
+  );
+  assert.equal(extractUspDeadlineFromApiRow(row), "");
+});
+
+test("USP Detail-HTML liefert CPV und Beschreibung", () => {
+  const detail = extractUspDetailFromHtml(`
+    <html>
+      <body>
+        <h1>Machbarkeitsstudie</h1>
+        <p>Beschreibung: Unterstützung bei Strategie und Evaluation für Regionalentwicklung.</p>
+        <div>CPV 79419000-4</div>
+      </body>
+    </html>
+  `);
+
+  assert.deepEqual(detail.cpvCodes, ["79419000-4"]);
+  assert.match(detail.beschreibung, /Strategie und Evaluation/);
 });
 
 test("Supabase-Ausfall blockiert den Feed nicht", async () => {

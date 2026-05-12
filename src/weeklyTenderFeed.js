@@ -5,7 +5,7 @@ const { chromium } = require("playwright");
 
 const { createLogger } = require("./core/logger");
 const { pickLocalizedText } = require("./core/normalize");
-const { absolutizeUrl, createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, toArray, unique } = require("./core/utils");
+const { createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, stripHtmlTags, toArray, unique } = require("./core/utils");
 const { fetchHiddenRecordKeys } = require("./integrations/supabase");
 const { enrichRecordsWithReview } = require("./review");
 const { buildTedQuery } = require("./sources/ted");
@@ -50,6 +50,9 @@ const COUNTRY_NAMES = {
   GBR: "Vereinigtes Königreich",
   IRL: "Irland"
 };
+
+const USP_DEFAULT_PAGE_SIZE = 25;
+const USP_DEFAULT_COUNTRY = "Ã–sterreich";
 
 function mergeConfig(baseConfig, overrideConfig = {}) {
   const merged = { ...baseConfig };
@@ -345,6 +348,139 @@ function tedNoticeMatchesAllowedCountries(notice, allowedBuyerCountries = []) {
   return noticeCountries.some((country) => allowed.has(country));
 }
 
+function getUspApiUrl(config, searchTerm, start = 0, length = USP_DEFAULT_PAGE_SIZE) {
+  const apiBaseUrl =
+    normalizeWhitespace(config.usp.apiUrl) ||
+    String(config.usp.url || "").replace("/public/tenderlist", "/public/api/tenderlist");
+  const url = new URL(apiBaseUrl);
+  url.searchParams.set("q", searchTerm);
+  url.searchParams.set("start", String(start));
+  url.searchParams.set("length", String(length));
+  return url;
+}
+
+function buildUspDetailUrl(detailBaseUrl, objectId, isNotice = false) {
+  const normalizedObjectId = normalizeWhitespace(objectId);
+
+  if (!normalizedObjectId) {
+    return "";
+  }
+
+  return new URL(
+    `${isNotice ? "notice" : "tender"}-detail?object=${encodeURIComponent(normalizedObjectId)}`,
+    detailBaseUrl
+  ).href;
+}
+
+function extractUspDeadlineFromApiRow(row) {
+  const primaryDeadline = normalizeWhitespace(row?.[3]);
+  const offerDeadline = normalizeWhitespace(row?.[6]);
+  const participationDeadline = normalizeWhitespace(row?.[7]);
+
+  return (
+    [primaryDeadline, offerDeadline, participationDeadline].find((value) => parseDate(value)) ||
+    primaryDeadline ||
+    offerDeadline ||
+    participationDeadline
+  );
+}
+
+function normalizeUspApiRow(row, searchTerm, config) {
+  if (!Array.isArray(row)) {
+    return null;
+  }
+
+  const titel = normalizeWhitespace(row[0]);
+  if (!titel) {
+    return null;
+  }
+
+  return {
+    portal: "USP Bund",
+    suchbegriff: searchTerm,
+    titel,
+    auftraggeber: normalizeWhitespace(row[1]),
+    veroeffentlichungsdatum: normalizeWhitespace(row[2]),
+    frist: extractUspDeadlineFromApiRow(row),
+    link: buildUspDetailUrl(config.usp.detailBaseUrl, row[4], Boolean(row[5])),
+    beschreibung: ""
+  };
+}
+
+function extractUspDetailFromHtml(html) {
+  const bodyText = stripHtmlTags(
+    String(html || "")
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+  );
+  const cpvCodes = [...new Set(bodyText.match(/\b\d{8}(?:-\d)?\b/g) || [])];
+  const descriptionLabels = [
+    "Beschreibung",
+    "Kurzbeschreibung",
+    "Bezeichnung des Auftrags",
+    "Auftragsbezeichnung",
+    "Gegenstand"
+  ];
+  const description = descriptionLabels
+    .map((label) => {
+      const match = bodyText.match(new RegExp(`${label}[:\\s]+(.{20,700})`, "i"));
+      return normalizeWhitespace(match?.[1]);
+    })
+    .find(Boolean);
+
+  return {
+    cpvCodes,
+    beschreibung: description || "",
+    organisationLand: USP_DEFAULT_COUNTRY
+  };
+}
+
+async function fetchUspJson(url, config) {
+  const controller = new AbortController();
+  const timeoutHandle = setTimeout(() => controller.abort(), config.runtime.requestTimeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        accept: "application/json",
+        "user-agent": config.runtime.userAgent
+      },
+      signal: controller.signal
+    });
+
+    if (!response.ok) {
+      throw new Error(`USP API status ${response.status}`);
+    }
+
+    return response.json();
+  } finally {
+    clearTimeout(timeoutHandle);
+  }
+}
+
+async function fetchUspText(url, config) {
+  const controller = new AbortController();
+  const timeoutHandle = setTimeout(() => controller.abort(), config.runtime.requestTimeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        accept: "text/html,application/xhtml+xml",
+        "user-agent": config.runtime.userAgent
+      },
+      signal: controller.signal
+    });
+
+    if (!response.ok) {
+      throw new Error(`USP Detail status ${response.status}`);
+    }
+
+    return response.text();
+  } finally {
+    clearTimeout(timeoutHandle);
+  }
+}
+
 async function fetchTedPage(config, searchTerm, page, cutoffDate) {
   const maxRetries = config.runtime.tedMaxRetries || 3;
 
@@ -477,6 +613,89 @@ async function scrapeTed(config, logger, cutoffDate) {
   return records;
 }
 
+async function scrapeUsp(config, logger, cutoffDate) {
+  const records = [];
+  const seen = new Set();
+  let detailCount = 0;
+  const pageSize = config.usp.pageSize || USP_DEFAULT_PAGE_SIZE;
+
+  for (const searchTerm of config.searchTerms) {
+    logger.info("Weekly USP Suche", {
+      searchTerm,
+      searchUrl: `${config.usp.url}?q=${encodeURIComponent(searchTerm)}&loaded=true`
+    });
+
+    for (let pageNumber = 0; pageNumber < config.runtime.maxPagesPerSearch; pageNumber += 1) {
+      const start = pageNumber * pageSize;
+      const apiUrl = getUspApiUrl(config, searchTerm, start, pageSize);
+      let rows = [];
+
+      try {
+        const payload = await fetchUspJson(apiUrl, config);
+        rows = Array.isArray(payload.data) ? payload.data : [];
+      } catch (error) {
+        logger.warn("USP Suche Ã¼bersprungen", { searchTerm, message: error.message });
+        break;
+      }
+
+      if (rows.length === 0) {
+        break;
+      }
+
+      for (const row of rows) {
+        const normalizedRow = normalizeUspApiRow(row, searchTerm, config);
+        if (!normalizedRow) {
+          continue;
+        }
+
+        if (!isOnOrAfter(normalizedRow.veroeffentlichungsdatum, cutoffDate)) {
+          continue;
+        }
+
+        let detail = { cpvCodes: [], beschreibung: "", organisationLand: USP_DEFAULT_COUNTRY };
+
+        if (detailCount < config.runtime.maxDetailsPerPortal && normalizedRow.link) {
+          try {
+            const html = await fetchUspText(normalizedRow.link, config);
+            detail = extractUspDetailFromHtml(html);
+            detailCount += 1;
+          } catch (error) {
+            logger.warn("USP Detail konnte nicht geladen werden", {
+              searchTerm,
+              link: normalizedRow.link,
+              message: error.message
+            });
+          }
+        }
+
+        const record = normalizeFeedRecord({
+          ...normalizedRow,
+          cpvCodes: detail.cpvCodes,
+          beschreibung: detail.beschreibung || normalizedRow.beschreibung,
+          organisationLand: detail.organisationLand
+        });
+
+        if (seen.has(record._recordKey)) {
+          continue;
+        }
+
+        seen.add(record._recordKey);
+        records.push(record);
+
+        if (records.length >= config.runtime.maxRecordsPerPortal) {
+          return records;
+        }
+      }
+
+      if (rows.length < pageSize) {
+        break;
+      }
+    }
+  }
+
+  return records;
+}
+
 async function createBrowserContext(config) {
   const browser = await chromium.launch({
     headless: config.runtime.headless
@@ -539,7 +758,7 @@ async function extractUspDetail(page, url, config) {
   }
 }
 
-async function scrapeUsp(config, logger, cutoffDate) {
+async function scrapeUspOld(config, logger, cutoffDate) {
   const { browser, context } = await createBrowserContext(config);
   const listPage = await context.newPage();
   const detailPage = await context.newPage();
@@ -767,12 +986,17 @@ if (require.main === module) {
 }
 
 module.exports = {
+  buildUspDetailUrl,
+  extractUspDeadlineFromApiRow,
+  extractUspDetailFromHtml,
   calculateCutoffDate,
   buildTedCountryFilter,
   buildTedWeeklyQuery,
   countryLabel,
   formatCpvSearchTerm,
+  getUspApiUrl,
   normalizeFeedRecord,
+  normalizeUspApiRow,
   normalizeCpvCode,
   tedNoticeMatchesAllowedCountries,
   parseDate,
