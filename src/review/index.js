@@ -1,4 +1,4 @@
-const { normalizeWhitespace } = require("../core/utils");
+const { normalizeWhitespace, sleep } = require("../core/utils");
 const { createMinimaxReview, isMinimaxConfigured } = require("./providers/minimax");
 
 const REVIEW_LABELS = new Set(["passt gut", "pruefen", "eher unpassend", "ungeprueft"]);
@@ -85,8 +85,29 @@ function getReviewRuntimeConfig() {
     enabled: String(process.env.LLM_ENABLED || "true").trim().toLowerCase() !== "false",
     provider: String(process.env.LLM_PROVIDER || "minimax").trim().toLowerCase(),
     timeoutMs: Number(process.env.LLM_TIMEOUT_MS || 30000),
-    maxRecords: Number(process.env.LLM_MAX_RECORDS || 0)
+    maxRecords: Number(process.env.LLM_MAX_RECORDS || 0),
+    retryCount: Number(process.env.LLM_RETRY_COUNT || 4),
+    retryDelayMs: Number(process.env.LLM_RETRY_DELAY_MS || 5000),
+    interRecordDelayMs: Number(process.env.LLM_INTER_RECORD_DELAY_MS || 750)
   };
+}
+
+function isRetryableReviewError(error) {
+  if (!error) {
+    return false;
+  }
+
+  if (error.retryable) {
+    return true;
+  }
+
+  const message = normalizeWhitespace(error.message || "");
+  return /status 429/i.test(message) || /baseStatusCode":2062/i.test(message);
+}
+
+function retryDelayForAttempt(runtimeConfig, attempt) {
+  const baseDelay = Math.max(0, runtimeConfig.retryDelayMs);
+  return baseDelay * Math.max(1, attempt);
 }
 
 function summarizeRecord(record) {
@@ -429,16 +450,36 @@ async function requestReview(record, logger) {
       };
     }
 
-    const controller = new AbortController();
-    const timeoutHandle = setTimeout(() => controller.abort(), runtimeConfig.timeoutMs);
+    const prompt = buildPrompt(record);
 
-    try {
-      const prompt = buildPrompt(record);
-      const review = await createMinimaxReview(prompt, { signal: controller.signal });
-      const parsed = extractJsonObject(review.rawContent, record);
-      return normalizeReviewPayload(parsed, review.provider, review.model);
-    } finally {
-      clearTimeout(timeoutHandle);
+    for (let attempt = 1; attempt <= Math.max(1, runtimeConfig.retryCount); attempt += 1) {
+      const controller = new AbortController();
+      const timeoutHandle = setTimeout(() => controller.abort(), runtimeConfig.timeoutMs);
+
+      try {
+        const review = await createMinimaxReview(prompt, { signal: controller.signal });
+        const parsed = extractJsonObject(review.rawContent, record);
+        return normalizeReviewPayload(parsed, review.provider, review.model);
+      } catch (error) {
+        const retryable = isRetryableReviewError(error);
+        const hasRetriesLeft = attempt < Math.max(1, runtimeConfig.retryCount);
+
+        if (!retryable || !hasRetriesLeft) {
+          throw error;
+        }
+
+        const delayMs = retryDelayForAttempt(runtimeConfig, attempt);
+        logger?.warn("LLM Review Retry geplant", {
+          recordKey: record._recordKey || record.recordKey || record.link || record.titel,
+          attempt,
+          nextAttempt: attempt + 1,
+          delayMs,
+          message: error.message
+        });
+        await sleep(delayMs);
+      } finally {
+        clearTimeout(timeoutHandle);
+      }
     }
   }
 
@@ -514,6 +555,13 @@ async function enrichRecordsWithReview(records, logger) {
         reviewModel: "",
         reviewedAt: ""
       });
+    }
+
+    if (
+      runtimeConfig.interRecordDelayMs > 0 &&
+      index < Math.min(maxRecords, records.length) - 1
+    ) {
+      await sleep(runtimeConfig.interRecordDelayMs);
     }
   }
 

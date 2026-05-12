@@ -1,6 +1,12 @@
 const DEFAULT_MINIMAX_BASE_URL = "https://api.minimax.io";
 const DEFAULT_MINIMAX_MODEL = "MiniMax-M2.5";
 
+function createRetryableMinimaxError(message) {
+  const error = new Error(message);
+  error.retryable = true;
+  return error;
+}
+
 function normalizeBaseUrl(value) {
   return String(value || "").trim().replace(/\/+$/, "");
 }
@@ -123,7 +129,13 @@ async function createMinimaxReview(prompt, options = {}) {
   });
 
   if (!response.ok) {
-    throw new Error(`MiniMax request failed with status ${response.status}`);
+    const message = `MiniMax request failed with status ${response.status}`;
+
+    if (response.status === 429 || response.status >= 500) {
+      throw createRetryableMinimaxError(message);
+    }
+
+    throw new Error(message);
   }
 
   const payload = await response.json();
@@ -131,9 +143,13 @@ async function createMinimaxReview(prompt, options = {}) {
 
   if (!content) {
     const summary = summarizePayload(payload);
-    throw new Error(
-      `MiniMax response enthaelt keinen Inhalt (${JSON.stringify(summary)})`
-    );
+    const message = `MiniMax response enthaelt keinen Inhalt (${JSON.stringify(summary)})`;
+
+    if (summary.baseStatusCode === 2062) {
+      throw createRetryableMinimaxError(message);
+    }
+
+    throw new Error(message);
   }
 
   return {
