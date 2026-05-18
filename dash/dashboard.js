@@ -1,4 +1,4 @@
-﻿const today = new Date();
+const today = new Date();
 today.setHours(0, 0, 0, 0);
 
 let sortCol = "frist";
@@ -729,9 +729,9 @@ function registerSorting() {
       }
 
       document.querySelectorAll("thead th .sort-icon").forEach((icon) => {
-        icon.textContent = "â†•";
+        icon.textContent = "\u2195";
       });
-      header.querySelector(".sort-icon").textContent = sortDir === 1 ? "â†‘" : "â†“";
+      header.querySelector(".sort-icon").textContent = sortDir === 1 ? "\u2191" : "\u2193";
       updateTable();
     });
   });
