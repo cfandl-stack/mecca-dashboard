@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
@@ -206,7 +206,7 @@
     }
     .admin-summary::-webkit-details-marker { display: none; }
     .admin-summary::after {
-      content: "▾";
+      content: "â–¾";
       font-size: .95rem;
       color: var(--text-light);
       transition: transform .15s ease;
@@ -351,8 +351,6 @@
     tbody tr { border-bottom: 1px solid var(--border); }
     tbody tr:hover { background: var(--green-light); }
     tbody td { padding: 10px 13px; vertical-align: top; color: var(--text); }
-    .row-hidden { background: rgba(192,57,43,.05); }
-
     .badge {
       display: inline-block;
       padding: 2px 9px;
@@ -453,27 +451,6 @@
       </div>
     </div>
 
-    <details class="admin-card" id="admin-card">
-      <summary class="admin-summary">
-        <div class="admin-title">Ausschlüsse verwalten</div>
-        <div class="admin-status" id="auth-status">Nicht angemeldet</div>
-      </summary>
-      <div class="admin-panel">
-        <div class="admin-login" id="admin-login">
-          <input type="email" id="auth-email" placeholder="E-Mail für Magic Link" />
-          <button class="admin-btn" id="auth-send-link">Anmeldelink senden</button>
-        </div>
-        <div class="admin-actions" id="admin-actions" hidden>
-          <label class="toggle-option">
-            <input type="checkbox" id="toggle-show-hidden" />
-            Ausgeblendete anzeigen
-          </label>
-          <button class="admin-btn secondary" id="auth-signout">Abmelden</button>
-        </div>
-        <div class="admin-note" id="admin-note"></div>
-      </div>
-    </details>
-
     <div class="filter-bar">
       <label>Portal</label>
       <select id="f-portal">
@@ -494,9 +471,9 @@
       <select id="f-review">
         <option value="">Alle</option>
         <option value="passt gut">Passt gut</option>
-        <option value="pruefen">Prüfen</option>
+        <option value="pruefen">PrÃ¼fen</option>
         <option value="eher unpassend">Eher unpassend</option>
-        <option value="ungeprueft">Ungeprüft</option>
+        <option value="ungeprueft">UngeprÃ¼ft</option>
       </select>
       <label>Suche</label>
       <input type="text" id="f-search" placeholder="Titel / Auftraggeber..." style="width:220px" />
@@ -505,9 +482,9 @@
         <div class="review-filter-pills" id="review-filter-pills">
           <button type="button" class="review-pill is-active" data-value="">Alle</button>
           <button type="button" class="review-pill" data-value="passt gut">Passt gut</button>
-          <button type="button" class="review-pill" data-value="pruefen">Prüfen</button>
+          <button type="button" class="review-pill" data-value="pruefen">PrÃ¼fen</button>
           <button type="button" class="review-pill" data-value="eher unpassend">Eher unpassend</button>
-          <button type="button" class="review-pill" data-value="ungeprueft">Ungeprüft</button>
+          <button type="button" class="review-pill" data-value="ungeprueft">UngeprÃ¼ft</button>
         </div>
       </div>
       <span id="result-count"></span>
@@ -522,11 +499,10 @@
             <th data-col="reviewLabel">KI <span class="sort-icon">&#8597;</span></th>
             <th data-col="titel">Titel / Beschreibung <span class="sort-icon">&#8597;</span></th>
             <th data-col="auftraggeber">Auftraggeber <span class="sort-icon">&#8597;</span></th>
-            <th data-col="veroeffentlichungsdatum">Veröffentlicht <span class="sort-icon">&#8597;</span></th>
+            <th data-col="veroeffentlichungsdatum">VerÃ¶ffentlicht <span class="sort-icon">&#8597;</span></th>
             <th data-col="frist">Frist <span class="sort-icon">&#8597;</span></th>
             <th data-col="cpvCodes">CPV <span class="sort-icon">&#8597;</span></th>
             <th>Link</th>
-            <th>Aktion</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
@@ -536,9 +512,9 @@
 
   <div class="footer">mecca &middot; Raumplanung &middot; Ausschreibungen &middot; automatisch aktualisiert</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="runtime-config.js"></script>
   <script src="data_embed.js"></script>
   <script src="dashboard.js"></script>
 </body>
 </html>
+
+

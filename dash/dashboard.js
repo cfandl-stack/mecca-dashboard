@@ -1,23 +1,10 @@
-const today = new Date();
+﻿const today = new Date();
 today.setHours(0, 0, 0, 0);
-
-const DASHBOARD_CONFIG = window.DASHBOARD_CONFIG || {};
-const SUPABASE_ENABLED = Boolean(
-  DASHBOARD_CONFIG.supabaseUrl &&
-  DASHBOARD_CONFIG.supabaseAnonKey &&
-  window.supabase &&
-  typeof window.supabase.createClient === "function"
-);
-const HIDDEN_RECORDS_TABLE = DASHBOARD_CONFIG.hiddenRecordsTable || "dashboard_hidden_records";
 
 let sortCol = "frist";
 let sortDir = 1;
 let portalChart = null;
 let fristChart = null;
-let supabaseClient = null;
-let currentSession = null;
-let hiddenRows = [];
-let hiddenRecordKeys = new Set();
 let dataRecords = [];
 
 function simpleHash(value) {
@@ -64,8 +51,6 @@ function normalizeRecord(record, extra = {}) {
         .split(";")
         .map((value) => value.trim())
         .filter(Boolean);
-  normalized._isHidden = Boolean(normalized._isHidden);
-
   return normalized;
 }
 
@@ -80,27 +65,27 @@ function escapeHtml(value) {
 
 function prettifyGermanText(value) {
   return String(value || "")
-    .replace(/\bFuer\b/g, "Für")
-    .replace(/\bfuer\b/g, "für")
-    .replace(/\bOeffnen\b/g, "Öffnen")
-    .replace(/\boeffnen\b/g, "öffnen")
-    .replace(/\bnoetig\b/g, "nötig")
-    .replace(/\bNoetig\b/g, "Nötig")
-    .replace(/\bEintraege\b/g, "Einträge")
-    .replace(/\beintraege\b/g, "einträge")
-    .replace(/\bVeroeffentlicht\b/g, "Veröffentlicht")
-    .replace(/\bVeroeffentlichung\b/g, "Veröffentlichung")
-    .replace(/\bveroeffentlicht\b/g, "veröffentlicht")
-    .replace(/\bveroeffentlichung\b/g, "veröffentlichung")
-    .replace(/\bPruefen\b/g, "Prüfen")
-    .replace(/\bpruefen\b/g, "prüfen")
-    .replace(/\bUngeprueft\b/g, "Ungeprüft")
-    .replace(/\bungeprueft\b/g, "ungeprüft")
-    .replace(/\bgeprueft\b/g, "geprüft")
-    .replace(/\bbestaetigen\b/g, "bestätigen")
-    .replace(/\bBestaetigen\b/g, "Bestätigen")
-    .replace(/\bEinschaetzung\b/g, "Einschätzung")
-    .replace(/\beinschaetzung\b/g, "einschätzung");
+    .replace(/\bFuer\b/g, "FÃ¼r")
+    .replace(/\bfuer\b/g, "fÃ¼r")
+    .replace(/\bOeffnen\b/g, "Ã–ffnen")
+    .replace(/\boeffnen\b/g, "Ã¶ffnen")
+    .replace(/\bnoetig\b/g, "nÃ¶tig")
+    .replace(/\bNoetig\b/g, "NÃ¶tig")
+    .replace(/\bEintraege\b/g, "EintrÃ¤ge")
+    .replace(/\beintraege\b/g, "eintrÃ¤ge")
+    .replace(/\bVeroeffentlicht\b/g, "VerÃ¶ffentlicht")
+    .replace(/\bVeroeffentlichung\b/g, "VerÃ¶ffentlichung")
+    .replace(/\bveroeffentlicht\b/g, "verÃ¶ffentlicht")
+    .replace(/\bveroeffentlichung\b/g, "verÃ¶ffentlichung")
+    .replace(/\bPruefen\b/g, "PrÃ¼fen")
+    .replace(/\bpruefen\b/g, "prÃ¼fen")
+    .replace(/\bUngeprueft\b/g, "UngeprÃ¼ft")
+    .replace(/\bungeprueft\b/g, "ungeprÃ¼ft")
+    .replace(/\bgeprueft\b/g, "geprÃ¼ft")
+    .replace(/\bbestaetigen\b/g, "bestÃ¤tigen")
+    .replace(/\bBestaetigen\b/g, "BestÃ¤tigen")
+    .replace(/\bEinschaetzung\b/g, "EinschÃ¤tzung")
+    .replace(/\beinschaetzung\b/g, "einschÃ¤tzung");
 }
 
 function parseFrist(value) {
@@ -161,17 +146,17 @@ function formatReviewLabel(label) {
   }
 
   if (label === "pruefen") {
-    return "Prüfen";
+    return "PrÃ¼fen";
   }
 
   if (label === "eher unpassend") {
     return "Eher unpassend";
   }
 
-  return "Ungeprüft";
+  return "UngeprÃ¼ft";
 }
 
-function updateReviewFilterPills(records = getVisibleBaseRecords()) {
+function updateReviewFilterPills(records = dataRecords) {
   const currentValue = document.getElementById("f-review").value;
   const counts = {
     "": records.length,
@@ -275,7 +260,7 @@ function buildLink(record) {
     }
   }
 
-  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Öffnen</a>`;
+  return `<a class="link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener">Ã–ffnen</a>`;
 }
 
 function cpvLabel(record) {
@@ -293,15 +278,6 @@ function titleDescriptionLabel(record) {
     parts.push(`<div class="description-snippet">${escapeHtml(shortDescription)}</div>`);
   }
 
-  if (record._isHidden) {
-    const hiddenMeta = [
-      record.hiddenAt ? `Ausgeblendet: ${record.hiddenAt.slice(0, 10)}` : "",
-      record.hiddenBy ? `von ${record.hiddenBy}` : ""
-    ]
-      .filter(Boolean)
-      .join(" ");
-    parts.push(`<div class="small-meta hidden-meta">${escapeHtml(hiddenMeta || "Ausgeblendet")}</div>`);
-  }
 
   return parts.join("");
 }
@@ -332,60 +308,6 @@ function publicationLabel(record) {
     : '<span class="no-frist">-</span>';
 }
 
-function canManageHiddenRecords() {
-  return Boolean(SUPABASE_ENABLED && currentSession?.user);
-}
-
-function actionButton(record) {
-  if (!SUPABASE_ENABLED) {
-    return '<span class="action-hint">Setup ausstehend</span>';
-  }
-
-  if (record._isHidden) {
-    if (!canManageHiddenRecords()) {
-      return '<span class="action-hint">Login nötig</span>';
-    }
-
-    return `<button class="table-action secondary" data-action="restore" data-record-key="${escapeHtml(record.recordKey)}">Wiederherstellen</button>`;
-  }
-
-  if (!canManageHiddenRecords()) {
-    return '<span class="action-hint">Login nötig</span>';
-  }
-
-  return `<button class="table-action" data-action="hide" data-record-key="${escapeHtml(record.recordKey)}">Ausblenden</button>`;
-}
-
-function getVisibleBaseRecords() {
-  return dataRecords.filter((record) => !hiddenRecordKeys.has(record.recordKey));
-}
-
-function getHiddenDisplayRecords() {
-  return hiddenRows.map((row) =>
-    normalizeRecord(row.payload || {}, {
-      recordKey: row.record_key,
-      _isHidden: true,
-      hiddenAt: row.hidden_at || "",
-      hiddenBy: row.hidden_by || ""
-    })
-  );
-}
-
-function shouldShowHiddenRecords() {
-  const toggle = document.getElementById("toggle-show-hidden");
-  return Boolean(toggle?.checked && canManageHiddenRecords());
-}
-
-function getDisplayRecords() {
-  const records = [...getVisibleBaseRecords()];
-
-  if (shouldShowHiddenRecords()) {
-    records.push(...getHiddenDisplayRecords());
-  }
-
-  return records;
-}
-
 function buildKPIs(records) {
   const soon = records.filter((record) => {
     const days = fristDays(record.frist);
@@ -399,10 +321,10 @@ function buildKPIs(records) {
   document.getElementById("kpi-row").innerHTML = `
     <div class="kpi"><div class="label">Gesamt</div><div class="value">${records.length}</div><div class="sub">aktive Ausschreibungen</div></div>
     <div class="kpi"><div class="label">Portale</div><div class="value">${portals.length}</div><div class="sub">${escapeHtml(portals.join(", "))}</div></div>
-    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${records.length} Einträgen</div></div>
+    <div class="kpi"><div class="label">Mit Frist</div><div class="value">${withFrist.length}</div><div class="sub">von ${records.length} EintrÃ¤gen</div></div>
     <div class="kpi"><div class="label">Frist &lt; 14 Tage</div><div class="value urgent">${soon.length}</div><div class="sub">dringend</div></div>
-    <div class="kpi"><div class="label">Passt gut</div><div class="value">${reviewGood}</div><div class="sub">AI-Einschätzung</div></div>
-    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${escapeHtml(latestDate)}</div><div class="sub">Veröffentlichung</div></div>
+    <div class="kpi"><div class="label">Passt gut</div><div class="value">${reviewGood}</div><div class="sub">AI-EinschÃ¤tzung</div></div>
+    <div class="kpi"><div class="label">Datenstand</div><div class="value" style="font-size:1.2rem">${escapeHtml(latestDate)}</div><div class="sub">VerÃ¶ffentlichung</div></div>
   `;
 }
 
@@ -564,8 +486,8 @@ function buildAdvisor(records) {
   const check = records.filter((record) => record.reviewLabel === "pruefen").length;
   const bad = records.filter((record) => record.reviewLabel === "eher unpassend").length;
 
-  let summary = `<strong>Stefan:</strong> ${records.length} aktive Ausschreibungen geprüft. `;
-  summary += `<strong>${good}</strong> passen gut, <strong>${check}</strong> bitte prüfen, <strong>${bad}</strong> eher unpassend.`;
+  let summary = `<strong>Stefan:</strong> ${records.length} aktive Ausschreibungen geprÃ¼ft. `;
+  summary += `<strong>${good}</strong> passen gut, <strong>${check}</strong> bitte prÃ¼fen, <strong>${bad}</strong> eher unpassend.`;
   document.getElementById("advisor-summary").innerHTML = summary;
 
   const picksElement = document.getElementById("advisor-inline-picks");
@@ -586,9 +508,9 @@ function buildAdvisor(records) {
             : `Frist: ${record.frist}`;
 
       return `
-        <div class="advisor-inline-pick${urgent ? " warn" : ""}" title="${escapeHtml(prettifyGermanText(record.reviewReason || "AI-Einschätzung ohne Zusatzgrund"))}">
+        <div class="advisor-inline-pick${urgent ? " warn" : ""}" title="${escapeHtml(prettifyGermanText(record.reviewReason || "AI-EinschÃ¤tzung ohne Zusatzgrund"))}">
           <div class="advisor-inline-title">${escapeHtml(record.titel)}</div>
-          <div class="advisor-inline-meta">${escapeHtml(record.auftraggeber)} · ${escapeHtml(fristInfo)}</div>
+          <div class="advisor-inline-meta">${escapeHtml(record.auftraggeber)} Â· ${escapeHtml(fristInfo)}</div>
           <div class="advisor-inline-meta">${reviewBadge(record)}</div>
         </div>
       `;
@@ -603,7 +525,7 @@ function getFiltered() {
   const reviewFilter = document.getElementById("f-review").value;
   const query = document.getElementById("f-search").value.toLowerCase();
 
-  return getDisplayRecords().filter((record) => {
+  return dataRecords.filter((record) => {
     if (portal && record.portal !== portal) return false;
     if (searchTerm && record.suchbegriff !== searchTerm) return false;
     if (reviewFilter && record.reviewLabel !== reviewFilter) return false;
@@ -675,15 +597,15 @@ function renderTable(records) {
   const tbody = document.getElementById("table-body");
 
   if (!records.length) {
-    tbody.innerHTML = '<tr><td colspan="10" class="no-data">Keine Einträge gefunden.</td></tr>';
-    document.getElementById("result-count").textContent = "0 Einträge";
+    tbody.innerHTML = '<tr><td colspan="9" class="no-data">Keine EintrÃ¤ge gefunden.</td></tr>';
+    document.getElementById("result-count").textContent = "0 EintrÃ¤ge";
     return;
   }
 
   tbody.innerHTML = records
     .map(
       (record) => `
-        <tr class="${record._isHidden ? "row-hidden" : ""}">
+        <tr>
           <td>${portalBadge(record.portal)}</td>
           <td>${suchBadge(record.suchbegriff)}</td>
           <td class="review-cell">${reviewLabelCell(record)}</td>
@@ -693,12 +615,11 @@ function renderTable(records) {
           <td style="white-space:nowrap">${fristLabel(record.frist)}</td>
           <td class="cpv-list">${cpvLabel(record)}</td>
           <td>${buildLink(record)}</td>
-          <td class="action-cell">${actionButton(record)}</td>
         </tr>
       `
     )
     .join("");
-  document.getElementById("result-count").textContent = `${records.length} Einträge`;
+  document.getElementById("result-count").textContent = `${records.length} EintrÃ¤ge`;
 }
 
 function updateTable() {
@@ -707,7 +628,7 @@ function updateTable() {
 }
 
 function populateFilters() {
-  const visibleRecords = getVisibleBaseRecords();
+  const visibleRecords = dataRecords;
   const portals = [...new Set(visibleRecords.map((record) => record.portal))].sort();
   const searchTerms = [...new Set(visibleRecords.map((record) => record.suchbegriff))].sort();
   const portalSelect = document.getElementById("f-portal");
@@ -733,198 +654,12 @@ function populateFilters() {
   updateReviewFilterPills(visibleRecords);
 }
 
-function setAdminMessage(message, tone = "neutral") {
-  const note = document.getElementById("admin-note");
-  note.textContent = message;
-  note.dataset.tone = tone;
-}
-
-function updateAuthUi() {
-  const card = document.getElementById("admin-card");
-  const loginRow = document.getElementById("admin-login");
-  const actionsRow = document.getElementById("admin-actions");
-  const status = document.getElementById("auth-status");
-
-  card.hidden = false;
-
-  if (!SUPABASE_ENABLED) {
-    loginRow.hidden = true;
-    actionsRow.hidden = true;
-    status.textContent = "Supabase nicht konfiguriert";
-    setAdminMessage(
-      "Für Ausblenden/Wiederherstellen bitte PUBLIC_SUPABASE_URL und PUBLIC_SUPABASE_ANON_KEY konfigurieren.",
-      "warning"
-    );
-    return;
-  }
-
-  if (currentSession?.user) {
-    loginRow.hidden = true;
-    actionsRow.hidden = false;
-    status.textContent = `Angemeldet: ${currentSession.user.email || "Benutzer"}`;
-    setAdminMessage("Ausblendungen werden sofort gespeichert und im Wochenlauf erneut ausgeschlossen.", "success");
-  } else {
-    loginRow.hidden = false;
-    actionsRow.hidden = true;
-    status.textContent = "Nicht angemeldet";
-    setAdminMessage("Mit Magic Link anmelden, um Treffer auszublenden oder wiederherzustellen.", "neutral");
-  }
-}
-
 function refreshOverview() {
-  const visibleRecords = getVisibleBaseRecords();
   populateFilters();
-  buildKPIs(visibleRecords);
-  buildCharts(visibleRecords);
-  buildAdvisor(visibleRecords);
+  buildKPIs(dataRecords);
+  buildCharts(dataRecords);
+  buildAdvisor(dataRecords);
   updateTable();
-}
-
-async function loadHiddenRecords() {
-  if (!SUPABASE_ENABLED) {
-    hiddenRows = [];
-    hiddenRecordKeys = new Set();
-    refreshOverview();
-    return;
-  }
-
-  const { data, error } = await supabaseClient
-    .from(HIDDEN_RECORDS_TABLE)
-    .select("record_key,payload,hidden_at,hidden_by")
-    .order("hidden_at", { ascending: false });
-
-  if (error) {
-    setAdminMessage(`Hidden Records konnten nicht geladen werden: ${error.message}`, "warning");
-    hiddenRows = [];
-    hiddenRecordKeys = new Set();
-  } else {
-    hiddenRows = Array.isArray(data) ? data : [];
-    hiddenRecordKeys = new Set(hiddenRows.map((row) => String(row.record_key || "").trim()).filter(Boolean));
-  }
-
-  refreshOverview();
-}
-
-async function hideRecord(recordKey) {
-  if (!canManageHiddenRecords()) {
-    setAdminMessage("Bitte zuerst anmelden.", "warning");
-    return;
-  }
-
-  const record = dataRecords.find((entry) => entry.recordKey === recordKey);
-  if (!record) {
-    setAdminMessage("Datensatz wurde lokal nicht gefunden.", "warning");
-    return;
-  }
-
-  const payload = {
-    recordKey: record.recordKey,
-    portal: record.portal,
-    suchbegriff: record.suchbegriff,
-    titel: record.titel,
-    auftraggeber: record.auftraggeber,
-    frist: record.frist,
-    link: record.link,
-    cpvCodes: record.cpvCodes,
-    beschreibung: record.beschreibung,
-    veroeffentlichungsdatum: record.veroeffentlichungsdatum,
-    organisationLand: record.organisationLand,
-    scrapedAt: record.scrapedAt,
-    reviewLabel: record.reviewLabel,
-    reviewScore: record.reviewScore,
-    reviewReason: record.reviewReason,
-    reviewProvider: record.reviewProvider,
-    reviewModel: record.reviewModel,
-    reviewedAt: record.reviewedAt
-  };
-
-  const { error } = await supabaseClient.from(HIDDEN_RECORDS_TABLE).upsert(
-    {
-      record_key: recordKey,
-      payload,
-      hidden_by: currentSession.user.email || ""
-    },
-    {
-      onConflict: "record_key"
-    }
-  );
-
-  if (error) {
-    setAdminMessage(`Ausblenden fehlgeschlagen: ${error.message}`, "warning");
-    return;
-  }
-
-  setAdminMessage("Treffer wurde ausgeblendet.", "success");
-  await loadHiddenRecords();
-}
-
-async function restoreRecord(recordKey) {
-  if (!canManageHiddenRecords()) {
-    setAdminMessage("Bitte zuerst anmelden.", "warning");
-    return;
-  }
-
-  const { error } = await supabaseClient.from(HIDDEN_RECORDS_TABLE).delete().eq("record_key", recordKey);
-
-  if (error) {
-    setAdminMessage(`Wiederherstellen fehlgeschlagen: ${error.message}`, "warning");
-    return;
-  }
-
-  setAdminMessage("Treffer wurde wiederhergestellt.", "success");
-  await loadHiddenRecords();
-}
-
-async function sendMagicLink() {
-  const email = document.getElementById("auth-email").value.trim();
-
-  if (!email) {
-    setAdminMessage("Bitte eine E-Mail-Adresse eingeben.", "warning");
-    return;
-  }
-
-  const { error } = await supabaseClient.auth.signInWithOtp({
-    email,
-    options: {
-      emailRedirectTo: window.location.href.split("#")[0]
-    }
-  });
-
-  if (error) {
-    setAdminMessage(`Magic Link konnte nicht gesendet werden: ${error.message}`, "warning");
-    return;
-  }
-
-  setAdminMessage("Magic Link versendet. Bitte E-Mail öffnen und den Link bestätigen.", "success");
-}
-
-async function signOut() {
-  const { error } = await supabaseClient.auth.signOut();
-
-  if (error) {
-    setAdminMessage(`Abmelden fehlgeschlagen: ${error.message}`, "warning");
-    return;
-  }
-
-  setAdminMessage("Abgemeldet.", "neutral");
-}
-
-function registerTableActions() {
-  document.getElementById("table-body").addEventListener("click", async (event) => {
-    const button = event.target.closest("button[data-action]");
-    if (!button) {
-      return;
-    }
-
-    const recordKey = button.dataset.recordKey;
-    const action = button.dataset.action;
-
-    if (action === "hide") {
-      await hideRecord(recordKey);
-    } else if (action === "restore") {
-      await restoreRecord(recordKey);
-    }
-  });
 }
 
 function registerFilters() {
@@ -932,7 +667,6 @@ function registerFilters() {
     document.getElementById(id).addEventListener("change", updateTable);
   });
   document.getElementById("f-search").addEventListener("input", updateTable);
-  document.getElementById("toggle-show-hidden").addEventListener("change", updateTable);
   document.getElementById("review-filter-pills").addEventListener("click", (event) => {
     const button = event.target.closest("button.review-pill");
     if (!button) {
@@ -956,41 +690,12 @@ function registerSorting() {
       }
 
       document.querySelectorAll("thead th .sort-icon").forEach((icon) => {
-        icon.textContent = "↕";
+        icon.textContent = "â†•";
       });
-      header.querySelector(".sort-icon").textContent = sortDir === 1 ? "↑" : "↓";
+      header.querySelector(".sort-icon").textContent = sortDir === 1 ? "â†‘" : "â†“";
       updateTable();
     });
   });
-}
-
-async function initSupabase() {
-  if (!SUPABASE_ENABLED) {
-    updateAuthUi();
-    refreshOverview();
-    return;
-  }
-
-  supabaseClient = window.supabase.createClient(
-    DASHBOARD_CONFIG.supabaseUrl,
-    DASHBOARD_CONFIG.supabaseAnonKey
-  );
-  const {
-    data: { session }
-  } = await supabaseClient.auth.getSession();
-  currentSession = session;
-  updateAuthUi();
-
-  supabaseClient.auth.onAuthStateChange((_event, sessionValue) => {
-    currentSession = sessionValue;
-    updateAuthUi();
-    updateTable();
-  });
-
-  document.getElementById("auth-send-link").addEventListener("click", sendMagicLink);
-  document.getElementById("auth-signout").addEventListener("click", signOut);
-
-  await loadHiddenRecords();
 }
 
 async function main() {
@@ -1002,13 +707,12 @@ async function main() {
 
   registerSorting();
   registerFilters();
-  registerTableActions();
-  updateAuthUi();
-  await initSupabase();
+  refreshOverview();
 }
 
 main().catch((error) => {
   console.error(error);
-  setAdminMessage(`Dashboard-Initialisierung fehlgeschlagen: ${error.message}`, "warning");
   refreshOverview();
 });
+
+

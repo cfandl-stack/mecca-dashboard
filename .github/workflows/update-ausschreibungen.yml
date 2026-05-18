@@ -1,49 +1,29 @@
 name: Update Ausschreibungen
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "0 6 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: update-ausschreibungen
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  update-feed:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        if: github.event_name == 'workflow_dispatch'
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-        if: github.event_name == 'workflow_dispatch'
-      - run: npx playwright install --with-deps chromium
-        if: github.event_name == 'workflow_dispatch'
-      - run: npm run generate-runtime-config
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
-          PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
-          SUPABASE_HIDDEN_RECORDS_TABLE: ${{ vars.SUPABASE_HIDDEN_RECORDS_TABLE }}
       - run: npm run weekly-feed
-        if: github.event_name == 'workflow_dispatch'
         env:
-          SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          SUPABASE_HIDDEN_RECORDS_TABLE: ${{ vars.SUPABASE_HIDDEN_RECORDS_TABLE }}
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
@@ -51,14 +31,7 @@ jobs:
           LLM_ENABLED: ${{ vars.LLM_ENABLED }}
           LLM_MAX_RECORDS: ${{ vars.LLM_MAX_RECORDS }}
       - name: Commit updated tender data
-        if: github.event_name == 'workflow_dispatch'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Ausschreibungen"
-          file_pattern: "dash/data_embed.js dash/data.json dash/ausschreibungen.csv dash/runtime-config.js"
-      - uses: actions/configure-pages@v4
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          file_pattern: "dash/data_embed.js dash/data.json dash/ausschreibungen.csv"

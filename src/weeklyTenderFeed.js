@@ -1,15 +1,12 @@
-const fs = require("node:fs/promises");
+﻿const fs = require("node:fs/promises");
 const path = require("node:path");
 const { execFile } = require("node:child_process");
 const { promisify } = require("node:util");
 const { loadEnvironmentFiles } = require("./core/env");
 
-const { chromium } = require("playwright");
-
 const { createLogger } = require("./core/logger");
 const { pickLocalizedText } = require("./core/normalize");
 const { createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, stripHtmlTags, toArray, unique } = require("./core/utils");
-const { fetchHiddenRecordKeys } = require("./integrations/supabase");
 const { enrichRecordsWithReview } = require("./review");
 const { buildTedQuery } = require("./sources/ted");
 
@@ -57,7 +54,7 @@ const COUNTRY_NAMES = {
 };
 
 const USP_DEFAULT_PAGE_SIZE = 25;
-const USP_DEFAULT_COUNTRY = "Ã–sterreich";
+const USP_DEFAULT_COUNTRY = "Österreich";
 const execFileAsync = promisify(execFile);
 
 function mergeConfig(baseConfig, overrideConfig = {}) {
@@ -275,14 +272,6 @@ function isExpiredDeadline(value, referenceDate = startOfTodayUtc()) {
 
 function filterExpiredRecords(records, referenceDate = startOfTodayUtc()) {
   return records.filter((record) => !isExpiredDeadline(record.frist, referenceDate));
-}
-
-function filterHiddenRecords(records, hiddenRecordKeys) {
-  if (!hiddenRecordKeys || hiddenRecordKeys.size === 0) {
-    return records;
-  }
-
-  return records.filter((record) => !hiddenRecordKeys.has(record._recordKey));
 }
 
 function normalizeCpvCode(value) {
@@ -691,7 +680,7 @@ async function scrapeUsp(config, logger, cutoffDate) {
         const payload = await fetchUspJson(apiUrl, config);
         rows = Array.isArray(payload.data) ? payload.data : [];
       } catch (error) {
-        logger.warn("USP Suche Ã¼bersprungen", { searchTerm, message: getErrorMessage(error) });
+        logger.warn("USP Suche übersprungen", { searchTerm, message: getErrorMessage(error) });
         break;
       }
 
@@ -748,181 +737,6 @@ async function scrapeUsp(config, logger, cutoffDate) {
         break;
       }
     }
-  }
-
-  return records;
-}
-
-async function createBrowserContext(config) {
-  const browser = await chromium.launch({
-    headless: config.runtime.headless
-  });
-  const context = await browser.newContext({
-    ignoreHTTPSErrors: true,
-    locale: "de-AT",
-    timezoneId: "Europe/Vienna",
-    userAgent: config.runtime.userAgent,
-    viewport: {
-      width: 1440,
-      height: 1200
-    }
-  });
-
-  return { browser, context };
-}
-
-async function extractUspDetail(page, url, config) {
-  if (!url) {
-    return { cpvCodes: [], beschreibung: "", organisationLand: "Österreich" };
-  }
-
-  try {
-    await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: config.runtime.navigationTimeoutMs
-    });
-
-    return page.evaluate(() => {
-      const normalize = (value) =>
-        String(value || "")
-          .replace(/\u00a0/g, " ")
-          .replace(/\s+/g, " ")
-          .trim();
-      const bodyText = normalize(document.body.innerText);
-      const cpvCodes = [...new Set(bodyText.match(/\b\d{8}(?:-\d)?\b/g) || [])];
-      const descriptionLabels = [
-        "Beschreibung",
-        "Kurzbeschreibung",
-        "Bezeichnung des Auftrags",
-        "Auftragsbezeichnung",
-        "Gegenstand"
-      ];
-      const description = descriptionLabels
-        .map((label) => {
-          const match = bodyText.match(new RegExp(`${label}[:\\s]+(.{20,700})`, "i"));
-          return normalize(match?.[1]);
-        })
-        .find(Boolean);
-
-      return {
-        cpvCodes,
-        beschreibung: description || "",
-        organisationLand: bodyText.includes("Österreich") ? "Österreich" : "Österreich"
-      };
-    });
-  } catch {
-    return { cpvCodes: [], beschreibung: "", organisationLand: "Österreich" };
-  }
-}
-
-async function scrapeUspOld(config, logger, cutoffDate) {
-  const { browser, context } = await createBrowserContext(config);
-  const listPage = await context.newPage();
-  const detailPage = await context.newPage();
-  const records = [];
-  const seen = new Set();
-  let detailCount = 0;
-
-  try {
-    for (const searchTerm of config.searchTerms) {
-      const searchUrl = `${config.usp.url}?q=${encodeURIComponent(searchTerm)}&loaded=true`;
-      logger.info("Weekly USP Suche", { searchTerm, searchUrl });
-
-      try {
-        await listPage.goto(searchUrl, {
-          waitUntil: "domcontentloaded",
-          timeout: config.runtime.navigationTimeoutMs
-        });
-        await listPage.waitForSelector("tbody tr", { timeout: config.runtime.navigationTimeoutMs });
-        await listPage.waitForFunction(
-          () => Array.from(document.querySelectorAll("tbody tr")).some((row) => row.querySelectorAll("td").length >= 4),
-          { timeout: config.runtime.navigationTimeoutMs }
-        );
-      } catch (error) {
-        logger.warn("USP Suche übersprungen", { searchTerm, message: error.message });
-        continue;
-      }
-
-      for (let pageNumber = 1; pageNumber <= config.runtime.maxPagesPerSearch; pageNumber += 1) {
-        const rows = await listPage.$$eval(
-          "tbody tr",
-          (tableRows, baseUrl) => {
-            const normalize = (value) =>
-              String(value || "")
-                .replace(/\u00a0/g, " ")
-                .replace(/\s+/g, " ")
-                .trim();
-
-            return tableRows
-              .map((row) => {
-                const cells = Array.from(row.querySelectorAll("td"));
-                const link = cells[0]?.querySelector("a[href]");
-                const href = link?.getAttribute("href") || "";
-
-                return {
-                  titel: normalize(link?.textContent || cells[0]?.textContent),
-                  auftraggeber: normalize(cells[1]?.textContent),
-                  veroeffentlichungsdatum: normalize(cells[2]?.textContent),
-                  frist: normalize(cells[3]?.textContent),
-                  link: href ? new URL(href, baseUrl).href : "",
-                  beschreibung: ""
-                };
-              })
-              .filter((row) => row.titel);
-          },
-          config.usp.detailBaseUrl
-        );
-
-        for (const row of rows) {
-          if (!isOnOrAfter(row.veroeffentlichungsdatum, cutoffDate)) {
-            continue;
-          }
-
-          let detail = { cpvCodes: [], beschreibung: "", organisationLand: "Österreich" };
-
-          if (detailCount < config.runtime.maxDetailsPerPortal) {
-            detail = await extractUspDetail(detailPage, row.link, config);
-            detailCount += 1;
-          }
-
-          const record = normalizeFeedRecord({
-            ...row,
-            portal: "USP Bund",
-            suchbegriff: searchTerm,
-            cpvCodes: detail.cpvCodes,
-            beschreibung: detail.beschreibung || row.beschreibung,
-            organisationLand: detail.organisationLand
-          });
-
-          if (seen.has(record._recordKey)) {
-            continue;
-          }
-
-          seen.add(record._recordKey);
-          records.push(record);
-
-          if (records.length >= config.runtime.maxRecordsPerPortal) {
-            return records;
-          }
-        }
-
-        const nextButton = await listPage.$(
-          "#tenderlist_next:not(.disabled), a[aria-label='Next']:not(.disabled), .paginate_button.next:not(.disabled)"
-        );
-
-        if (!nextButton) {
-          break;
-        }
-
-        await nextButton.click();
-        await listPage.waitForTimeout(1000);
-      }
-    }
-  } finally {
-    await detailPage.close();
-    await listPage.close();
-    await context.close();
-    await browser.close();
   }
 
   return records;
@@ -1014,11 +828,10 @@ async function main() {
 
   const tedRecords = await scrapeTed(config, logger, cutoffDate);
   const uspRecords = await scrapeUsp(config, logger, cutoffDate);
-  const hiddenRecordKeys = await fetchHiddenRecordKeys(logger);
   const records = [...tedRecords, ...uspRecords]
     .map((record) => normalizeFeedRecord(record))
     .filter((record, index, allRecords) => allRecords.findIndex((candidate) => candidate._recordKey === record._recordKey) === index);
-  const activeRecords = filterHiddenRecords(filterExpiredRecords(records), hiddenRecordKeys)
+  const activeRecords = filterExpiredRecords(records)
     .sort((a, b) => b.veroeffentlichungsdatum.localeCompare(a.veroeffentlichungsdatum));
   const reviewedRecords = await enrichRecordsWithReview(activeRecords, logger);
 
@@ -1028,7 +841,6 @@ async function main() {
     records: reviewedRecords.length,
     ted: tedRecords.length,
     usp: uspRecords.length,
-    hidden: hiddenRecordKeys.size,
     csvPath: config.output.csvPath,
     jsonPath: config.output.jsonPath,
     dataJsPath: config.output.dataJsPath
@@ -1059,6 +871,7 @@ module.exports = {
   parseDate,
   toIsoDate,
   isExpiredDeadline,
-  filterExpiredRecords,
-  filterHiddenRecords
+  filterExpiredRecords
 };
+
+

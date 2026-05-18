@@ -5,7 +5,6 @@ const os = require("node:os");
 const path = require("node:path");
 const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
 const { buildPrompt, extractJsonObject } = require("../src/review");
-const { fetchHiddenRecordKeys } = require("../src/integrations/supabase");
 const { loadEnvironmentFiles, parseDotEnv } = require("../src/core/env");
 
 const {
@@ -16,7 +15,6 @@ const {
   extractUspDeadlineFromApiRow,
   extractUspDetailFromHtml,
   filterExpiredRecords,
-  filterHiddenRecords,
   formatCpvSearchTerm,
   getUspApiUrl,
   isExpiredDeadline,
@@ -99,7 +97,7 @@ test("abgelaufene Fristen werden serverseitig erkannt", () => {
   assert.equal(isExpiredDeadline("", new Date("2026-04-20T00:00:00.000Z")), false);
 });
 
-test("Feed kann abgelaufene und manuell ausgeblendete Datensaetze herausfiltern", () => {
+test("Feed kann abgelaufene Datensaetze herausfiltern", () => {
   const records = [
     normalizeFeedRecord({
       portal: "TED",
@@ -124,9 +122,6 @@ test("Feed kann abgelaufene und manuell ausgeblendete Datensaetze herausfiltern"
   const visible = filterExpiredRecords(records, new Date("2026-04-20T00:00:00.000Z"));
   assert.equal(visible.length, 1);
   assert.equal(visible[0].link, "https://example.test/a");
-
-  const hidden = filterHiddenRecords(visible, new Set(["https://example.test/a"]));
-  assert.equal(hidden.length, 0);
 });
 
 test("USP API URL und Detail-Links werden robust gebaut", () => {
@@ -254,39 +249,6 @@ test("lokale Environment-Dateien werden geladen ohne bestehende Variablen zu ueb
   }
 });
 
-test("Supabase-Ausfall blockiert den Feed nicht", async () => {
-  const originalFetch = global.fetch;
-  const originalUrl = process.env.SUPABASE_URL;
-  const originalPublicUrl = process.env.PUBLIC_SUPABASE_URL;
-  const originalKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  const warnings = [];
-
-  process.env.SUPABASE_URL = "https://example.supabase.co";
-  process.env.PUBLIC_SUPABASE_URL = "";
-  process.env.SUPABASE_SERVICE_ROLE_KEY = "test-key";
-  global.fetch = async () => {
-    throw new TypeError("fetch failed");
-  };
-
-  try {
-    const keys = await fetchHiddenRecordKeys({
-      warn(message, context) {
-        warnings.push({ message, context });
-      }
-    });
-
-    assert.equal(keys.size, 0);
-    assert.equal(warnings.length, 1);
-    assert.match(warnings[0].message, /konnten nicht geladen werden/i);
-    assert.match(warnings[0].context.message, /fetch failed/i);
-  } finally {
-    global.fetch = originalFetch;
-    process.env.SUPABASE_URL = originalUrl;
-    process.env.PUBLIC_SUPABASE_URL = originalPublicUrl;
-    process.env.SUPABASE_SERVICE_ROLE_KEY = originalKey;
-  }
-});
-
 test("MiniMax Adapter kann String- und Array-Content lesen", () => {
   assert.equal(
     extractResponseContent({
@@ -401,6 +363,48 @@ test("Review Parser kann Planungs-Freitext heuristisch als passend werten", () =
   assert.match(parsed.reason, /passend/i);
 });
 
+test("Review Parser erkennt umweltorientierte Stadtentwicklungsplanung als passend", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this procurement notice in more detail before deciding.",
+    {
+      titel: "Ungarn – Umweltorientierte Stadtentwicklungsplanung – Gyor elovarosi kozlekedes fejlesztese tervezes",
+      beschreibung: "Urban development planning and mobility concept",
+      suchbegriff: "Raumplanung"
+    }
+  );
+
+  assert.equal(parsed.label, "passt gut");
+  assert.match(parsed.reason, /stadtentwicklungsplanung|urban development planning|kozlekedes/i);
+});
+
+test("Review Parser erkennt Energieeinsparungs-Beratung als passend", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this procurement notice in more detail before deciding.",
+    {
+      titel: "Tschechien – Beratung im Bereich Energieeinsparung – Poradenstvi v oblasti energetickych uspor",
+      beschreibung: "Energy savings advisory services",
+      suchbegriff: "Strategie"
+    }
+  );
+
+  assert.equal(parsed.label, "passt gut");
+  assert.match(parsed.reason, /energy savings|energetickych uspor|energie/i);
+});
+
+test("Review Parser erkennt telepulesterv als Stadtplanungsthema", () => {
+  const parsed = extractJsonObject(
+    "Let me analyze this procurement notice in more detail before deciding.",
+    {
+      titel: "Ungarn – Stadtplanung – Uj telepulesterv keszitese",
+      beschreibung: "Town planning and settlement development",
+      suchbegriff: "Raumplanung"
+    }
+  );
+
+  assert.equal(parsed.label, "passt gut");
+  assert.match(parsed.reason, /telepulesterv|stadtplanung|town planning/i);
+});
+
 test("Review Parser faellt bei unverwertbarem MiniMax-Freitext konservativ auf pruefen zurueck", () => {
   const parsed = extractJsonObject(
     "Let me analyze this procurement notice in more detail before deciding.",
@@ -431,5 +435,6 @@ test("Review Prompt fordert nur PASS CHECK NO an", () => {
 
   assert.match(prompt, /PASS oder CHECK oder NO/);
   assert.match(prompt, /Kein JSON/);
+  assert.match(prompt, /Energie- und Klimathemen/);
   assert.doesNotMatch(prompt, /"label":"passt gut\|pruefen\|eher unpassend"/);
 });

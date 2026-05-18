@@ -6,16 +6,14 @@ Vor den Aenderungen wurde ein Rueckfall-Archiv des damaligen `HEAD` erstellt:
 
 `C:\Users\c.fandl\Documents\AI_home\Codex\Ausschreibung Automatisierung\Dashboard_mecca_backup_pre_upgrade_2026-04-20.zip`
 
-## Supabase
+## GitHub Actions
 
-1. Neues Supabase-Projekt anlegen.
-2. Unter SQL Editor den Inhalt aus `supabase/dashboard_hidden_records.sql` ausfuehren.
-3. In Supabase Auth `Email` / `Magic Link` aktivieren.
-4. In GitHub folgende Werte hinterlegen:
-   - Repository Variable `PUBLIC_SUPABASE_URL`
-   - Repository Variable `PUBLIC_SUPABASE_ANON_KEY`
-   - Repository Secret `SUPABASE_SERVICE_ROLE_KEY`
-5. Optional lokal dieselben Werte als Umgebungsvariablen setzen und `node src/generateRuntimeConfig.js` ausfuehren.
+Der Wochenlauf ist fuer GitHub Actions ausgelegt:
+
+1. Workflow `Update Ausschreibungen` laeuft montags automatisch und kann zusaetzlich manuell gestartet werden.
+2. Der Workflow erzeugt `dash/ausschreibungen.csv`, `dash/data.json` und `dash/data_embed.js`.
+3. Bei Aenderungen commitet der Workflow genau diese Datenartefakte nach `master`.
+4. Der separate Workflow `Deploy to GitHub Pages` veroeffentlicht danach den aktuellen Stand.
 
 ## LLM Review
 
