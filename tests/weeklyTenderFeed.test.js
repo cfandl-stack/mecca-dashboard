@@ -16,11 +16,13 @@ const {
   countryLabel,
   extractAnkoeCpvCodes,
   extractAnkoeXsrfToken,
+  extractNoeRecordsFromHtml,
   extractUspDeadlineFromApiRow,
   extractUspDetailFromHtml,
   filterExpiredRecords,
   formatCpvSearchTerm,
   getAnkoeMatchedSearchTerms,
+  getNoeMatchedSearchTerms,
   getUspApiUrl,
   isExpiredDeadline,
   normalizeAnkoeRecord,
@@ -308,6 +310,37 @@ test("ANKOE Records werden in Dashboard-Spalten normalisiert", () => {
   assert.equal(record.veroeffentlichungsdatum, "2026-06-01");
   assert.equal(record.link, "https://example.test/Detail/246000");
   assert.deepEqual(record.cpvCodes, ["71410000"]);
+});
+
+test("NOE HTML-Bekanntmachungen werden gefiltert gelesen", () => {
+  const html = `
+    <div class="listpage">
+      <a href="https://noe.vemap.com/home/bekannt/anzeigen.html?annID=1" target="_blank">
+        <div class="article">
+          <span class="art-h">Rahmenvereinbarung Planungsleistungen Raumplanung</span>
+          <p>Strategie und Raumplanung fuer Gemeinden.</p>
+          <p>Veröffentlicht am: 09.06.2026<br />Dokumentnummer: ABC-1</p>
+        </div>
+      </a>
+      <a href="https://noe.vemap.com/home/bekannt/anzeigen.html?annID=2" target="_blank">
+        <div class="article">
+          <span class="art-h">Asphaltarbeiten</span>
+          <p>Fräs- und Heißmischgutarbeiten.</p>
+          <p>Veröffentlicht am: 09.06.2026<br />Dokumentnummer: ABC-2</p>
+        </div>
+      </a>
+    </div>
+  `;
+
+  const records = extractNoeRecordsFromHtml(html, {
+    searchTerms: ["Raumplanung", "Strategie"]
+  });
+
+  assert.equal(records.length, 1);
+  assert.equal(records[0].title, "Rahmenvereinbarung Planungsleistungen Raumplanung");
+  assert.deepEqual(getNoeMatchedSearchTerms(records[0], { searchTerms: ["Raumplanung"] }), [
+    "Raumplanung"
+  ]);
 });
 
 test(".env Parser liest Kommentare, Quotes und einfache Key-Value-Paare", () => {

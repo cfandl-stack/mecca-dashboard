@@ -65,26 +65,39 @@
     "maxDetailsPerSource": 80,
     "sources": [
       {
-        "portal": "ANKOE Burgenland",
+        "portal": "BGLD",
         "baseUrl": "https://burgenland.vergabeportal.at/",
         "contractTypeIds": [
           3
         ]
       },
       {
-        "portal": "ANKOE Steiermark",
+        "portal": "STMK",
         "baseUrl": "https://steiermark.vergabeportal.at/",
         "contractTypeIds": [
           3
         ]
       },
       {
-        "portal": "ANKOE Oberoesterreich",
+        "portal": "OÖ",
         "baseUrl": "https://ooe.vergabeportal.at/",
         "contractTypeIds": [
           3
         ]
       }
+    ]
+  },
+  "noe": {
+    "enabled": true,
+    "portal": "NÖ",
+    "url": "https://www.noe.gv.at/noe/Ausschreibungen-Liegenschaften/Bekanntmachungen.html",
+    "organization": "Land Niederösterreich",
+    "searchTerms": [
+      "Planungsleistungen",
+      "Planung",
+      "Studie",
+      "Konzept",
+      "Bauüberwachung"
     ]
   }
 }

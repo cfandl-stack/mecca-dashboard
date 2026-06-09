@@ -505,6 +505,112 @@ function normalizeSearchValue(value) {
   return normalizeWhitespace(value).toLowerCase();
 }
 
+function decodeHtmlEntities(value) {
+  return String(value || "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, "\"")
+    .replace(/&#39;/g, "'")
+    .replace(/&ouml;/gi, "ö")
+    .replace(/&Ouml;/g, "Ö")
+    .replace(/&auml;/gi, "ä")
+    .replace(/&Auml;/g, "Ä")
+    .replace(/&uuml;/gi, "ü")
+    .replace(/&Uuml;/g, "Ü")
+    .replace(/&szlig;/gi, "ß");
+}
+
+function cleanHtmlText(value) {
+  return normalizeWhitespace(decodeHtmlEntities(stripHtmlTags(value)));
+}
+
+function extractNoeRecordsFromHtml(html, config) {
+  const records = [];
+  const articlePattern = /<a\s+href="([^"]+)"[^>]*>\s*<div class="article">([\s\S]*?)<\/div>\s*<\/a>/gi;
+  let match;
+
+  while ((match = articlePattern.exec(String(html || ""))) !== null) {
+    const [, href, articleHtml] = match;
+    const title = cleanHtmlText(articleHtml.match(/<span class="art-h">([\s\S]*?)<\/span>/i)?.[1]);
+    const paragraphs = [...articleHtml.matchAll(/<p>([\s\S]*?)<\/p>/gi)].map((paragraph) =>
+      cleanHtmlText(paragraph[1])
+    );
+    const description = paragraphs[0] || "";
+    const meta = paragraphs[1] || "";
+    const publicationDate = meta.match(/Veröffentlicht am:\s*(\d{1,2}\.\d{1,2}\.\d{4})/i)?.[1] || "";
+    const documentNumber = meta.match(/Dokumentnummer:\s*(.+)$/i)?.[1] || "";
+
+    if (!title) {
+      continue;
+    }
+
+    records.push({
+      title,
+      description,
+      publicationDate,
+      documentNumber,
+      url: href
+    });
+  }
+
+  return records.filter((record) => getNoeMatchedSearchTerms(record, config).length > 0);
+}
+
+function getNoeMatchedSearchTerms(record, config) {
+  const searchTerms = unique([
+    ...toArray(config.searchTerms),
+    ...toArray(config.noe?.searchTerms)
+  ]);
+  const text = normalizeSearchValue(
+    [
+      record.title,
+      record.description,
+      record.documentNumber
+    ]
+      .filter(Boolean)
+      .join(" ")
+  );
+
+  return searchTerms.filter((term) => text.includes(normalizeSearchValue(term)));
+}
+
+async function scrapeNoe(config, logger, cutoffDate) {
+  if (!config.noe?.enabled) {
+    return [];
+  }
+
+  logger.info("NOE Suche", { portal: config.noe.portal, url: config.noe.url });
+
+  let html = "";
+
+  try {
+    html = await fetchUspText(config.noe.url, config);
+  } catch (error) {
+    logger.warn("NOE Suche uebersprungen", { message: getErrorMessage(error) });
+    return [];
+  }
+
+  return extractNoeRecordsFromHtml(html, config)
+    .map((record) => {
+      const matchedSearchTerms = getNoeMatchedSearchTerms(record, config);
+
+      return normalizeFeedRecord({
+        portal: config.noe.portal || "NÖ",
+        suchbegriff: matchedSearchTerms.join("; "),
+        titel: record.title,
+        auftraggeber: config.noe.organization || "Land Niederösterreich",
+        frist: "",
+        link: record.url,
+        cpvCodes: [],
+        beschreibung: record.description,
+        veroeffentlichungsdatum: record.publicationDate,
+        organisationLand: USP_DEFAULT_COUNTRY
+      });
+    })
+    .filter((record) => isOnOrAfter(record.veroeffentlichungsdatum, cutoffDate))
+    .slice(0, config.runtime.maxRecordsPerPortal);
+}
+
 function getAnkoeMatchedSearchTerms(row, detail, config) {
   const cpvCodes = extractAnkoeCpvCodes(detail);
   const cpvSearchTerms = toArray(config.cpvCodes).map(normalizeCpvCode);
@@ -1104,7 +1210,8 @@ async function main() {
   const tedRecords = await scrapeTed(config, logger, cutoffDate);
   const uspRecords = await scrapeUsp(config, logger, cutoffDate);
   const ankoeRecords = await scrapeAnkoeRegional(config, logger, cutoffDate);
-  const records = [...tedRecords, ...uspRecords, ...ankoeRecords]
+  const noeRecords = await scrapeNoe(config, logger, cutoffDate);
+  const records = [...tedRecords, ...uspRecords, ...ankoeRecords, ...noeRecords]
     .map((record) => normalizeFeedRecord(record))
     .filter((record, index, allRecords) => allRecords.findIndex((candidate) => candidate._recordKey === record._recordKey) === index);
   const activeRecords = filterExpiredRecords(records)
@@ -1118,6 +1225,7 @@ async function main() {
     ted: tedRecords.length,
     usp: uspRecords.length,
     ankoeRegional: ankoeRecords.length,
+    noe: noeRecords.length,
     csvPath: config.output.csvPath,
     jsonPath: config.output.jsonPath,
     dataJsPath: config.output.dataJsPath
@@ -1137,6 +1245,7 @@ module.exports = {
   buildUspDetailUrl,
   extractAnkoeCpvCodes,
   extractAnkoeXsrfToken,
+  extractNoeRecordsFromHtml,
   extractUspDeadlineFromApiRow,
   extractUspDetailFromHtml,
   calculateCutoffDate,
@@ -1146,6 +1255,7 @@ module.exports = {
   formatCpvSearchTerm,
   getUspApiUrl,
   getAnkoeMatchedSearchTerms,
+  getNoeMatchedSearchTerms,
   loadWeeklyConfig,
   normalizeFeedRecord,
   normalizeAnkoeRecord,
