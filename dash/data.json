@@ -17,12 +17,12 @@
     "veroeffentlichungsdatum": "2026-06-08",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-08T10:52:03.124Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:38.439Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtentwicklungsplanung und umweltorientierte stadtentwicklungsplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/388217-2026",
@@ -42,12 +42,12 @@
     "veroeffentlichungsdatum": "2026-06-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:11.303Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen forschung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:41.577Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen energie und forschung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-2bd5d328-fd03-460d-81e8-580d61b98295",
@@ -68,10 +68,10 @@
     "scrapedAt": "2026-06-08T10:52:25.867Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:44.281Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/383810-2026",
@@ -89,12 +89,12 @@
     "veroeffentlichungsdatum": "2026-06-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:03.124Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:47.226Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/383938-2026",
@@ -115,9 +115,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:49.958Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/385206-2026",
@@ -141,9 +141,9 @@
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen lieferung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:55.170Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-af17b1b5-d674-413e-b4f4-d60239fa6af2",
@@ -165,10 +165,10 @@
     "scrapedAt": "2026-06-08T10:52:25.994Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:57.157Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/381835-2026",
@@ -191,9 +191,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:52:59.275Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/378442-2026",
@@ -213,10 +213,10 @@
     "scrapedAt": "2026-06-08T10:52:13.548Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen raumplanung und spatial planning.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:02.336Z"
+    "reviewReason": "Wirkt passend wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-69158092-f654-463b-bab7-31919b00f3d5",
@@ -236,9 +236,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:04.269Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-674e9bc5-9973-4e2f-ae4c-5cdde18f12ae",
@@ -258,9 +258,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:06.448Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-ca09efda-4273-4027-b021-64353b56a7be",
@@ -280,10 +280,10 @@
     "scrapedAt": "2026-06-08T10:52:26.379Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:09.004Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a5d0ab5d-4bc0-476e-95f7-daf25816eb49",
@@ -304,10 +304,10 @@
     "scrapedAt": "2026-06-08T10:52:26.505Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:11.076Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/376423-2026",
@@ -329,10 +329,10 @@
     "scrapedAt": "2026-06-08T10:52:11.303Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:13.102Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1742837e-4488-41c2-ae78-46b3ecdcb06a",
@@ -351,10 +351,10 @@
     "scrapedAt": "2026-06-08T10:52:22.966Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:15.784Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN177696v_BVergG-VIII-1-Z2_570479",
@@ -374,10 +374,10 @@
     "scrapedAt": "2026-06-08T10:52:26.632Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:18.430Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6fee6a72-3b15-4782-9411-fec165e333d5",
@@ -402,9 +402,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:21.023Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2330757",
@@ -424,10 +424,10 @@
     "scrapedAt": "2026-06-08T10:52:34.591Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:23.142Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/374232-2026",
@@ -444,12 +444,12 @@
     "veroeffentlichungsdatum": "2026-06-01",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:13.548Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und stadtentwicklung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:26.252Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a6578abc-cc32-46c4-b668-2555c77925d3",
@@ -469,9 +469,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen beteiligung und projektmanagement.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:28.452Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d06af20a-195b-4dbf-9c0f-06d5b06ae371",
@@ -491,10 +491,10 @@
     "scrapedAt": "2026-06-08T10:52:26.885Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:30.804Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-df788409-fe42-4a96-a320-a2c6767713e1",
@@ -514,10 +514,10 @@
     "scrapedAt": "2026-06-08T10:52:27.015Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:33.068Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b54016e3-26ab-446b-99f0-d9f22aab947f",
@@ -537,10 +537,10 @@
     "scrapedAt": "2026-06-08T10:52:27.143Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:35.973Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d2fc5d27-66d5-41fd-84fa-b5aff5d98036",
@@ -563,10 +563,10 @@
     "scrapedAt": "2026-06-08T10:52:27.271Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:38.169Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9d26c47d-a062-40f0-9228-c175c499e02b",
@@ -586,9 +586,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen projektmanagement und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:40.895Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-e76ec8db-31fc-40b5-b867-979c3bf70bb6",
@@ -607,10 +607,10 @@
     "scrapedAt": "2026-06-08T10:52:27.533Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:44.265Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-f925d5f0-2651-44b5-b8a0-e661d833132c",
@@ -629,10 +629,10 @@
     "scrapedAt": "2026-06-08T10:52:27.662Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:47.435Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/364907-2026",
@@ -654,9 +654,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen forschung und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:50.614Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/365454-2026",
@@ -676,10 +676,10 @@
     "scrapedAt": "2026-06-08T10:52:11.303Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:53.529Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-05af9b86-de59-4572-aa4f-75ad2d80bd14",
@@ -701,10 +701,10 @@
     "scrapedAt": "2026-06-08T10:52:27.792Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:55.859Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9ff73e26-b723-465c-a28f-47aec3c73ead",
@@ -733,10 +733,10 @@
     "scrapedAt": "2026-06-08T10:52:27.925Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (project management) und Ausschlusskriterium (hochbau).",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:53:58.963Z"
+    "reviewReason": "Gemischte Signale zwischen Planung (umwelt) und Ausschlusskriterium (hochbau).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1e4aaded-843c-4201-a937-ec7b21eadf74",
@@ -760,10 +760,10 @@
     "scrapedAt": "2026-06-08T10:52:28.054Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:01.454Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/354818-2026",
@@ -783,9 +783,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:04.660Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-389159e9-93e4-479b-a727-dd0c5f7d150d",
@@ -805,10 +805,10 @@
     "scrapedAt": "2026-06-08T10:52:28.186Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:06.995Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/353665-2026",
@@ -832,9 +832,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:09.569Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/351262-2026",
@@ -855,9 +855,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen stadtentwicklung und evaluierung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:12.034Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/351954-2026",
@@ -877,9 +877,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen evaluation und evaluierung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:14.285Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cc36e4b7-1afd-4d55-b193-2377672336f4",
@@ -901,10 +901,10 @@
     "scrapedAt": "2026-06-08T10:52:28.319Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:16.116Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2326328",
@@ -924,9 +924,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:19.082Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/347446-2026",
@@ -968,10 +968,10 @@
     "scrapedAt": "2026-06-08T10:52:05.362Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:22.181Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346815-2026",
@@ -992,9 +992,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und forschung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:26.210Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-21c1b84b-5837-4eae-a2ed-ec7193bed7d3",
@@ -1013,10 +1013,10 @@
     "scrapedAt": "2026-06-08T10:52:28.449Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:28.627Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6447eb44-9693-42bf-9ada-1aec386e0a7c",
@@ -1036,9 +1036,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen interreg, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:31.237Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346267-2026",
@@ -1058,12 +1058,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:04.378Z",
-    "reviewLabel": "eher unpassend",
-    "reviewScore": 20,
-    "reviewReason": "Wirkt fachfremd wegen reinigung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:34.642Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale zwischen Planung (umwelt) und Ausschlusskriterium (reinigung).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-0f236145-1958-427d-9306-e91a4afcde4d",
@@ -1083,9 +1083,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:38.394Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=76efecc9-e509-4c6b-849b-f742ed3e258a-ba258fe7-752d-4ab1-a212-3cadfa357e87",
@@ -1104,10 +1104,10 @@
     "scrapedAt": "2026-06-08T10:52:34.845Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und strategie.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:40.419Z"
+    "reviewReason": "Wirkt passend wegen strategie und energie.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/343069-2026",
@@ -1127,9 +1127,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen evaluation und evaluierung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:43.205Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/341636-2026",
@@ -1152,10 +1152,10 @@
     "scrapedAt": "2026-06-08T10:52:05.362Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (medical).",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:45.809Z"
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/341817-2026",
@@ -1175,10 +1175,10 @@
     "scrapedAt": "2026-06-08T10:52:17.954Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und interreg.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:48.656Z"
+    "reviewReason": "Wirkt passend wegen interreg und forschung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_54309_t_BVergG-VIII-1-Z2_224009",
@@ -1199,10 +1199,10 @@
     "scrapedAt": "2026-06-08T10:52:28.703Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:51.598Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/338150-2026",
@@ -1224,10 +1224,10 @@
     "scrapedAt": "2026-06-08T10:51:56.966Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:53.944Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/335466-2026",
@@ -1249,12 +1249,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:59.071Z",
-    "reviewLabel": "eher unpassend",
-    "reviewScore": 20,
-    "reviewReason": "Wirkt fachfremd wegen tiefbau.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:54:56.024Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale zwischen Planung (energie) und Ausschlusskriterium (tiefbau).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/338008-2026",
@@ -1274,12 +1274,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-08T10:52:04.378Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:00.111Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen umwelt und beratung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/334650-2026",
@@ -1304,10 +1304,10 @@
     "scrapedAt": "2026-06-08T10:52:05.362Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:02.873Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336663-2026",
@@ -1330,9 +1330,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:04.827Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337157-2026",
@@ -1360,12 +1360,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-06-08T10:52:05.362Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen project management und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:06.813Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337005-2026",
@@ -1385,9 +1385,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:08.825Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337175-2026",
@@ -1409,10 +1409,10 @@
     "scrapedAt": "2026-06-08T10:52:12.639Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und forschung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:11.142Z"
+    "reviewReason": "Wirkt passend wegen energie und forschung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336185-2026",
@@ -1431,10 +1431,10 @@
     "scrapedAt": "2026-06-08T10:52:14.726Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:13.813Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336501-2026",
@@ -1453,10 +1453,10 @@
     "scrapedAt": "2026-06-08T10:52:17.953Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:16.704Z"
+    "reviewReason": "Teilweise passend wegen kozlekedes, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-10b8818d-abe9-45e6-87e4-6aae2f618917",
@@ -1476,9 +1476,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen interreg, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:19.795Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332568-2026",
@@ -1498,10 +1498,10 @@
     "scrapedAt": "2026-06-08T10:51:52.800Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:23.746Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/331322-2026",
@@ -1518,12 +1518,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:26.374Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333424-2026",
@@ -1540,12 +1540,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:29.478Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333739-2026",
@@ -1565,9 +1565,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen forschung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:32.305Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332516-2026",
@@ -1588,9 +1588,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:34.446Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333159-2026",
@@ -1617,9 +1617,9 @@
     "reviewLabel": "eher unpassend",
     "reviewScore": 20,
     "reviewReason": "Wirkt fachfremd wegen generalplaner.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:37.050Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333797-2026",
@@ -1641,10 +1641,10 @@
     "scrapedAt": "2026-06-08T10:52:04.378Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:39.291Z"
+    "reviewReason": "Teilweise passend wegen umwelt, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/334359-2026",
@@ -1663,10 +1663,10 @@
     "scrapedAt": "2026-06-08T10:52:08.323Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:41.739Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332843-2026",
@@ -1683,12 +1683,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-08T10:52:12.638Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:45.432Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333679-2026",
@@ -1708,9 +1708,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen beratung und advisory.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:48.380Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/331571-2026",
@@ -1729,10 +1729,10 @@
     "scrapedAt": "2026-06-08T10:52:13.548Z",
     "reviewLabel": "passt gut",
     "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen raumplanung und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:50.969Z"
+    "reviewReason": "Wirkt passend wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d1efe27b-c3f1-4098-9a1d-f7364988d567",
@@ -1754,10 +1754,10 @@
     "scrapedAt": "2026-06-08T10:52:28.828Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:53.606Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/328550-2026",
@@ -1774,12 +1774,12 @@
     "veroeffentlichungsdatum": "2026-05-13",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:56.749Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330170-2026",
@@ -1808,9 +1808,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:55:59.268Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/328846-2026",
@@ -1830,10 +1830,10 @@
     "scrapedAt": "2026-06-08T10:51:59.071Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:02.023Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330330-2026",
@@ -1854,9 +1854,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen stadtentwicklung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:05.298Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/329910-2026",
@@ -1876,10 +1876,10 @@
     "scrapedAt": "2026-06-08T10:52:04.378Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Gemischte Signale zwischen Planung (spatial planning) und Ausschlusskriterium (supply).",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:07.272Z"
+    "reviewReason": "Gemischte Signale zwischen Planung (environment) und Ausschlusskriterium (supply).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/327757-2026",
@@ -1910,9 +1910,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (beratung) und Ausschlusskriterium (tga).",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:10.428Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/327919-2026",
@@ -1933,9 +1933,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:12.458Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/329283-2026",
@@ -1958,9 +1958,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:14.736Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/328899-2026",
@@ -1979,10 +1979,10 @@
     "scrapedAt": "2026-06-08T10:52:17.953Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:17.466Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/329912-2026",
@@ -2007,10 +2007,10 @@
     "scrapedAt": "2026-06-08T10:52:17.953Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:22.449Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-2fde3a6d-918e-4966-b13c-2c09e434dc10",
@@ -2030,10 +2030,10 @@
     "scrapedAt": "2026-06-08T10:52:28.956Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:24.957Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/324790-2026",
@@ -2053,9 +2053,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:26.932Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/324869-2026",
@@ -2083,9 +2083,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:29.642Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/325259-2026",
@@ -2105,12 +2105,12 @@
     "veroeffentlichungsdatum": "2026-05-12",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:52.800Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und projektmanagement.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:31.723Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/326032-2026",
@@ -2131,9 +2131,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:33.930Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/324111-2026",
@@ -2153,12 +2153,12 @@
     "veroeffentlichungsdatum": "2026-05-12",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:12.638Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen forschung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:36.085Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen energie und forschung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/324342-2026",
@@ -2178,9 +2178,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Gemischte Signale zwischen Planung (interreg) und Ausschlusskriterium (lieferung).",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:38.507Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/325087-2026",
@@ -2200,9 +2200,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen interreg, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:41.141Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/319723-2026",
@@ -2227,9 +2227,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:43.416Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/320520-2026",
@@ -2249,9 +2249,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und forschung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:46.227Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/322051-2026",
@@ -2271,9 +2271,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen stadtentwicklung und machbarkeitsstudie.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:48.304Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/321651-2026",
@@ -2293,12 +2293,12 @@
     "veroeffentlichungsdatum": "2026-05-11",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-08T10:52:10.339Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen spatial planning und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:51.845Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/322071-2026",
@@ -2319,9 +2319,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen evaluation und evaluierung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:54.444Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/320442-2026",
@@ -2340,12 +2340,12 @@
     "veroeffentlichungsdatum": "2026-05-11",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:13.548Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen raumplanung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:56.421Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/322921-2026",
@@ -2367,9 +2367,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:56:58.705Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-b1af356c-4a8d-419f-a9dd-70f7fc5e8dd9",
@@ -2388,10 +2388,10 @@
     "scrapedAt": "2026-06-08T10:52:30.044Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:01.634Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6fc6a4c2-b0be-4def-860a-5333a7072955",
@@ -2411,10 +2411,10 @@
     "scrapedAt": "2026-06-08T10:52:30.175Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:03.520Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5505d10c-fabc-410e-9e6e-6336a6aa5e3a",
@@ -2434,10 +2434,10 @@
     "scrapedAt": "2026-06-08T10:52:30.306Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:05.621Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-4ccca812-c539-4549-b31d-72ff3783180e",
@@ -2457,10 +2457,10 @@
     "scrapedAt": "2026-06-08T10:52:30.431Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:07.773Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-aede5e11-c0d2-4c91-998d-908acb064478",
@@ -2480,10 +2480,10 @@
     "scrapedAt": "2026-06-08T10:52:30.558Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:09.722Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-57e4e29b-e3ee-4e53-9bc4-095adad5d174",
@@ -2510,10 +2510,10 @@
     "scrapedAt": "2026-06-08T10:52:30.687Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:12.807Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6851d36c-0126-42a4-b4ce-cad8d8c73b5f",
@@ -2540,10 +2540,10 @@
     "scrapedAt": "2026-06-08T10:52:30.814Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:14.698Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-903de14c-7845-4d51-b848-5a4db5967d44",
@@ -2570,10 +2570,10 @@
     "scrapedAt": "2026-06-08T10:52:30.939Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:16.895Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b26e645a-3936-4b57-9a01-a7189edb4a45",
@@ -2600,10 +2600,10 @@
     "scrapedAt": "2026-06-08T10:52:31.076Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:20.043Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a8807806-f35f-4d89-8871-85131088bf81",
@@ -2630,10 +2630,10 @@
     "scrapedAt": "2026-06-08T10:52:31.205Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:22.743Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/319332-2026",
@@ -2656,9 +2656,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und projektmanagement.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:24.705Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/317614-2026",
@@ -2676,12 +2676,12 @@
     "veroeffentlichungsdatum": "2026-05-08",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:26.729Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318702-2026",
@@ -2698,12 +2698,12 @@
     "veroeffentlichungsdatum": "2026-05-08",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:29.808Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318953-2026",
@@ -2720,12 +2720,12 @@
     "veroeffentlichungsdatum": "2026-05-08",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:51:54.823Z",
-    "reviewLabel": "pruefen",
-    "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen beteiligung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:32.671Z"
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Wirkt passend wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/317636-2026",
@@ -2746,10 +2746,10 @@
     "scrapedAt": "2026-06-08T10:52:02.195Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:34.849Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318081-2026",
@@ -2770,10 +2770,10 @@
     "scrapedAt": "2026-06-08T10:52:02.195Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:38.176Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318099-2026",
@@ -2796,10 +2796,10 @@
     "scrapedAt": "2026-06-08T10:52:02.195Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:41.216Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318627-2026",
@@ -2823,10 +2823,10 @@
     "scrapedAt": "2026-06-08T10:52:02.195Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:44.670Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/317242-2026",
@@ -2845,10 +2845,10 @@
     "scrapedAt": "2026-06-08T10:52:05.360Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:47.115Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315762-2026",
@@ -2866,12 +2866,12 @@
     "veroeffentlichungsdatum": "2026-05-08",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-06-08T10:52:15.778Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen projektmanagement und project management.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:49.743Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/316014-2026",
@@ -2888,12 +2888,12 @@
     "veroeffentlichungsdatum": "2026-05-08",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-08T10:52:15.779Z",
-    "reviewLabel": "passt gut",
-    "reviewScore": 85,
-    "reviewReason": "Wirkt passend wegen projektmanagement und project management.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:51.829Z"
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen projektmanagement, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/316809-2026",
@@ -2915,10 +2915,10 @@
     "scrapedAt": "2026-06-08T10:52:15.779Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:54.417Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/317809-2026",
@@ -2937,10 +2937,10 @@
     "scrapedAt": "2026-06-08T10:52:15.779Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "Teilweise passend wegen spatial planning, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:56.874Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/318204-2026",
@@ -2960,9 +2960,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:57:58.853Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315699-2026",
@@ -2981,10 +2981,10 @@
     "scrapedAt": "2026-06-08T10:52:20.820Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:02.756Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315700-2026",
@@ -3003,10 +3003,10 @@
     "scrapedAt": "2026-06-08T10:52:20.820Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:05.042Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315713-2026",
@@ -3027,10 +3027,10 @@
     "scrapedAt": "2026-06-08T10:52:20.820Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:07.462Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315721-2026",
@@ -3049,10 +3049,10 @@
     "scrapedAt": "2026-06-08T10:52:20.820Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:10.713Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315724-2026",
@@ -3072,9 +3072,9 @@
     "reviewLabel": "pruefen",
     "reviewScore": 55,
     "reviewReason": "Teilweise passend wegen forschung, aber nicht eindeutig genug.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:14.272Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315727-2026",
@@ -3094,9 +3094,9 @@
     "reviewLabel": "passt gut",
     "reviewScore": 85,
     "reviewReason": "Wirkt passend wegen studie und beratung.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:16.546Z"
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/315731-2026",
@@ -3116,10 +3116,10 @@
     "scrapedAt": "2026-06-08T10:52:20.820Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:18.708Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-398e89a9-8a43-43a7-b678-2fcd8ae98f1d",
@@ -3139,10 +3139,10 @@
     "scrapedAt": "2026-06-08T10:52:31.333Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:20.785Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a15e75ca-f126-4d1c-a386-69446abddb8d",
@@ -3162,9 +3162,9 @@
     "scrapedAt": "2026-06-08T10:52:31.459Z",
     "reviewLabel": "pruefen",
     "reviewScore": 55,
-    "reviewReason": "MiniMax antwortete ohne verwertbares Token; Datensatz vorsichtshalber pruefen.",
-    "reviewProvider": "minimax",
-    "reviewModel": "MiniMax-M2.7",
-    "reviewedAt": "2026-06-08T10:58:23.007Z"
+    "reviewReason": "Codex findet gemischte oder unklare Signale; bitte bei Bedarf manuell pruefen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-09T15:03:34.973Z"
   }
 ]

@@ -59,5 +59,32 @@
   "usp": {
     "url": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
     "detailBaseUrl": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/"
+  },
+  "ankoeRegional": {
+    "enabled": true,
+    "maxDetailsPerSource": 80,
+    "sources": [
+      {
+        "portal": "ANKOE Burgenland",
+        "baseUrl": "https://burgenland.vergabeportal.at/",
+        "contractTypeIds": [
+          3
+        ]
+      },
+      {
+        "portal": "ANKOE Steiermark",
+        "baseUrl": "https://steiermark.vergabeportal.at/",
+        "contractTypeIds": [
+          3
+        ]
+      },
+      {
+        "portal": "ANKOE Oberoesterreich",
+        "baseUrl": "https://ooe.vergabeportal.at/",
+        "contractTypeIds": [
+          3
+        ]
+      }
+    ]
   }
 }

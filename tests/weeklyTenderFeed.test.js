@@ -8,16 +8,22 @@ const { buildPrompt, extractJsonObject } = require("../src/review");
 const { loadEnvironmentFiles, parseDotEnv } = require("../src/core/env");
 
 const {
+  ANKOE_SERVICE_CONTRACT_TYPE_ID,
+  ankoeRecordMatchesContractType,
   buildTedCountryFilter,
   buildTedWeeklyQuery,
   buildUspDetailUrl,
   countryLabel,
+  extractAnkoeCpvCodes,
+  extractAnkoeXsrfToken,
   extractUspDeadlineFromApiRow,
   extractUspDetailFromHtml,
   filterExpiredRecords,
   formatCpvSearchTerm,
+  getAnkoeMatchedSearchTerms,
   getUspApiUrl,
   isExpiredDeadline,
+  normalizeAnkoeRecord,
   normalizeFeedRecord,
   normalizeUspApiRow,
   tedNoticeMatchesAllowedCountries,
@@ -195,6 +201,113 @@ test("USP Detail-HTML liefert CPV und Beschreibung", () => {
 
   assert.deepEqual(detail.cpvCodes, ["79419000-4"]);
   assert.match(detail.beschreibung, /Strategie und Evaluation/);
+});
+
+test("ANKOE Regionalfilter laesst nur Dienstleistungsauftraege durch", () => {
+  const source = { contractTypeIds: [ANKOE_SERVICE_CONTRACT_TYPE_ID] };
+
+  assert.equal(ankoeRecordMatchesContractType({ contractTypeId: 3 }, source), true);
+  assert.equal(ankoeRecordMatchesContractType({ contractTypeId: 1 }, source), false);
+  assert.equal(ankoeRecordMatchesContractType({ contractTypeId: 2 }, source), false);
+});
+
+test("ANKOE XSRF Token und CPV-Codes werden aus Detaildaten gelesen", () => {
+  assert.equal(
+    extractAnkoeXsrfToken('<input name="__RequestVerificationToken" type="hidden" value="abc123" />'),
+    "abc123"
+  );
+
+  assert.deepEqual(
+    extractAnkoeCpvCodes({
+      versionContent: "<strong>CPV-Code Hauptteil</strong>: 71410000<br>CPV-Code Hauptteil: 79421000-1"
+    }),
+    ["71410000", "79421000-1"]
+  );
+});
+
+test("ANKOE Treffer koennen ueber Keywords oder CPV-Codes behalten werden", () => {
+  const config = {
+    searchTerms: ["Raumplanung"],
+    cpvCodes: ["79421000-1"],
+    cpvLabels: {
+      "79421000-1": "Projektmanagement"
+    }
+  };
+
+  assert.deepEqual(
+    getAnkoeMatchedSearchTerms(
+      {
+        name: "Rahmenvereinbarung externe Leistungen",
+        contractDescription: "Begleitung fuer Raumplanung und Strategie"
+      },
+      {},
+      config
+    ),
+    ["Raumplanung"]
+  );
+
+  assert.deepEqual(
+    getAnkoeMatchedSearchTerms(
+      {
+        name: "Beratungsleistung"
+      },
+      {
+        versionContent: "CPV-Code Hauptteil: 79421000-1"
+      },
+      config
+    ),
+    ["CPV 79421000-1 - Projektmanagement"]
+  );
+
+  assert.deepEqual(
+    getAnkoeMatchedSearchTerms(
+      {
+        name: "Planungsleistung"
+      },
+      {
+        versionContent: "CPV-Code Hauptteil: 71410000"
+      },
+      {
+        searchTerms: [],
+        cpvCodes: ["71410000-5"],
+        cpvLabels: {
+          "71410000-5": "Raumplanung"
+        }
+      }
+    ),
+    ["CPV 71410000 - Raumplanung"]
+  );
+});
+
+test("ANKOE Records werden in Dashboard-Spalten normalisiert", () => {
+  const record = normalizeAnkoeRecord(
+    {
+      id: 246000,
+      name: "Regionalentwicklung",
+      contAuthOfficialName: "Land Test",
+      submitDeadline: "2026-07-01T12:00:00",
+      contractDescription: "Beratungsleistung",
+      contractTypeId: 3
+    },
+    {
+      formDatas: [{ publishedAt: "2026-06-01T10:00:00" }],
+      versionContent: "CPV-Code Hauptteil: 71410000"
+    },
+    {
+      portal: "ANKOE Test",
+      baseUrl: "https://example.test/"
+    },
+    {},
+    ["Raumplanung"]
+  );
+
+  assert.equal(record.portal, "ANKOE Test");
+  assert.equal(record.suchbegriff, "Raumplanung");
+  assert.equal(record.titel, "Regionalentwicklung");
+  assert.equal(record.auftraggeber, "Land Test");
+  assert.equal(record.veroeffentlichungsdatum, "2026-06-01");
+  assert.equal(record.link, "https://example.test/Detail/246000");
+  assert.deepEqual(record.cpvCodes, ["71410000"]);
 });
 
 test(".env Parser liest Kommentare, Quotes und einfache Key-Value-Paare", () => {

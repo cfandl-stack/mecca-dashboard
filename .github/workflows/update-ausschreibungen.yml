@@ -33,7 +33,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
-          LLM_ENABLED: ${{ vars.LLM_ENABLED }}
+          LLM_ENABLED: "false"
           LLM_MAX_RECORDS: ${{ vars.LLM_MAX_RECORDS }}
       - name: Commit updated tender data
         uses: stefanzweifel/git-auto-commit-action@v5

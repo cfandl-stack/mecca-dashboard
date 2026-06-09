@@ -6,6 +6,8 @@
   "scripts": {
     "weekly-feed": "node src/weeklyTenderFeed.js",
     "weekly-feed:sample": "node src/weeklyTenderFeed.js --sample",
+    "review-dashboard-data": "node src/reviewDashboardData.js",
+    "rewrite-dashboard-data": "node src/rewriteDashboardData.js",
     "test": "node tests/run.js"
   }
 }

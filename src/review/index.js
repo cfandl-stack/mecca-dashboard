@@ -11,13 +11,44 @@ const TOKEN_TO_LABEL = {
 const POSITIVE_HINTS = [
   "raumplanung",
   "spatial planning",
+  "stadtplanung",
+  "urban planning",
+  "town planning",
+  "siedlungsplanung",
+  "settlement planning",
   "stadtentwicklung",
+  "stadtentwicklungsplanung",
   "urban development",
+  "urban development planning",
   "ortsentwicklung",
   "regionalentwicklung",
   "regional development",
   "strategie",
   "strategy",
+  "umwelt",
+  "environment",
+  "environmental",
+  "umweltplanung",
+  "environmental planning",
+  "sustainability",
+  "sustainable",
+  "klima",
+  "climate",
+  "climate adaptation",
+  "climate resilience",
+  "energie",
+  "energy",
+  "energy efficiency",
+  "energy savings",
+  "energetische einsparung",
+  "energetickych uspor",
+  "mobilitaet",
+  "mobility",
+  "urban mobility",
+  "verkehrsplanung",
+  "transport planning",
+  "public transport planning",
+  "sustainable urban mobility",
   "machbarkeitsstudie",
   "feasibility study",
   "studie",
@@ -39,7 +70,36 @@ const POSITIVE_HINTS = [
   "advisory",
   "technical assistance",
   "standortentwicklung",
-  "regional policy"
+  "regional policy",
+  "telepulesterv",
+  "kozlekedes"
+];
+
+const STRONG_POSITIVE_HINTS = [
+  "raumplanung",
+  "spatial planning",
+  "stadtplanung",
+  "urban planning",
+  "town planning",
+  "siedlungsplanung",
+  "settlement planning",
+  "stadtentwicklungsplanung",
+  "urban development planning",
+  "umweltorientierte stadtentwicklungsplanung",
+  "environmental planning",
+  "umweltplanung",
+  "energy efficiency",
+  "energy savings",
+  "energetische einsparung",
+  "energetickych uspor",
+  "mobilitaetsplanung",
+  "urban mobility",
+  "verkehrsplanung",
+  "transport planning",
+  "public transport planning",
+  "sustainable urban mobility",
+  "telepulesterv",
+  "kozlekedes fejlesztes"
 ];
 
 const NEGATIVE_HINTS = [
@@ -129,7 +189,7 @@ function buildPrompt(record) {
 
   return [
     "Bewerte die Ausschreibung fuer ein oesterreichisches Raumplanungsbuero.",
-    "PASS = passt gut fuer Raumplanung, Regionalentwicklung, Strategie, Studien, Evaluation, Moderation, Interreg oder projektnahe Beratungsleistungen.",
+    "PASS = passt gut fuer Raumplanung, Stadtplanung, Siedlungsentwicklung, Regionalentwicklung, Umweltplanung, Energie- und Klimathemen, Mobilitaets- oder Verkehrskonzepte, Studien, Evaluation, Moderation, Interreg oder projektnahe Beratungsleistungen.",
     "CHECK = gemischte Signale oder unklare Passung.",
     "NO = eher unpassend, vor allem Hochbau, Tiefbau, Strassenbau, Schienenbau, Bauausfuehrung, TGA, OeBA, Lieferleistungen, Reinigung, Medizintechnik oder fachfremde Leistungen.",
     "Antworte nur mit genau einem Token: PASS oder CHECK oder NO.",
@@ -299,7 +359,22 @@ function inferLabelFromKeywords(text, record) {
   );
   const normalized = asciiFold(recordText);
   const positiveMatches = collectHintMatches(normalized, POSITIVE_HINTS);
+  const strongPositiveMatches = collectHintMatches(normalized, STRONG_POSITIVE_HINTS);
   const negativeMatches = collectHintMatches(normalized, NEGATIVE_HINTS);
+
+  if (strongPositiveMatches.length >= 1 && negativeMatches.length === 0) {
+    return {
+      label: "passt gut",
+      reason: `Wirkt passend wegen ${strongPositiveMatches.slice(0, 2).join(" und ")}.`
+    };
+  }
+
+  if (strongPositiveMatches.length >= 1 && negativeMatches.length >= 1) {
+    return {
+      label: "pruefen",
+      reason: `Gemischte Signale zwischen starkem Planungsthema (${strongPositiveMatches[0]}) und Ausschlusskriterium (${negativeMatches[0]}).`
+    };
+  }
 
   if (negativeMatches.length >= 2 && positiveMatches.length === 0) {
     return {

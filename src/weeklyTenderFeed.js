@@ -55,6 +55,7 @@ const COUNTRY_NAMES = {
 
 const USP_DEFAULT_PAGE_SIZE = 25;
 const USP_DEFAULT_COUNTRY = "Österreich";
+const ANKOE_SERVICE_CONTRACT_TYPE_ID = 3;
 const execFileAsync = promisify(execFile);
 
 function mergeConfig(baseConfig, overrideConfig = {}) {
@@ -287,7 +288,11 @@ function normalizeCpvCode(value) {
 
 function formatCpvSearchTerm(code, labels = {}) {
   const normalizedCode = normalizeCpvCode(code);
-  const label = labels[normalizedCode] || labels[normalizedCode.replace(/-\d$/, "")];
+  const baseCode = normalizedCode.replace(/-\d$/, "");
+  const label =
+    labels[normalizedCode] ||
+    labels[baseCode] ||
+    Object.entries(labels).find(([labelCode]) => normalizeCpvCode(labelCode).replace(/-\d$/, "") === baseCode)?.[1];
 
   return label ? `CPV ${normalizedCode} - ${label}` : `CPV ${normalizedCode}`;
 }
@@ -428,6 +433,276 @@ function extractUspDetailFromHtml(html) {
     beschreibung: description || "",
     organisationLand: USP_DEFAULT_COUNTRY
   };
+}
+
+function normalizeAnkoeBaseUrl(baseUrl) {
+  const normalized = normalizeWhitespace(baseUrl);
+  return normalized.endsWith("/") ? normalized : `${normalized}/`;
+}
+
+function getAnkoeCookieHeader(headers) {
+  const setCookie = headers.get("set-cookie") || "";
+
+  return setCookie
+    .split(/,(?=[^ ;]+=)/)
+    .map((cookie) => cookie.split(";")[0])
+    .map(normalizeWhitespace)
+    .filter(Boolean)
+    .join("; ");
+}
+
+function extractAnkoeXsrfToken(html) {
+  return (
+    String(html || "").match(/name="__RequestVerificationToken"[^>]*value="([^"]+)"/i)?.[1] ||
+    String(html || "").match(/value="([^"]+)"[^>]*name="__RequestVerificationToken"/i)?.[1] ||
+    ""
+  );
+}
+
+function getAnkoeContractTypeIds(source) {
+  const ids = toArray(source.contractTypeIds)
+    .map((value) => Number(value))
+    .filter((value) => Number.isInteger(value) && value > 0);
+
+  return ids.length ? ids : [ANKOE_SERVICE_CONTRACT_TYPE_ID];
+}
+
+function ankoeRecordMatchesContractType(row, source) {
+  return getAnkoeContractTypeIds(source).includes(Number(row?.contractTypeId));
+}
+
+function extractAnkoeCpvCodes(detail = {}) {
+  const texts = [
+    detail.versionContent,
+    detail.contractDescription,
+    detail.name,
+    detail.contractName
+  ].filter(Boolean);
+
+  return unique(
+    texts
+      .join(" ")
+      .match(/\b\d{8}(?:-\d)?\b/g) || []
+  );
+}
+
+function getLatestAnkoePublicationDate(detail = {}, row = {}) {
+  const formDataDates = toArray(detail.formDatas)
+    .map((formData) => normalizeWhitespace(formData?.publishedAt))
+    .filter(Boolean)
+    .sort()
+    .reverse();
+
+  return (
+    formDataDates[0] ||
+    normalizeWhitespace(detail.ogdCoreData?.lastModified) ||
+    normalizeWhitespace(row.updatedAt) ||
+    normalizeWhitespace(row.displayTo)
+  );
+}
+
+function normalizeSearchValue(value) {
+  return normalizeWhitespace(value).toLowerCase();
+}
+
+function getAnkoeMatchedSearchTerms(row, detail, config) {
+  const cpvCodes = extractAnkoeCpvCodes(detail);
+  const cpvSearchTerms = toArray(config.cpvCodes).map(normalizeCpvCode);
+  const cpvSearchTermBases = cpvSearchTerms.map((code) => code.replace(/-\d$/, ""));
+  const cpvMatches = cpvCodes.filter((code) => {
+    const normalized = normalizeCpvCode(code);
+    const baseCode = normalized.replace(/-\d$/, "");
+    return cpvSearchTerms.includes(normalized) || cpvSearchTermBases.includes(baseCode);
+  });
+  const text = normalizeSearchValue(
+    [
+      row?.name,
+      row?.contractName,
+      row?.contractDescription,
+      row?.contAuthOfficialName,
+      row?.documentNumber,
+      row?.publicId,
+      detail?.name,
+      detail?.contractName,
+      detail?.contractDescription,
+      stripHtmlTags(detail?.versionContent || "")
+    ]
+      .filter(Boolean)
+      .join(" ")
+  );
+  const keywordMatches = toArray(config.searchTerms).filter((term) =>
+    text.includes(normalizeSearchValue(term))
+  );
+
+  return unique([
+    ...keywordMatches,
+    ...cpvMatches.map((code) => formatCpvSearchTerm(code, config.cpvLabels))
+  ]);
+}
+
+function normalizeAnkoeRecord(row, detail, source, config, matchedSearchTerms) {
+  const cpvCodes = extractAnkoeCpvCodes(detail);
+
+  return normalizeFeedRecord({
+    portal: source.portal || "ANKOE Regional",
+    suchbegriff: matchedSearchTerms.join("; ") || "Dienstleistungen",
+    titel: detail?.name || row.name || row.contractName,
+    auftraggeber: detail?.contAuthOfficialName || row.contAuthOfficialName,
+    veroeffentlichungsdatum: getLatestAnkoePublicationDate(detail, row),
+    frist: row.submitDeadline || detail?.submitDeadline || row.displayTo || detail?.displayTo,
+    link: new URL(`Detail/${row.id}`, normalizeAnkoeBaseUrl(source.baseUrl)).href,
+    cpvCodes,
+    beschreibung: detail?.contractDescription || row.contractDescription,
+    organisationLand: source.organisationLand || USP_DEFAULT_COUNTRY
+  });
+}
+
+async function createAnkoeSession(source, config) {
+  const baseUrl = normalizeAnkoeBaseUrl(source.baseUrl);
+  const listResponse = await fetch(new URL("List", baseUrl), {
+    headers: {
+      accept: "text/html,application/xhtml+xml",
+      "user-agent": config.runtime.userAgent
+    }
+  });
+
+  if (!listResponse.ok) {
+    throw new Error(`${source.portal} List status ${listResponse.status}`);
+  }
+
+  const html = await listResponse.text();
+  const token = extractAnkoeXsrfToken(html);
+  const cookieHeader = getAnkoeCookieHeader(listResponse.headers);
+
+  return { baseUrl, token, cookieHeader };
+}
+
+async function fetchAnkoePortalJson(session, source, config, pathName, options = {}) {
+  const headers = {
+    accept: "application/json",
+    "user-agent": config.runtime.userAgent
+  };
+
+  if (session.token) {
+    headers["X-XSRF-Token"] = session.token;
+  }
+
+  if (session.cookieHeader) {
+    headers.cookie = session.cookieHeader;
+  }
+
+  const response = await fetch(new URL(pathName, session.baseUrl), {
+    ...options,
+    headers: {
+      ...headers,
+      ...(options.headers || {})
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`${source.portal} ${pathName} status ${response.status}`);
+  }
+
+  return response.json();
+}
+
+async function fetchAnkoeList(session, source, config) {
+  const payload = await fetchAnkoePortalJson(session, source, config, "api/Procurement/Notice/Find/", {
+    method: "POST"
+  });
+
+  return Array.isArray(payload.result) ? payload.result : [];
+}
+
+async function fetchAnkoeDetail(session, source, config, id) {
+  const payload = await fetchAnkoePortalJson(session, source, config, `api/Procurement/Notice/Get/${id}`, {
+    method: "GET"
+  });
+
+  return payload.result || {};
+}
+
+async function scrapeAnkoeRegional(config, logger, cutoffDate) {
+  if (!config.ankoeRegional?.enabled) {
+    return [];
+  }
+
+  const records = [];
+  const seen = new Set();
+  const sources = toArray(config.ankoeRegional.sources);
+  const maxDetailsPerSource =
+    config.ankoeRegional.maxDetailsPerSource || config.runtime.maxDetailsPerPortal || 50;
+
+  for (const source of sources) {
+    if (!normalizeWhitespace(source.baseUrl)) {
+      continue;
+    }
+
+    logger.info("ANKOE Regional Suche", {
+      portal: source.portal,
+      contractTypeIds: getAnkoeContractTypeIds(source)
+    });
+
+    let rows = [];
+
+    try {
+      const session = await createAnkoeSession(source, config);
+      rows = (await fetchAnkoeList(session, source, config)).filter((row) =>
+        ankoeRecordMatchesContractType(row, source)
+      );
+
+      source._session = session;
+    } catch (error) {
+      logger.warn("ANKOE Regional Suche uebersprungen", {
+        portal: source.portal,
+        message: getErrorMessage(error)
+      });
+      continue;
+    }
+
+    let detailCount = 0;
+
+    for (const row of rows) {
+      let detail = {};
+
+      if (detailCount < maxDetailsPerSource) {
+        try {
+          detail = await fetchAnkoeDetail(source._session, source, config, row.id);
+          detailCount += 1;
+        } catch (error) {
+          logger.warn("ANKOE Detail konnte nicht geladen werden", {
+            portal: source.portal,
+            id: row.id,
+            message: getErrorMessage(error)
+          });
+        }
+      }
+
+      const matchedSearchTerms = getAnkoeMatchedSearchTerms(row, detail, config);
+      if (!matchedSearchTerms.length) {
+        continue;
+      }
+
+      const record = normalizeAnkoeRecord(row, detail, source, config, matchedSearchTerms);
+
+      if (!isOnOrAfter(record.veroeffentlichungsdatum, cutoffDate)) {
+        continue;
+      }
+
+      if (seen.has(record._recordKey)) {
+        continue;
+      }
+
+      seen.add(record._recordKey);
+      records.push(record);
+
+      if (records.length >= config.runtime.maxRecordsPerPortal) {
+        return records;
+      }
+    }
+  }
+
+  return records;
 }
 
 function getErrorMessage(error) {
@@ -828,7 +1103,8 @@ async function main() {
 
   const tedRecords = await scrapeTed(config, logger, cutoffDate);
   const uspRecords = await scrapeUsp(config, logger, cutoffDate);
-  const records = [...tedRecords, ...uspRecords]
+  const ankoeRecords = await scrapeAnkoeRegional(config, logger, cutoffDate);
+  const records = [...tedRecords, ...uspRecords, ...ankoeRecords]
     .map((record) => normalizeFeedRecord(record))
     .filter((record, index, allRecords) => allRecords.findIndex((candidate) => candidate._recordKey === record._recordKey) === index);
   const activeRecords = filterExpiredRecords(records)
@@ -841,6 +1117,7 @@ async function main() {
     records: reviewedRecords.length,
     ted: tedRecords.length,
     usp: uspRecords.length,
+    ankoeRegional: ankoeRecords.length,
     csvPath: config.output.csvPath,
     jsonPath: config.output.jsonPath,
     dataJsPath: config.output.dataJsPath
@@ -855,7 +1132,11 @@ if (require.main === module) {
 }
 
 module.exports = {
+  ANKOE_SERVICE_CONTRACT_TYPE_ID,
+  ankoeRecordMatchesContractType,
   buildUspDetailUrl,
+  extractAnkoeCpvCodes,
+  extractAnkoeXsrfToken,
   extractUspDeadlineFromApiRow,
   extractUspDetailFromHtml,
   calculateCutoffDate,
@@ -864,12 +1145,16 @@ module.exports = {
   countryLabel,
   formatCpvSearchTerm,
   getUspApiUrl,
+  getAnkoeMatchedSearchTerms,
+  loadWeeklyConfig,
   normalizeFeedRecord,
+  normalizeAnkoeRecord,
   normalizeUspApiRow,
   normalizeCpvCode,
   tedNoticeMatchesAllowedCountries,
   parseDate,
   toIsoDate,
+  writeOutputs,
   isExpiredDeadline,
   filterExpiredRecords
 };
