@@ -17,12 +17,12 @@
     "veroeffentlichungsdatum": "2026-06-15",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/405718-2026",
@@ -40,12 +40,12 @@
     "veroeffentlichungsdatum": "2026-06-12",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:06.258Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-86ece0f6-fcc2-49e7-9dab-20f2bfeb3d3a",
@@ -62,12 +62,12 @@
     "veroeffentlichungsdatum": "2026-06-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.332Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-1614e669-5265-4b31-af15-b9c626f36dd1",
@@ -84,12 +84,12 @@
     "veroeffentlichungsdatum": "2026-06-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.459Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-764b68e5-bfe1-47f0-b037-0f2505c9df78",
@@ -108,12 +108,12 @@
     "veroeffentlichungsdatum": "2026-06-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.585Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Eher fachfremd wegen sanierung und erweiterung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/399491-2026",
@@ -130,12 +130,12 @@
     "veroeffentlichungsdatum": "2026-06-11",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:30.097Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-99940cc2-82c7-46e0-93ed-874b2f8f0936",
@@ -155,12 +155,12 @@
     "veroeffentlichungsdatum": "2026-06-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.707Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-66e1db4d-034c-47f6-bf41-23b008583d81",
@@ -178,12 +178,12 @@
     "veroeffentlichungsdatum": "2026-06-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.830Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-7d757c20-ba0b-4bbf-acb8-6a121f18ef17",
@@ -201,12 +201,12 @@
     "veroeffentlichungsdatum": "2026-06-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:40.956Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-19ec96f8-ed42-4e71-af11-441ea7ecfdee",
@@ -231,12 +231,12 @@
     "veroeffentlichungsdatum": "2026-06-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.099Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/398255-2026",
@@ -255,12 +255,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/396561-2026",
@@ -280,12 +280,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:23.796Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/397185-2026",
@@ -302,12 +302,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:23.796Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-7205acc9-0e8a-4e02-9aad-117c69554896",
@@ -327,12 +327,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.223Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d33ccdc1-7da0-4774-bf6c-eab3f0738940",
@@ -350,12 +350,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.347Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 75130000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-97f2b36e-968f-4584-b618-aa6d792b21aa",
@@ -373,12 +373,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.475Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-34e674fb-1fd3-46ce-bfce-d13847a2ad1e",
@@ -396,12 +396,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.600Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b2a14b4d-99f1-4fed-8c6e-9ec7df774eec",
@@ -419,12 +419,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.726Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cafdc292-143f-4e6b-9b0c-8b541d022e4b",
@@ -442,12 +442,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.850Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-0a92ded4-fecc-4f64-8d58-d4be91b9bb71",
@@ -465,12 +465,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:41.978Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-0d74718b-0c38-4d55-a2ef-7e36d417d590",
@@ -488,12 +488,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.110Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110005844309_BVergG-VIII-1-Z2_209653",
@@ -514,12 +514,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79400000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b502e158-f84e-4bac-b3c0-3c1aa059ea07",
@@ -536,12 +536,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.360Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-e1c165b4-b548-413d-99dc-a97e9dd4878a",
@@ -559,12 +559,12 @@
     "veroeffentlichungsdatum": "2026-06-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:49.788Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/394065-2026",
@@ -591,12 +591,12 @@
     "veroeffentlichungsdatum": "2026-06-09",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:30.097Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen regionalentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-b3b9f918-8bea-4a18-969b-2a643eb60cc7",
@@ -613,12 +613,12 @@
     "veroeffentlichungsdatum": "2026-06-09",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.482Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5eee601f-17ad-43f4-b5e2-b0b3ea1207b8",
@@ -635,12 +635,12 @@
     "veroeffentlichungsdatum": "2026-06-09",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:49.915Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-875164e1-fdfe-4ddc-8635-3ff06885f254",
@@ -657,12 +657,12 @@
     "veroeffentlichungsdatum": "2026-06-09",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:50.037Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/390403-2026",
@@ -682,12 +682,12 @@
     "veroeffentlichungsdatum": "2026-06-08",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:16.110Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/388217-2026",
@@ -707,12 +707,12 @@
     "veroeffentlichungsdatum": "2026-06-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:24.924Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen energie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=41a809d9-0b61-4991-86b8-74dc07973af3-2bd5d328-fd03-460d-81e8-580d61b98295",
@@ -731,12 +731,12 @@
     "veroeffentlichungsdatum": "2026-06-05",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.603Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 39130000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/383810-2026",
@@ -754,12 +754,12 @@
     "veroeffentlichungsdatum": "2026-06-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:16.110Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/383938-2026",
@@ -777,12 +777,12 @@
     "veroeffentlichungsdatum": "2026-06-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:23.796Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/385206-2026",
@@ -803,12 +803,12 @@
     "veroeffentlichungsdatum": "2026-06-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:28.093Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Planungssignal vorhanden, aber zugleich Bau-/Lieferfokus (lieferung).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-af17b1b5-d674-413e-b4f4-d60239fa6af2",
@@ -828,12 +828,12 @@
     "veroeffentlichungsdatum": "2026-06-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.724Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/382031-2026",
@@ -860,12 +860,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/381835-2026",
@@ -885,12 +885,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:21.889Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/378442-2026",
@@ -908,12 +908,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:28.093Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-69158092-f654-463b-bab7-31919b00f3d5",
@@ -930,12 +930,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.854Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-674e9bc5-9973-4e2f-ae4c-5cdde18f12ae",
@@ -952,12 +952,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:42.979Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-ca09efda-4273-4027-b021-64353b56a7be",
@@ -975,12 +975,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:43.104Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Eher fachfremd wegen softwareentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a5d0ab5d-4bc0-476e-95f7-daf25816eb49",
@@ -999,12 +999,12 @@
     "veroeffentlichungsdatum": "2026-06-03",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:43.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/377594-2026",
@@ -1022,12 +1022,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/376423-2026",
@@ -1047,12 +1047,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:24.924Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421100, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1742837e-4488-41c2-ae78-46b3ecdcb06a",
@@ -1069,12 +1069,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:37.426Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN177696v_BVergG-VIII-1-Z2_570479",
@@ -1092,12 +1092,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:43.356Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 48331000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-6fee6a72-3b15-4782-9411-fec165e333d5",
@@ -1119,12 +1119,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:50.159Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2330757",
@@ -1142,12 +1142,12 @@
     "veroeffentlichungsdatum": "2026-06-02",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:50.282Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/374232-2026",
@@ -1164,12 +1164,12 @@
     "veroeffentlichungsdatum": "2026-06-01",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:28.093Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a6578abc-cc32-46c4-b668-2555c77925d3",
@@ -1186,12 +1186,12 @@
     "veroeffentlichungsdatum": "2026-06-01",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:37.553Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d06af20a-195b-4dbf-9c0f-06d5b06ae371",
@@ -1209,12 +1209,12 @@
     "veroeffentlichungsdatum": "2026-05-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:44.453Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-df788409-fe42-4a96-a320-a2c6767713e1",
@@ -1232,12 +1232,12 @@
     "veroeffentlichungsdatum": "2026-05-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:44.582Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b54016e3-26ab-446b-99f0-d9f22aab947f",
@@ -1255,12 +1255,12 @@
     "veroeffentlichungsdatum": "2026-05-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:44.708Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-d2fc5d27-66d5-41fd-84fa-b5aff5d98036",
@@ -1281,12 +1281,12 @@
     "veroeffentlichungsdatum": "2026-05-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:44.835Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9d26c47d-a062-40f0-9228-c175c499e02b",
@@ -1303,12 +1303,12 @@
     "veroeffentlichungsdatum": "2026-05-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:44.958Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: beratung und software.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-e76ec8db-31fc-40b5-b867-979c3bf70bb6",
@@ -1325,12 +1325,12 @@
     "veroeffentlichungsdatum": "2026-05-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.086Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-f925d5f0-2651-44b5-b8a0-e661d833132c",
@@ -1347,12 +1347,12 @@
     "veroeffentlichungsdatum": "2026-05-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.209Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://noe.vemap.com/home/bekannt/anzeigen.html?annID=1114457",
@@ -1367,12 +1367,12 @@
     "veroeffentlichungsdatum": "2026-05-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:12:25.054Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/364907-2026",
@@ -1391,12 +1391,12 @@
     "veroeffentlichungsdatum": "2026-05-28",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:20.695Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/365454-2026",
@@ -1414,12 +1414,12 @@
     "veroeffentlichungsdatum": "2026-05-28",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:24.924Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421100, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-05af9b86-de59-4572-aa4f-75ad2d80bd14",
@@ -1439,12 +1439,12 @@
     "veroeffentlichungsdatum": "2026-05-28",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.332Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9ff73e26-b723-465c-a28f-47aec3c73ead",
@@ -1471,12 +1471,12 @@
     "veroeffentlichungsdatum": "2026-05-28",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.461Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Eher fachfremd wegen hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/360828-2026",
@@ -1493,12 +1493,12 @@
     "veroeffentlichungsdatum": "2026-05-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/359478-2026",
@@ -1515,12 +1515,12 @@
     "veroeffentlichungsdatum": "2026-05-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:10.672Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/358661-2026",
@@ -1549,12 +1549,12 @@
     "veroeffentlichungsdatum": "2026-05-27",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:19.571Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72511000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1e4aaded-843c-4201-a937-ec7b21eadf74",
@@ -1576,12 +1576,12 @@
     "veroeffentlichungsdatum": "2026-05-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.585Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 45210000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/356863-2026",
@@ -1598,12 +1598,12 @@
     "veroeffentlichungsdatum": "2026-05-26",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:04.998Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/355973-2026",
@@ -1620,12 +1620,12 @@
     "veroeffentlichungsdatum": "2026-05-26",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/356344-2026",
@@ -1642,12 +1642,12 @@
     "veroeffentlichungsdatum": "2026-05-26",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/354818-2026",
@@ -1664,12 +1664,12 @@
     "veroeffentlichungsdatum": "2026-05-26",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:30.097Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen regionalentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-389159e9-93e4-479b-a727-dd0c5f7d150d",
@@ -1687,12 +1687,12 @@
     "veroeffentlichungsdatum": "2026-05-26",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.710Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/352138-2026",
@@ -1709,12 +1709,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:04.997Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/352490-2026",
@@ -1731,12 +1731,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/353673-2026",
@@ -1753,12 +1753,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/353665-2026",
@@ -1779,12 +1779,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-06-15T12:11:09.299Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/351262-2026",
@@ -1802,12 +1802,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/351954-2026",
@@ -1824,12 +1824,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/353422-2026",
@@ -1847,12 +1847,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/351035-2026",
@@ -1874,12 +1874,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:19.571Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 90711100.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/353671-2026",
@@ -1897,12 +1897,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cc36e4b7-1afd-4d55-b193-2377672336f4",
@@ -1922,12 +1922,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.836Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2326328",
@@ -1944,12 +1944,12 @@
     "veroeffentlichungsdatum": "2026-05-22",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:50.409Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346908-2026",
@@ -1967,12 +1967,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 71420000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/347175-2026",
@@ -1989,12 +1989,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 71420000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/347361-2026",
@@ -2013,12 +2013,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 71420000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346966-2026",
@@ -2036,12 +2036,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:13.875Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: beratung und software.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/347446-2026",
@@ -2081,12 +2081,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:19.571Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen software.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346815-2026",
@@ -2104,12 +2104,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:20.695Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/349892-2026",
@@ -2126,12 +2126,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:27.129Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/349096-2026",
@@ -2148,12 +2148,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/349338-2026",
@@ -2170,12 +2170,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "LVA; DNK; Polen; FIN; EST; Deutschland",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-21c1b84b-5837-4eae-a2ed-ec7193bed7d3",
@@ -2192,12 +2192,12 @@
     "veroeffentlichungsdatum": "2026-05-21",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:45.962Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/343552-2026",
@@ -2215,12 +2215,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:04.997Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/345947-2026",
@@ -2241,12 +2241,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:04.997Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 79421000, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346267-2026",
@@ -2266,12 +2266,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Planungssignal vorhanden, aber zugleich Bau-/Lieferfokus (reinigung).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/344848-2026",
@@ -2289,12 +2289,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:27.128Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/344888-2026",
@@ -2311,12 +2311,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:27.128Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: beratung und construction.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/345100-2026",
@@ -2335,12 +2335,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:27.128Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346295-2026",
@@ -2357,12 +2357,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:27.129Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/346640-2026",
@@ -2381,12 +2381,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-0f236145-1958-427d-9306-e91a4afcde4d",
@@ -2403,12 +2403,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:46.086Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=76efecc9-e509-4c6b-849b-f742ed3e258a-ba258fe7-752d-4ab1-a212-3cadfa357e87",
@@ -2425,12 +2425,12 @@
     "veroeffentlichungsdatum": "2026-05-20",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:50.533Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/341366-2026",
@@ -2447,12 +2447,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/343069-2026",
@@ -2469,12 +2469,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/340584-2026",
@@ -2494,12 +2494,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:13.875Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/342890-2026",
@@ -2516,12 +2516,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:13.875Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen studie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/341710-2026",
@@ -2542,12 +2542,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:27.128Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: beratung und works.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/341817-2026",
@@ -2565,12 +2565,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_54309_t_BVergG-VIII-1-Z2_224009",
@@ -2589,12 +2589,12 @@
     "veroeffentlichungsdatum": "2026-05-19",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:46.211Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72000000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/338150-2026",
@@ -2614,12 +2614,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:10.671Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen evaluation, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336405-2026",
@@ -2643,12 +2643,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Planungssignal vorhanden, aber zugleich Bau-/Lieferfokus (hochbau).",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337091-2026",
@@ -2676,12 +2676,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 71421000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/334604-2026",
@@ -2699,12 +2699,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:15.009Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/338008-2026",
@@ -2724,12 +2724,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/334650-2026",
@@ -2752,12 +2752,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:19.570Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 72250000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336663-2026",
@@ -2777,12 +2777,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:19.570Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: studie und architekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337157-2026",
@@ -2810,12 +2810,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-06-15T12:11:19.571Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: beratung und architekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337005-2026",
@@ -2832,12 +2832,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-06-15T12:11:23.796Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/337175-2026",
@@ -2857,12 +2857,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:27.128Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336185-2026",
@@ -2879,12 +2879,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:30.097Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen regionalentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/336501-2026",
@@ -2901,12 +2901,12 @@
     "veroeffentlichungsdatum": "2026-05-18",
     "organisationLand": "Ungarn; Slowakei",
     "scrapedAt": "2026-06-15T12:11:33.021Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen interreg.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332568-2026",
@@ -2924,12 +2924,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:04.997Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen entwicklungskonzept.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333424-2026",
@@ -2946,12 +2946,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:08.233Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333739-2026",
@@ -2968,12 +2968,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:12.074Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen CPV 71420000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332516-2026",
@@ -2991,12 +2991,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:13.875Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: studie und software.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333159-2026",
@@ -3020,12 +3020,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:13.875Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen generalplaner.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/331014-2026",
@@ -3042,12 +3042,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:15.008Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332769-2026",
@@ -3064,12 +3064,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:15.008Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332843-2026",
@@ -3086,12 +3086,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:15.009Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332998-2026",
@@ -3108,12 +3108,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:15.009Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333679-2026",
@@ -3130,12 +3130,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:15.009Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen beratung, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333797-2026",
@@ -3155,12 +3155,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:18.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen umweltberatung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/334359-2026",
@@ -3177,12 +3177,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Italien",
     "scrapedAt": "2026-06-15T12:11:21.889Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen CPV 75112100, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/331571-2026",
@@ -3199,12 +3199,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:28.093Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Passt fachlich wegen raumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/331646-2026",
@@ -3222,12 +3222,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:31.608Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: klima und architekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332261-2026",
@@ -3246,12 +3246,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:31.608Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 45332400.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/332922-2026",
@@ -3283,12 +3283,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:31.608Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Eher fachfremd wegen lieferung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333013-2026",
@@ -3305,12 +3305,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:31.608Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen nachhaltig, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333258-2026",
@@ -3330,12 +3330,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-06-15T12:11:31.609Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Passung aus den vorhandenen Angaben nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/333288-2026",
@@ -3355,12 +3355,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:31.609Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirkt fachfremd wegen CPV 45310000.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330652-2026",
@@ -3377,12 +3377,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330654-2026",
@@ -3401,12 +3401,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: strategie und software.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330661-2026",
@@ -3424,12 +3424,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330663-2026",
@@ -3450,12 +3450,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330666-2026",
@@ -3472,12 +3472,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330668-2026",
@@ -3494,12 +3494,12 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Signale: strategie und reinigung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/330669-2026",
@@ -3516,11 +3516,11 @@
     "veroeffentlichungsdatum": "2026-05-15",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-06-15T12:11:35.352Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Teilweise passend wegen strategie, aber nicht eindeutig genug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-06-17T10:21:54.122Z"
   }
 ]
