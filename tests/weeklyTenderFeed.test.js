@@ -3,8 +3,6 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { extractResponseContent, summarizePayload } = require("../src/review/providers/minimax");
-const { buildPrompt, extractJsonObject } = require("../src/review");
 const { loadEnvironmentFiles, parseDotEnv } = require("../src/core/env");
 
 const {
@@ -25,6 +23,7 @@ const {
   getNoeMatchedSearchTerms,
   getUspApiUrl,
   isExpiredDeadline,
+  markRecordsUnreviewed,
   normalizeAnkoeRecord,
   normalizeFeedRecord,
   normalizeUspApiRow,
@@ -346,241 +345,75 @@ test("NOE HTML-Bekanntmachungen werden gefiltert gelesen", () => {
 test(".env Parser liest Kommentare, Quotes und einfache Key-Value-Paare", () => {
   const parsed = parseDotEnv(`
     # Kommentar
-    LLM_PROVIDER=minimax
-    LLM_MODEL="MiniMax-M2.5"
-    LLM_ENABLED='true'
+    FEED_REGION=at
+    FEED_MODE="weekly"
+    FEED_ENABLED='true'
   `);
 
   assert.deepEqual(parsed, {
-    LLM_PROVIDER: "minimax",
-    LLM_MODEL: "MiniMax-M2.5",
-    LLM_ENABLED: "true"
+    FEED_REGION: "at",
+    FEED_MODE: "weekly",
+    FEED_ENABLED: "true"
   });
 });
 
 test("lokale Environment-Dateien werden geladen ohne bestehende Variablen zu ueberschreiben", () => {
   const tempDirectory = fs.mkdtempSync(path.join(os.tmpdir(), "mecca-env-test-"));
-  const originalProvider = process.env.LLM_PROVIDER;
-  const originalModel = process.env.LLM_MODEL;
+  const originalProvider = process.env.FEED_REGION;
+  const originalModel = process.env.FEED_MODE;
 
   fs.writeFileSync(
     path.join(tempDirectory, ".env.local"),
-    "LLM_PROVIDER=minimax\nLLM_MODEL=MiniMax-M2.5\n",
+    "FEED_REGION=at\nFEED_MODE=weekly\n",
     "utf8"
   );
 
-  process.env.LLM_PROVIDER = "manual-provider";
-  delete process.env.LLM_MODEL;
+  process.env.FEED_REGION = "manual-region";
+  delete process.env.FEED_MODE;
 
   try {
     const loadedFiles = loadEnvironmentFiles({ cwd: tempDirectory });
 
     assert.equal(loadedFiles.length, 1);
-    assert.equal(process.env.LLM_PROVIDER, "manual-provider");
-    assert.equal(process.env.LLM_MODEL, "MiniMax-M2.5");
+    assert.equal(process.env.FEED_REGION, "manual-region");
+    assert.equal(process.env.FEED_MODE, "weekly");
   } finally {
     if (originalProvider === undefined) {
-      delete process.env.LLM_PROVIDER;
+      delete process.env.FEED_REGION;
     } else {
-      process.env.LLM_PROVIDER = originalProvider;
+      process.env.FEED_REGION = originalProvider;
     }
 
     if (originalModel === undefined) {
-      delete process.env.LLM_MODEL;
+      delete process.env.FEED_MODE;
     } else {
-      process.env.LLM_MODEL = originalModel;
+      process.env.FEED_MODE = originalModel;
     }
 
     fs.rmSync(tempDirectory, { recursive: true, force: true });
   }
 });
 
-test("MiniMax Adapter kann String- und Array-Content lesen", () => {
-  assert.equal(
-    extractResponseContent({
-      choices: [{ message: { content: "Hallo" } }]
-    }),
-    "Hallo"
-  );
+test("Wochenfeed setzt alte Bewertungen vollstaendig zurueck", () => {
+  const records = markRecordsUnreviewed([
+    {
+      titel: "Bestehende Ausschreibung",
+      reviewLabel: "passt gut",
+      reviewScore: 85,
+      reviewReason: "Alte Bewertung",
+      reviewProvider: "alt",
+      reviewModel: "alt-modell",
+      reviewedAt: "2026-01-01T00:00:00.000Z"
+    }
+  ]);
 
-  assert.equal(
-    extractResponseContent({
-      choices: [
-        {
-          message: {
-            content: [
-              { text: "Teil 1" },
-              { content: "Teil 2" }
-            ]
-          }
-        }
-      ]
-    }),
-    "Teil 1\nTeil 2"
-  );
-});
-
-test("MiniMax Payload Summary extrahiert relevante Debug-Felder", () => {
-  const summary = summarizePayload({
-    model: "MiniMax-M2.7",
-    choices: [{ finish_reason: "stop" }],
-    base_resp: { status_code: 1027, status_msg: "output new_sensitive" },
-    input_sensitive: false,
-    output_sensitive: true,
-    output_sensitive_type: 4
+  assert.deepEqual(records[0], {
+    titel: "Bestehende Ausschreibung",
+    reviewLabel: "ungeprueft",
+    reviewScore: null,
+    reviewReason: "",
+    reviewProvider: "",
+    reviewModel: "",
+    reviewedAt: ""
   });
-
-  assert.deepEqual(summary, {
-    model: "MiniMax-M2.7",
-    finishReason: "stop",
-    baseStatusCode: 1027,
-    baseStatusMessage: "output new_sensitive",
-    inputSensitive: false,
-    inputSensitiveType: undefined,
-    outputSensitive: true,
-    outputSensitiveType: 4
-  });
-});
-
-test("Review Parser kann JSON aus Markdown-Codefences extrahieren", () => {
-  const parsed = extractJsonObject("```json\n{\"label\":\"pruefen\",\"score\":58,\"reason\":\"Grenzfall wegen Bauanteil.\"}\n```");
-
-  assert.deepEqual(parsed, {
-    label: "pruefen",
-    score: 58,
-    reason: "Grenzfall wegen Bauanteil."
-  });
-});
-
-test("Review Parser kann Freitext-Fallback auf Label pruefen abbilden", () => {
-  const parsed = extractJsonObject("Let me analyze this. The tender has mixed signals and needs review because planning and construction aspects overlap.");
-
-  assert.equal(parsed.label, "pruefen");
-  assert.equal(parsed.score, 55);
-  assert.match(parsed.reason, /Let me analyze this/i);
-});
-
-test("Review Parser kann PASS Token direkt zuordnen", () => {
-  const parsed = extractJsonObject("PASS");
-
-  assert.equal(parsed.label, "passt gut");
-  assert.equal(parsed.score, 85);
-});
-
-test("Review Parser kann CHECK Token in erster Zeile zuordnen", () => {
-  const parsed = extractJsonObject("CHECK\nThis looks borderline.");
-
-  assert.equal(parsed.label, "pruefen");
-  assert.equal(parsed.score, 55);
-});
-
-test("Review Parser kann NO Token mit Satzzeichen zuordnen", () => {
-  const parsed = extractJsonObject("NO.");
-
-  assert.equal(parsed.label, "eher unpassend");
-  assert.equal(parsed.score, 20);
-});
-
-test("Review Parser kann Bau-Freitext heuristisch als eher unpassend werten", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this tender. The tender is about road infrastructure maintenance on a tunnel section.",
-    {
-      titel: "Road infrastructure maintenance",
-      beschreibung: "Tunnel section and asphalt works",
-      suchbegriff: "Projektmanagement"
-    }
-  );
-
-  assert.equal(parsed.label, "eher unpassend");
-  assert.match(parsed.reason, /Bau|fachfremd/i);
-});
-
-test("Review Parser kann Planungs-Freitext heuristisch als passend werten", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this tender. The tender concerns a feasibility study for regional development and strategy.",
-    {
-      titel: "Feasibility study for regional development",
-      beschreibung: "Strategy and evaluation support",
-      suchbegriff: "Strategie"
-    }
-  );
-
-  assert.equal(parsed.label, "passt gut");
-  assert.match(parsed.reason, /passend/i);
-});
-
-test("Review Parser erkennt umweltorientierte Stadtentwicklungsplanung als passend", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this procurement notice in more detail before deciding.",
-    {
-      titel: "Ungarn – Umweltorientierte Stadtentwicklungsplanung – Gyor elovarosi kozlekedes fejlesztese tervezes",
-      beschreibung: "Urban development planning and mobility concept",
-      suchbegriff: "Raumplanung"
-    }
-  );
-
-  assert.equal(parsed.label, "passt gut");
-  assert.match(parsed.reason, /stadtentwicklungsplanung|urban development planning|kozlekedes/i);
-});
-
-test("Review Parser erkennt Energieeinsparungs-Beratung als passend", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this procurement notice in more detail before deciding.",
-    {
-      titel: "Tschechien – Beratung im Bereich Energieeinsparung – Poradenstvi v oblasti energetickych uspor",
-      beschreibung: "Energy savings advisory services",
-      suchbegriff: "Strategie"
-    }
-  );
-
-  assert.equal(parsed.label, "passt gut");
-  assert.match(parsed.reason, /energy savings|energetickych uspor|energie/i);
-});
-
-test("Review Parser erkennt telepulesterv als Stadtplanungsthema", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this procurement notice in more detail before deciding.",
-    {
-      titel: "Ungarn – Stadtplanung – Uj telepulesterv keszitese",
-      beschreibung: "Town planning and settlement development",
-      suchbegriff: "Raumplanung"
-    }
-  );
-
-  assert.equal(parsed.label, "passt gut");
-  assert.match(parsed.reason, /telepulesterv|stadtplanung|town planning/i);
-});
-
-test("Review Parser faellt bei unverwertbarem MiniMax-Freitext konservativ auf pruefen zurueck", () => {
-  const parsed = extractJsonObject(
-    "Let me analyze this procurement notice in more detail before deciding.",
-    {
-      titel: "Rahmenvertrag externe Leistungen",
-      beschreibung: "Diverse Unterstuetzungsleistungen",
-      auftraggeber: "Teststelle"
-    }
-  );
-
-  assert.equal(parsed.label, "pruefen");
-  assert.equal(parsed.score, 55);
-  assert.match(parsed.reason, /vorsichtshalber pruefen/i);
-});
-
-test("Review Prompt fordert nur PASS CHECK NO an", () => {
-  const prompt = buildPrompt({
-    portal: "TED",
-    suchbegriff: "Strategie",
-    titel: "Machbarkeitsstudie",
-    auftraggeber: "Stadt Test",
-    beschreibung: "Regionalentwicklung",
-    cpvCodes: ["71410000-5"],
-    organisationLand: "AUT",
-    frist: "2026-04-30",
-    veroeffentlichungsdatum: "2026-04-20"
-  });
-
-  assert.match(prompt, /PASS oder CHECK oder NO/);
-  assert.match(prompt, /Kein JSON/);
-  assert.match(prompt, /Energie- und Klimathemen/);
-  assert.doesNotMatch(prompt, /"label":"passt gut\|pruefen\|eher unpassend"/);
 });

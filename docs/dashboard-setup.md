@@ -12,18 +12,11 @@ Der Wochenlauf ist fuer GitHub Actions ausgelegt:
 
 1. Workflow `Update Ausschreibungen` laeuft montags automatisch und kann zusaetzlich manuell gestartet werden.
 2. Der Workflow erzeugt `dash/ausschreibungen.csv`, `dash/data.json` und `dash/data_embed.js`.
-3. Bei Aenderungen commitet der Workflow genau diese Datenartefakte nach `master`.
-4. Der separate Workflow `Deploy to GitHub Pages` veroeffentlicht danach den aktuellen Stand.
+3. Die erzeugten Datensaetze sind bewusst als `ungeprueft` markiert; der Lauf verwendet keine externe KI und keine Zugangsdaten.
+4. Bei Aenderungen commitet der Workflow genau diese Datenartefakte nach `master`.
+5. Die Codex Automation `Ausschreibungen nachtraeglich bewerten` startet danach, aktualisiert zuerst ihren lokalen Stand und bewertet alle Datensaetze fachlich.
+6. Der separate Workflow `Deploy to GitHub Pages` veroeffentlicht danach den aktuellen Stand.
 
-## LLM Review
+## Codex-Bewertung
 
-Fuer die AI-Bewertung werden diese Umgebungsvariablen ausgewertet:
-
-- `LLM_PROVIDER=minimax`
-- `LLM_API_KEY`
-- `LLM_MODEL` (optional, Default `MiniMax-M2.5`)
-- `LLM_BASE_URL` (optional, Default `https://api.minimax.io`)
-- `LLM_ENABLED=true|false`
-- `LLM_MAX_RECORDS` (optional, `0` = alle Datensaetze)
-
-Der Wochenlauf faellt bei fehlender oder fehlerhafter LLM-Konfiguration sauber auf `ungeprueft` zurueck.
+Die fachliche Bewertung erfolgt ausschliesslich durch Codex Automation. Es gibt keine lokale Heuristik, keinen API-Provider und keine KI-Umgebungsvariablen mehr. Der Wochenfeed bleibt deshalb auch bei einer nicht verfuegbaren Bewertungsautomation konsistent und liefert `ungeprueft` markierte Datensaetze.

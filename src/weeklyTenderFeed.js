@@ -2,15 +2,12 @@
 const path = require("node:path");
 const { execFile } = require("node:child_process");
 const { promisify } = require("node:util");
-const { loadEnvironmentFiles } = require("./core/env");
 
 const { createLogger } = require("./core/logger");
 const { pickLocalizedText } = require("./core/normalize");
 const { createStableHash, ensureDirectoryPath, normalizeWhitespace, sleep, stripHtmlTags, toArray, unique } = require("./core/utils");
-const { enrichRecordsWithReview } = require("./review");
 const { buildTedQuery } = require("./sources/ted");
 
-loadEnvironmentFiles();
 
 const CSV_HEADERS = [
   "recordKey",
@@ -250,6 +247,18 @@ function normalizeFeedRecord(record) {
   normalized.recordKey = normalized._recordKey;
 
   return normalized;
+}
+
+function markRecordsUnreviewed(records) {
+  return records.map((record) => ({
+    ...record,
+    reviewLabel: "ungeprueft",
+    reviewScore: null,
+    reviewReason: "",
+    reviewProvider: "",
+    reviewModel: "",
+    reviewedAt: ""
+  }));
 }
 
 function startOfTodayUtc() {
@@ -1216,12 +1225,12 @@ async function main() {
     .filter((record, index, allRecords) => allRecords.findIndex((candidate) => candidate._recordKey === record._recordKey) === index);
   const activeRecords = filterExpiredRecords(records)
     .sort((a, b) => b.veroeffentlichungsdatum.localeCompare(a.veroeffentlichungsdatum));
-  const reviewedRecords = await enrichRecordsWithReview(activeRecords, logger);
+  const outputRecords = markRecordsUnreviewed(activeRecords);
 
-  await writeOutputs(reviewedRecords, config.output);
+  await writeOutputs(outputRecords, config.output);
 
   logger.info("Weekly Tender Feed abgeschlossen", {
-    records: reviewedRecords.length,
+    records: outputRecords.length,
     ted: tedRecords.length,
     usp: uspRecords.length,
     ankoeRegional: ankoeRecords.length,
@@ -1257,6 +1266,7 @@ module.exports = {
   getAnkoeMatchedSearchTerms,
   getNoeMatchedSearchTerms,
   loadWeeklyConfig,
+  markRecordsUnreviewed,
   normalizeFeedRecord,
   normalizeAnkoeRecord,
   normalizeUspApiRow,
