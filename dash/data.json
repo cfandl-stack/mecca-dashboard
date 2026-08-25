@@ -17,12 +17,12 @@
     "veroeffentlichungsdatum": "2026-08-24",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:45.270Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Technische Anlagenoptimierung einer Sortierlinie.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cc839d8b-7340-4ab8-814a-900d5bb80576",
@@ -42,12 +42,12 @@
     "veroeffentlichungsdatum": "2026-08-23",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.082Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-bb9a6b7e-e119-4155-a781-6458ec157502",
@@ -67,12 +67,12 @@
     "veroeffentlichungsdatum": "2026-08-23",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.219Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-c9d31414-daae-4ca4-b981-61ce1cb47b74",
@@ -89,12 +89,12 @@
     "veroeffentlichungsdatum": "2026-08-23",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.358Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5eb563ff-71ad-495a-ba94-521f9970daad",
@@ -112,12 +112,12 @@
     "veroeffentlichungsdatum": "2026-08-21",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.495Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wettbewerbs- und Bildungsformat ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_44133b_BVergG-VIII-1-Z2_204923",
@@ -134,12 +134,12 @@
     "veroeffentlichungsdatum": "2026-08-21",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:09.471Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Software- bzw. IT-Leistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/576194-2026",
@@ -166,12 +166,12 @@
     "veroeffentlichungsdatum": "2026-08-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:49.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kommunikations- und PR-Leistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/578107-2026",
@@ -188,12 +188,12 @@
     "veroeffentlichungsdatum": "2026-08-20",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:49.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "TGA-Planung fuer Gebaeude.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-396287cb-bc56-442c-b45a-00b10d20d62a",
@@ -210,12 +210,12 @@
     "veroeffentlichungsdatum": "2026-08-20",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:58.239Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Interreg-Bezug, aber primaer Pruefungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-a70e2175-d938-4a9f-943d-ca416315d2a5",
@@ -233,12 +233,12 @@
     "veroeffentlichungsdatum": "2026-08-20",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.635Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Generaluebernehmer fuer Schulsanierung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://steiermark.vergabeportal.at/Detail/253547",
@@ -256,12 +256,12 @@
     "veroeffentlichungsdatum": "2026-08-20",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:16.812Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Interreg-Bezug, aber primaer Pruefungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-489027d8-9f98-432a-a826-ab2a7cfb15b7",
@@ -283,12 +283,12 @@
     "veroeffentlichungsdatum": "2026-08-19",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:09.611Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kommunikationsleistung im Gesundheitsbereich.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-a81be369-2c1d-4faf-bcde-c447039a53e0",
@@ -305,12 +305,12 @@
     "veroeffentlichungsdatum": "2026-08-18",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.775Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Architektur- und Hochbauplanung fuer Infrastrukturgebaeude.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-ee1a51f2-e01f-4397-aaf7-92d2a0c4e3c9",
@@ -333,12 +333,12 @@
     "veroeffentlichungsdatum": "2026-08-18",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:00.915Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Magazinproduktion und Kommunikation.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_283362",
@@ -355,12 +355,12 @@
     "veroeffentlichungsdatum": "2026-08-18",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:09.750Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Elektroinstallationsleistung im Hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://steiermark.vergabeportal.at/Detail/251651",
@@ -384,12 +384,12 @@
     "veroeffentlichungsdatum": "2026-08-18",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:18.102Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Magazinproduktion und Kommunikation.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/569271-2026",
@@ -409,12 +409,12 @@
     "veroeffentlichungsdatum": "2026-08-17",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.402Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Liefer- und Beratungsleistung fuer Satellitentechnik.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/568497-2026",
@@ -431,12 +431,12 @@
     "veroeffentlichungsdatum": "2026-08-17",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:42.154Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Klinische Forschungsbegleitung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/566424-2026",
@@ -454,12 +454,12 @@
     "veroeffentlichungsdatum": "2026-08-17",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:43.286Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kundenservice- und Verwaltungsunterstuetzung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/567273-2026",
@@ -479,12 +479,12 @@
     "veroeffentlichungsdatum": "2026-08-17",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Bildungs- und TVET-Leistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-5b7d2f54-9ae5-49ab-a28b-4df47256ffa2",
@@ -502,12 +502,12 @@
     "veroeffentlichungsdatum": "2026-08-17",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.061Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Planung und Bauaufsicht fuer Werkstaettenumbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/563919-2026",
@@ -527,12 +527,12 @@
     "veroeffentlichungsdatum": "2026-08-14",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:38.566Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanung fuer klimaresiliente Parkflaeche.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/564139-2026",
@@ -549,12 +549,12 @@
     "veroeffentlichungsdatum": "2026-08-14",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial- und Arbeitsmarktdienstleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/564762-2026",
@@ -572,12 +572,12 @@
     "veroeffentlichungsdatum": "2026-08-14",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Wirtschaftsberatung fuer Klinikbetrieb.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/564938-2026",
@@ -594,12 +594,12 @@
     "veroeffentlichungsdatum": "2026-08-14",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umweltbaubegleitung und Umweltplanung im Strassenprojekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/561718-2026",
@@ -616,12 +616,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.402Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Mobilitaets- und Elektrifizierungskonzept.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/562623-2026",
@@ -639,12 +639,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.402Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Urban-Mobility-Analyse mit Gleichstellungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/562229-2026",
@@ -664,12 +664,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:38.566Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanung fuer klimaresiliente Parkflaeche.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-e11b2e52-514b-4f1e-8781-ba78720ae79d",
@@ -689,12 +689,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.200Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1e16864e-1f96-4768-981a-1eccfe84505c",
@@ -714,12 +714,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-823cfc01-19a0-402a-a5b5-84203968e374",
@@ -739,12 +739,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.484Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2358939",
@@ -761,12 +761,12 @@
     "veroeffentlichungsdatum": "2026-08-13",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:09.921Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Beschaffungscontrolling ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/558378-2026",
@@ -786,12 +786,12 @@
     "veroeffentlichungsdatum": "2026-08-12",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:38.566Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanung fuer klimaresiliente Parkflaeche.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/557944-2026",
@@ -809,12 +809,12 @@
     "veroeffentlichungsdatum": "2026-08-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Grafik- und Redaktionsleistung fuer Magazin.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/557048-2026",
@@ -831,12 +831,12 @@
     "veroeffentlichungsdatum": "2026-08-12",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Medizintechnik-Lieferleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-7eb313bd-d153-47ec-8a86-b6f612de13e3",
@@ -853,12 +853,12 @@
     "veroeffentlichungsdatum": "2026-08-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.625Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Baumanagement fuer Brueckenprojekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z2_829529",
@@ -875,12 +875,12 @@
     "veroeffentlichungsdatum": "2026-08-12",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.062Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Elektrotechnik-Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/555717-2026",
@@ -899,12 +899,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:30.401Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Beratung fuer autonome Mobilitaetsprojekte.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/556398-2026",
@@ -922,12 +922,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.401Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Urban-Mobility-Analyse mit Gleichstellungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/556499-2026",
@@ -947,12 +947,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:38.566Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanung fuer klimaresiliente Parkflaeche.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/556204-2026",
@@ -969,12 +969,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:42.154Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Gesundheitsoekonomische Analyse ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-c9adc705-35e9-4d86-b779-a49c89b81ca6",
@@ -991,12 +991,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.767Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Projektunterstuetzung im Bereich Raum und Umwelt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-1458c4a7-5067-4ab3-9ae3-fa4ce6a1fb6f",
@@ -1014,12 +1014,12 @@
     "veroeffentlichungsdatum": "2026-08-11",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:01.913Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Bauherrenbegleitung fuer Gesundheitsgebaeude.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/552669-2026",
@@ -1039,12 +1039,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:38.566Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanung fuer klimaresiliente Parkflaeche.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/551364-2026",
@@ -1066,12 +1066,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umweltplanung fuer Schienenkorridor.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/552018-2026",
@@ -1089,12 +1089,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Moebellieferleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5f8ff4ea-135d-4725-80c1-a89a4380a16d",
@@ -1111,12 +1111,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:07.171Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Interreg-Bezug, aber Schwerpunkt Oeffentlichkeitsarbeit.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-2cb36b03-bfdb-4ad2-9ef8-a77178a05ace",
@@ -1133,12 +1133,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.200Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Digitale Strategie ohne konkreten Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_861859",
@@ -1155,12 +1155,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.342Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Gebaeudesanierung im Hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ooe.vergabeportal.at/Detail/252840",
@@ -1177,12 +1177,12 @@
     "veroeffentlichungsdatum": "2026-08-10",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:22.603Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Interreg-Bezug, aber Schwerpunkt Oeffentlichkeitsarbeit.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110005907677_BVergG-VIII-1-Z2_359067",
@@ -1203,12 +1203,12 @@
     "veroeffentlichungsdatum": "2026-08-09",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.060Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Generaluebernehmer fuer Schulbauprojekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cac59ace-925b-4bfd-8f1c-997093240e49",
@@ -1228,12 +1228,12 @@
     "veroeffentlichungsdatum": "2026-08-08",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Maschinen- bzw. Lieferleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/547488-2026",
@@ -1250,12 +1250,12 @@
     "veroeffentlichungsdatum": "2026-08-07",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:42.154Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Energie- und Klimathema zu gruener Wasserstoffwirtschaft.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_298464",
@@ -1270,12 +1270,12 @@
     "veroeffentlichungsdatum": "2026-08-07",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "HKLS-Ausfuehrungsleistung im Hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_413306",
@@ -1290,12 +1290,12 @@
     "veroeffentlichungsdatum": "2026-08-07",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Elektro-Ausfuehrungsleistung im Hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/545657-2026",
@@ -1325,12 +1325,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.401Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Klimarisiko- und Starkregenanalyse fuer Schienennetz.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/543738-2026",
@@ -1349,12 +1349,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Bauvertrags- und Termincontrolling fuer Schienenbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-408f43da-f18e-4e27-8809-5935ebb959d4",
@@ -1373,12 +1373,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.202Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Bauherrenbegleitung fuer Immobilienprojekte.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=009b7802-0b04-4fee-8dac-3922bd5098ae-KD_2356826",
@@ -1393,12 +1393,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kommunikationsstrategie ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z2_494972",
@@ -1413,12 +1413,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Stahlbau-Liefer- bzw. Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z2_831872",
@@ -1433,12 +1433,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Dachdecker- und Spenglerarbeiten.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z2_891637",
@@ -1453,12 +1453,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Fenster-Liefer- bzw. Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z2_562282",
@@ -1473,12 +1473,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Metallbau- bzw. Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f2b2f9b0-f559-4a9a-af58-c39ec30b842c",
@@ -1493,12 +1493,12 @@
     "veroeffentlichungsdatum": "2026-08-06",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Coaching- und Fuehrungskraefteprogramm.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/541970-2026",
@@ -1526,12 +1526,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:29.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Betriebsmanagement fuer Gartenschau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/542033-2026",
@@ -1548,12 +1548,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:29.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Projektinhalt Construct X bleibt fachlich unklar.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/542268-2026",
@@ -1572,12 +1572,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:29.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Mobilitaetsbezug vorhanden, aber Schwerpunkt Kommunikation.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/542399-2026",
@@ -1597,12 +1597,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Medizintechnik-Lieferung mit Serviceanteil.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-fadfeeac-6dcc-4aec-b25e-4d101c3ae618",
@@ -1620,12 +1620,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.360Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Standortentwicklung mit Projektleitung, aber immobiliennah.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z5_987796",
@@ -1640,12 +1640,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Aufzugs-Liefer- bzw. Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-1-Z5_228114",
@@ -1660,12 +1660,12 @@
     "veroeffentlichungsdatum": "2026-08-05",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Innenausbau- bzw. Ausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/538421-2026",
@@ -1685,12 +1685,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Klimarisiko- und Wasserhaushaltsanalyse.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/539388-2026",
@@ -1709,12 +1709,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Energieberatungsleistung mit Einsparfokus.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/538940-2026",
@@ -1731,12 +1731,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Integrierter Mobilitaetsplan fuer die Stadt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/540108-2026",
@@ -1754,12 +1754,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:49.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Projektdienstleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/537412-2026",
@@ -1777,12 +1777,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Strassenbau- bzw. Bauausfuehrungsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/540359-2026",
@@ -1805,12 +1805,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hardware-Lieferleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5297d882-5a43-40fd-8be5-a2ace946ae3c",
@@ -1830,12 +1830,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.500Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-f15a7d02-c151-41ea-a9d7-00e491942007",
@@ -1852,12 +1852,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.642Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Projektmanagement ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-edf5a52b-e5ab-4326-9aa4-1b4f2ea57657",
@@ -1874,12 +1874,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.783Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Projektmanagement ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-1fb426b5-2f74-40be-a839-65bde33ff4ea",
@@ -1896,12 +1896,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:02.927Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Projektmanagement ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-f1ec257c-5bdf-4249-9654-d387b12477c2",
@@ -1918,12 +1918,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:03.069Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Projektmanagement ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=1962fd46-d9f4-4a61-9cbd-9c7f8057acee-637",
@@ -1940,12 +1940,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:03.214Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "KI- und IT-Governance im Bildungssystem.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_44133b_BVergG-VIII-2-Z1_741092",
@@ -1960,12 +1960,12 @@
     "veroeffentlichungsdatum": "2026-08-04",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Lead-Agentur fuer Unternehmenskommunikation.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/533573-2026",
@@ -1990,12 +1990,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:30.401Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Raum-, Stadt- oder Freiraumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/534596-2026",
@@ -2013,12 +2013,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Staedtebauliches Konzept fuer Hafenquartier.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/535021-2026",
@@ -2035,12 +2035,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Kommunaler Telepuelesplan bzw. Stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/535153-2026",
@@ -2063,12 +2063,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:32.550Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/536324-2026",
@@ -2085,12 +2085,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/534107-2026",
@@ -2110,12 +2110,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:46.789Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Foerderprogramm-Management fuer industrielle KI.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/534193-2026",
@@ -2132,12 +2132,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:46.789Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Qualitaetskontrolle fuer Schulverpflegung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_51350s_BVergG-VIII-2-Z1_720002",
@@ -2152,12 +2152,12 @@
     "veroeffentlichungsdatum": "2026-08-03",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Telekommunikationsstrategie, räumlicher Bezug unklar.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f29ed8e8-72f3-4c6e-ab19-cf10599ffb07",
@@ -2177,12 +2177,12 @@
     "veroeffentlichungsdatum": "2026-08-02",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:03.353Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/529885-2026",
@@ -2199,12 +2199,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:33.647Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Immobilienbewertung fuer Finanzsicherheiten.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/530218-2026",
@@ -2221,12 +2221,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:33.647Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Immobilienbewertung fuer Finanzsicherheiten.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/531990-2026",
@@ -2256,12 +2256,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:33.647Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Mitarbeiterfortbildung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/532438-2026",
@@ -2278,12 +2278,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:33.647Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Immobilienbewertung fuer Finanzsicherheiten.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/530443-2026",
@@ -2302,12 +2302,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Gruenflaechenbau und Pflanzarbeiten.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/532530-2026",
@@ -2327,12 +2327,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:43.286Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Fördermittelberatung, Bezug zur Raumplanung unklar.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/532308-2026",
@@ -2349,12 +2349,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:46.789Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Pruef- und Managementleistung fuer Sozialfonds.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/530583-2026",
@@ -2371,12 +2371,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:49.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Regionalentwicklung bzw. projektnahe Beratung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/530681-2026",
@@ -2395,12 +2395,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Moebel-Liefer- und Montageleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-df7f60d7-575c-4b9d-b031-bf2c1a6ebcdf",
@@ -2417,12 +2417,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:56.269Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umwelt-, Klima- oder Gewässerplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f7cfc83d-7422-4321-91d9-6eee803962c2",
@@ -2442,12 +2442,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:03.492Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-ef73982b-83c6-49f0-b27d-d65035fd1d6f",
@@ -2465,12 +2465,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:04.494Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-0cfe94d3-c259-4d6b-8965-ca4cc16b63e6",
@@ -2488,12 +2488,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:04.636Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-f696247c-2935-45fb-a194-9fff570f85f1",
@@ -2508,12 +2508,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umwelt-, Klima- oder Gewässerplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://noe.vemap.com/home/bekannt/anzeigen.html?annID=1114541",
@@ -2528,12 +2528,12 @@
     "veroeffentlichungsdatum": "2026-07-31",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:25.362Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umwelt-, Klima- oder Gewässerplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/528439-2026",
@@ -2550,12 +2550,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Slowenien",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Investitionsdokumentation, raeumlicher Bezug unklar.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/529521-2026",
@@ -2573,12 +2573,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Kommunaler Telepuelesplan bzw. Stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/528820-2026",
@@ -2601,12 +2601,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Klimaresiliente Wald- und Landschaftsentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/528912-2026",
@@ -2625,12 +2625,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umweltmandat fuer Strasseninfrastruktur.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/529222-2026",
@@ -2649,12 +2649,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/528642-2026",
@@ -2671,12 +2671,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:49.119Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Betriebs- oder Ausführungsleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-47bc511b-9f41-455c-a637-26d732ea2f9a",
@@ -2693,12 +2693,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:04.780Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-eddffa37-9c84-4097-986f-a52753b2b4db",
@@ -2718,12 +2718,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:04.921Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Gemischte Consulting- und IT-Leistungen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-9d6ff3b7-9b33-44fe-a848-51794d09a966",
@@ -2738,12 +2738,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Leistungsgegenstand zu unbestimmt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-da8cb923-bcb5-4873-9ec2-4057f49763c4",
@@ -2758,12 +2758,12 @@
     "veroeffentlichungsdatum": "2026-07-30",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:10.481Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Allgemeine Strategieberatung ohne fachlichen Bezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/523822-2026",
@@ -2780,12 +2780,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Integriertes staedtebauliches Entwicklungskonzept.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/525877-2026",
@@ -2802,12 +2802,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:31.473Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Kommunale Bauleit- und Stadtplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/524095-2026",
@@ -2826,12 +2826,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:33.646Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Technische Audits ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/522674-2026",
@@ -2849,12 +2849,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Freiraumplanerischer Wettbewerb.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/523240-2026",
@@ -2872,12 +2872,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Landschaftspflegerischer Ausfuehrungsplan.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/524237-2026",
@@ -2895,12 +2895,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "ECM-Systemintegration und IT-Projektmanagement.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/525247-2026",
@@ -2927,12 +2927,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Belgien; Tschechien",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Rechts- und Managementsupport fuer Raumfahrtprogramm.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/523009-2026",
@@ -2952,12 +2952,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:46.789Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Evaluation eines Landesentwicklungs- und Clusterprogramms.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/523202-2026",
@@ -2974,12 +2974,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/524997-2026",
@@ -2996,12 +2996,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110027181031_BVergG-VIII-1-Z2_338261",
@@ -3019,12 +3019,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.060Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_99133i_BVergG-VIII-2-Z1_166922",
@@ -3039,12 +3039,12 @@
     "veroeffentlichungsdatum": "2026-07-29",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:11.351Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Allgemeine Unternehmensberatung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/520698-2026",
@@ -3061,12 +3061,12 @@
     "veroeffentlichungsdatum": "2026-07-28",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:29.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Projektsteuerung in der Stadterneuerung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/520772-2026",
@@ -3085,12 +3085,12 @@
     "veroeffentlichungsdatum": "2026-07-28",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Konzept fuer Buerger- und Energiepark.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/520846-2026",
@@ -3113,12 +3113,12 @@
     "veroeffentlichungsdatum": "2026-07-28",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Dokumentenmanagementsystem und IT-Weiterentwicklung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/521412-2026",
@@ -3141,12 +3141,12 @@
     "veroeffentlichungsdatum": "2026-07-28",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Agrar-IT-System ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/519617-2026",
@@ -3163,12 +3163,12 @@
     "veroeffentlichungsdatum": "2026-07-28",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:46.789Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Inspektionsleistung fuer Liefer- und Servicevertraege.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/516436-2026",
@@ -3185,12 +3185,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:29.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Projektbegleitung einer Altlastensanierung; Fachanteil unklar.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/517719-2026",
@@ -3207,12 +3207,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Italien",
     "scrapedAt": "2026-08-24T06:54:33.646Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Immobilienbewertung fuer Finanzgarantien.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/518182-2026",
@@ -3230,12 +3230,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Fortschreibung eines Landschaftsrahmenplans.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/516415-2026",
@@ -3254,12 +3254,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Machbarkeitsstudie fuer Stadtbahnverlaengerung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/517275-2026",
@@ -3276,12 +3276,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "BIM-Planung fuer Verkehrsstationen im Schienenbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/517720-2026",
@@ -3298,12 +3298,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Standortmodell mit unklarem raeumlichem Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/518276-2026",
@@ -3329,12 +3329,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Strassenplanungen im Tiefbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/518321-2026",
@@ -3351,12 +3351,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Slowenien",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Energieinfrastruktur-Analyse mit Standortempfehlungen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/518528-2026",
@@ -3375,12 +3375,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:39.904Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Oekologische Gesamtplanung im LIFE-Projekt.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/516067-2026",
@@ -3400,12 +3400,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IAM-Projektleitung fuer IT-Systeme.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/516711-2026",
@@ -3424,12 +3424,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "ICT-Architekturleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/515865-2026",
@@ -3446,12 +3446,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:48.103Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Raum-, Stadt- oder Freiraumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/515812-2026",
@@ -3515,12 +3515,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Werbe- und Streuartikel.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/517956-2026",
@@ -3584,12 +3584,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Slowakei",
     "scrapedAt": "2026-08-24T06:54:51.670Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Werbe- und Streuartikel.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-cb2173ad-7d25-476a-a2e5-e1dd735ed7ec",
@@ -3606,12 +3606,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:56.412Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Raum-, Stadt- oder Freiraumplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-5906f304-f65b-413a-8796-a50db71af582",
@@ -3629,12 +3629,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.203Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-0a22cc17-b7b6-46c1-b0c2-fa623b792d7b",
@@ -3659,12 +3659,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.345Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-409ac1a2-8cce-4b79-b322-60d14db3c5c0",
@@ -3689,12 +3689,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.488Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-017bbfe5-6064-46b7-b7a1-12b34224ee65",
@@ -3719,12 +3719,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.632Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-47259c37-3a6d-45ed-91f8-5e4e1c52b9e2",
@@ -3749,12 +3749,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:05.778Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-, Software- oder Lieferleistung ohne Planungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=505019f6-4c66-4ce4-9700-a5ed3cf664c3-2fda6510-de20-4825-ace9-0dbf4c7f5cbc",
@@ -3771,12 +3771,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:06.056Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=fde58043-87ff-44b0-b6b0-3d089adfba4c-9110002556748_BVergG-VIII-2-Z1_500514",
@@ -3791,12 +3791,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:11.351Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Hochbau-, Tiefbau- oder Bauaufsichtsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b8e21b51-1b32-4197-8dbf-dc75b875bfa3",
@@ -3811,12 +3811,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:11.351Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Umwelt-, Klima- oder Gewässerplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-7c018d7b-4d3f-4f43-ab63-33a950ff5228",
@@ -3831,12 +3831,12 @@
     "veroeffentlichungsdatum": "2026-07-27",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:11.351Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/514423-2026",
@@ -3863,12 +3863,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Ungarn",
     "scrapedAt": "2026-08-24T06:54:35.046Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Gruenflaechenpflege als Betriebsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/514178-2026",
@@ -3889,12 +3889,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:36.158Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Architektur- und Beratungsleistungen fuer Krankenhausbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512320-2026",
@@ -3911,12 +3911,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:37.661Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Einkaufsdienstleistung fuer Klinikapotheken.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512623-2026",
@@ -3935,12 +3935,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-08-24T06:54:37.661Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Sicherheitsaudits ohne Raumplanungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/513068-2026",
@@ -3958,12 +3958,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:37.661Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Urbaner Digitaler Zwilling mit Stadtentwicklungsbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/513755-2026",
@@ -3980,12 +3980,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:37.662Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Coaching- und Workshopformat ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/514256-2026",
@@ -4002,12 +4002,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Schweiz",
     "scrapedAt": "2026-08-24T06:54:37.662Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Organisations- und Transformationsbegleitung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/515356-2026",
@@ -4028,12 +4028,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:37.662Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kommunikationsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/515514-2026",
@@ -4054,12 +4054,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:54:37.662Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Energiethema, aber Schwerpunkt Kampagnenbetreuung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512243-2026",
@@ -4079,12 +4079,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:40.942Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Beratung und Projektbegleitung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/515304-2026",
@@ -4101,12 +4101,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:44.341Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Sozial-, Personal- oder Bildungsleistung ohne Fachbezug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512239-2026",
@@ -4125,12 +4125,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Krankenhausneubau und Energiezentrale im Hochbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512536-2026",
@@ -4154,12 +4154,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "pruefen",
+    "reviewScore": 55,
+    "reviewReason": "Offshore-Windenergie, aber stark geotechnischer Fokus.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/512925-2026",
@@ -4176,12 +4176,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Projektsteuerung fuer Schienenbau.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/513495-2026",
@@ -4198,12 +4198,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Agenturleistung fuer Kommunikationsmassnahmen.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/513573-2026",
@@ -4220,12 +4220,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "IT-Betrieb und Rechenzentrumsumzug.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/513889-2026",
@@ -4242,12 +4242,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:50.614Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Projektmanagement fuer Strassenbauplanung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511954-2026",
@@ -4264,12 +4264,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Kabel-Lieferleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511955-2026",
@@ -4287,12 +4287,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Druck- und Lieferleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511966-2026",
@@ -4309,12 +4309,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Tschechien",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Autobahnbau als Bauausfuehrung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511969-2026",
@@ -4331,12 +4331,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Fahrzeug-Lieferleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511973-2026",
@@ -4353,12 +4353,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Fahrzeug- und Geraetebeschaffung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ted.europa.eu/de/notice/-/detail/511978-2026",
@@ -4375,12 +4375,12 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Deutschland",
     "scrapedAt": "2026-08-24T06:54:54.151Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "eher unpassend",
+    "reviewScore": 20,
+    "reviewReason": "Elektro- und PV-Installationsleistung.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   },
   {
     "recordKey": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tender-detail?object=a2c49245-23b2-46e1-acc7-c5a78913a090-b0fe7d2e-4c7a-4c68-abe6-4514daac6c84",
@@ -4395,11 +4395,11 @@
     "veroeffentlichungsdatum": "2026-07-24",
     "organisationLand": "Österreich",
     "scrapedAt": "2026-08-24T06:55:11.351Z",
-    "reviewLabel": "ungeprueft",
-    "reviewScore": null,
-    "reviewReason": "",
-    "reviewProvider": "",
-    "reviewModel": "",
-    "reviewedAt": ""
+    "reviewLabel": "passt gut",
+    "reviewScore": 85,
+    "reviewReason": "Mobilitäts- bzw. Verkehrskonzept.",
+    "reviewProvider": "codex-automation",
+    "reviewModel": "codex",
+    "reviewedAt": "2026-08-25T09:40:00.968Z"
   }
 ]
