@@ -2,7 +2,10 @@ name: Update Ausschreibungen
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    # Sonntagnacht, 01:00 UTC (03:00 Wien) - ruhige Zeit, gibt der
+    # nachgelagerten KI-Review-Routine (Claude Code, So 05:00 UTC) genug
+    # Puffer, bevor am Montagmorgen aktuelle, geprueft Daten stehen sollen.
+    - cron: "0 1 * * 0"
   workflow_dispatch:
 
 permissions:
